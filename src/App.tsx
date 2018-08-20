@@ -15,7 +15,7 @@ require('dotenv').config();
 
 // console.log(process.env.GOOGLE_APIKEY);
 export const config = {
-  apiKey: process.env.GOOGLE_APIKEY,
+  apiKey: process.env.REACT_APP_GOOGLE_APIKEY,
   discoveryDocs:
     ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
   spreadsheetId: "1lIQ3w3lFf_w-dKuqCgMqqLNrS9Kj37BnRaKAGbGJ0Us"
