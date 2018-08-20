@@ -120,7 +120,6 @@ class App extends React.Component<{}, IState> {
         mapTypeId: 'roadmap'
       },
     };
-
     return (
       <div className="App">
         <div style={{ height: '100vh' }}>
