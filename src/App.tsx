@@ -12,8 +12,6 @@ const comeet = { lat: 48.898149, lng: 2.2340453 };
 // tslint:disable-next-line:no-var-requires
 require('dotenv').config();
 
-
-// console.log(process.env.GOOGLE_APIKEY);
 export const config = {
   apiKey: process.env.REACT_APP_GOOGLE_APIKEY,
   discoveryDocs:
