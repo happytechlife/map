@@ -7,11 +7,10 @@ import { IStartup, ILatLng } from './models';
 import { geocode, parseStartupSheet } from './startupHelper';
 import { StartupCluster } from './Components/StartupCluster';
 
-
 const comeet = { lat: 48.898149, lng: 2.2340453 };
 
 // tslint:disable-next-line:no-var-requires
-require('dotenv').config()
+require('dotenv').config();
 
 
 // console.log(process.env.GOOGLE_APIKEY);
