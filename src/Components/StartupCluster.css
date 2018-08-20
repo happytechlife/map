@@ -1,0 +1,27 @@
+
+.StartupCluster{
+    --StartupClusterSize:64px;
+    width: var(--StartupClusterSize);
+    height: var(--StartupClusterSize);
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin-left:calc(var(--StartupClusterSize) / -2);
+    margin-top:calc(var(--StartupClusterSize) / -2);
+    background-color: white;
+}
+
+.NoIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    /* background-color: blue; */
+    color:black;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
