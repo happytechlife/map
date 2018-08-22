@@ -23,13 +23,6 @@ function getStartupDisplayElement(startup: IStartup) {
 export class StartupCluster extends React.Component<IProps, {}> {
     public render() {
         const { cluster } = this.props;
-        // const size = 32;
-        // const style = {
-        //     marginLeft: -size / 2,
-        //     marginTop: -size / 2,
-        //     backgroundColor: 'white',
-        //     borderRadius: (size / 2), padding: 0, minWidth: size, minHeight: size
-        // }
         if (cluster.markers.length === 1) {
             const marker = cluster.markers[0];
             return <Pin {...marker.position} startup={marker.content} />;

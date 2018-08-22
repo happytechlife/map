@@ -1,4 +1,4 @@
-import { StartupTable } from '../HappyTechTables/StartupTable';
+import { StartupTable } from '../Tables/StartupTable';
 import { ContactTable } from './ContactTable';
 import { googleConfig } from '../Google/spreadsheets';
 import { IStartup, IContact } from '../models';
@@ -9,11 +9,7 @@ export interface IHappyTechStore {
     contacts: IContact[];
 }
 
-
 export class Store {
-    // private startups: StartupTable;
-    // private contacts: ContactTable;
-
     public model: IHappyTechStore;
 
     constructor() {

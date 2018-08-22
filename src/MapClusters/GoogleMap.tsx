@@ -3,15 +3,14 @@ import * as React from 'react';
 import GoogleMapReact from 'google-map-react';
 import { MapClusters } from './MapClusters';
 import { StartupCluster } from './../Components/StartupCluster';
-import { CircularProgress } from '@material-ui/core';
-import { IStartup, IContact, ILatLng } from '../models';
+import { ILatLng } from '../models';
+import { IHappyTechStore } from '../Tables/Store';
 
 // const comeet = { lat: 48.898149, lng: 2.2340453 };
 const eiffelTower = { lat: 48.8583701, lng: 2.2922926 };
 
 interface IProps {
-    startups?: IStartup[];
-    contacts?: IContact[];
+    store?: IHappyTechStore;
 }
 
 interface IState {
@@ -41,9 +40,9 @@ export class GoogleMap extends React.Component<IProps, IState> {
 
     public renderClusters() {
         const { map } = this.state;
-        const { startups } = this.props;
-        if (startups && map) {
-            const markers = startups.map(s => ({
+        const { store } = this.props;
+        if (store && map) {
+            const markers = store.startups.map(s => ({
                 position: s.latLng || { lat: 0, lng: 0 },
                 content: s,
                 isAdded: false
@@ -69,19 +68,10 @@ export class GoogleMap extends React.Component<IProps, IState> {
         }
     }
 
-
-    public renderLoader() {
-        const { startups } = this.props;
-        if (!startups) {
-            return <CircularProgress className="Loader" size={64} />
-        }
-        return null;
-    }
-
     public render() {
         const options = this.mapOptions();
         return (
-            <div style={{ height: '100vh' }}>
+            <div style={{ height: '100vh', width: '100%' }}>
                 <GoogleMapReact {...options}>
                     {this.renderClusters()}
                 </GoogleMapReact>

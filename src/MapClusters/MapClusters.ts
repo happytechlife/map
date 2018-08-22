@@ -24,8 +24,6 @@ export class MapClusters<T> extends google.maps.OverlayView {
     public addToClosestCluster = (marker: IMapClustersMarker<T>) => {
         let distance = 40000; // Some large number
         let clusterToAddTo: MapCluster<T> | null = null;
-        // const pos = marker.position;
-
         // tslint:disable-next-line:no-conditional-assignment
         for (let i = 0, cluster; cluster = this.clusters[i]; i++) {
             const center = cluster.center;
@@ -37,29 +35,12 @@ export class MapClusters<T> extends google.maps.OverlayView {
                 }
             }
         }
-
-        // let clusterToAddTo = this.clusters.find(cluster => {
-        //     let center = cluster.center;
-        //     if (center) {
-        //         let d = distanceBetweenPoints(center, marker.position);
-        //         console.log(d, distance, marker);
-        //         if (d < distance) {
-        //             distance = d;
-        //             return true;
-        //         }
-        //     }
-        //     return false;
-        // });
-        // for (let i = 0, cluster; cluster = this.clusters[i]; i++) {
-        // }
-
         if (clusterToAddTo && clusterToAddTo.isMarkerInClusterBounds(marker)) {
             clusterToAddTo.addMarker(marker);
         } else {
             const cluster = new MapCluster(this);
             cluster.addMarker(marker);
             this.clusters.push(cluster);
-            // console.log('new cluster', cluster);
         }
     }
 
@@ -102,11 +83,6 @@ export class MapClusters<T> extends google.maps.OverlayView {
                     b.getNorthEast());
                 const bounds = this.getExtendedBounds(mapBounds);
 
-                // this.markers.forEach(marker => {
-                //     if (!marker.isAdded && isMarkerInBounds(marker, bounds)) {
-                //         this.addToClosestCluster(marker);
-                //     }
-                // });
                 // tslint:disable-next-line:no-conditional-assignment
                 for (let i = 0, marker; marker = this.markers[i]; i++) {
                     if (!marker.isAdded && isMarkerInBounds(marker, bounds)) {
@@ -115,8 +91,5 @@ export class MapClusters<T> extends google.maps.OverlayView {
                 }
             }
         }
-        // Get our current map view bounds.
-        // Create a new bounds object so we don't affect the map.
     }
-
 }

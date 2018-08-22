@@ -19,7 +19,6 @@ export class MapCluster<T> {
         if (this.markers.indexOf) {
             return this.markers.indexOf(marker) !== -1;
         } else {
-            // return this.markers.find(m => m === marker) !== undefined;
             // tslint:disable-next-line:no-conditional-assignment
             for (let i = 0, m; m = this.markers[i]; i++) {
                 if (m === marker) {
@@ -48,22 +47,6 @@ export class MapCluster<T> {
 
         marker.isAdded = true;
         this.markers.push(marker);
-
-        // let len = this.markers.length;
-        // if (len < this.minClusterSize && marker.getMap() !== this.map) {
-        //     // Min cluster size not reached so show the marker.
-        //     marker.setMap(this.map);
-        // }
-        // if (len === this.minClusterSize) {
-        //     // Hide the markers that were showing.
-        //     for (let i = 0; i < len; i++) {
-        //         this.markers[i].setMap(null);
-        //     }
-        // }
-        // if (len >= this.minClusterSize) {
-        //     marker.setMap(null);
-        // }
-        // this.updateIcon();
         return true;
     }
 

@@ -8,8 +8,6 @@ export const googleConfig = {
     spreadsheetId: "1lIQ3w3lFf_w-dKuqCgMqqLNrS9Kj37BnRaKAGbGJ0Us"
 };
 
-
-
 export async function getRows(spreadsheetId: string, range: string) {
     return new Promise<string[]>(r => {
         gapi.client.load("sheets", "v4", () => {

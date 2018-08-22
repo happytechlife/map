@@ -1,13 +1,12 @@
 import * as React from 'react';
 import './App.css';
-import { IStartup, IContact } from './models';
 import { CircularProgress } from '@material-ui/core';
 import { GoogleMap } from './MapClusters/GoogleMap';
-import { Store } from './HappyTechTables/Store';
+import { Store, IHappyTechStore } from './Tables/Store';
+import LeftDrawer from './Components/LeftDrawer/LeftDrawer';
 
 interface IState {
-  startups?: IStartup[];
-  contacts?: IContact[];
+  model?: IHappyTechStore;
 }
 
 class App extends React.Component<{}, IState> {
@@ -23,23 +22,25 @@ class App extends React.Component<{}, IState> {
   public loadTables = async () => {
     const store = new Store();
     await store.load();
-    this.setState(store.model);
+    this.setState({ model: store.model });
   }
 
   public renderLoader() {
-    const { startups } = this.state;
-    if (!startups) {
+    const { model } = this.state;
+    if (!model) {
       return <CircularProgress className="Loader" size={64} />
     }
     return null;
   }
 
   public render() {
-    const { startups, contacts } = this.state;
+    const { model } = this.state;
     return (
       <div className="App">
         {this.renderLoader()}
-        <GoogleMap startups={startups} contacts={contacts} />
+        <LeftDrawer store={model}>
+          <GoogleMap store={model} />
+        </LeftDrawer>
       </div>
     );
   }
