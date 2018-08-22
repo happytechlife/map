@@ -5,6 +5,8 @@ import { MapClusters } from './MapClusters';
 import { StartupCluster } from './../Components/StartupCluster';
 import { ILatLng } from '../models';
 import { IHappyTechStore } from '../Tables/Store';
+// import { mapStyles } from './MapStyle';
+
 
 // const comeet = { lat: 48.898149, lng: 2.2340453 };
 const eiffelTower = { lat: 48.8583701, lng: 2.2922926 };
@@ -63,7 +65,8 @@ export class GoogleMap extends React.Component<IProps, IState> {
             yesIWantToUseGoogleMapApiInternals: true,
             options: {
                 disableDefaultUI: true,
-                mapTypeId: 'roadmap'
+                mapTypeId: 'roadmap',
+                // styles: mapStyles
             },
         }
     }
