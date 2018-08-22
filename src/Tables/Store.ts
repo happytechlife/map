@@ -28,9 +28,10 @@ export class Store {
 
     public consoleLatLng() {
         const { startups } = this.model;
-        startups.sort((s1, s2) => s1.rowId - s2.rowId);
-        const postitions = startups.map(s => s.latLng ? `${s.latLng.lat},${s.latLng.lng}` : '...');
-        console.log(startups.map(s => s.name).join('\n'))
+        const sorted = [...startups];
+        sorted.sort((s1, s2) => s1.rowId - s2.rowId);
+        const postitions = sorted.map(s => s.latLng ? `${s.latLng.lat},${s.latLng.lng}` : '...');
+        console.log(sorted.map(s => s.name).join('\n'))
         console.log(postitions.join('\n'));
     }
     public loadTables = async () => {
