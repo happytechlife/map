@@ -103,7 +103,9 @@ export class StartupsChordDiagramWithTags extends React.Component<IProps, {}> {
             matrix={chordMatrix}
             componentId={1}
             groupLabels={withTags.map(s => s.name)}
-        // groupColors={["#000000", "#FFDD89", "#957244", "#F26223"]}
+            groupColors={["#752BB2", "#FFDD89", "#957244", "#F26223",
+                "#B21212", "#FFFC19", "#FF0000", "#1485CC", "#0971B2",
+                "#FFC971", "#B357FF", "#31CC6C", "#01B22B"]}
         /></Paper>;
 
     }

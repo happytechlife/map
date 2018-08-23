@@ -11,7 +11,7 @@ export class Options extends React.Component<IProps, {}> {
             <Button style={{ margin: 8 }} variant="raised" color="primary" onClick={() => {
                 localStorage.removeItem('model');
                 window.location.reload();
-            }}>Refresh content from sheet</Button>
+            }}>Happytech cocktail shaker</Button>
         </Paper>;
     }
 }
