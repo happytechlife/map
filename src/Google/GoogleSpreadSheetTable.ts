@@ -39,8 +39,8 @@ export class GoogleSpreadSheetTable<T, Store> implements ITable<T, Store>{
         const data = await getRows(this.spreadsheetId, this.range);
         this.headers = data.shift() || [];
         const rows = await Promise.all(data.map((d, i) => this.parse(i, d, store)));
-        return shuffle(rows)
-        // return rows;
+        // return shuffle(rows)
+        return rows;
     };
     // public resolve1 = (store: Store) => {
     //     const name = this.name;
