@@ -4,16 +4,17 @@ import { geocode } from '../Google/geocoder';
 import { IHappyTechStore } from "./Store";
 
 export class StartupTable extends GoogleSpreadSheetTable<IStartup, IHappyTechStore>{
+    // 'startups!A1:H'
     constructor(spreadsheetId: string) {
-        super(spreadsheetId, 'startups!A2:H')
+        super(spreadsheetId, 'startups')
     }
 
-    public parse = async (rowId: number, values: string, store: IHappyTechStore) => {
+    public parse = async (rowId: number, values: string[], store: IHappyTechStore) => {
         const d = values;
         const address = d[1];
         const latLng: ILatLng = { lat: 0, lng: 0 };
         const contacts: IContact[] = [];
-        let startup: IStartup = { rowId, name: d[0], address, iconUrl: d[2], contacts, latLng };
+        let startup: IStartup = { rowId, name: d[0], address, iconUrl: d[2], contacts, latLng, tags: [] };
         if (d[3]) {
             const [lat, lng] = d[3].split(',');
             startup.latLng = { lat: parseFloat(lat), lng: parseFloat(lng) }

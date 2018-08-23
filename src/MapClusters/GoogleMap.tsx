@@ -2,9 +2,10 @@ import * as React from 'react';
 // import './Map.css';
 import GoogleMapReact from 'google-map-react';
 import { MapClusters } from './MapClusters';
-import { StartupCluster } from './../Components/StartupCluster';
-import { ILatLng } from '../models';
+import StartupCluster from './../Components/StartupCluster';
+import { ILatLng, IStartup } from '../models';
 import { IHappyTechStore } from '../Tables/Store';
+import { MapCluster } from './MapCluster';
 // import { mapStyles } from './MapStyle';
 
 
@@ -39,7 +40,6 @@ export class GoogleMap extends React.Component<IProps, IState> {
     public mapLoaded = ({ map }: IMapLoaded) => {
         this.setState({ map });
     }
-
     public renderClusters() {
         const { map } = this.state;
         const { store } = this.props;
@@ -51,7 +51,7 @@ export class GoogleMap extends React.Component<IProps, IState> {
             })).filter(s => s);
             const mc = new MapClusters(map, markers);
             mc.createClusters();
-            return mc.clusters.map((c, i) => <StartupCluster key={i} {...c.center} cluster={c} />)
+            return mc.clusters.map((c, i) => <StartupCluster onClick={this.onClusterClick} key={i} {...c.center} cluster={c} />)
         }
         return null;
     }
@@ -66,6 +66,7 @@ export class GoogleMap extends React.Component<IProps, IState> {
             options: {
                 disableDefaultUI: true,
                 mapTypeId: 'roadmap',
+                scrollwheel: true
                 // styles: mapStyles
             },
         }
@@ -80,6 +81,15 @@ export class GoogleMap extends React.Component<IProps, IState> {
                 </GoogleMapReact>
             </div>
         );
+    }
+
+
+    private onClusterClick = (c: MapCluster<IStartup>) => {
+        const { map } = this.state;
+        if (map) {
+            map.fitBounds(c.bounds);
+            console.log('click', c);
+        }
     }
 
     private mapUpdated = ({ zoom }: IMapsChanged) => {

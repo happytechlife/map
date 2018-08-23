@@ -5,7 +5,6 @@ import { getGoogleLatLng } from './MapClustersHelper';
 
 export class MapCluster<T> {
     public mapClusters: MapClusters<T>;
-    public map: google.maps.Map;
     public center: ILatLng;
     public bounds: google.maps.LatLngBounds;
     public markers: Array<IMapClustersMarker<T>>;

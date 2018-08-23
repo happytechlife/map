@@ -3,15 +3,34 @@ import { cloudinaryTransform } from './../Utils/Cloudinary';
 // import { Tooltip } from '@material-ui/core'
 import { IStartup } from '../models';
 import { MapCluster } from '../MapClusters/MapCluster';
-import { Pin, StartupTooltipText } from './Pin';
+import Pin, { StartupTooltipText } from './Pin';
 import { buildMultiAvatar } from '../Utils/Avatars';
 import './StartupCluster.css';
 import { Badge, Tooltip } from '@material-ui/core';
+import StartupCard from './StartupCard';
+import { withStyles } from '@material-ui/core/styles';
+
+
+const styles: any = (theme: any) => ({
+    less: {
+        background: 'none',
+        boxShadow: 'none',
+        margin: 0,
+        padding: 4,
+        border: 'none',
+    },
+    more: {
+        background: 'white',
+    }
+});
+
 
 interface IProps {
     lat: number;
     lng: number;
     cluster: MapCluster<IStartup>;
+    onClick: (c: MapCluster<IStartup>) => void;
+    classes: any;
 }
 
 function getStartupDisplayElement(startup: IStartup) {
@@ -20,15 +39,21 @@ function getStartupDisplayElement(startup: IStartup) {
         : <div className="NoIcon">{startup.name.substring(0, 2)}</div>
 }
 
-export class StartupCluster extends React.Component<IProps, {}> {
+const startupLessLimit = 5;
+class StartupCluster extends React.Component<IProps, {}> {
     public render() {
-        const { cluster } = this.props;
+        const { cluster, onClick, classes } = this.props;
         if (cluster.markers.length === 1) {
             const marker = cluster.markers[0];
             return <Pin {...marker.position} startup={marker.content} />;
         }
-        return <div className="StartupCluster">
-            <Tooltip placement="right" title={this.tooltip(cluster.markers.map(m => m.content))}>
+        return <div className="StartupCluster" onClick={() => { onClick(cluster) }}>
+            <Tooltip
+                // open={true}
+                classes={{
+                    tooltip: cluster.markers.length < startupLessLimit ? classes.less : classes.more
+                }}
+                placement="right" title={this.tooltip(cluster.markers.map(m => m.content))}>
                 <Badge badgeContent={cluster.markers.length} color="primary">
                     {this.avatar()}
                 </Badge>
@@ -42,7 +67,15 @@ export class StartupCluster extends React.Component<IProps, {}> {
         return buildMultiAvatar(elements);
     }
 
+
+
     private tooltip(startups: IStartup[]) {
-        return startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)
+        return startups.length < startupLessLimit
+            ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupCard startup={startup} key={i} />)}</div>
+            : <div className="Clusters">{startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)}</div>
+
     }
+
 }
+
+export default withStyles(styles)(StartupCluster);

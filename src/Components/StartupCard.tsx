@@ -1,19 +1,20 @@
 import * as React from 'react';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-import { IStartup } from '../models';
-// import './Pin.css';
+import { IStartup, IContact } from '../models';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { Chip, List } from '@material-ui/core';
 
 const styles: any = (theme: any) => ({
     card: {
         display: 'flex',
         // height: 152,
         margin: theme.spacing.unit,
-        padding: theme.spacing.unit
+        padding: theme.spacing.unit,
+        maxWidth: 300
     },
     details: {
         display: 'flex',
@@ -22,10 +23,11 @@ const styles: any = (theme: any) => ({
     },
     content: {
         flex: '1 0 auto',
+        alignItems: 'left'
     },
     cover: {
-        width: 151,
-        height: 151,
+        height: 0,
+        paddingTop: '56.25%', // 16:9
     },
     controls: {
         display: 'flex',
@@ -42,25 +44,35 @@ const styles: any = (theme: any) => ({
 interface IProps {
     startup: IStartup;
     classes: any;
+    classNames?: string;
+}
+
+
+const Contact = (contact: IContact) => {
+    return <Chip key={contact.rowId} label={`${contact.firstname} ${contact.lastname}`} />
 }
 
 class StartupCard extends React.Component<IProps, {}> {
     public render() {
-        const { startup, classes } = this.props;
-        const logo = cloudinaryTransform(startup.iconUrl, 'w_151,h_151,c_fill,g_west');
-        return <Card className={classes.card}>
+        const { startup, classes, classNames } = this.props;
+        const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fill,g_west');
+        return <Card className={`${classes.card} ${classNames}`}>
             <div className={classes.details}>
+                {logo && <CardMedia
+                    className={classes.cover}
+                    image={logo}
+                    title={startup.name}
+                />}
                 <CardContent className={classes.content}>
-                    <Typography variant="headline">{startup.name}</Typography>
+                    <Typography gutterBottom={true} variant="headline" component="h2">
+                        {startup.name}
+                    </Typography>
+                    <List>{startup.contacts.map(Contact)}</List>
+                    <Typography variant="caption" align="left" >{startup.address}</Typography>
+                    {/* <Typography variant="caption" align="left" ></Typography> */}
+                    <List >{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
                 </CardContent>
-                <Typography variant="caption" align="left">{startup.contacts.map(c => c.firstname).join(', ')}</Typography>
-                <Typography variant="caption" align="left" >{startup.address}</Typography>
             </div>
-            {logo && <CardMedia
-                className={classes.cover}
-                image={logo}
-                title={startup.name}
-            />}
         </Card>;
     }
 

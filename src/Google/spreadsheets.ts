@@ -9,7 +9,7 @@ export const googleConfig = {
 };
 
 export async function getRows(spreadsheetId: string, range: string) {
-    return new Promise<string[]>(r => {
+    return new Promise<string[][]>(r => {
         gapi.client.load("sheets", "v4", () => {
             const sheetsClient: any = gapi.client; // typescript build
             sheetsClient.sheets.spreadsheets.values
@@ -18,15 +18,16 @@ export async function getRows(spreadsheetId: string, range: string) {
                     spreadsheetId
                 })
                 .then((response: any) => {
-                    const data: string[] = Array.from(response.result.values);
+                    // const data: string[] = Array.from(response.result.values);
+                    const data = response.result.values;
                     r(data);
                 });
         });
     })
 }
-export async function getValues<T>(spreadsheetId: string, range: string, parse: (d: string) => T): Promise<T[]> {
-    const data = await getRows(spreadsheetId, range);
-    // const data: string[] = Array.from(await );
-    const res: T[] = await Promise.all(data.map(parse));
-    return res;
-}
+// export async function getValues<T>(spreadsheetId: string, range: string, parse: (d: string[]) => T): Promise<T[]> {
+//     const data = await getRows(spreadsheetId, range);
+//     // const data: string[] = Array.from(await );
+//     const res: T[] = await Promise.all(data.map(parse));
+//     return res;
+// }
