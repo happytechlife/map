@@ -13,6 +13,7 @@ export interface IStartup extends IRow {
     iconUrl: string;
     contacts: IContact[];
     tags: ITag[];
+    description: string;
 }
 
 export interface IContact extends IRow {

@@ -67,10 +67,11 @@ class StartupCard extends React.Component<IProps, {}> {
                     <Typography gutterBottom={true} variant="headline" component="h2">
                         {startup.name}
                     </Typography>
-                    <List>{startup.contacts.map(Contact)}</List>
-                    <Typography variant="caption" align="left" >{startup.address}</Typography>
+                    <Typography variant="caption" align="center" >{startup.description}</Typography>
                     {/* <Typography variant="caption" align="left" ></Typography> */}
                     <List >{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
+                    <Typography variant="caption" align="center" >{startup.address}</Typography>
+                    <List>{startup.contacts.map(Contact)}</List>
                 </CardContent>
             </div>
         </Card>;

@@ -14,7 +14,8 @@ export class StartupTable extends GoogleSpreadSheetTable<IStartup, IHappyTechSto
         const address = d[1];
         const latLng: ILatLng = { lat: 0, lng: 0 };
         const contacts: IContact[] = [];
-        let startup: IStartup = { rowId, name: d[0], address, iconUrl: d[2], contacts, latLng, tags: [] };
+        const description = d[5];
+        let startup: IStartup = { rowId, name: d[0], address, iconUrl: d[2], contacts, latLng, tags: [], description };
         if (d[3]) {
             const [lat, lng] = d[3].split(',');
             startup.latLng = { lat: parseFloat(lat), lng: parseFloat(lng) }
