@@ -42,7 +42,7 @@ class Pin extends React.Component<IPinProps, {}> {
             title={this.tooltip(startup)}><div className="Pin" style={style}>
                 {
                     startup.iconUrl ?
-                        <img src={cloudinaryTransform(startup.iconUrl, 'w_32,h_32,c_thumb,g_west')} />
+                        <img src={cloudinaryTransform(startup.iconUrl, 'w_32,h_32,c_thumb,g_west,f_png')} />
                         : startup.name
                 }
             </div></Tooltip>;
@@ -64,7 +64,7 @@ export const StartupTooltipText = (props: { startup: IStartup }) => {
     if (logo) {
         return <Chip
             style={style}
-            avatar={<Avatar style={{ border: '1px solid #ccc', backgroundColor: 'white' }} src={cloudinaryTransform(logo, 'w_32,h_32,c_thumb,g_west')} />}
+            avatar={<Avatar style={{ border: '1px solid #ccc', backgroundColor: 'white' }} src={cloudinaryTransform(logo, 'w_32,h_32,c_thumb,g_west,f_png')} />}
             label={startup.name} />
     }
     return <Chip style={style} label={startup.name} />

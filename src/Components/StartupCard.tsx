@@ -11,10 +11,10 @@ import { Chip, List } from '@material-ui/core';
 const styles: any = (theme: any) => ({
     card: {
         display: 'flex',
-        // height: 152,
         margin: theme.spacing.unit,
         padding: theme.spacing.unit,
-        maxWidth: 300
+        maxWidth: 300,
+        width: 300,
     },
     details: {
         display: 'flex',
@@ -55,7 +55,7 @@ export const Contact = (contact: IContact) => {
 class StartupCard extends React.Component<IProps, {}> {
     public render() {
         const { startup, classes, classNames } = this.props;
-        const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fill,g_west');
+        const logo = cloudinaryTransform(startup.iconUrl, 'w_300,h_168,c_pad,f_png');
         return <Card className={`${classes.card} ${classNames}`}>
             <div className={classes.details}>
                 {logo && <CardMedia
