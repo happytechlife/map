@@ -21,6 +21,7 @@ const styles: any = (theme: any) => ({
     },
     more: {
         background: 'white',
+        minWidth: 500
     }
 });
 
@@ -72,7 +73,7 @@ class StartupCluster extends React.Component<IProps, {}> {
     private tooltip(startups: IStartup[]) {
         return startups.length < startupLessLimit
             ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupCard startup={startup} key={i} />)}</div>
-            : <div className="Clusters" style={{ width: 600 }}>{startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)}</div>
+            : <div className="Clusters" style={{ width: 500 }}>{startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)}</div>
 
     }
 
