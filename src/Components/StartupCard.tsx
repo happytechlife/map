@@ -48,7 +48,7 @@ interface IProps {
 }
 
 
-const Contact = (contact: IContact) => {
+export const Contact = (contact: IContact) => {
     return <Chip key={contact.rowId} label={`${contact.firstname} ${contact.lastname}`} />
 }
 

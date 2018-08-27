@@ -10,11 +10,20 @@ import { CircularProgress } from '@material-ui/core';
 import { Startups } from '../Components/Startups';
 import { Options } from '../Components/Options';
 import { StartupsChordDiagramWithTags } from '../Components/StartupsChordDiagramWithTags';
+import StartupView from '../Components/StartupView';
 
 interface IState {
     store?: IHappyTechStore;
 }
 const history = createBrowserHistory();
+
+interface IParams {
+    match: {
+        params: {
+            name: string;
+        }
+    }
+}
 export class ApplicationRoutes extends React.Component<{}, IState> {
 
     constructor(props: {}) {
@@ -37,6 +46,7 @@ export class ApplicationRoutes extends React.Component<{}, IState> {
             <Route exact={true} path={'/map'} component={() => <GoogleMap store={store} />} />
             <Route exact={true} path={'/tags'} component={() => <Tags store={store} />} />
             <Route exact={true} path={'/startups'} component={() => <Startups store={store} />} />
+            <Route exact={true} path={'/startups/:name'} component={(p: IParams) => <StartupView store={store} name={p.match.params.name} />} />
             <Route exact={true} path={'/options'} component={() => <Options store={store} />} />
             <Route exact={true} path={'/startups_chord'} component={() => <StartupsChordDiagramWithTags store={store} />} />
             <Route exact={true} path={'/'} component={() => <Startups store={store} />} />
