@@ -39,7 +39,7 @@ export class ApplicationRoutes extends React.Component<{}, IState> {
             <Route exact={true} path={'/startups'} component={() => <Startups store={store} />} />
             <Route exact={true} path={'/options'} component={() => <Options store={store} />} />
             <Route exact={true} path={'/startups_chord'} component={() => <StartupsChordDiagramWithTags store={store} />} />
-            <Route exact={true} path={'/'} component={() => <Tags store={store} />} />
+            <Route exact={true} path={'/'} component={() => <Startups store={store} />} />
         </React.Fragment>
     }
     public render() {
