@@ -143,7 +143,7 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                             <Menu />
                         </IconButton>
                         <Typography variant="title" color="inherit" noWrap={true}>
-                            HappyTech
+                            HappyTech : L'innovation technologique au service du bien-être en entreprise
                         </Typography>
                     </Toolbar>
                 </AppBar>

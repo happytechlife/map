@@ -11,6 +11,7 @@ import { Startups } from '../Components/Startups';
 import { Options } from '../Components/Options';
 import { StartupsChordDiagramWithTags } from '../Components/StartupsChordDiagramWithTags';
 import StartupView from '../Components/StartupView';
+import { Presentation } from '../Utils/Pages/Presentation';
 
 interface IState {
     store?: IHappyTechStore;
@@ -49,6 +50,7 @@ export class ApplicationRoutes extends React.Component<{}, IState> {
             <Route exact={true} path={'/startups/:name'} component={(p: IParams) => <StartupView store={store} name={p.match.params.name} />} />
             <Route exact={true} path={'/options'} component={() => <Options store={store} />} />
             <Route exact={true} path={'/startups_chord'} component={() => <StartupsChordDiagramWithTags store={store} />} />
+            <Route exact={true} path={'/presentation'} component={() => <Presentation store={store} />} />
             <Route exact={true} path={'/'} component={() => <Startups store={store} />} />
         </React.Fragment>
     }
