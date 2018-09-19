@@ -1,0 +1,791 @@
+{
+  "startups": [
+    {
+      "rowId": 0,
+      "name": "AllSessions",
+      "address": "6-8 Avenue de la Porte de Champerret, 75017 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528453797/allsessions.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.88626319999999,
+        "lng": 2.2874510999999984
+      },
+      "tags": [],
+      "description": "AllSessions est la plateforme du sport entre collègues : développez le bien-être avec des activités pour tous les goûts (fitness, yoga, boxe, sports collectifs...), boostez la cohésion de vos équipes avec un challenge ludique et fédérateur !"
+    },
+    {
+      "rowId": 1,
+      "name": "Artify",
+      "address": "42 rue Marius Aufan 92300 Courbevoie",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587209/ARTIFY-01_2557.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8898851,
+        "lng": 2.2857175000000325
+      },
+      "tags": [],
+      "description": "ARTIFY révèle l’Art dans les espaces de vie professionnels grâce au meilleur de la Technologie. Nous proposons aux entreprises un tableau connecté dédié à l’art. Nous répondons ainsi à leurs enjeux de décoration, de communication, d’innovation et de bien-être."
+    },
+    {
+      "rowId": 2,
+      "name": "Aura",
+      "address": "27 rue du Chemin Vert 75011 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8586119,
+        "lng": 2.3730536000000484
+      },
+      "tags": [],
+      "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable."
+    },
+    {
+      "rowId": 3,
+      "name": "Bee",
+      "address": "14 rue de Péronne, 78500 Sartrouville",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520521005/Bee_bien_etre.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.93694929999999,
+        "lng": 2.171336500000052
+      },
+      "tags": [],
+      "description": "Avec Bee-Bien-être en entreprise, rejoignez le réseau des Happyculteurs d’entreprises ! Faites appel à des experts bien-être-santé pour la mise en place et la gestion complète de votre programme Bien-être-santé sur-mesure, au sein de votre entreprise."
+    },
+    {
+      "rowId": 4,
+      "name": "Bleexo",
+      "address": "42 Rue du Languedoc, 31000 Toulouse",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521631206/bleexo.svg",
+      "contacts": [],
+      "latLng": {
+        "lat": 43.5983098,
+        "lng": 1.4457777000000078
+      },
+      "tags": [],
+      "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
+    },
+    {
+      "rowId": 5,
+      "name": "Bloom At Work",
+      "address": "14 rue Eugène Freyssinet 75013 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900089/bloomatworkx2.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8350722,
+        "lng": 2.370609800000011
+      },
+      "tags": [],
+      "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work."
+    },
+    {
+      "rowId": 6,
+      "name": "BoostYourFit",
+      "address": "101, rue de Sèvres - 75272 Paris Cedex 06",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378272/boostyourfit.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8484788,
+        "lng": 2.3210417000000234
+      },
+      "tags": [],
+      "description": "BoostYourFit est le 1er réseau social d’entreprise intelligent basé sur le sport."
+    },
+    {
+      "rowId": 7,
+      "name": "ChaudPatate",
+      "address": "10 rue Penthièvre 75008 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378273/chaud-patate.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8733291,
+        "lng": 2.316598699999986
+      },
+      "tags": [],
+      "description": "Adoptez la Chaud Patate attitude pour booster vos évènements de team building et d'icebreaker"
+    },
+    {
+      "rowId": 8,
+      "name": "Cocoworker",
+      "address": "6 Allée des Sablons, 94120 Fontenay-sous-Bois",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523613348/coco.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8546261,
+        "lng": 2.491816800000038
+      },
+      "tags": [],
+      "description": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues."
+    },
+    {
+      "rowId": 9,
+      "name": "Comeet",
+      "address": "14 Rue des Lilas d'Espagne, 92400 Courbevoie",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
+      "contacts": [
+        {
+          "rowId": 0,
+          "startup_name": "Comeet",
+          "firstname": "Gabrielle",
+          "lastname": "Lair",
+          "email": "gabrielle@comeet.in"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8988266,
+        "lng": 2.2337430999999697
+      },
+      "tags": [],
+      "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+    },
+    {
+      "rowId": 10,
+      "name": "Contextor",
+      "address": "5 rue Guy Mocquet, 91400 Orsay",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521196200/Contextor_Logo_white__baseline.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.7004544,
+        "lng": 2.189630099999931
+      },
+      "tags": [],
+      "description": "Pionnier de la Robotic Process Automation, Contextor améliore le confort au travail de dizaines de milliers de personnes, en les déchargeant de toutes les tâches répétitives et fastidieuses liées à leur poste de travail informatique : copier-coller, changement d’application etc. Contextor permet aux collaborateurs de consacrer plus de temps aux tâches à valeur ajoutée qui mobilisent leur intelligence et leur sens de la relation humaine."
+    },
+    {
+      "rowId": 11,
+      "name": "Cowork.io",
+      "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8716208,
+        "lng": 2.347764600000005
+      },
+      "tags": [],
+      "description": "Créez du bien être et de l'engagement dans vos espaces de travail. CoWork.io, logiciel de gestion d'espaces de travail partagés et collaboratifs."
+    },
+    {
+      "rowId": 12,
+      "name": "Feeleo",
+      "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8909327,
+        "lng": 2.243474900000024
+      },
+      "tags": [],
+      "description": "Feeleo propose des interventions innovantes visant à améliorer le bien-être des salariés : méditation, sophrologie, improvisation, conseils…tout est mis à votre disposition pour répondre spécifiquement à vos besoin via des intervenants qualifiés et bienveillants."
+    },
+    {
+      "rowId": 13,
+      "name": "Fidensio",
+      "address": "5 Parvis Alan Turing, 75013 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.83477,
+        "lng": 2.3707703999999694
+      },
+      "tags": [],
+      "description": "Fidensio, c'est la conciergerie connectée au bureau ! Intuitive et innovante, la e-conciergerie Fidensio accompagne les collaborateurs dans leur équilibre vie privée vie professionnelle en leur proposant plus d'une vingtaine de services pour leur simplifier le quotidien : Pressing, Services à domicile, Achats express...."
+    },
+    {
+      "rowId": 14,
+      "name": "Happy Quest",
+      "address": "104 rue Oberkampf 75011 PARIS",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8658807,
+        "lng": 2.3785932000000685
+      },
+      "tags": [],
+      "description": "Happy Quest, le bonheur en action. Jouer, Mesurer et Récolter un max de sourires pour agir sur son bonheur au travail. #Appli #Pédagogique #Fun #Sens"
+    },
+    {
+      "rowId": 15,
+      "name": "Humancraft",
+      "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8832455,
+        "lng": 2.2684090000000197
+      },
+      "tags": [],
+      "description": "HumanCraft est le spécialiste de l’intermédiation des acteurs du numérique : nous référençons des Entreprises de Services du Numérique (ex-SSII) à taille humaine avec une forte culture d’entreprise et des recrutements de qualité que nous valorisons auprès des acteurs du marché de l’IT."
+    },
+    {
+      "rowId": 16,
+      "name": "Humeaning",
+      "address": "4 place de l'Opéra 75002 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8705039,
+        "lng": 2.3328566000000137
+      },
+      "tags": [],
+      "description": "Les consultan.t.e.s humeaning conçoivent et animent des programmes de sensibilisation pour créer des déclics en donnant des repères sur les enjeux de la transformation et l’innovation. De plus, nous intervenons auprès d’équipes spécifiques ou sur l’ensemble de l’organisation pour créer une culture commune."
+    },
+    {
+      "rowId": 17,
+      "name": "IDPosition",
+      "address": "85 rue de Lourmel 75015 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1526484792/22496134_1576625562402911_1022557821186686753_o.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8446824,
+        "lng": 2.287366700000007
+      },
+      "tags": [],
+      "description": "iDPosition c’est rapprocher chaque collaborateur à son entreprise, grâce à de nouveaux Services, en s’appuyant sur la technologie QRFID®"
+    },
+    {
+      "rowId": 18,
+      "name": "Kiplin",
+      "address": "3 boulevard Saint Martin, Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8678678,
+        "lng": 2.361802500000067
+      },
+      "tags": [],
+      "description": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
+    },
+    {
+      "rowId": 19,
+      "name": "Klimat",
+      "address": "94 rue Lafayette 75010 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8771096,
+        "lng": 2.349093400000015
+      },
+      "tags": [],
+      "description": "Klimat est donc un outil novateur en matière de baromètre, il propose aussi une analyse des commentaires à l’aide d’un outil d’intelligence artificielle. Klimat va encore plus loin avec son module d’analyse prédictive RH et son coffre à outils contenant des conseils vidéo, des infographies et des articles de blog."
+    },
+    {
+      "rowId": 20,
+      "name": "Lyyti",
+      "address": "104 boulevard de Sébastopol 75003 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8680143,
+        "lng": 2.353812699999935
+      },
+      "tags": [],
+      "description": "Lyyti est un outil puissant pour la gestion d'évènements, le marketing évènementiel et la mesure du succès d'un évènement."
+    },
+    {
+      "rowId": 21,
+      "name": "monaSTAY",
+      "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8909327,
+        "lng": 2.243474900000024
+      },
+      "tags": [],
+      "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox »."
+    },
+    {
+      "rowId": 22,
+      "name": "Melomind",
+      "address": "85 rue Maubeuge 75010 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8808257,
+        "lng": 2.3525792000000365
+      },
+      "tags": [],
+      "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés."
+    },
+    {
+      "rowId": 23,
+      "name": "OneConciergerie",
+      "address": "4 rue du Général Lanrezac 75017 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.87586810000001,
+        "lng": 2.293845899999951
+      },
+      "tags": [],
+      "description": "One Conciergerie, fondée en 2013, est précurseur de la conciergerie digitale. En janvier 2018 One Conciergerie a présenté au CES, son application conversationnelle dénommé ONEAPP, une innovation portant à la fois sur le moteur d’intelligence artificielle mais aussi sur la personnalisation de l’interface conversationnelle."
+    },
+    {
+      "rowId": 24,
+      "name": "Plantez Respirez",
+      "address": "340 rue Saint Jacques 75005 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.83955539999999,
+        "lng": 2.339911099999995
+      },
+      "tags": [],
+      "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail."
+    },
+    {
+      "rowId": 25,
+      "name": "Roti.express",
+      "address": "55 boulevard Vincent-Auriol 75013 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8336874,
+        "lng": 2.371536600000013
+      },
+      "tags": [],
+      "description": "Obtenez un feedback instantané sur vos réunions, conférences, ateliers, formations en ligne… afin de les rendre plus productifs et satisfaisants pour chaque participant."
+    },
+    {
+      "rowId": 26,
+      "name": "Serenity",
+      "address": "87 rue Réaumur, 75002, Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8670373,
+        "lng": 2.347658200000069
+      },
+      "tags": [],
+      "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables."
+    },
+    {
+      "rowId": 27,
+      "name": "Supermood",
+      "address": "41 Rue des Jeuneurs, 75002 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8697909,
+        "lng": 2.343161699999996
+      },
+      "tags": [],
+      "description": "Intuitive et automatisée, Supermood est une solution SaaS permettant aux RH et top-managers de mesurer et d'améliorer l’engagement de leurs collaborateurs grâce à des sondages intelligents, réguliers, et anonymes. "
+    },
+    {
+      "rowId": 28,
+      "name": "The Place To Coach",
+      "address": "5 Parvis Alan Turing, 75013 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.83477,
+        "lng": 2.3707703999999694
+      },
+      "tags": [],
+      "description": "LA plateforme de rencontre, pour permettre à chaque cadre de rencontrer un partenaire de vie professionnelle, avec l'aide et la caution de partenaires et d'institutions et écoles de coaching de 1er plan."
+    },
+    {
+      "rowId": 29,
+      "name": "TOD",
+      "address": "27 rue Raffet 75016 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.85166719999999,
+        "lng": 2.264681399999972
+      },
+      "tags": [],
+      "description": "Le hub qui révolutionne le management des talents pour plus de sens et d'engagement. TOD renverse les codes classiques d’identification des talents en utilisant les neurosciences et les sciences du comportement pour répondre aux besoins RH d’aujourd’hui."
+    },
+    {
+      "rowId": 30,
+      "name": "TrainMe",
+      "address": "6 Rue Claude Farrère, 75016 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8426547,
+        "lng": 2.253331399999979
+      },
+      "tags": [],
+      "description": "TrainMe facilite l'activité physique et le bien-être des collaborateurs. TrainMe vous propose une solution adaptée, qualitative et clef en main pour mettre en place du sport et du bien-être au sein de votre entreprise."
+    },
+    {
+      "rowId": 31,
+      "name": "WeHobby",
+      "address": "24 avenue Marceau 75008 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.866673,
+        "lng": 2.3002329999999347
+      },
+      "tags": [],
+      "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
+    },
+    {
+      "rowId": 32,
+      "name": "Wellnesstraining",
+      "address": "17 boulevard Saint Martin 75003, Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8679847,
+        "lng": 2.3601346000000376
+      },
+      "tags": [],
+      "description": "Well by Wellness training est une application qui vous permet d'établir votre scoring Santé Globale afin de vous apporter des recommandations personnalisées et vous mettre en relation avec un expert Wellness."
+    },
+    {
+      "rowId": 33,
+      "name": "Windoo",
+      "address": "6 Rue Claude Farrère, 75016 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8426547,
+        "lng": 2.253331399999979
+      },
+      "tags": [],
+      "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place."
+    },
+    {
+      "rowId": 34,
+      "name": "ZestMeUp",
+      "address": "71 rue de Saussure 75017 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8860731,
+        "lng": 2.313658900000064
+      },
+      "tags": [],
+      "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant."
+    }
+  ],
+  "contacts": [
+    {
+      "rowId": 0,
+      "startup_name": "Comeet",
+      "firstname": "Gabrielle",
+      "lastname": "Lair",
+      "email": "gabrielle@comeet.in",
+      "startup": {
+        "rowId": 9,
+        "name": "Comeet",
+        "address": "14 Rue des Lilas d'Espagne, 92400 Courbevoie",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
+        "contacts": [
+          {
+            "rowId": 0,
+            "startup_name": "Comeet",
+            "firstname": "Gabrielle",
+            "lastname": "Lair",
+            "email": "gabrielle@comeet.in"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8988266,
+          "lng": 2.2337430999999697
+        },
+        "tags": [],
+        "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+      }
+    }
+  ],
+  "startupTags": [
+    {
+      "rowId": 0,
+      "startup_name": "Comeet",
+      "tags": [],
+      "tagNames": [
+        "IA",
+        "MobileApp",
+        "WebApp",
+        "SocialNetwork"
+      ],
+      "startup": {
+        "rowId": 9,
+        "name": "Comeet",
+        "address": "14 Rue des Lilas d'Espagne, 92400 Courbevoie",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
+        "contacts": [
+          {
+            "rowId": 0,
+            "startup_name": "Comeet",
+            "firstname": "Gabrielle",
+            "lastname": "Lair",
+            "email": "gabrielle@comeet.in"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8988266,
+          "lng": 2.2337430999999697
+        },
+        "tags": [],
+        "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+      }
+    },
+    {
+      "rowId": 1,
+      "startup_name": "Serenity",
+      "tags": [],
+      "tagNames": [
+        "VR/AR",
+        "Device"
+      ],
+      "startup": {
+        "rowId": 26,
+        "name": "Serenity",
+        "address": "87 rue Réaumur, 75002, Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8670373,
+          "lng": 2.347658200000069
+        },
+        "tags": [],
+        "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables."
+      }
+    },
+    {
+      "rowId": 2,
+      "startup_name": "Plantez Respirez",
+      "tags": [],
+      "tagNames": [
+        "IOT",
+        "Nature"
+      ],
+      "startup": {
+        "rowId": 24,
+        "name": "Plantez Respirez",
+        "address": "340 rue Saint Jacques 75005 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.83955539999999,
+          "lng": 2.339911099999995
+        },
+        "tags": [],
+        "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail."
+      }
+    },
+    {
+      "rowId": 3,
+      "startup_name": "monaSTAY",
+      "tags": [],
+      "tagNames": [
+        "Deconnexion"
+      ],
+      "startup": {
+        "rowId": 21,
+        "name": "monaSTAY",
+        "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8909327,
+          "lng": 2.243474900000024
+        },
+        "tags": [],
+        "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox »."
+      }
+    },
+    {
+      "rowId": 4,
+      "startup_name": "Bleexo",
+      "tags": [],
+      "tagNames": [
+        "IA",
+        "MobileApp",
+        "WebApp"
+      ],
+      "startup": {
+        "rowId": 4,
+        "name": "Bleexo",
+        "address": "42 Rue du Languedoc, 31000 Toulouse",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521631206/bleexo.svg",
+        "contacts": [],
+        "latLng": {
+          "lat": 43.5983098,
+          "lng": 1.4457777000000078
+        },
+        "tags": [],
+        "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
+      }
+    },
+    {
+      "rowId": 5,
+      "startup_name": "Aura",
+      "tags": [],
+      "tagNames": [
+        "Nature"
+      ],
+      "startup": {
+        "rowId": 2,
+        "name": "Aura",
+        "address": "27 rue du Chemin Vert 75011 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8586119,
+          "lng": 2.3730536000000484
+        },
+        "tags": [],
+        "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable."
+      }
+    },
+    {
+      "rowId": 6,
+      "startup_name": "ZestMeUp",
+      "tags": [],
+      "tagNames": [
+        "WebApp"
+      ],
+      "startup": {
+        "rowId": 34,
+        "name": "ZestMeUp",
+        "address": "71 rue de Saussure 75017 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8860731,
+          "lng": 2.313658900000064
+        },
+        "tags": [],
+        "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant."
+      }
+    },
+    {
+      "rowId": 7,
+      "startup_name": "Melomind",
+      "tags": [],
+      "tagNames": [
+        "IA",
+        "Device"
+      ],
+      "startup": {
+        "rowId": 22,
+        "name": "Melomind",
+        "address": "85 rue Maubeuge 75010 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8808257,
+          "lng": 2.3525792000000365
+        },
+        "tags": [],
+        "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés."
+      }
+    },
+    {
+      "rowId": 8,
+      "startup_name": "WeHobby",
+      "tags": [],
+      "tagNames": [],
+      "startup": {
+        "rowId": 31,
+        "name": "WeHobby",
+        "address": "24 avenue Marceau 75008 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.866673,
+          "lng": 2.3002329999999347
+        },
+        "tags": [],
+        "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
+      }
+    },
+    {
+      "rowId": 9,
+      "startup_name": "Bloom At Work",
+      "tags": [],
+      "tagNames": [
+        "IA"
+      ],
+      "startup": {
+        "rowId": 5,
+        "name": "Bloom At Work",
+        "address": "14 rue Eugène Freyssinet 75013 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900089/bloomatworkx2.png",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8350722,
+          "lng": 2.370609800000011
+        },
+        "tags": [],
+        "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work."
+      }
+    },
+    {
+      "rowId": 10,
+      "startup_name": "ChaudPatate",
+      "tags": [],
+      "tagNames": [
+        "WebApp"
+      ],
+      "startup": {
+        "rowId": 7,
+        "name": "ChaudPatate",
+        "address": "10 rue Penthièvre 75008 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378273/chaud-patate.jpg",
+        "contacts": [],
+        "latLng": {
+          "lat": 48.8733291,
+          "lng": 2.316598699999986
+        },
+        "tags": [],
+        "description": "Adoptez la Chaud Patate attitude pour booster vos évènements de team building et d'icebreaker"
+      }
+    }
+  ],
+  "tags": [
+    {
+      "rowId": 0,
+      "name": "IA",
+      "startups": []
+    },
+    {
+      "rowId": 1,
+      "name": "VR/AR",
+      "startups": []
+    },
+    {
+      "rowId": 2,
+      "name": "MobileApp",
+      "startups": []
+    },
+    {
+      "rowId": 3,
+      "name": "WebApp",
+      "startups": []
+    },
+    {
+      "rowId": 4,
+      "name": "SocialNetwork",
+      "startups": []
+    },
+    {
+      "rowId": 5,
+      "name": "Device",
+      "startups": []
+    },
+    {
+      "rowId": 6,
+      "name": "IOT",
+      "startups": []
+    },
+    {
+      "rowId": 7,
+      "name": "Nature",
+      "startups": []
+    },
+    {
+      "rowId": 8,
+      "name": "Deconnexion",
+      "startups": []
+    }
+  ]
+}

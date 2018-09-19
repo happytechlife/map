@@ -9,7 +9,7 @@ interface IProps {
 
 export class Startups extends React.Component<IProps, {}> {
     public render() {
-        console.log(this.props);
+        // console.log(this.props);
         const { store } = this.props;
         if (!store) {
             return null;

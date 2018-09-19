@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Route, Switch } from 'react-router';
 import { Router } from 'react-router-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
-import { IHappyTechStore, getStore } from '../Tables/Store';
-import { GoogleMap } from '../MapClusters/GoogleMap';
+import createMemoryHistory from 'history/createMemoryHistory';
+import { IHappyTechStore } from '../Tables/Store';
+// import { GoogleMap } from '../MapClusters/GoogleMap';
 import { Tags } from '../Components/Tags';
 import LeftDrawer from '../Components/LeftDrawer/LeftDrawer';
 import { CircularProgress } from '@material-ui/core';
@@ -16,7 +16,7 @@ import { Presentation } from '../Utils/Pages/Presentation';
 interface IState {
     store?: IHappyTechStore;
 }
-const history = createBrowserHistory();
+const history = createMemoryHistory();
 
 interface IParams {
     match: {
@@ -25,11 +25,13 @@ interface IParams {
         }
     }
 }
-export class ApplicationRoutes extends React.Component<{}, IState> {
+interface IProps { store?: IHappyTechStore }
+export class ApplicationRoutes extends React.Component<IProps, IState> {
 
-    constructor(props: {}) {
+    constructor(props: IProps) {
         super(props)
-        this.state = {};
+        const { store } = props;
+        this.state = { store };
     }
     public componentDidMount() {
         this.loadTables();
@@ -44,7 +46,7 @@ export class ApplicationRoutes extends React.Component<{}, IState> {
 
     public renderRoutes(store: IHappyTechStore) {
         return <React.Fragment>
-            <Route exact={true} path={'/map'} component={() => <GoogleMap store={store} />} />
+            {/* <Route exact={true} path={'/map'} component={() => <GoogleMap store={store} />} /> */}
             <Route exact={true} path={'/tags'} component={() => <Tags store={store} />} />
             <Route exact={true} path={'/startups'} component={() => <Startups store={store} />} />
             <Route exact={true} path={'/startups/:name'} component={(p: IParams) => <StartupView store={store} name={p.match.params.name} />} />
@@ -66,7 +68,7 @@ export class ApplicationRoutes extends React.Component<{}, IState> {
         </Router>;
     }
     private async loadTables() {
-        const store = await getStore();
-        this.setState({ store });
+        // const store = await getStore();
+        // this.setState({ store });
     }
 }

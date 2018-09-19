@@ -5,6 +5,7 @@ import { IStartup, IContact, IStartupTags, ITag } from '../models';
 import { StartupTagsTable } from './StartupTagsTable';
 import { ITable } from '../Google/GoogleSpreadSheetTable';
 import { TagTable } from './TagTable';
+import * as fs from 'fs';
 
 export interface IHappyTechStore {
     startups: IStartup[];
@@ -13,6 +14,9 @@ export interface IHappyTechStore {
     tags: ITag[];
 }
 
+
+const storePath = 'data.json';
+
 export class Store {
     public model: IHappyTechStore;
     private tables: Array<ITable<any, IHappyTechStore>>;
@@ -20,14 +24,26 @@ export class Store {
     constructor() {
         this.model = { startups: [], contacts: [], startupTags: [], tags: [] };
     }
+    // public load = async () => {
+    //     return new Promise<void>(r => {
+    //         gapi.load("client", () => {
+    //             gapi.client.init({ apiKey: googleConfig.apiKey }).then(async () => {
+    //                 await this.loadTables();
+    //                 r();
+    //             })
+    //         });
+    //     })
+    // }
+
     public load = async () => {
-        return new Promise<void>(r => {
-            gapi.load("client", () => {
-                gapi.client.init({ apiKey: googleConfig.apiKey }).then(async () => {
-                    await this.loadTables();
-                    r();
-                })
-            });
+        // const sheets = google.sheets_v4;
+        return new Promise<void>(async r => {
+            await this.loadTables();
+            r();
+            // gapi.load("client", () => {
+            //     gapi.client.init({ apiKey: googleConfig.apiKey }).then(async () => {
+            //     })
+            // });
         })
     }
 
@@ -45,20 +61,28 @@ export class Store {
         await this.sequenceLoadTables();
         this.tables.forEach(table => table.resolve1(this.model))
         this.tables.forEach(table => table.resolve2(this.model))
-        console.log(this.model);
+        // console.log(this.model);
         // this.consoleLatLng();
     }
 
     // public reloadTables() {
-
     //     this.loadTables();
     // }
 
+
+
     private getSavedModel() {
-        const model = localStorage.getItem('model')
-        if (model !== null) {
-            return JSON.parse(model);
+
+        if (fs.existsSync(storePath)) {
+            const content = fs.readFileSync('data.json').toString();
+            return JSON.parse(content);
         }
+        // if(localStorage) {
+        // const model = localStorage.getItem('model')
+        // if (model !== null) {
+        //     return JSON.parse(model);
+        // }
+        // }
     }
 
     private buildTables() {
@@ -83,7 +107,11 @@ export class Store {
             const rows = await element.loadRows(this.model);
             this.model[element.name] = rows;
         }
-        localStorage.setItem('model', JSON.stringify(this.model));
+
+        fs.writeFileSync(storePath, JSON.stringify(this.model, undefined, 2));
+        // if (localStorage) {
+        //     localStorage.setItem('model', JSON.stringify(this.model));
+        // }
     }
 }
 

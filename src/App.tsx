@@ -15,7 +15,6 @@ class App extends React.Component<{}, {}> {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="App">
-
           <ApplicationRoutes />
         </div>
       </MuiThemeProvider>
