@@ -1,8 +1,8 @@
 #!/bin/sh
 
 yarn ssr-prod
-cp credentials.json build/
-cp token.json build/
+cp credentials build/
+cp token build/
 
 # ./node_modules/.bin/webpack --config ssr/webpack.config.js 
 # node build/js/server.js

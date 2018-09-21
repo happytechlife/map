@@ -7,12 +7,13 @@ import { google } from 'googleapis';
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
-const TOKEN_PATH = 'token.json';
+const TOKEN_PATH = 'credentials/token.json';
+const CREDENTIALS_PATH = 'credentials/credentials.json';
 
 export function loadSpeadsheet(spreadsheetId: string, range: string) {
     // Load client secrets from a local file.
     return new Promise<string[][]>(resolve => {
-        fs.readFile('./credentials.json', (err: any, content: any) => {
+        fs.readFile(CREDENTIALS_PATH, (err: any, content: any) => {
             if (err) { return console.log('Error loading client secret file:', err); }
             // Authorize a client with credentials, then call the Google Sheets API.
             authorize(JSON.parse(content), async (auth: any) => {

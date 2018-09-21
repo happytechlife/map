@@ -8,7 +8,7 @@ import { TagTable } from './TagTable';
 import * as fs from 'fs';
 
 
-const storePath = 'data.json';
+const storePath = 'data/data.json';
 
 export class Store {
     public model: IHappyTechStore;
@@ -64,7 +64,7 @@ export class Store {
 
     private getSavedModel() {
         if (fs.existsSync(storePath)) {
-            const content = fs.readFileSync('data.json').toString();
+            const content = fs.readFileSync(storePath).toString();
             return JSON.parse(content);
         }
         // if(localStorage) {
