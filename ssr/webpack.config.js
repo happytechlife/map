@@ -23,7 +23,7 @@ const rules = [
 ];
 
 const resolve = {
-    extensions: [".ts", ".tsx", ".js", ".json", '.css', '.md'],
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json", '.css', '.md'],
 };
 
 const outputPath = path.resolve(process.cwd(), 'build');
@@ -32,7 +32,7 @@ var browserConfig = {
     entry: './src/index.tsx',
     output: {
         path: outputPath,
-        filename: 'js/bundle.js',
+        filename: 'client/bundle.js',
         publicPath: '/'
     },
     resolve,
@@ -44,17 +44,17 @@ var browserConfig = {
         new webpack.DefinePlugin({
             __isBrowser__: "true"
         }),
-        new ExtractTextPlugin("css/styles.css")
+        new ExtractTextPlugin("client/styles.css")
     ]
 };
 
 var serverConfig = {
     entry: './src/server/index.tsx',
     target: 'node',
-    externals: [nodeExternals()],
+    // externals: [nodeExternals()],
     output: {
         path: outputPath,
-        filename: 'js/server.js',
+        filename: 'server/index.js',
         publicPath: '/'
     },
     resolve,
@@ -66,7 +66,7 @@ var serverConfig = {
         new webpack.DefinePlugin({
             __isBrowser__: "false"
         }),
-        new ExtractTextPlugin("css/styles.css")
+        new ExtractTextPlugin("server/styles.css")
     ]
 };
 

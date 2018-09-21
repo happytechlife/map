@@ -27,9 +27,7 @@ const port = 9000;
 (async () => {
     const server = express();
 
-    const staticPath = path.join(__dirname, 'build');
-    console.log('staticPath', staticPath);
-    server.use(express.static('build'));
+    server.use(express.static('build/client'));
 
     console.log('start loading store');
     const store = await getStore();
