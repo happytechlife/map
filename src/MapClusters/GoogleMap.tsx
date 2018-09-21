@@ -4,7 +4,7 @@ import GoogleMapReact from 'google-map-react';
 import { MapClusters } from './MapClusters';
 import StartupCluster from './../Components/StartupCluster';
 import { ILatLng, IStartup } from '../models';
-import { IHappyTechStore } from '../Tables/Store';
+import { IHappyTechStore } from '../models';
 import { MapCluster } from './MapCluster';
 // import { mapStyles } from './MapStyle';
 

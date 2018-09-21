@@ -1,6 +1,6 @@
-import { IStartupTags } from "../models";
+import { IStartupTags, IHappyTechStore } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
-import { IHappyTechStore, findByName } from "./Store";
+import {  findByName } from "./Store";
 
 export class StartupTagsTable extends GoogleSpreadSheetTable<IStartupTags, IHappyTechStore>{
     // 'startupTags!A1:Z'

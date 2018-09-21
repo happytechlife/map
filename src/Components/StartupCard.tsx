@@ -13,8 +13,8 @@ const styles: any = (theme: any) => ({
         display: 'flex',
         margin: theme.spacing.unit,
         padding: theme.spacing.unit,
-        maxWidth: 300,
-        width: 300,
+        maxWidth: 280,
+        width: 280,
     },
     details: {
         display: 'flex',

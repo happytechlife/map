@@ -1,6 +1,6 @@
 import { IContact } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
-import { IHappyTechStore } from "./Store";
+import { IHappyTechStore } from "./../models";
 
 export class ContactTable extends GoogleSpreadSheetTable<IContact, IHappyTechStore>{
     constructor(spreadsheetId: string) {

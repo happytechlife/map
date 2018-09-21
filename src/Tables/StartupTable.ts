@@ -1,7 +1,7 @@
 import { IStartup, ILatLng, IContact } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
 import { geocode } from '../Google/geocoder';
-import { IHappyTechStore } from "./Store";
+import { IHappyTechStore } from "./../models";
 
 export class StartupTable extends GoogleSpreadSheetTable<IStartup, IHappyTechStore>{
     // 'startups!A1:H'

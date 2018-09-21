@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IHappyTechStore } from '../Tables/Store';
+import { IHappyTechStore } from '../models';
 import './StartupCard';
 interface IProps {
     store: IHappyTechStore

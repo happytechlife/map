@@ -1,13 +1,80 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 var webpack = require('webpack');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+const rules = [
+    {
+        test: /\.(ts|tsx)?$/,
+        exclude: /node_modules/,
+        use: [{
+            loader: 'ts-loader',
+            options: { transpileOnly: true }
+        }]
+    },
+    {
+        test: /\.css?$/,
+        use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: ['css-loader'] })
+    },
+    {
+        test: /\.md$/,
+        use: [{ loader: "raw-loader" }]
+    }
+];
+
+const resolve = {
+    extensions: [".ts", ".tsx", ".js", ".json", '.css', '.md'],
+};
+
+const outputPath = path.resolve(process.cwd(), 'build');
+
+var browserConfig = {
+    entry: './src/index.tsx',
+    output: {
+        path: outputPath,
+        filename: 'js/bundle.js',
+        publicPath: '/'
+    },
+    resolve,
+    devtool: 'cheap-module-eval-source-map',
+    module: {
+        rules
+    },
+    plugins: [
+        new webpack.DefinePlugin({
+            __isBrowser__: "true"
+        }),
+        new ExtractTextPlugin("css/styles.css")
+    ]
+};
+
+var serverConfig = {
+    entry: './src/server/index.tsx',
+    target: 'node',
+    externals: [nodeExternals()],
+    output: {
+        path: outputPath,
+        filename: 'js/server.js',
+        publicPath: '/'
+    },
+    resolve,
+    devtool: 'cheap-module-eval-source-map',
+    module: {
+        rules
+    },
+    plugins: [
+        new webpack.DefinePlugin({
+            __isBrowser__: "false"
+        }),
+        new ExtractTextPlugin("css/styles.css")
+    ]
+};
+
+module.exports = [browserConfig, serverConfig];
 
 // module.exports = function (env, argv) {
-
 //     // { 'google': 'window.google' }
 //     const externals = env.platform === 'server' ? [nodeExternals()] : [];
-
-
 //     // default to the server configuration
 //     const base = {
 //         entry: './src/server/index.ts',
@@ -50,80 +117,14 @@ var webpack = require('webpack');
 //             ]
 //         },
 //     }
-
 //     // server-specific configuration
 //     if (env.platform === 'server') {
 //         base.target = 'node';
 //     }
-
 //     // client-specific configurations
 //     if (env.platform === 'web') {
 //         base.entry = './src/App.tsx';
 //         base.output.filename = 'js/client.js';
 //     }
-
 //     return base;
 // }
-
-const rules = [
-    {
-        test: /\.(ts|tsx)?$/,
-        exclude: /node_modules/,
-        use: [{
-            loader: 'ts-loader',
-            options: { transpileOnly: true }
-        }]
-    },
-    {
-        test: /\.css?$/,
-        use: ['style-loader', 'css-loader']
-    }
-];
-
-const resolve = {
-    extensions: [".ts", ".tsx", ".js", ".json", '.css'],
-};
-
-const outputPath = path.resolve(process.cwd(), 'build');
-
-var browserConfig = {
-    entry: './src/App.tsx',
-    output: {
-        path: outputPath,
-        filename: 'js/bundle.js',
-        publicPath: '/'
-    },
-    resolve,
-    devtool: 'cheap-module-eval-source-map',
-    module: {
-        rules
-    },
-    plugins: [
-        new webpack.DefinePlugin({
-            __isBrowser__: "true"
-        })
-    ]
-};
-
-var serverConfig = {
-    entry: './src/server/index.tsx',
-    target: 'node',
-    externals: [nodeExternals()],
-    output: {
-        path: outputPath,
-        filename: 'js/server.js',
-        publicPath: '/'
-    },
-    resolve,
-    devtool: 'cheap-module-eval-source-map',
-    module: {
-        rules
-    },
-    plugins: [
-        new webpack.DefinePlugin({
-            __isBrowser__: "false"
-        })
-    ]
-};
-
-module.exports = [browserConfig, serverConfig];

@@ -1,6 +1,5 @@
-import { ITag, IStartup } from "../models";
+import { ITag, IStartup, IHappyTechStore } from "../models";
 import { GoogleSpreadSheetTable, useHeaderToParse } from "../Google/GoogleSpreadSheetTable";
-import { IHappyTechStore } from "./Store";
 
 export class TagTable extends GoogleSpreadSheetTable<ITag, IHappyTechStore>{
     constructor(spreadsheetId: string) {

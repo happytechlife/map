@@ -1,18 +1,11 @@
 import { StartupTable } from '../Tables/StartupTable';
 import { ContactTable } from './ContactTable';
 import { googleConfig } from '../Google/spreadsheets';
-import { IStartup, IContact, IStartupTags, ITag } from '../models';
+import { IHappyTechStore } from '../models';
 import { StartupTagsTable } from './StartupTagsTable';
 import { ITable } from '../Google/GoogleSpreadSheetTable';
 import { TagTable } from './TagTable';
 import * as fs from 'fs';
-
-export interface IHappyTechStore {
-    startups: IStartup[];
-    contacts: IContact[];
-    startupTags: IStartupTags[];
-    tags: ITag[];
-}
 
 
 const storePath = 'data.json';
@@ -69,10 +62,7 @@ export class Store {
     //     this.loadTables();
     // }
 
-
-
     private getSavedModel() {
-
         if (fs.existsSync(storePath)) {
             const content = fs.readFileSync('data.json').toString();
             return JSON.parse(content);

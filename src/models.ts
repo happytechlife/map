@@ -46,3 +46,11 @@ export interface ISocialNetwork {
     instagram: string;
     youTube: string;
 }
+
+export interface IHappyTechStore {
+    startups: IStartup[];
+    contacts: IContact[];
+    startupTags: IStartupTags[];
+    tags: ITag[];
+}
+

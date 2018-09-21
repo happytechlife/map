@@ -2,3 +2,13 @@
     max-width: 320px;
     width: 320px;
 }
+
+.typeform-share.button{
+    background-color: var(--main);
+    border-radius: 32px;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}

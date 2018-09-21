@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IHappyTechStore } from '../Tables/Store';
+import { IHappyTechStore } from "./../models";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';

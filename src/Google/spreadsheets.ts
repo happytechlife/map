@@ -1,7 +1,7 @@
 // tslint:disable-next-line:no-var-requires
 require('dotenv').config();
 // import { google } from 'googleapis';
-import { loadSpeadsheet } from './nodespreadsheets';
+import { loadSpeadsheet } from './nodeSpreadsheets';
 
 export const googleConfig = {
     apiKey: process.env.REACT_APP_GOOGLE_APIKEY,

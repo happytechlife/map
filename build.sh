@@ -8,6 +8,6 @@
 
 ./node_modules/.bin/webpack --config ssr/webpack.config.js --watch
 
-
 # ./node_modules/.bin/webpack-dev-server --config ssr/webpack.config.js --env.platform=server 
 # ./node_modules/.bin/webpack-dev-server --config ssr/webpack.config.js --env.platform=web
+

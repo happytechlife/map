@@ -10,9 +10,11 @@ import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import { Menu } from '@material-ui/icons';
 import * as classNames from 'classnames';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+// import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+// import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { leftMenus } from './LeftMenu';
+import '../../App.css';
+import { Hidden } from '@material-ui/core';
 
 interface IProps {
 
@@ -23,71 +25,35 @@ const drawerWidth = 240;
 const styles: any = (theme: any) => ({
     root: {
         flexGrow: 1,
-        height: '100%',
+        // height: 440,
         zIndex: 1,
         overflow: 'hidden',
         position: 'relative',
         display: 'flex',
+        width: '100%',
     },
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
-        transition: theme.transitions.create(['width', 'margin'], {
-            easing: theme.transitions.easing.sharp,
-            duration: theme.transitions.duration.leavingScreen,
-        }),
+
     },
-    appBarShift: {
-        marginLeft: drawerWidth,
-        width: `calc(100% - ${drawerWidth}px)`,
-        transition: theme.transitions.create(['width', 'margin'], {
-            easing: theme.transitions.easing.sharp,
-            duration: theme.transitions.duration.enteringScreen,
-        }),
-    },
-    menuButton: {
-        marginLeft: 12,
-        marginRight: 36,
-    },
-    hide: {
-        display: 'none',
-    },
-    drawerPaper: {
-        position: 'relative',
-        whiteSpace: 'nowrap',
-        width: drawerWidth,
-        transition: theme.transitions.create('width', {
-            easing: theme.transitions.easing.sharp,
-            duration: theme.transitions.duration.enteringScreen,
-        }),
-    },
-    drawerPaperClose: {
-        overflowX: 'hidden',
-        transition: theme.transitions.create('width', {
-            easing: theme.transitions.easing.sharp,
-            duration: theme.transitions.duration.leavingScreen,
-        }),
-        width: theme.spacing.unit * 7,
-        [theme.breakpoints.up('sm')]: {
-            width: theme.spacing.unit * 9,
+    navIconHide: {
+        [theme.breakpoints.up('md')]: {
+            display: 'none',
         },
     },
-    toolbar: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'flex-end',
-        padding: '0 8px',
-        ...theme.mixins.toolbar,
+    toolbar: theme.mixins.toolbar,
+    drawerPaper: {
+        height: "100%",
+        width: drawerWidth,
+        [theme.breakpoints.up('md')]: {
+            position: 'relative',
+        },
     },
     content: {
         flexGrow: 1,
         backgroundColor: theme.palette.background.default,
         // padding: theme.spacing.unit * 3,
     },
-    logo: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
 });
 
 class LeftDrawer extends React.Component<IProps & { classes: any }, { open: boolean }> {
@@ -98,6 +64,9 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
         return true;
     };
 
+    public handleDrawerToggle = () => {
+        this.setState(state => ({ open: !state.open }));
+    };
     public handleDrawerOpen = () => {
         this.setState({ open: true });
     };
@@ -106,10 +75,30 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
         this.setState({ open: false });
     };
 
-    public render() {
-        const { classes, theme } = this.props;
 
-        const drawer = (
+    public insideDrawer() {
+        const { classes } = this.props;
+        return <React.Fragment>
+            <div className={`${classes.toolbar} ${classes.logo}`}>
+                <div className="flexCenter" style={{ padding: 4 }}>
+                    {/* <img src={`https://res.cloudinary.com/happytech/image/upload/c_fit,w_${drawerWidth - 8},h_56/v1534950160/HappyTechFrance.png`} /> */}
+                    <img src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_56/v1525446366/happytechicon.png" alt="logo happytech" />
+                </div>
+                {/* <img src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_128/v1534592246/logos/happytech_zoom.png" alt="logo happytech" /> */}
+                {/* <IconButton onClick={this.handleDrawerClose}>
+                    {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
+                </IconButton> */}
+            </div>
+            <Divider />
+            {leftMenus()}
+        </React.Fragment>
+    }
+
+    public render() {
+        const { classes } = this.props;
+        const { open } = this.state;
+
+        const drawerPermanent = (
             <Drawer
                 variant="permanent"
                 classes={{
@@ -117,38 +106,47 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                 }}
                 open={this.state.open}
             >
-                <div className={`${classes.toolbar} ${classes.logo}`}>
-                    {/* <img src="https://res.cloudinary.com/happytech/image/upload/c_fit,w_100,h_60/v1534950160/HappyTechFrance.png" /> */}
-                    <IconButton onClick={this.handleDrawerClose}>
-                        {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
-                    </IconButton>
-                </div>
-                <Divider />
-                {leftMenus()}
+                {this.insideDrawer()}
             </Drawer>
         );
         return (
             <div className={classes.root}>
-                <AppBar
-                    position="absolute"
-                    className={classNames(classes.appBar, this.state.open && classes.appBarShift)}
-                >
-                    <Toolbar disableGutters={!this.state.open}>
+                <AppBar position="absolute" className={classes.appBar}>
+                    <Toolbar disableGutters={!open}>
                         <IconButton
                             color="inherit"
                             aria-label="Open drawer"
                             onClick={this.handleDrawerOpen}
-                            className={classNames(classes.menuButton, this.state.open && classes.hide)}
+                            className={classes.navIconHide}
                         >
                             <Menu />
                         </IconButton>
-                        <Typography variant="title" color="inherit" noWrap={true}>
+                        <Typography variant="title" color="inherit" noWrap={true} style={{ paddingLeft: open ? 0 : 16 }}>
                             HappyTech : L'innovation technologique au service du bien-être en entreprise
                         </Typography>
                     </Toolbar>
                 </AppBar>
-                {drawer}
-                <main className={classes.content}>
+                <Hidden mdUp={true}>
+                    <Drawer
+                        variant="temporary"
+                        anchor={'left'}
+                        open={open}
+                        onClose={this.handleDrawerToggle}
+                        classes={{
+                            paper: classes.drawerPaper,
+                        }}
+                        ModalProps={{
+                            keepMounted: true, // Better open performance on mobile.
+                        }}
+                    >
+                        {this.insideDrawer()}
+                    </Drawer>
+
+                </Hidden>
+                <Hidden smDown={true} implementation="css">
+                    {drawerPermanent}
+                </Hidden>
+                <main className={`${classes.content} App`}>
                     <div className={classes.toolbar} />
                     {this.props.children}
                 </main>

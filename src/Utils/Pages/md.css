@@ -1,0 +1,23 @@
+
+.md-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;    
+}
+
+.md{
+    max-width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.md h1{
+  border-bottom: 1px solid var(--main);
+  padding-bottom: 8px;
+}
+
+.md blockquote{
+    font-style: italic;
+}
