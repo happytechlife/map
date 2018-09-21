@@ -27,13 +27,12 @@ const resolve = {
 };
 
 
-
 module.exports = function (env, argv) {
     console.log(env);
     const mode = env.mode;
     const devtool = mode === 'production' ? 'source-map' : 'cheap-module-eval-source-map';
     const pathinfo = mode === 'development';
-
+    const externals = mode === 'development' ? [nodeExternals()] : [];
     const outputPath = path.resolve(process.cwd(), 'build');
 
     var browserConfig = {
@@ -62,7 +61,7 @@ module.exports = function (env, argv) {
         mode,
         entry: './src/server/index.tsx',
         target: 'node',
-        // externals: [nodeExternals()],
+        externals,
         output: {
             path: outputPath,
             pathinfo,
