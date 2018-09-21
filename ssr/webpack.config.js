@@ -26,51 +26,64 @@ const resolve = {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json", '.css', '.md'],
 };
 
-const outputPath = path.resolve(process.cwd(), 'build');
 
-var browserConfig = {
-    entry: './src/index.tsx',
-    output: {
-        path: outputPath,
-        filename: 'client/bundle.js',
-        publicPath: '/'
-    },
-    resolve,
-    devtool: 'cheap-module-eval-source-map',
-    module: {
-        rules
-    },
-    plugins: [
-        new webpack.DefinePlugin({
-            __isBrowser__: "true"
-        }),
-        new ExtractTextPlugin("client/styles.css")
-    ]
+
+module.exports = function (env, argv) {
+    console.log(env);
+    const mode = env.mode;
+    const devtool = mode === 'production' ? 'source-map' : 'cheap-module-eval-source-map';
+    const pathinfo = mode === 'development';
+
+    const outputPath = path.resolve(process.cwd(), 'build');
+
+    var browserConfig = {
+        entry: './src/index.tsx',
+        output: {
+            path: outputPath,
+            pathinfo,
+            filename: 'client/bundle.js',
+            publicPath: '/'
+        },
+        resolve,
+        devtool,
+        module: {
+            rules
+        },
+        plugins: [
+            new webpack.DefinePlugin({
+                __isBrowser__: "true"
+            }),
+            new ExtractTextPlugin("client/styles.css")
+        ],
+        mode
+    };
+
+    var serverConfig = {
+        mode,
+        entry: './src/server/index.tsx',
+        target: 'node',
+        // externals: [nodeExternals()],
+        output: {
+            path: outputPath,
+            pathinfo,
+            filename: 'server/index.js',
+            publicPath: '/'
+        },
+        resolve,
+        devtool,
+        module: {
+            rules
+        },
+        plugins: [
+            new webpack.DefinePlugin({
+                __isBrowser__: "false"
+            }),
+            new ExtractTextPlugin("server/styles.css")
+        ]
+    };
+    return [browserConfig, serverConfig];
+    // return [browserConfig];
 };
-
-var serverConfig = {
-    entry: './src/server/index.tsx',
-    target: 'node',
-    // externals: [nodeExternals()],
-    output: {
-        path: outputPath,
-        filename: 'server/index.js',
-        publicPath: '/'
-    },
-    resolve,
-    devtool: 'cheap-module-eval-source-map',
-    module: {
-        rules
-    },
-    plugins: [
-        new webpack.DefinePlugin({
-            __isBrowser__: "false"
-        }),
-        new ExtractTextPlugin("server/styles.css")
-    ]
-};
-
-module.exports = [browserConfig, serverConfig];
 
 // module.exports = function (env, argv) {
 //     // { 'google': 'window.google' }
