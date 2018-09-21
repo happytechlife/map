@@ -48,7 +48,6 @@ const styles: any = (theme: any) => ({
     content: {
         flexGrow: 1,
         backgroundColor: theme.palette.background.default,
-        // padding: theme.spacing.unit * 3,
     },
 });
 
@@ -87,6 +86,12 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
             </div>
             <Divider />
             {leftMenus()}
+            <Divider />
+            <div style={{ marginRight: 16, marginTop: 16 }} className="flexCenter">
+                {sn('facebook', 'https://www.facebook.com/happytech.life/')}
+                {sn('linkedin', 'https://www.linkedin.com/company/happytech/')}
+                {sn('twitter', 'https://twitter.com/happytechfrance')}
+            </div>
         </React.Fragment>
     }
 
@@ -105,6 +110,8 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                 {this.insideDrawer()}
             </Drawer>
         );
+
+
         return (
             <div className={classes.root}>
                 <AppBar position="absolute" className={classes.appBar}>
@@ -117,7 +124,7 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                         >
                             <Menu />
                         </IconButton>
-                        <Typography variant="title" color="inherit" noWrap={true} style={{ paddingLeft: open ? 0 : 16 }}>
+                        <Typography variant="title" color="inherit" noWrap={true} style={{ flexGrow: 1, paddingLeft: open ? 0 : 16 }}>
                             HappyTech : L'innovation technologique au service du bien-être en entreprise
                         </Typography>
                     </Toolbar>
@@ -153,3 +160,7 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
 
 
 export default withStyles(styles, { withTheme: true })(LeftDrawer);
+
+function sn(name: string, link: string) {
+    return <a href={link} target="_blank" style={{ textDecoration: 'none', color: '#6C6C6C' }}><IconButton color="inherit"><span className={`fab fa-${name}`} /></IconButton></a>
+}

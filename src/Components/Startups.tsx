@@ -3,7 +3,7 @@ import { List, Divider } from '@material-ui/core'
 import { IHappyTechStore } from '../models';
 import StartupCard from './StartupCard';
 import './Startups.css';
-import md from './Startups.md';
+import md from './../Markdowns/startups.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 // // tslint:disable-next-line:no-var-requires
 // const typeform = require('react-typeform-embed');

@@ -44,7 +44,7 @@ export class ApplicationRoutes extends React.Component<IProps, IState> {
         return <Router history={history}>
             <Switch>
                 <LeftDrawer >
-                    {store && renderRoutes(store)}
+                    {renderRoutes(store)}
                     {/* {this.renderLoader()} */}
                 </LeftDrawer>
             </Switch>

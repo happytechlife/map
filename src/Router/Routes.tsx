@@ -15,18 +15,20 @@ interface IParams {
     }
 }
 
-function markdownPages(store: IHappyTechStore) {
+function markdownPages(store?: IHappyTechStore) {
     return Object.keys(pages).map(name => {
         const page = pages[name];
         return <Route key={page.route} exact={true} path={`/${page.route}`} component={() => <Markdown html={page.html} store={store} />} />
     })
 }
-export const renderRoutes = (store: IHappyTechStore) => {
+export const renderRoutes = (store?: IHappyTechStore) => {
     return <React.Fragment>
         {/* <Route exact={true} path={'/map'} component={() => <GoogleMap store={store} />} /> */}
-        <Route exact={true} path={'/tags'} component={() => <Tags store={store} />} />
-        <Route exact={true} path={'/startups'} component={() => <Startups store={store} />} />
-        <Route exact={true} path={'/startups/:name'} component={(p: IParams) => <StartupView store={store} name={p.match.params.name} />} />
+        {store && <React.Fragment>
+            <Route exact={true} path={'/tags'} component={() => <Tags store={store} />} />
+            <Route exact={true} path={'/startups'} component={() => <Startups store={store} />} />
+            <Route exact={true} path={'/startups/:name'} component={(p: IParams) => <StartupView store={store} name={p.match.params.name} />} />
+        </React.Fragment>}
         {/* <Route exact={true} path={'/options'} component={() => <Options store={store} />} /> */}
         {/* <Route exact={true} path={'/startups_chord'} component={() => <StartupsChordDiagramWithTags store={store} />} /> */}
         {/* <Route exact={true} path={'/presentation'} component={() => <Presentation store={store} />} /> */}

@@ -15,18 +15,12 @@ const jss = create(jssPreset());
 declare let window: any;
 const gStore = window.GlobalStore;
 class App extends React.Component<{}, { store?: IHappyTechStore }> {
-
-
   constructor(props: {}) {
     super(props);
     this.state = {};
   }
 
   public componentDidMount() {
-    // const jssStyles = document.getElementById('jss-server-side');
-    // if (jssStyles && jssStyles.parentNode) {
-    //   jssStyles.parentNode.removeChild(jssStyles);
-    // }
     // if (!gStore) {
     //   getStore().then(store => {
     //     this.setState({ store });
