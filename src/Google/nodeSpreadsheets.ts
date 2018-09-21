@@ -7,8 +7,8 @@ import { google } from 'googleapis';
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
-const TOKEN_PATH = 'credentials/token.json';
-const CREDENTIALS_PATH = 'credentials/credentials.json';
+const TOKEN_PATH = 'server/credentials/token.json';
+const CREDENTIALS_PATH = 'server/credentials/credentials.json';
 
 export function loadSpeadsheet(spreadsheetId: string, range: string) {
     // Load client secrets from a local file.

@@ -23,7 +23,7 @@ const html = ({ title, store, body, css }: IHtml) => `
     <body style="margin:0">
       <div id="root">${body}</div>
       <style id="jss-server-side">${css}</style>
-      <script src="bundle.js" defer></script>
+      <script src="main.js" defer></script>
     </body>
   </html>
 `;

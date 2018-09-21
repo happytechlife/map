@@ -1,7 +1,8 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 var webpack = require('webpack');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 
 const rules = [
     {
@@ -13,9 +14,25 @@ const rules = [
         }]
     },
     {
-        test: /\.css?$/,
-        use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: ['css-loader'] })
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [
+            {
+                loader: MiniCssExtractPlugin.loader,
+                options: {
+                    path: 'build/client',
+                    // you can specify a publicPath here
+                    // by default it use publicPath in webpackOptions.output
+                    publicPath: '/'
+                }
+            },
+            "css-loader"
+        ]
     },
+    // {
+    //     test: /\.css$/,
+    //     use: ['style-loader', 'css-loader']
+    // },
     {
         test: /\.md$/,
         use: [{ loader: "raw-loader" }]
@@ -26,6 +43,12 @@ const resolve = {
     extensions: [".ts", ".tsx", ".js", ".jsx", ".json", '.css', '.md'],
 };
 
+function miniCss(filename) {
+    return new MiniCssExtractPlugin({
+        filename,
+        chunkFilename: "[id].css"
+    });
+}
 
 module.exports = function (env, argv) {
     console.log(env);
@@ -40,7 +63,8 @@ module.exports = function (env, argv) {
         output: {
             path: outputPath,
             pathinfo,
-            filename: 'client/bundle.js',
+            chunkFilename: 'client/[name].chunk.js',
+            filename: 'client/[name].js',
             publicPath: '/'
         },
         resolve,
@@ -48,11 +72,17 @@ module.exports = function (env, argv) {
         module: {
             rules
         },
+        optimization: {
+            minimize: false
+        },
+        resolveLoader: {
+            modules: ['node_modules']
+        },
         plugins: [
             new webpack.DefinePlugin({
                 __isBrowser__: "true"
             }),
-            new ExtractTextPlugin("client/styles.css")
+            miniCss("client/styles.css")
         ],
         mode
     };
@@ -65,7 +95,7 @@ module.exports = function (env, argv) {
         output: {
             path: outputPath,
             pathinfo,
-            filename: 'server/index.js',
+            filename: 'server.js',
             publicPath: '/'
         },
         resolve,
@@ -77,7 +107,7 @@ module.exports = function (env, argv) {
             new webpack.DefinePlugin({
                 __isBrowser__: "false"
             }),
-            new ExtractTextPlugin("server/styles.css")
+            miniCss("server/styles.css")
         ]
     };
     return [browserConfig, serverConfig];

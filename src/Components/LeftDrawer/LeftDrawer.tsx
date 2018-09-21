@@ -4,20 +4,16 @@ import { withStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-// import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import { Menu } from '@material-ui/icons';
+import Menu from '@material-ui/icons/Menu';
 import * as classNames from 'classnames';
-// import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-// import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { leftMenus } from './LeftMenu';
 import '../../App.css';
 import { Hidden } from '@material-ui/core';
 
 interface IProps {
-
     theme?: any;
 }
 const drawerWidth = 240;

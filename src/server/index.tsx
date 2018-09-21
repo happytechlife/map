@@ -16,7 +16,7 @@ const port = process.env.port || 9000;
 (async () => {
     const server = express();
 
-    server.use(express.static('build/client'));
+    server.use(express.static('client'));
 
     console.log('start loading store');
     const store = await getStore();

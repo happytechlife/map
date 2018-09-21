@@ -8,7 +8,7 @@ import { TagTable } from './TagTable';
 import * as fs from 'fs';
 
 
-const storePath = 'data/data.json';
+const storePath = 'server/data/data.json';
 
 export class Store {
     public model: IHappyTechStore;
