@@ -11,7 +11,7 @@ import LeftDrawer from '../Components/LeftDrawer/LeftDrawer';
 import { StaticRouter, Switch } from 'react-router';
 import { renderRoutes } from '../Router/Routes';
 
-const port = process.env.port || 9000;
+const port = process.env.PORT || 9000;
 // const port = 9000;
 
 (async () => {
@@ -23,7 +23,7 @@ const port = process.env.port || 9000;
     const store = await getStore();
 
     server.get('*', async (req, res) => {
-
+        console.log('req', req.url);
         const sheetsRegistry = new SheetsRegistry();
         const sheetsManager = new Map();
         const generateClassName = createGenerateClassName();
