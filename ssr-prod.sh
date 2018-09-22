@@ -1,7 +1,7 @@
 #!/bin/sh
 
 yarn ssr:prod
-cp -r server build/server
+cp -r server build
 # cp -r data build/server
 
 # ./node_modules/.bin/webpack --config ssr/webpack.config.js 
