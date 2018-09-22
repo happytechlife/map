@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yarn ssr-prod
+yarn ssr:prod
 cp -r server build/server
 # cp -r data build/server
 
