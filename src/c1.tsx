@@ -5,7 +5,6 @@ export default class C1 extends React.Component<{}, { count: number }> {
     public inc = () => {
         let { count } = this.state;
         count += 1;
-        console.log(count);
         this.setState({ count });
     }
     public render() {

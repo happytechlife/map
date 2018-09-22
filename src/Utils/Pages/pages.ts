@@ -1,12 +1,11 @@
 
 
 import * as shutdown from 'showdown';
-import presentationMarkdown from './../../Markdowns/presentation.md';
-import entreprisesMarkdown from './../../Markdowns/entreprises.md';
+import * as presentationMarkdown from './../../Markdowns/presentation.md';
+import * as entreprisesMarkdown from './../../Markdowns/entreprises.md';
 import { MarkdownPages } from './models';
 import Help from '@material-ui/icons/Help';
 import AccountBalance from '@material-ui/icons/AccountBalance';
-
 
 export function getHtml(input: string) {
     const classMap = {}

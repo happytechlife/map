@@ -35,11 +35,9 @@ export class GoogleSpreadSheetTable<T, Store> implements ITable<T, Store>{
         return this.headers.map(camelize);
     }
     public loadRows = async (store: Store) => {
-        console.log('start load rows', this.name)
         const data = await getRows(this.spreadsheetId, this.range);
         this.headers = data.shift() || [];
         const rows = await Promise.all(data.map((d, i) => this.parse(i, d, store)));
-        // return shuffle(rows)
         return rows;
     };
     // public resolve1 = (store: Store) => {

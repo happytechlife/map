@@ -3,7 +3,7 @@ import { List, Divider } from '@material-ui/core'
 import { IHappyTechStore } from '../models';
 import StartupCard from './StartupCard';
 import './Startups.css';
-import md from './../Markdowns/startups.md';
+import * as md from './../Markdowns/startups.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 // // tslint:disable-next-line:no-var-requires
 // const typeform = require('react-typeform-embed');
@@ -18,7 +18,6 @@ const typeformButton = `<a class="typeform-share button" href="https://happytech
 
 export class Startups extends React.Component<IProps, {}> {
     public render() {
-        // console.log(this.props);
         const { store } = this.props;
         if (!store) {
             return null;

@@ -49,8 +49,6 @@ const styles: any = (theme: any) => ({
 });
 class StartupView extends React.Component<IProps, {}> {
     public render() {
-        console.log(this.props);
-
         const { store, name, classes } = this.props;
         if (!store) {
             return null;

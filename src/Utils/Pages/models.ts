@@ -10,3 +10,4 @@ export interface IMarkdownPage {
         title: string;
     }
 }
+

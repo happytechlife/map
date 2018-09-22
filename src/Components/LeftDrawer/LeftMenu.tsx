@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 import { IMarkdownPage } from '../../Utils/Pages/models';
 import { pages } from '../../Utils/Pages/pages';
 
-
 export const MenuFromMarkdownPage = (page: IMarkdownPage) => {
     return LeftMenu(page.icon, page.menuTitle, page.route);
 }

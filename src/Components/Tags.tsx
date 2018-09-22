@@ -14,15 +14,11 @@ interface IProps {
 
 export class Tags extends React.Component<IProps, {}> {
     public render() {
-        console.log(this.props);
         const { store } = this.props;
         if (!store) {
             return null;
         }
         const { tags } = store;
-
-        // return <div>TAGS</div>;
-
         return <div className="Tags">
             {tags.map(tag => {
                 return <Card key={tag.rowId} style={{ width: 300 }} className="Tag">

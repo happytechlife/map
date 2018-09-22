@@ -26,6 +26,7 @@ export class Markdown extends React.Component<IProps, {}> {
     }
     public render() {
         const { html } = this;
+
         return < Paper className="md-container main-paper">
             <div className="md" dangerouslySetInnerHTML={{ __html: html }} />
             <div>{this.props.children}</div>

@@ -23,7 +23,7 @@ const port = process.env.PORT || 9000;
     const store = await getStore();
 
     server.get('*', async (req, res) => {
-        console.log('req', req.url);
+        // console.log('req', req.url);
         const sheetsRegistry = new SheetsRegistry();
         const sheetsManager = new Map();
         const generateClassName = createGenerateClassName();
