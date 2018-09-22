@@ -3,7 +3,6 @@ const nodeExternals = require('webpack-node-externals');
 var webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-
 const rules = [
     {
         test: /\.(ts|tsx)?$/,
@@ -20,19 +19,12 @@ const rules = [
             {
                 loader: MiniCssExtractPlugin.loader,
                 options: {
-                    path: 'build/client',
-                    // you can specify a publicPath here
-                    // by default it use publicPath in webpackOptions.output
                     publicPath: '/'
                 }
             },
             "css-loader"
         ]
     },
-    // {
-    //     test: /\.css$/,
-    //     use: ['style-loader', 'css-loader']
-    // },
     {
         test: /\.md$/,
         use: [{ loader: "raw-loader" }]
@@ -46,6 +38,7 @@ const resolve = {
 function miniCss(filename) {
     return new MiniCssExtractPlugin({
         filename,
+        // filename: "[name].css",
         chunkFilename: "[id].css"
     });
 }
@@ -57,6 +50,7 @@ module.exports = function (env, argv) {
     const pathinfo = mode === 'development';
     const externals = mode === 'development' ? [nodeExternals()] : [];
     const outputPath = path.resolve(process.cwd(), 'build');
+    const stats = { children: false };
 
     var browserConfig = {
         entry: './src/index.tsx',
@@ -82,8 +76,9 @@ module.exports = function (env, argv) {
             new webpack.DefinePlugin({
                 __isBrowser__: "true"
             }),
-            miniCss("client/styles.css")
+            miniCss("client/main.css")
         ],
+        stats,
         mode
     };
 
@@ -107,8 +102,9 @@ module.exports = function (env, argv) {
             new webpack.DefinePlugin({
                 __isBrowser__: "false"
             }),
-            miniCss("server/styles.css")
-        ]
+            miniCss("server/main.css")
+        ],
+        stats
     };
     return [browserConfig, serverConfig];
     // return [browserConfig];

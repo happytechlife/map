@@ -34,9 +34,9 @@
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "ssr-prod": "./node_modules/.bin/webpack --config ssr/webpack.config.js -p --env.mode=production",
-    "ssr-dev": "./node_modules/.bin/webpack --config ssr/webpack.config.js --watch --env.mode=development",
-    "ssr-dev-server": "nodemon server/server.js"
+    "ssr:prod": "./node_modules/.bin/webpack --config ssr/webpack.config.js --progress --env.mode=production",
+    "ssr:dev": "./node_modules/.bin/webpack --config ssr/webpack.config.js --progress --watch --env.mode=development",
+    "ssr:dev-server": "nodemon server/server.js"
   },
   "devDependencies": {
     "@types/circular-json": "0.4.0",
