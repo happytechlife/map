@@ -7,7 +7,8 @@ import { StartupTagsTable } from './StartupTagsTable';
 import { ITable } from '../Google/GoogleSpreadSheetTable';
 import { TagTable } from './TagTable';
 import * as fs from 'fs';
-
+import { StartupSocialNetworkTable } from './StartupSocialNetworkTable';
+import { StartupPitchsTable } from './StartupPitchsTable';
 
 const storePath = 'server/data/data.json';
 
@@ -16,7 +17,14 @@ export class Store {
     private tables: Array<ITable<any, IHappyTechStore>>;
 
     constructor() {
-        this.model = { startups: [], contacts: [], startupTags: [], tags: [], team: [] };
+        this.model = {
+            startups: [],
+            contacts: [], startupTags: [],
+            tags: [],
+            team: [],
+            startupSocialNetworks: [],
+            startupPitchs: []
+        };
     }
     // public load = async () => {
     //     return new Promise<void>(r => {
@@ -78,15 +86,19 @@ export class Store {
 
     private buildTables() {
         const tablesToLoad = [
-            StartupTable, TagTable, ContactTable, TeamTable, StartupTagsTable
+            StartupTable,
+            TagTable,
+            ContactTable,
+            TeamTable,
+            StartupPitchsTable,
+            StartupSocialNetworkTable,
+            StartupTagsTable
         ];
         this.tables = tablesToLoad.map(t => new t(googleConfig.spreadsheetId));
     }
 
     private sequenceLoadTables = async () => {
-        // 
         const model = this.getSavedModel();
-        console.log('saved model', model);
         if (model) {
             this.model = model;
             return;
@@ -118,4 +130,12 @@ export function findByName(list: any[], name: string) {
     if (index !== -1) {
         return list[index];
     }
+}
+
+export function findByKey<T>(list: any[], key: string, value: string) {
+    const index = list.findIndex(s => s[key] === value);
+    if (index !== -1) {
+        return list[index] as T;
+    }
+    return null;
 }

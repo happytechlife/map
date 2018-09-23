@@ -14,6 +14,8 @@ export interface IStartup extends IRow {
     contacts: IContact[];
     tags: ITag[];
     description: string;
+    socialNetwork?: IStartupSocialNetwork;
+    pitch?: IStartupPitch;
 }
 
 export interface IContact extends IRow {
@@ -22,6 +24,12 @@ export interface IContact extends IRow {
     firstname: string;
     lastname: string;
     email: string;
+    telephone: string;
+    title: string;
+    linkedin: string;
+    twitter: string;
+    facebook: string;
+    photo: string;
 }
 
 export interface ITeamMember extends IRow {
@@ -30,7 +38,6 @@ export interface ITeamMember extends IRow {
     email: string;
     team: string;
     role: string;
-    // telephone:string;
     active: boolean;
     linkedin: string;
     twitter: string;
@@ -46,7 +53,9 @@ export interface IStartupTags extends IRow {
     startup?: IStartup;
     tags: ITag[];
     tagNames: TagName[];
+    socialNetworks?: IStartupSocialNetwork;
 }
+
 
 export interface ITag extends IRow {
     name: TagName;
@@ -54,7 +63,8 @@ export interface ITag extends IRow {
 }
 
 
-export interface ISocialNetwork {
+export interface IStartupSocialNetwork extends IRow {
+    startupName: string;
     webSite: string;
     linkedIn: string;
     facebook: string;
@@ -63,12 +73,20 @@ export interface ISocialNetwork {
     youTube: string;
 }
 
+export interface IStartupPitch extends IRow {
+    startupName: string;
+    presentation: string;
+    problems: string;
+    numbers: string;
+}
+
 export interface IHappyTechStore {
     startups: IStartup[];
     contacts: IContact[];
     startupTags: IStartupTags[];
     tags: ITag[];
-
     team: ITeamMember[];
+    startupSocialNetworks: IStartupSocialNetwork[];
+    startupPitchs: IStartupPitch[];
 }
 

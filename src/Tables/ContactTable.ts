@@ -6,9 +6,20 @@ export class ContactTable extends GoogleSpreadSheetTable<IContact, IHappyTechSto
     constructor(spreadsheetId: string) {
         super(spreadsheetId, 'contacts')
     }
-
     public parse = (rowId: number, d: string[], store: IHappyTechStore): Promise<IContact> => {
-        const contact = { rowId, startup_name: d[0], firstname: d[1], lastname: d[2], email: d[3] };
+        const contact = {
+            rowId,
+            startup_name: d[0],
+            firstname: d[1],
+            lastname: d[2],
+            email: d[3],
+            telephone: d[4],
+            title: d[5],
+            linkedin: d[6],
+            twitter: d[7],
+            facebook: d[8],
+            photo: d[9]
+        };
         const startup = store.startups.find(s => s.name === contact.startup_name);
         if (startup) {
             startup.contacts.push(contact);

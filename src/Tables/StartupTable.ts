@@ -1,7 +1,8 @@
-import { IStartup, ILatLng, IContact } from "../models";
+import { IStartup, ILatLng, IContact, IStartupSocialNetwork, IStartupPitch } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
 import { geocode } from '../Google/geocoder';
 import { IHappyTechStore } from "./../models";
+import { findByKey } from "./Store";
 
 export class StartupTable extends GoogleSpreadSheetTable<IStartup, IHappyTechStore>{
     // 'startups!A1:H'
@@ -24,6 +25,20 @@ export class StartupTable extends GoogleSpreadSheetTable<IStartup, IHappyTechSto
         }
         return startup;
     };
+
+    public resolve1 = (store: IHappyTechStore) => {
+        store.startups = store.startups.map(s => {
+            const socialNetwork = findByKey<IStartupSocialNetwork>(store.startupSocialNetworks, 'startupName', s.name);
+            if (socialNetwork) {
+                s.socialNetwork = socialNetwork;
+            }
+            const pitch = findByKey<IStartupPitch>(store.startupPitchs, 'startupName', s.name);
+            if (pitch) {
+                s.pitch = pitch;
+            }
+            return s;
+        })
+    }
 }
 
 const geocodeStartup = async (startup: IStartup) => {

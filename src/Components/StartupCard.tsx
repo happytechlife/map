@@ -6,7 +6,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { Chip, List, Button } from '@material-ui/core';
+import { Chip, List, Button, Avatar } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
 const styles: any = (theme: any) => ({
@@ -50,7 +50,9 @@ interface IProps {
 
 
 export const Contact = (contact: IContact) => {
-    return <Chip key={contact.rowId} label={`${contact.firstname} ${contact.lastname}`} />
+    return <Chip key={contact.rowId}
+        avatar={contact.photo ? <Avatar src={cloudinaryTransform(contact.photo, 'w_32,h_32,c_fit')} /> : undefined}
+        label={`${contact.firstname} ${contact.lastname}`} />
 }
 
 class StartupCard extends React.Component<IProps, {}> {
@@ -84,4 +86,5 @@ class StartupCard extends React.Component<IProps, {}> {
 export default withStyles(styles, { withTheme: true })(StartupCard);
 
 
-const startupLink = (startup: IStartup) => `/startups/${startup.name.toLocaleLowerCase()}`;
+export const startupLink = (startup: IStartup) => `/startups/${startupLinkName(startup)}`;
+export const startupLinkName = (startup: IStartup) => startup.name.toLocaleLowerCase().replace(/ /g, '-');

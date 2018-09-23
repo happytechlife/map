@@ -14,3 +14,9 @@ export function snLinkedin(key: string) {
 export function snFacebook(key: string) {
     return socialNetwork('facebook', `https://www.facebook.com/${key}`)
 }
+export function snInstagram(key: string) {
+    return socialNetwork('instagram', `https://www.instagram.com/${key}`)
+}
+export function snYoutube(key: string) {
+    return socialNetwork('youtube', `https://www.youtube.com/channel/${key}`)
+}

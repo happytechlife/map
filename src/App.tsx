@@ -11,7 +11,6 @@ import { IHappyTechStore } from './models';
 // const generateClassName = createGenerateClassName();
 // const jss = create(jssPreset());
 
-
 declare let window: any;
 const gStore = window.GlobalStore;
 class App extends React.Component<{}, { store?: IHappyTechStore }> {

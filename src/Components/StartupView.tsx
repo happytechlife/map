@@ -1,14 +1,12 @@
 import * as React from 'react';
 import { IHappyTechStore } from "./../models";
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { Chip, List, withStyles } from '@material-ui/core';
+import { Chip, List, withStyles, Paper, Hidden } from '@material-ui/core';
 
 import './StartupCard';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-import { Contact } from './StartupCard';
+import { Contact, startupLinkName } from './StartupCard';
+import { snTwitter, snFacebook, snLinkedin, snYoutube, snInstagram } from '../Utils/socialNetworks';
 interface IProps {
     store: IHappyTechStore;
     name: string;
@@ -49,33 +47,45 @@ const styles: any = (theme: any) => ({
 });
 class StartupView extends React.Component<IProps, {}> {
     public render() {
-        const { store, name, classes } = this.props;
+        const { store, name } = this.props;
         if (!store) {
             return null;
         }
         const { startups } = store;
-        const startup = startups.find(s => s.name.toLocaleLowerCase() === name.toLocaleLowerCase())
+        const startup = startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
         if (startup) {
-            const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fill,g_west');
-            return <Card className={`${classes.card}`}>
-                <div className={classes.details}>
-                    {logo && <CardMedia
-                        className={classes.cover}
-                        image={logo}
-                        title={startup.name}
-                    />}
-                    <CardContent className={classes.content}>
-                        <Typography gutterBottom={true} variant="headline" component="h2">
-                            {startup.name}
-                        </Typography>
-                        <Typography variant="caption" align="center" >{startup.description}</Typography>
-                        {/* <Typography variant="caption" align="left" ></Typography> */}
-                        <List >{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
-                        <Typography variant="caption" align="center" >{startup.address}</Typography>
-                        <List>{startup.contacts.map(Contact)}</List>
-                    </CardContent>
-                </div>
-            </Card>;
+            const { socialNetwork, pitch } = startup;
+            const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fit');
+            return <Paper style={{ margin: 16, padding: 16 }}>
+                <Hidden smDown={true}>
+                    {logo && <img src={logo} style={{ margin: 24 }} />}
+                </Hidden>
+                <Typography variant="display2" align="center" color="textPrimary" gutterBottom={true}>
+                    {startup.name}
+                </Typography>
+                <Typography variant="title" align="center" color="textSecondary" paragraph={true} >
+                    {startup.description}
+                </Typography>
+                {/* <Typography variant="caption" align="left" ></Typography> */}
+                <List>{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
+                <Typography variant="caption" align="center" >{startup.address}</Typography>
+                <List>{startup.contacts.map(Contact)}</List>
+                {socialNetwork && <div>
+                    {socialNetwork.twitter && snTwitter(socialNetwork.twitter)}
+                    {socialNetwork.facebook && snFacebook(socialNetwork.facebook)}
+                    {socialNetwork.linkedIn && snLinkedin(socialNetwork.linkedIn)}
+                    {socialNetwork.youTube && snYoutube(socialNetwork.youTube)}
+                    {socialNetwork.instagram && snInstagram(socialNetwork.instagram)}
+                </div>}
+                {pitch && <div className="md-children" style={{ textAlign: 'left' }}>
+                    <h2 className="title">Présentation</h2>
+                    <p>{pitch.presentation}</p>
+                    <h2 className="title">Problématiques adressées</h2>
+                    <p>{pitch.problems}</p>
+                    <h2 className="title">Chiffres clés</h2>
+                    <p>{pitch.numbers}</p>
+                </div>}
+            </Paper>;
         }
         return null;
     }

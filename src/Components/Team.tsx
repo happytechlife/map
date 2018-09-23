@@ -12,7 +12,6 @@ interface IProps {
 
 export class Team extends React.Component<IProps, {}> {
 
-
     public render() {
         const { store } = this.props;
         if (!store) {
@@ -21,18 +20,15 @@ export class Team extends React.Component<IProps, {}> {
         const { team } = store;
         const teamMembersByTeam = getTeamMembersByTeam(team);
 
-
-        console.log(store);
         return <React.Fragment>
             <Markdown md={md}>
                 <Divider style={{ margin: 24 }} />
                 {Object.keys(teamMembersByTeam).map((key, i) => {
                     return <div style={{ width: '100%' }} key={i}>
-                        <h2>{key}</h2>
+                        <h2 className="title">{key}</h2>
                         <List style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '100%' }}>{teamMembersByTeam[key].map(teamMember)}</List >
                     </div>
                 })}
-
             </Markdown>
         </React.Fragment>
     }

@@ -67,7 +67,7 @@ const startup: IReactPage = {
     route: 'startups/:name',
     component: StartupView,
     headers: {
-        title: (s: IStartup) => `La super startup ${s.name}`
+        title: (s: IStartup) => s && `La super startup ${s.name}`
     }
 }
 
