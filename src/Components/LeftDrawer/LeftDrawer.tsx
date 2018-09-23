@@ -70,7 +70,6 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
         this.setState({ open: false });
     };
 
-
     public insideDrawer() {
         const { classes } = this.props;
         return <React.Fragment>
@@ -85,7 +84,7 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                 </IconButton> */}
             </div>
             <Divider />
-            {leftMenus()}
+            {leftMenus(this.handleDrawerClose)}
             <Divider />
             <div style={{ marginRight: 16, marginTop: 16 }} className="flexCenter">
                 {sn('facebook', 'https://www.facebook.com/happytech.life/')}

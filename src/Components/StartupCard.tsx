@@ -6,7 +6,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { Chip, List } from '@material-ui/core';
+import { Chip, List, Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 const styles: any = (theme: any) => ({
     card: {
@@ -72,6 +73,7 @@ class StartupCard extends React.Component<IProps, {}> {
                     <List >{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
                     <Typography variant="caption" align="center" >{startup.address}</Typography>
                     <List>{startup.contacts.map(Contact)}</List>
+                    <Link style={{ textDecoration: 'none' }} to={startupLink(startup)}><Button variant="raised">Details</Button></Link>
                 </CardContent>
             </div>
         </Card>;
@@ -80,3 +82,6 @@ class StartupCard extends React.Component<IProps, {}> {
 }
 
 export default withStyles(styles, { withTheme: true })(StartupCard);
+
+
+const startupLink = (startup: IStartup) => `/startups/${startup.name.toLocaleLowerCase()}`;

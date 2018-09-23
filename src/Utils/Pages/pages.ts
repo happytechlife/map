@@ -3,9 +3,13 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
 import * as entreprisesMarkdown from './../../Markdowns/entreprises.md';
-import { MarkdownPages } from './models';
+import { IMarkdownPage, IPage, IReactPage } from './models';
 import Help from '@material-ui/icons/Help';
 import AccountBalance from '@material-ui/icons/AccountBalance';
+import ViewModule from '@material-ui/icons/ViewModule';
+import { Startups } from '../../Components/Startups';
+import StartupView from '../../Components/StartupView';
+import { IStartup } from '../../models';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -26,17 +30,17 @@ export function getHtml(input: string) {
     return converter.makeHtml(input);
 }
 
-
-
 const presentation = {
     menuTitle: 'Qu’est-ce que la Happytech ?',
     icon: Help,
     route: 'presentation',
     html: getHtml(presentationMarkdown),
     headers: {
-        title: 'Qu’est-ce que la Happytech ?'
+        title: () => 'Qu’est-ce que la Happytech ?'
     }
 };
+
+export const homePage = { ...presentation, route: '/' };
 
 const entreprises = {
     menuTitle: 'Les entreprises',
@@ -44,10 +48,41 @@ const entreprises = {
     route: 'entreprises',
     html: getHtml(entreprisesMarkdown),
     headers: {
-        title: 'Les entreprises HappyTech'
+        title: () => 'Les entreprises de la HappyTech'
     }
 };
 
-export const pages: MarkdownPages = {
-    presentation, entreprises
+const startups: IReactPage = {
+    menuTitle: 'Les startups',
+    icon: ViewModule,
+    route: 'startups',
+    component: Startups,
+    headers: {
+        title: () => 'Les startups de la HappyTech'
+    }
 }
+
+const startup: IReactPage = {
+    menuTitle: '--',
+    route: 'startups/:name',
+    component: StartupView,
+    headers: {
+        title: (s: IStartup) => `La super startup ${s.name}`
+    }
+}
+
+export const markdownPages: IMarkdownPage[] = [
+    presentation, entreprises, homePage
+]
+
+export const reactPages: IReactPage[] = [
+    startups, startup
+]
+
+export const menuPages: IPage[] = [
+    presentation, startups, entreprises
+];
+
+export const allRouterPages: IPage[] = [
+    ...markdownPages, ...reactPages
+]

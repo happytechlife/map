@@ -10,9 +10,40 @@ import { createGenerateClassName, MuiThemeProvider } from '@material-ui/core';
 import LeftDrawer from '../Components/LeftDrawer/LeftDrawer';
 import { StaticRouter, Switch } from 'react-router';
 import { renderRoutes } from '../Router/Routes';
+import { IHappyTechStore } from '../models';
+import { allRouterPages } from './../Utils/Pages/pages';
 
 const port = process.env.PORT || 9000;
 // const port = 9000;
+
+
+interface IReactApp {
+    body: string;
+    css: string;
+}
+function getReactApp(store: IHappyTechStore, url: string): IReactApp {
+    const sheetsRegistry = new SheetsRegistry();
+    const sheetsManager = new Map();
+    const generateClassName = createGenerateClassName();
+
+    const body = renderToString(
+        <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
+            <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
+                <StaticRouter location={url} context={{}}>
+                    <Switch>
+                        <LeftDrawer>
+                            {renderRoutes(store)}
+                        </LeftDrawer>
+                    </Switch>
+                </StaticRouter>
+            </MuiThemeProvider>
+        </JssProvider>
+    );
+
+    const css = sheetsRegistry.toString();
+    return { body, css };
+}
+
 
 (async () => {
     const server = express();
@@ -22,33 +53,11 @@ const port = process.env.PORT || 9000;
     console.log('start loading store');
     const store = await getStore();
 
-    server.get('*', async (req, res) => {
-        // console.log('req', req.url);
-        const sheetsRegistry = new SheetsRegistry();
-        const sheetsManager = new Map();
-        const generateClassName = createGenerateClassName();
-
-        const body = renderToString(
-            <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
-                <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
-                    <StaticRouter location={req.url} context={{}}>
-                        <Switch>
-                            <LeftDrawer>
-                                {renderRoutes(store)}
-                            </LeftDrawer>
-                        </Switch>
-                    </StaticRouter>
-                </MuiThemeProvider>
-            </JssProvider>
-        );
-
-        const css = sheetsRegistry.toString()
-
-        res.send(
-            html({
-                title: 'happytech', store, body, css
-            })
-        );
+    allRouterPages.forEach(page => {
+        server.get(`/${page.route}`, async (req, res) => {
+            const ra = getReactApp(store, req.url);
+            res.send(html({ title: page.headers.title(), store, ...ra }));
+        })
     })
 
     server.listen(port, () => console.log(`Example app listening on port ${port}!`));
