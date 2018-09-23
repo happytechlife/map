@@ -126,9 +126,15 @@
         {
           "rowId": 0,
           "startup_name": "Comeet",
-          "firstname": "Gabrielle",
-          "lastname": "Lair",
-          "email": "gabrielle@comeet.in"
+          "firstname": "Samuel",
+          "lastname": "Metias",
+          "email": "samuel@comeet.in",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "smetias",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg"
         }
       ],
       "latLng": {
@@ -468,9 +474,15 @@
     {
       "rowId": 0,
       "startup_name": "Comeet",
-      "firstname": "Gabrielle",
-      "lastname": "Lair",
-      "email": "gabrielle@comeet.in",
+      "firstname": "Samuel",
+      "lastname": "Metias",
+      "email": "samuel@comeet.in",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "smetias",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg",
       "startup": {
         "rowId": 9,
         "name": "Comeet",
@@ -480,9 +492,15 @@
           {
             "rowId": 0,
             "startup_name": "Comeet",
-            "firstname": "Gabrielle",
-            "lastname": "Lair",
-            "email": "gabrielle@comeet.in"
+            "firstname": "Samuel",
+            "lastname": "Metias",
+            "email": "samuel@comeet.in",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "smetias",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg"
           }
         ],
         "latLng": {
@@ -514,9 +532,15 @@
           {
             "rowId": 0,
             "startup_name": "Comeet",
-            "firstname": "Gabrielle",
-            "lastname": "Lair",
-            "email": "gabrielle@comeet.in"
+            "firstname": "Samuel",
+            "lastname": "Metias",
+            "email": "samuel@comeet.in",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "smetias",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg"
           }
         ],
         "latLng": {
@@ -800,7 +824,8 @@
       "linkedin": "pouyamohtacham",
       "twitter": "pouya69",
       "facebook": "pouya69",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537730087/website/people/pouya-square.png"
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537730087/website/people/pouya-square.png",
+      "fullname": "Pouya Mohtacham"
     },
     {
       "rowId": 1,
@@ -809,7 +834,12 @@
       "email": "margaux@happytech.life",
       "team": "Bureau",
       "role": "Déléguée Générale",
-      "active": true
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537741942/website/people/margaux-cohen.jpg",
+      "fullname": "Margaux Cohen-Salmon"
     },
     {
       "rowId": 2,
@@ -818,7 +848,169 @@
       "email": "samuel@comeet.in",
       "team": "Ambassadeurs",
       "role": "Porte Parole",
-      "active": true
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg",
+      "fullname": "Samuel Métias"
+    }
+  ],
+  "startupSocialNetworks": [
+    {
+      "rowId": 0,
+      "startupName": "AllSessions"
+    },
+    {
+      "rowId": 1,
+      "startupName": "Artify"
+    },
+    {
+      "rowId": 2,
+      "startupName": "Aura"
+    },
+    {
+      "rowId": 3,
+      "startupName": "Bee"
+    },
+    {
+      "rowId": 4,
+      "startupName": "Bleexo"
+    },
+    {
+      "rowId": 5,
+      "startupName": "Bloom At Work"
+    },
+    {
+      "rowId": 6,
+      "startupName": "BoostYourFit"
+    },
+    {
+      "rowId": 7,
+      "startupName": "ChaudPatate"
+    },
+    {
+      "rowId": 8,
+      "startupName": "Cocoworker"
+    },
+    {
+      "rowId": 9,
+      "startupName": "Comeet",
+      "webSite": "https://www.comeet.in/",
+      "linkedIn": "comeet.in",
+      "twitter": "comeet_in",
+      "facebook": "comeet.in",
+      "instagram": "comeet.in",
+      "youTube": "UCUWl7HAzeDl54HVEYGFqNnw"
+    },
+    {
+      "rowId": 10,
+      "startupName": "Contextor"
+    },
+    {
+      "rowId": 11,
+      "startupName": "Cowork.io"
+    },
+    {
+      "rowId": 12,
+      "startupName": "Feeleo"
+    },
+    {
+      "rowId": 13,
+      "startupName": "Fidensio"
+    },
+    {
+      "rowId": 14,
+      "startupName": "Happy Quest"
+    },
+    {
+      "rowId": 15,
+      "startupName": "Humancraft"
+    },
+    {
+      "rowId": 16,
+      "startupName": "Humeaning"
+    },
+    {
+      "rowId": 17,
+      "startupName": "IDPosition"
+    },
+    {
+      "rowId": 18,
+      "startupName": "Kiplin"
+    },
+    {
+      "rowId": 19,
+      "startupName": "Klimat"
+    },
+    {
+      "rowId": 20,
+      "startupName": "Lyyti"
+    },
+    {
+      "rowId": 21,
+      "startupName": "monaSTAY"
+    },
+    {
+      "rowId": 22,
+      "startupName": "Melomind"
+    },
+    {
+      "rowId": 23,
+      "startupName": "OneConciergerie"
+    },
+    {
+      "rowId": 24,
+      "startupName": "Plantez Respirez"
+    },
+    {
+      "rowId": 25,
+      "startupName": "Roti.express"
+    },
+    {
+      "rowId": 26,
+      "startupName": "Serenity"
+    },
+    {
+      "rowId": 27,
+      "startupName": "Supermood"
+    },
+    {
+      "rowId": 28,
+      "startupName": "The Place To Coach"
+    },
+    {
+      "rowId": 29,
+      "startupName": "TOD"
+    },
+    {
+      "rowId": 30,
+      "startupName": "TrainMe"
+    },
+    {
+      "rowId": 31,
+      "startupName": "WeHobby"
+    },
+    {
+      "rowId": 32,
+      "startupName": "Wellnesstraining"
+    },
+    {
+      "rowId": 33,
+      "startupName": "Windoo"
+    },
+    {
+      "rowId": 34,
+      "startupName": "ZestMeUp"
+    }
+  ],
+  "startupPitchs": [
+    {
+      "rowId": 0,
+      "startupName": "Comeet",
+      "presentation": "Comeet est une application proposant un assistant personnel intelligent permettant aux professionnels de développer leur réseau de façon simple et ludique et de transformer le lieu de travail en un lieu de convivialité.  \nSon intelligence artificielle permet de mettre en relation des professionnels ayant des affinités autour d'une activité qui leur correspond.",
+      "problems": "« Remettre l'Humain au cœur de la transformation numérique en réinventant les interactions en entreprise, voilà notre credo ! Ensemble, créons des moments de partage uniques pour chaque employé. La transformation digitale, c’est une aventure humaine avant tout. »\n\nSamuel Metias",
+      "numbers": "En 2018, plus de 3 000 utilisateurs ont téléchargé l’application Comeet et nous travaillons actuellement avec une dizaine de clients dont Microsoft France, Nexity Conseil & Transaction et le Pôle Léonard De Vinci."
     }
   ]
 }
