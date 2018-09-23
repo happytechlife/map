@@ -88,11 +88,9 @@ export const markdownPages: IMarkdownPage[] = [
 export const reactPages: IReactPage[] = [
     startups, startup, equipe
 ]
-
 export const menuPages: IPage[] = [
     presentation, startups, entreprises, equipe
 ];
-
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages
 ]
