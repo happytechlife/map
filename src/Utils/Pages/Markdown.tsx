@@ -29,7 +29,7 @@ export class Markdown extends React.Component<IProps, {}> {
 
         return < Paper className="md-container main-paper">
             <div className="md" dangerouslySetInnerHTML={{ __html: html }} />
-            <div>{this.props.children}</div>
+            <div className="md-children" style={{ width: '100%' }}>{this.props.children}</div>
         </Paper >
     }
 }

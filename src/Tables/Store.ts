@@ -1,4 +1,5 @@
 import { StartupTable } from '../Tables/StartupTable';
+import { TeamTable } from '../Tables/TeamTable';
 import { ContactTable } from './ContactTable';
 import { googleConfig } from '../Google/spreadsheets';
 import { IHappyTechStore } from '../models';
@@ -15,7 +16,7 @@ export class Store {
     private tables: Array<ITable<any, IHappyTechStore>>;
 
     constructor() {
-        this.model = { startups: [], contacts: [], startupTags: [], tags: [] };
+        this.model = { startups: [], contacts: [], startupTags: [], tags: [], team: [] };
     }
     // public load = async () => {
     //     return new Promise<void>(r => {
@@ -77,7 +78,7 @@ export class Store {
 
     private buildTables() {
         const tablesToLoad = [
-            StartupTable, TagTable, ContactTable, StartupTagsTable
+            StartupTable, TagTable, ContactTable, TeamTable, StartupTagsTable
         ];
         this.tables = tablesToLoad.map(t => new t(googleConfig.spreadsheetId));
     }
@@ -85,6 +86,7 @@ export class Store {
     private sequenceLoadTables = async () => {
         // 
         const model = this.getSavedModel();
+        console.log('saved model', model);
         if (model) {
             this.model = model;
             return;

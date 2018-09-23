@@ -787,5 +787,38 @@
       "name": "Deconnexion",
       "startups": []
     }
+  ],
+  "team": [
+    {
+      "rowId": 0,
+      "firstname": "Pouya",
+      "lastname": "Mohtacham",
+      "email": "pouya@happytech.life",
+      "team": "Bureau",
+      "role": "Président",
+      "active": true,
+      "linkedin": "pouyamohtacham",
+      "twitter": "pouya69",
+      "facebook": "pouya69",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537730087/website/people/pouya-square.png"
+    },
+    {
+      "rowId": 1,
+      "firstname": "Margaux",
+      "lastname": "Cohen-Salmon",
+      "email": "margaux@happytech.life",
+      "team": "Bureau",
+      "role": "Déléguée Générale",
+      "active": true
+    },
+    {
+      "rowId": 2,
+      "firstname": "Samuel",
+      "lastname": "Métias",
+      "email": "samuel@comeet.in",
+      "team": "Ambassadeurs",
+      "role": "Porte Parole",
+      "active": true
+    }
   ]
 }

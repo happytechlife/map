@@ -14,3 +14,4 @@ Les entreprises qui mettent en place des démarches en faveur du bien-être des 
 - Rencontrer les startups 
 - Échanges de best practices avec des acteurs du bien-être
 
+[Formulaire d'adhésion pour les entreprises](https://happytech.typeform.com/to/QFxtC9)

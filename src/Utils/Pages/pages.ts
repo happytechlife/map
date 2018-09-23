@@ -1,13 +1,13 @@
-
-
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
 import * as entreprisesMarkdown from './../../Markdowns/entreprises.md';
 import { IMarkdownPage, IPage, IReactPage } from './models';
 import Help from '@material-ui/icons/Help';
+import People from '@material-ui/icons/People';
 import AccountBalance from '@material-ui/icons/AccountBalance';
 import ViewModule from '@material-ui/icons/ViewModule';
 import { Startups } from '../../Components/Startups';
+import { Team } from '../../Components/Team';
 import StartupView from '../../Components/StartupView';
 import { IStartup } from '../../models';
 
@@ -71,16 +71,26 @@ const startup: IReactPage = {
     }
 }
 
+const equipe: IReactPage = {
+    menuTitle: 'L\'équipe',
+    route: 'team',
+    icon: People,
+    component: Team,
+    headers: {
+        title: () => `L'équipe HappyTech`
+    }
+}
+
 export const markdownPages: IMarkdownPage[] = [
     presentation, entreprises, homePage
 ]
 
 export const reactPages: IReactPage[] = [
-    startups, startup
+    startups, startup, equipe
 ]
 
 export const menuPages: IPage[] = [
-    presentation, startups, entreprises
+    presentation, startups, entreprises, equipe
 ];
 
 export const allRouterPages: IPage[] = [

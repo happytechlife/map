@@ -24,6 +24,22 @@ export interface IContact extends IRow {
     email: string;
 }
 
+export interface ITeamMember extends IRow {
+    firstname: string;
+    lastname: string;
+    email: string;
+    team: string;
+    role: string;
+    // telephone:string;
+    active: boolean;
+    linkedin: string;
+    twitter: string;
+    facebook: string;
+    picture: string;
+    fullname: string;
+}
+
+
 export type TagName = string;// 'AI' | 'VR/AR' | 'MobileApp' | 'WebApp' | 'SocialNetwork' | 'Device' | 'IOT' | 'Nature';
 export interface IStartupTags extends IRow {
     startup_name: string;
@@ -52,5 +68,7 @@ export interface IHappyTechStore {
     contacts: IContact[];
     startupTags: IStartupTags[];
     tags: ITag[];
+
+    team: ITeamMember[];
 }
 

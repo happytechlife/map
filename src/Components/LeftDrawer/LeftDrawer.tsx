@@ -12,6 +12,7 @@ import * as classNames from 'classnames';
 import { leftMenus } from './LeftMenu';
 import '../../App.css';
 import { Hidden } from '@material-ui/core';
+import { snLinkedin, snTwitter, snFacebook } from '../../Utils/socialNetworks';
 
 interface IProps {
     theme?: any;
@@ -87,9 +88,9 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
             {leftMenus(this.handleDrawerClose)}
             <Divider />
             <div style={{ marginRight: 16, marginTop: 16 }} className="flexCenter">
-                {sn('facebook', 'https://www.facebook.com/happytech.life/')}
-                {sn('linkedin', 'https://www.linkedin.com/company/happytech/')}
-                {sn('twitter', 'https://twitter.com/happytechfrance')}
+                {snLinkedin('happytech')}
+                {snTwitter('happytechfrance')}
+                {snFacebook('happytech.life')}
             </div>
         </React.Fragment>
     }
@@ -160,6 +161,3 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
 
 export default withStyles(styles, { withTheme: true })(LeftDrawer);
 
-function sn(name: string, link: string) {
-    return <a href={link} target="_blank" style={{ textDecoration: 'none', color: '#6C6C6C' }}><IconButton color="inherit"><span className={`fab fa-${name}`} /></IconButton></a>
-}
