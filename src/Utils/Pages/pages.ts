@@ -1,15 +1,18 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
-import * as entreprisesMarkdown from './../../Markdowns/entreprises.md';
 import { IMarkdownPage, IPage, IReactPage } from './models';
 import Help from '@material-ui/icons/Help';
 import People from '@material-ui/icons/People';
 import AccountBalance from '@material-ui/icons/AccountBalance';
+import SyncIcon from '@material-ui/icons/Sync';
 import ViewModule from '@material-ui/icons/ViewModule';
 import { Startups } from '../../Components/Startups';
 import { Team } from '../../Components/Team';
 import StartupView from '../../Components/StartupView';
-import { IStartup } from '../../models';
+import { IHappyTechStore } from '../../models';
+import { Entreprises } from '../../Components/Enterprises';
+import { startupLinkName } from '../../Components/StartupCard';
+import { Partners } from '../../Components/Partners';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -31,24 +34,34 @@ export function getHtml(input: string) {
 }
 
 const presentation = {
-    menuTitle: 'Qu’est-ce que la Happytech ?',
+    menuTitle: 'Qu’est-ce que la HappyTech ?',
     icon: Help,
     route: 'presentation',
     html: getHtml(presentationMarkdown),
     headers: {
-        title: () => 'Qu’est-ce que la Happytech ?'
+        title: () => "HappyTech, L'innovation technologique au service du bien-être en entreprise."
     }
 };
 
 export const homePage = { ...presentation, route: '/' };
 
-const entreprises = {
+const entreprises: IReactPage = {
     menuTitle: 'Les entreprises',
     icon: AccountBalance,
     route: 'entreprises',
-    html: getHtml(entreprisesMarkdown),
+    component: Entreprises,
     headers: {
         title: () => 'Les entreprises de la HappyTech'
+    }
+};
+
+const partners: IReactPage = {
+    menuTitle: 'Les partenaires',
+    icon: SyncIcon,
+    route: 'partenaires',
+    component: Partners,
+    headers: {
+        title: () => 'Les partenaires de la HappyTech'
     }
 };
 
@@ -62,12 +75,16 @@ const startups: IReactPage = {
     }
 }
 
-const startup: IReactPage = {
+const startupPage: IReactPage = {
     menuTitle: '--',
     route: 'startups/:name',
     component: StartupView,
     headers: {
-        title: (s: IStartup) => s && `La super startup ${s.name}`
+        title: (store: IHappyTechStore, params: { name: string }) => {
+            const { name } = params;
+            const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
+            return startup ? `La super startup ${startup.name}` : '<no-startup>'
+        }
     }
 }
 
@@ -82,14 +99,14 @@ const equipe: IReactPage = {
 }
 
 export const markdownPages: IMarkdownPage[] = [
-    presentation, entreprises, homePage
+    presentation, homePage
 ]
 
 export const reactPages: IReactPage[] = [
-    startups, startup, equipe
+    startups, startupPage, equipe, entreprises, partners
 ]
 export const menuPages: IPage[] = [
-    presentation, startups, entreprises, equipe
+    presentation, startups, entreprises, equipe, partners
 ];
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages

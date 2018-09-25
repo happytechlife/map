@@ -80,6 +80,38 @@ export interface IStartupPitch extends IRow {
     numbers: string;
 }
 
+
+
+
+export interface ICompany extends IRow {
+    name: string;
+    description: string;
+    startupNames: string[];
+    logo: string;
+    startups?: IStartup[];
+    link: string;
+}
+
+export interface IPartner extends IRow {
+    name: string;
+    description: string;
+    website: string;
+    type: string;// 'Avantages pour startups' | 'Evenements'
+    logo: string;
+}
+
+export interface IEvent extends IRow {
+    name: string;
+    description: string;
+    startupNames: string[];
+    date: Date;
+    time: string;
+    location: string;
+    address: string;
+    logo: string;
+    registerLink: string;
+}
+
 export interface IHappyTechStore {
     startups: IStartup[];
     contacts: IContact[];
@@ -88,5 +120,7 @@ export interface IHappyTechStore {
     team: ITeamMember[];
     startupSocialNetworks: IStartupSocialNetwork[];
     startupPitchs: IStartupPitch[];
+    events: IEvent[];
+    partners: IPartner[];
+    entreprises: ICompany[];
 }
-

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { List, Divider } from '@material-ui/core'
+import { List, Divider, Hidden } from '@material-ui/core'
 import { IHappyTechStore } from '../models';
 import StartupCard from './StartupCard';
 import './Startups.css';
@@ -22,8 +22,14 @@ export class Startups extends React.Component<IProps, {}> {
         const { startups } = store;
         return <React.Fragment>
             <Markdown md={md}>
-                {HappyTechTypeForm('NCIVkm')}
+                {HappyTechTypeForm('NCIVkm', "Remplir le formulaire d'adhésion startup")}
                 <Divider style={{ margin: 24 }} />
+                <Hidden smDown={true}>
+                    <div className="flexCenter">
+                        <img src={`https://res.cloudinary.com/happytech/image/upload/w_720/v1537882261/website/carte_sept.png`} />
+                    </div>
+                    <Divider style={{ margin: 24 }} />
+                </Hidden>
                 <List style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>{startups.map(s => <StartupCard classNames="StartupCard" key={s.rowId} startup={s} />)}</List >
             </Markdown>
         </React.Fragment>

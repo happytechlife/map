@@ -5,6 +5,7 @@ import * as md from './../Markdowns/team.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { snLinkedin, snTwitter, snFacebook } from '../Utils/socialNetworks';
+import { groupListByProperty } from '../Utils/misc';
 
 interface IProps {
     store: IHappyTechStore
@@ -35,13 +36,7 @@ export class Team extends React.Component<IProps, {}> {
 }
 
 function getTeamMembersByTeam(tms: ITeamMember[]) {
-    return tms.reduce((acc, v) => {
-        if (!acc[v.team]) {
-            acc[v.team] = [];
-        }
-        acc[v.team].push(v);
-        return acc;
-    }, {})
+    return groupListByProperty<ITeamMember>(tms, 'team');
 }
 
 function teamMember(tm: ITeamMember) {

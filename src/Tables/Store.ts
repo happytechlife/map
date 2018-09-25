@@ -9,6 +9,9 @@ import { TagTable } from './TagTable';
 import * as fs from 'fs';
 import { StartupSocialNetworkTable } from './StartupSocialNetworkTable';
 import { StartupPitchsTable } from './StartupPitchsTable';
+import { PartnerTable } from './PartnerTable';
+import { CompanyTable } from './CompanyTable';
+import { EventTable } from './EventTable';
 
 const storePath = 'server/data/data.json';
 
@@ -23,7 +26,10 @@ export class Store {
             tags: [],
             team: [],
             startupSocialNetworks: [],
-            startupPitchs: []
+            startupPitchs: [],
+            events: [],
+            partners: [],
+            entreprises: []
         };
     }
     // public load = async () => {
@@ -63,8 +69,6 @@ export class Store {
         await this.sequenceLoadTables();
         this.tables.forEach(table => table.resolve1(this.model))
         this.tables.forEach(table => table.resolve2(this.model))
-        // console.log(this.model);
-        // this.consoleLatLng();
     }
 
     // public reloadTables() {
@@ -90,6 +94,9 @@ export class Store {
             TagTable,
             ContactTable,
             TeamTable,
+            EventTable,
+            PartnerTable,
+            CompanyTable,
             StartupPitchsTable,
             StartupSocialNetworkTable,
             StartupTagsTable

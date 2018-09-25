@@ -1,9 +1,9 @@
-import { IRow } from "../../Google/GoogleSpreadSheetTable";
+import { IHappyTechStore } from "../../models";
 
 type PagesName = 'presentation' | 'entreprises';
 export type MarkdownPages = Record<PagesName, IMarkdownPage>
 
-type MapEntityToString = (a?: IRow) => string;
+type MapEntityToString = (store: IHappyTechStore, params?: any) => string;
 
 export interface IPage {
     route: string;

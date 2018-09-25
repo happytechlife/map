@@ -27,6 +27,12 @@ const html = ({ title, store, body, css }: IHtml) => `
     <body style="margin:0">
       <div id="root">${body}</div>
       <script src="/main.js" defer></script>
+      <script type="text/javascript">
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister()
+          } })
+      </script>
     </body>
   </html>
 `;

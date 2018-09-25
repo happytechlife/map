@@ -1,3 +1,5 @@
+<!-- ![HappyTech](https://res.cloudinary.com/happytech/image/upload/w_320/v1537883204/happytech-logo.png) -->
+
 # Qu’est-ce que la Happytech ?
 
 La HappyTech est un mouvement qui a pour but de fédérer les acteurs qui mettent la technologie au service du bien-être et de labelliser les startups et les entreprises qui apportent une valeur ajoutée dans ce domaine.
@@ -26,3 +28,15 @@ En juin 2017 durant le salon VivaTech, le Président de la République, Emmanuel
 > "Faites de la France le leader mondial du bien-être et de Paris la capitale de la HappyTech !"
 
 La HappyTech se structure alors en France en association à but non lucratif en Septembre 2017.
+
+
+# L’écosystème HappyTech ?
+
+La HappyTech fédère les acteurs qui mettent la technologie au service du bien-être
+
+- Les entreprises qui mettent en place des démarches en faveur du bien-être des collaborateurs et qui ont compris les enjeux liés au bien-être en entreprise, voir la page [entreprises](/entreprises)
+
+- Les startups qui créent et proposent des solutions innovantes pour améliorer le bien-être des salariés, voir la page [startups](/startups)
+
+- Les partenaires qui sont les institutionnels, médias, experts… qui mettent leur réseau et leur expertise pour faire connaître les initiatives autour du bien-être en entreprise, voir la page [partenaires](/partenaires)
+

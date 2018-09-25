@@ -6,7 +6,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { Chip, List, Button, Avatar } from '@material-ui/core';
+import { Chip, List, Button, Avatar, CardActions } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
 const styles: any = (theme: any) => ({
@@ -48,7 +48,6 @@ interface IProps {
     classNames?: string;
 }
 
-
 export const Contact = (contact: IContact) => {
     return <Chip key={contact.rowId}
         avatar={contact.photo ? <Avatar src={cloudinaryTransform(contact.photo, 'w_32,h_32,c_fit')} /> : undefined}
@@ -75,8 +74,10 @@ class StartupCard extends React.Component<IProps, {}> {
                     <List >{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
                     <Typography variant="caption" align="center" >{startup.address}</Typography>
                     <List>{startup.contacts.map(Contact)}</List>
-                    <Link style={{ textDecoration: 'none' }} to={startupLink(startup)}><Button variant="raised">Details</Button></Link>
                 </CardContent>
+                <CardActions>
+                    <Link style={{ textDecoration: 'none' }} to={startupLink(startup)}><Button variant="raised">Voir</Button></Link>
+                </CardActions>
             </div>
         </Card>;
     }

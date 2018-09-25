@@ -47,7 +47,6 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
 
 (async () => {
     const server = express();
-
     server.use(express.static('client'));
 
     console.log('start loading store');
@@ -55,8 +54,9 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
 
     allRouterPages.forEach(page => {
         server.get(`/${page.route}`, async (req, res) => {
+            console.log(req.params);
             const ra = getReactApp(store, req.url);
-            res.send(html({ title: page.headers.title(), store, ...ra }));
+            res.send(html({ title: page.headers.title(store, req.params), store, ...ra }));
         })
     })
 
