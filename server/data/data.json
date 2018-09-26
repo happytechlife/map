@@ -1048,7 +1048,7 @@
         "Comeet",
         "Fidensio"
       ],
-      "date": null,
+      "dateString": "28-09-2018",
       "time": "9:00-14:00",
       "location": "Villages Nature - Le Forum",
       "address": "Route de Villeneuve, 77700 Bailly-Romainvilliers",
@@ -1084,6 +1084,12 @@
       "description": "",
       "website": "",
       "type": "Evenements"
+    },
+    {
+      "rowId": 4,
+      "name": "NewCap",
+      "description": "Investor Relations - Strategic Communications",
+      "website": "https://www.newcap.fr/"
     }
   ],
   "entreprises": [

@@ -10,7 +10,7 @@
 
 ## Quel est le public ?
 
- Ce salon à destination des professionels regroupe les startups proposant des innovations technologiques diverses comme l'intelligence artificielle, les objets connectés, la réalité augmentée, les casques de neuro science, les application webs et mobiles, et diverses innovations technologiques afin d'accompagner la transition culturelle des entreprises et répondre à leurs contraintes actuelles sur les sujets suivants  :
+ Ce salon à destination des professionels regroupe les startups proposant des innovations technologiques diverses comme l'intelligence artificielle, les objets connectés, la réalité virtuelle ou augmentée, les casques de neuro science, les application webs et mobiles, et diverses innovations technologiques afin d'accompagner la transition culturelle des entreprises et répondre à leurs contraintes actuelles sur les sujets suivants  :
 
  - L'engagement des salariés
  - La rétention des talents
