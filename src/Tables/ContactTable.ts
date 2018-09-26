@@ -27,3 +27,4 @@ export class ContactTable extends GoogleSpreadSheetTable<IContact, IHappyTechSto
         return Promise.resolve({ ...contact, startup });
     };
 }
+

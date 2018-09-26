@@ -101,6 +101,17 @@ export interface IPartner extends IRow {
     logo: string;
 }
 
+export interface IPresse extends IRow {
+    source: string;
+    title: string;
+    tagline: string;
+    author: string;
+    authorTwitter: string;
+    dateString: string;
+    logo: string;
+    link: string;
+}
+
 export interface IEvent extends IRow {
     name: string;
     description: string;
@@ -126,4 +137,5 @@ export interface IHappyTechStore {
     events: IEvent[];
     partners: IPartner[];
     entreprises: ICompany[];
+    presse: IPresse[];
 }

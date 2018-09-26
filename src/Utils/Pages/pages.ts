@@ -4,6 +4,7 @@ import * as happytechsummitMarkdown from './../../Markdowns/happytechsummit.md';
 import { IMarkdownPage, IPage, IReactPage } from './models';
 import Help from '@material-ui/icons/Help';
 import People from '@material-ui/icons/People';
+import BookIcon from '@material-ui/icons/Book';
 import InsertEmoticon from '@material-ui/icons/InsertEmoticon';
 import AccountBalance from '@material-ui/icons/AccountBalance';
 import EventIcon from '@material-ui/icons/Event';
@@ -17,6 +18,7 @@ import { Entreprises } from '../../Components/Enterprises';
 import { startupLinkName } from '../../Components/StartupCard';
 import { Partners } from '../../Components/Partners';
 import Events from '../../Components/Events';
+import { PresseGrid } from '../../Components/Presse';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -66,6 +68,16 @@ const entreprises: IReactPage = {
     component: Entreprises,
     headers: {
         title: () => 'Les entreprises de la HappyTech'
+    }
+};
+
+const presse: IReactPage = {
+    menuTitle: 'Presse',
+    icon: BookIcon,
+    route: 'presse',
+    component: PresseGrid,
+    headers: {
+        title: () => 'La HappyTech dans la presse'
     }
 };
 
@@ -127,10 +139,10 @@ export const markdownPages: IMarkdownPage[] = [
 ]
 
 export const reactPages: IReactPage[] = [
-    startups, startupPage, equipe, entreprises, partners, events
+    startups, startupPage, equipe, entreprises, partners, events, presse
 ]
 export const menuPages: IPage[] = [
-    presentation, startups, entreprises, equipe, events, partners, summit
+    presentation, startups, entreprises, equipe, events, partners, summit, presse
 ];
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages

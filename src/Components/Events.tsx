@@ -23,10 +23,8 @@ class Events extends React.Component<IProps & WithWidthProps, {}> {
         if (!store) {
             return null;
         }
-        console.log(width);
         const { events } = store;
         const eventsByDate = groupListByMethod<IEvent>(events, (ev) => {
-            console.log(ev, moment(ev.date).format('MMMM YYYY'));
             if (!ev.date) {
                 return { displayName: '<no-date>', key: '0000' };
             }

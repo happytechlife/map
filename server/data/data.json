@@ -1114,5 +1114,18 @@
       "startupNames": [],
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1537878279/website/companies/essec.png"
     }
+  ],
+  "presse": [
+    {
+      "rowId": 0,
+      "source": "Le Monde",
+      "title": "La « happytech » fait le pari du bien-être au bureau",
+      "tagline": "Une poignée d’entreprises, à l’instar de myBrain Technologies, développent des technologies censées favoriser le bonheur des employés sur leur lieu de travail.",
+      "author": "Vincent Fagot",
+      "link": "https://www.lemonde.fr/economie/article/2018/01/26/la-happytech-fait-le-pari-du-bien-etre-au-bureau_5247472_3234.html",
+      "authorTwitter": "",
+      "dateString": "26-01-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537965793/website/presse/lemonde.png"
+    }
   ]
 }

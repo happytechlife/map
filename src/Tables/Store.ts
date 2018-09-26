@@ -12,6 +12,7 @@ import { StartupPitchsTable } from './StartupPitchsTable';
 import { PartnerTable } from './PartnerTable';
 import { CompanyTable } from './CompanyTable';
 import { EventTable } from './EventTable';
+import { PresseTable } from './PresseTable';
 
 const storePath = 'server/data/data.json';
 
@@ -29,7 +30,8 @@ export class Store {
             startupPitchs: [],
             events: [],
             partners: [],
-            entreprises: []
+            entreprises: [],
+            presse: []
         };
     }
     // public load = async () => {
@@ -99,7 +101,8 @@ export class Store {
             CompanyTable,
             StartupPitchsTable,
             StartupSocialNetworkTable,
-            StartupTagsTable
+            StartupTagsTable,
+            PresseTable
         ];
         this.tables = tablesToLoad.map(t => new t(googleConfig.spreadsheetId));
     }
