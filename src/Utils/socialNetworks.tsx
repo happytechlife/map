@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { IconButton } from '@material-ui/core';
+import { ExternalLink } from './ExternalLink';
 
 export function socialNetwork(name: string, link: string) {
-    return <a href={link} target="_blank" style={{ textDecoration: 'none', color: '#6C6C6C' }}><IconButton color="inherit"><span className={`fab fa-${name}`} /></IconButton></a>
+    return <ExternalLink link={link}><IconButton color="inherit"><span className={`fab fa-${name}`} /></IconButton></ExternalLink>
 }
 
 export function snTwitter(key: string) {

@@ -17,7 +17,6 @@ export class Entreprises extends React.Component<IProps, {}> {
             return null;
         }
         const { entreprises } = store;
-        console.log(store);
         return <React.Fragment>
             <Markdown md={md}>
                 {HappyTechTypeForm('QFxtC9', "Remplir le formulaire d'adhésion entreprise")}

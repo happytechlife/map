@@ -57,15 +57,20 @@ class Pin extends React.Component<IPinProps, {}> {
 export default withStyles(styles)(Pin);
 
 
-export const StartupTooltipText = (props: { startup: IStartup }) => {
-    const { startup } = props;
+export const StartupChip = (startup: IStartup) => {
     const style = { margin: 4 };
     const logo = startup.iconUrl;
     if (logo) {
         return <Chip
+            key={startup.rowId}
             style={style}
             avatar={<Avatar style={{ border: '1px solid #ccc', backgroundColor: 'white' }} src={cloudinaryTransform(logo, 'w_32,h_32,c_thumb,g_west,f_png')} />}
             label={startup.name} />
     }
-    return <Chip style={style} label={startup.name} />
+    return <Chip style={style} label={startup.name} key={startup.rowId}/>
+}
+
+export const StartupTooltipText = (props: { startup: IStartup }) => {
+    const { startup } = props;
+    return StartupChip(startup);
 }

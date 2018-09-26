@@ -1,4 +1,5 @@
 import { IRow } from "./Google/GoogleSpreadSheetTable";
+import { Moment } from "moment";
 
 
 export interface ILatLng {
@@ -104,12 +105,14 @@ export interface IEvent extends IRow {
     name: string;
     description: string;
     startupNames: string[];
-    date: Date;
+    dateString: string;
     time: string;
     location: string;
     address: string;
     logo: string;
     registerLink: string;
+    startups?: IStartup[];
+    date?: Moment;
 }
 
 export interface IHappyTechStore {

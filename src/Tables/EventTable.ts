@@ -1,6 +1,7 @@
-import { IEvent } from "../models";
+import { IEvent, IStartup } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
 import { IHappyTechStore } from "../models";
+import * as moment from "moment";
 
 export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
     constructor(spreadsheetId: string) {
@@ -12,7 +13,7 @@ export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
             name: d[0],
             description: d[1],
             startupNames: d[2].split(',').map(s => s.trim()),
-            date: new Date(Date.parse(d[3])),
+            dateString: d[3],
             time: d[4],
             location: d[5],
             address: d[6],
@@ -21,4 +22,11 @@ export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
         };
         return Promise.resolve(event);
     };
+    public resolve2 = (store: IHappyTechStore) => {
+        store.events = store.events.map(e => {
+            e.startups = e.startupNames.map(sn => store.startups.find(s => s.name === sn)).filter(Object) as IStartup[];
+            e.date = moment(e.dateString, 'DD/MM/YYYY');
+            return e;
+        })
+    }
 }

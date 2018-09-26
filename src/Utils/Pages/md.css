@@ -13,7 +13,7 @@
     padding-right: 20px;
 }
 
-.md h1, .md-children h1, .md-children h2.title{
+.md h1, .md-children h1, .md-children h2.title, .md-children h3.title{
   border-bottom: 1px solid var(--main);
   padding-bottom: 8px;
 }

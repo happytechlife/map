@@ -1,9 +1,12 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
+import * as happytechsummitMarkdown from './../../Markdowns/happytechsummit.md';
 import { IMarkdownPage, IPage, IReactPage } from './models';
 import Help from '@material-ui/icons/Help';
 import People from '@material-ui/icons/People';
+import InsertEmoticon from '@material-ui/icons/InsertEmoticon';
 import AccountBalance from '@material-ui/icons/AccountBalance';
+import EventIcon from '@material-ui/icons/Event';
 import SyncIcon from '@material-ui/icons/Sync';
 import ViewModule from '@material-ui/icons/ViewModule';
 import { Startups } from '../../Components/Startups';
@@ -13,6 +16,7 @@ import { IHappyTechStore } from '../../models';
 import { Entreprises } from '../../Components/Enterprises';
 import { startupLinkName } from '../../Components/StartupCard';
 import { Partners } from '../../Components/Partners';
+import Events from '../../Components/Events';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -43,6 +47,16 @@ const presentation = {
     }
 };
 
+const summit = {
+    menuTitle: 'HappyTech Summit',
+    icon: InsertEmoticon,
+    route: 'summit',
+    html: getHtml(happytechsummitMarkdown),
+    headers: {
+        title: () => "HappyTech Summit, La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde."
+    }
+};
+
 export const homePage = { ...presentation, route: '/' };
 
 const entreprises: IReactPage = {
@@ -62,6 +76,16 @@ const partners: IReactPage = {
     component: Partners,
     headers: {
         title: () => 'Les partenaires de la HappyTech'
+    }
+};
+
+const events: IReactPage = {
+    menuTitle: 'Retrouvez-nous',
+    icon: EventIcon,
+    route: 'evenements',
+    component: Events,
+    headers: {
+        title: () => 'Les évenemnts de la HappyTech'
     }
 };
 
@@ -99,14 +123,14 @@ const equipe: IReactPage = {
 }
 
 export const markdownPages: IMarkdownPage[] = [
-    presentation, homePage
+    presentation, homePage, summit
 ]
 
 export const reactPages: IReactPage[] = [
-    startups, startupPage, equipe, entreprises, partners
+    startups, startupPage, equipe, entreprises, partners, events
 ]
 export const menuPages: IPage[] = [
-    presentation, startups, entreprises, equipe, partners
+    presentation, startups, entreprises, equipe, events, partners, summit
 ];
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages
