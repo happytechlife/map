@@ -50,7 +50,7 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
     const server = express();
     server.use(express.static('client'));
 
-    console.log('start loading store');
+    console.info('Start loading store...');
     const store = await getStore();
 
 
@@ -59,7 +59,7 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
         server.get(`/${page.route}`, async (req, res) => {
             const ra = getReactApp(store, req.url);
             const helmet = Helmet.renderStatic();
-            res.send(html({ helmet, title: page.headers.title(store, req.params), store, ...ra }));
+            res.send(html({ helmet, store, ...ra }));
         })
     })
 

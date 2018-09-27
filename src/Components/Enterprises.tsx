@@ -54,5 +54,5 @@ export const entreprisesPage = (): IReactPage => ({
     icon: AccountBalance,
     route: 'entreprises',
     component: Entreprises,
-    headers: getHeaders('Les entreprises HappyTech')
+    headers: () => getHeaders('Les entreprises HappyTech')
 });

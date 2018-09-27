@@ -2,14 +2,13 @@ import { IHappyTechStore } from "../models";
 import * as cj from 'circular-json';
 import { HelmetData } from "react-helmet";
 interface IHtml {
-  title: string;
   store: IHappyTechStore,
   body: string,
   css: string
 
   helmet: HelmetData;
 }
-const html = ({ helmet, title, store, body, css }: IHtml) => `
+const html = ({ helmet, store, body, css }: IHtml) => `
   <!DOCTYPE html>
   <html prefix="og: http://ogp.me/ns#">
     <head>

@@ -62,5 +62,5 @@ export const teamPage = (): IReactPage => ({
     route: 'team',
     icon: People,
     component: Team,
-    headers: getHeaders(`L'équipe HappyTech`)
+    headers: () => getHeaders(`L'équipe HappyTech`)
 })

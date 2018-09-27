@@ -19,7 +19,7 @@
 - la réalité virtuelle ou augmentée
 - les casques de neuro science
 - les application webs et mobiles
-- 
+- les expériences sensorielles
 - et diverses innovations technologiques
  
 afin d'accompagner la transition culturelle des entreprises et répondre à leurs enjeux actuelles sur les sujets suivants  :

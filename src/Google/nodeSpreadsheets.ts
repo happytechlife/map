@@ -89,16 +89,6 @@ function getRows(auth: any, spreadsheetId: string, range: string) {
             if (result) {
                 r(result.data.values);
             }
-            // const rows = ;
-            // if (rows.length) {
-            //     console.log('Name, Major:');
-            //     // Print columns A and E, which correspond to indices 0 and 4.
-            //     rows.map((row: any) => {
-            //         console.log(`${row[0]}, ${row[4]}`);
-            //     });
-            // } else {
-            //     console.log('No data found.');
-            // }
         });
     })
 

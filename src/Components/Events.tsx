@@ -34,7 +34,6 @@ class Events extends React.Component<IProps, {}> {
             return { key, displayName };
             // return ev.date ? moment(ev.date).format('MMMM YYYY') : '<no-date>';
         });
-        console.log(eventsByDate);
         return <React.Fragment>
             {page && helmet(page, store)}
             <Markdown md={md}>
@@ -51,7 +50,7 @@ class Events extends React.Component<IProps, {}> {
         </React.Fragment>
     }
 }
-export default withWidth()(Events);
+export const EventsPage = withWidth()(Events);
 
 function EventCard(event: IEvent, width: Breakpoint) {
     const logo = cloudinaryTransform(event.logo, 'w_300,h_168,c_pad,f_png');
@@ -87,6 +86,6 @@ export const eventsPage = (): IReactPage => ({
     menuTitle: 'Retrouvez-nous',
     icon: EventIcon,
     route: 'evenements',
-    component: Events,
-    headers: getHeaders('Les évenemnts de la HappyTech')
+    component: EventsPage,
+    headers: () => getHeaders('Les événements de la HappyTech')
 });

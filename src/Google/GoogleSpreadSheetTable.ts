@@ -40,16 +40,6 @@ export class GoogleSpreadSheetTable<T, Store> implements ITable<T, Store>{
         const rows = await Promise.all(data.map((d, i) => this.parse(i, d, store)));
         return rows;
     };
-    // public resolve1 = (store: Store) => {
-    //     const name = this.name;
-    //     this.camelizedHeaders.forEach((header, i) => {
-    //         const entities = store[header];
-    //         if (entities) {
-    //             const sources = entities.filter((entity: any) => entity[name].filter((t: any) => t.name === name).length > 0)
-    //             console.log('sources', sources);
-    //         }
-    //     });
-    // }
     public resolve1 = (store: Store) => {
         return;
     }

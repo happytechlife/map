@@ -3,12 +3,13 @@ import { IPartner } from '../models';
 import * as md from './../Markdowns/partenaires.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-import { Card, CardMedia, CardContent, Typography, CardActions, List, Divider } from '@material-ui/core';
+import { Card, CardMedia, CardContent, Typography, CardActions, List, Divider, Button } from '@material-ui/core';
 import { groupListByProperty } from '../Utils/misc';
 import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
 import { getHeaders } from '../Utils/Pages/pages';
 import SyncIcon from '@material-ui/icons/Sync';
+import { ExternalLink } from '../Utils/ExternalLink';
 
 export class Partners extends React.Component<IReactPageProps, {}> {
     public render() {
@@ -50,7 +51,7 @@ function PartnerCard(partner: IPartner) {
                 <Typography variant="caption" align="center" >{partner.description}</Typography>
             </CardContent>
             <CardActions>
-                {partner.website && <a href={partner.website}>Voir le site</a>}
+                {partner.website && <ExternalLink link={partner.website}><Button variant="raised">Voir le site</Button></ExternalLink>}
             </CardActions>
         </div>
     </Card>;
@@ -61,5 +62,5 @@ export const partnersPage = (): IReactPage => ({
     icon: SyncIcon,
     route: 'partenaires',
     component: Partners,
-    headers: getHeaders('Les partenaires de la HappyTech')
+    headers: () => getHeaders('Les partenaires de la HappyTech')
 });

@@ -39,5 +39,5 @@ export const pressePage = (): IReactPage => ({
     icon: BookIcon,
     route: 'presse',
     component: PresseGrid,
-    headers: getHeaders('La HappyTech dans la presse')
+    headers: () => getHeaders('La HappyTech dans la presse')
 });

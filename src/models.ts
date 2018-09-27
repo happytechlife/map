@@ -17,6 +17,7 @@ export interface IStartup extends IRow {
     description: string;
     socialNetwork?: IStartupSocialNetwork;
     pitch?: IStartupPitch;
+    tagline: string;
 }
 
 export interface IContact extends IRow {

@@ -1,7 +1,7 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
 import * as happytechsummitMarkdown from './../../Markdowns/happytechsummit.md';
-import { IMarkdownPage, IPage, IReactPage } from './models';
+import { IMarkdownPage, IPage, IReactPage, IMetaHeaders } from './models';
 import Help from '@material-ui/icons/Help';
 
 import InsertEmoticon from '@material-ui/icons/InsertEmoticon';
@@ -37,9 +37,10 @@ const presentation = {
     icon: Help,
     route: 'presentation',
     html: getHtml(presentationMarkdown),
-    headers: {
-        title: () => "HappyTech, L'innovation technologique au service du bien-être en entreprise."
-    }
+    headers: () => ({
+        title: "HappyTech, L'innovation technologique au service du bien-être en entreprise.",
+        description: ''
+    })
 };
 
 const summit = {
@@ -47,21 +48,23 @@ const summit = {
     icon: InsertEmoticon,
     route: 'summit',
     html: getHtml(happytechsummitMarkdown),
-    headers: {
-        title: () => "HappyTech Summit, La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde."
-    }
+    headers: () => ({
+        title: "HappyTech Summit, La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde.",
+        description: ''
+    })
 };
 
 export const homePage = { ...presentation, route: '/' };
 
-export function getHeaders(title: string) {
+export function getHeaders(title: string): IMetaHeaders {
     return {
-        title: () => title,
-        meta: () => ({
+        title,
+        description: '',
+        meta: {
             title,
             description: '',
             tags: ''
-        })
+        }
     };
 }
 
@@ -69,7 +72,6 @@ export const markdownPages: IMarkdownPage[] = [
     presentation, homePage, summit
 ]
 
-// 
 export const reactPages = (): IReactPage[] => ([
     startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage()
 ])

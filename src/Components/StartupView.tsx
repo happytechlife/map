@@ -101,11 +101,31 @@ export const startupPage = (): IReactPage => ({
     menuTitle: '--',
     route: 'startups/:name',
     component: StartupView,
-    headers: {
-        title: (store: IHappyTechStore, params: { name: string }) => {
+    headers: (store: IHappyTechStore, params?: { name: string }) => {
+        let error = '<no-startup-name>';
+        if (params) {
             const { name } = params;
             const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
-            return startup ? `La super startup ${startup.name}` : '<no-startup>'
+            if (startup) {
+                const title = `${startup.name} x HappyTech - ${startup.tagline}`;
+                const description = startup.description;
+                return {
+                    title, description,
+                    share: {
+                        twitter: {
+                            title, description
+                        },
+                        og: {
+                            title, description
+                        }
+                    }
+                }
+            }
+            error = `<no-startup:${name}>`;
+        }
+        return {
+            title: error,
+            description: error,
         }
     }
 })

@@ -44,7 +44,6 @@ function getCD(matrix: IMatrix, startups: IStartup[]) {
             } else {
                 this.text = null;
             }
-            // console.log(mouseOverGroup);
             super.setMouseOverGroup(mouseOverGroup);
         }
 
@@ -60,7 +59,6 @@ function getCD(matrix: IMatrix, startups: IStartup[]) {
 interface IMatrix { [name: string]: { matchs: { [name: string]: IMatch[] } } }
 export class StartupsChordDiagramWithTags extends React.Component<IProps, {}> {
     public render() {
-        // console.log(this.props);
         const { store } = this.props;
         if (!store) {
             return null;
@@ -95,8 +93,6 @@ export class StartupsChordDiagramWithTags extends React.Component<IProps, {}> {
             })
         })
 
-
-        // console.log(matrix, chordMatrix);
         const A: any = getCD(matrix, withTags);
         return <Paper style={{ margin: 8, padding: 64 }}><A
             width={900} height={600}
