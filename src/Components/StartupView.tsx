@@ -109,11 +109,13 @@ export const startupPage = (): IReactPage => ({
             if (startup) {
                 const title = `${startup.name} x HappyTech - ${startup.tagline}`;
                 const description = startup.description;
+                const sn = startup.socialNetwork;
                 return {
                     title, description,
                     share: {
                         twitter: {
-                            title, description
+                            title: sn ? `@${sn.twitter} x @HappyTechFrance : ${startup.tagline}` : '...',
+                            description
                         },
                         og: {
                             title, description

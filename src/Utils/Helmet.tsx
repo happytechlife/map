@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IPage, IOpenGraphShare } from "./Pages/models";
+import { IPage, IOpenGraphShare, ITwitterShare } from "./Pages/models";
 import { IHappyTechStore } from "../models";
 import { Helmet } from "react-helmet";
 
@@ -15,6 +15,18 @@ function ogTags(og: IOpenGraphShare) {
     return null;
 }
 
+function twitterTags(twitter: ITwitterShare) {
+    const { title, description } = twitter;
+    return [
+        <meta key={0} name="twitter:card" content="summary" />,
+        <meta key={1} name="twitter:site" content="@HappyTechFrance" />,
+        <meta key={2} name="twitter:title" content={title} />,
+        <meta key={3} name="twitter:description" content={description} />,
+        <meta key={4} name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+    ];
+    return null;
+}
+
 export function helmet(page: IPage, store?: IHappyTechStore, params?: any) {
     if (store && page) {
         const { headers } = page;
@@ -23,6 +35,7 @@ export function helmet(page: IPage, store?: IHappyTechStore, params?: any) {
             <title>{title}</title>
             {<meta name="description" content={description} />}
             {share && share.og && ogTags(share.og)}
+            {share && share.twitter && twitterTags(share.twitter)}
         </Helmet>
     }
     return null;

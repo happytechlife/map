@@ -11,7 +11,7 @@ interface IMetaTag {
     title: string;
 }
 
-interface ITwitterShare {
+export interface ITwitterShare {
     title: string;
     description: string;
 }
