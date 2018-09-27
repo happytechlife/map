@@ -50,7 +50,7 @@ const presentation = {
 };
 
 const summit = {
-    menuTitle: 'HappyTech Summit',
+    menuTitle: 'HappyTech Summit 2018',
     icon: InsertEmoticon,
     route: 'summit',
     html: getHtml(happytechsummitMarkdown),
