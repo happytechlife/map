@@ -4,8 +4,8 @@
 
 ## Qu'est-ce que c'est ?
 
- HappyTech Summit est la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde.
- 
+ HappyTech Summit est la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde. Ce salon est à destination des professionnels cherchant à trouver des solutions clés en main pour leur initiatives de bien-être en entreprise. Plus de 50 startups seront réunit pour présenter toutes les dernières innovations et solutions en 6 villages thématiques.
+
  Les startups, qui proposent des solutions technologiques innovantes au service du bien-être dans le monde du travail, se regroupent la même journée dans des villages thématiques répondant aux besoins des entreprises.
 
  La première édition a lieu à Paris, le **6 Décembre 2018 de 9h à 18h chez Starway Sentier, au 104 boulevard Sébastopol dans le 3ème arrondissement de Paris**. La totalité de l'espace sera dédiée à la HappyTech Summit.
@@ -19,6 +19,7 @@
 - la réalité virtuelle ou augmentée
 - les casques de neuro science
 - les application webs et mobiles
+- 
 - et diverses innovations technologiques
  
 afin d'accompagner la transition culturelle des entreprises et répondre à leurs enjeux actuelles sur les sujets suivants  :
@@ -29,11 +30,12 @@ afin d'accompagner la transition culturelle des entreprises et répondre à leur
  - La réduction de l'absentéisme
  - La création de lien social
  - Le renforcement de la marque employeur
- - l'experience collaborateur
+ - l’expérience collaborateur
+
 
 ## Quels est le public ?
 
-Ce salon est à destination des professionels uniquement.
+Ce salon est à destination des professionnels uniquement.
 
 Quelque soit votre rôle dans votre entreprise
 - Direction des Ressources Humaines
@@ -42,6 +44,7 @@ Quelque soit votre rôle dans votre entreprise
 - Direction de l’Environnement de Travail
 - Direction de la Communication
 - Direction Marketing
+- Equipe QVT, RSE, Recrutement, Marque employeur, ...
 - CE
 - Syndicats
 - Responsable fonctionnel, Manager ou employé...

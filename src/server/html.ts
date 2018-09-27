@@ -1,16 +1,22 @@
 import { IHappyTechStore } from "../models";
 import * as cj from 'circular-json';
+import { HelmetData } from "react-helmet";
 interface IHtml {
   title: string;
   store: IHappyTechStore,
   body: string,
   css: string
+
+  helmet: HelmetData;
 }
-const html = ({ title, store, body, css }: IHtml) => `
+const html = ({ helmet, title, store, body, css }: IHtml) => `
   <!DOCTYPE html>
   <html>
     <head>
-      <title>${title}</title>
+      ${helmet.title.toString()}
+      ${helmet.meta.toString()}
+      ${helmet.link.toString()}
+
       <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       

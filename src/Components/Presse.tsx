@@ -1,24 +1,23 @@
 import * as React from 'react';
 import { List, Card } from '@material-ui/core'
-import { IHappyTechStore, IPresse } from '../models';
+import { IPresse } from '../models';
 import './Startups.css';
 import * as md from './../Markdowns/presse.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-
-interface IProps {
-    store: IHappyTechStore
-}
+import { IReactPageProps } from '../Utils/Pages/models';
+import { helmet } from '../Utils/Helmet';
 
 
-export class PresseGrid extends React.Component<IProps, {}> {
+export class PresseGrid extends React.Component<IReactPageProps, {}> {
     public render() {
-        const { store } = this.props;
+        const { store, page } = this.props;
         if (!store) {
             return null;
         }
         const { presse } = store;
         return <React.Fragment>
+            {page && helmet(page, store)}
             <Markdown md={md}>
                 <List style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>{presse.map(PresseCard)}</List >
             </Markdown>

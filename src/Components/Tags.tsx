@@ -2,17 +2,14 @@ import * as React from 'react';
 import List from '@material-ui/core/List'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
-import { IHappyTechStore } from "./../models";
 import './Tags.css';
 import { StartupTooltipText } from './Pin';
 // import StartupCard from './StartupCard';
 {/* <StartupCard startup={s} /> */ }
 import Card from '@material-ui/core/Card';
-interface IProps {
-    store: IHappyTechStore
-}
+import { IReactPageProps } from '../Utils/Pages/models';
 
-export class Tags extends React.Component<IProps, {}> {
+export class Tags extends React.Component<IReactPageProps, {}> {
     public render() {
         const { store } = this.props;
         if (!store) {

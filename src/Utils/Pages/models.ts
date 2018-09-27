@@ -3,7 +3,7 @@ import { IHappyTechStore } from "../../models";
 type PagesName = 'presentation' | 'entreprises';
 export type MarkdownPages = Record<PagesName, IMarkdownPage>
 
-type MapEntityToString = (store: IHappyTechStore, params?: any) => string;
+type MapEntityToString = (store?: IHappyTechStore, params?: any) => string;
 
 export interface IPage {
     route: string;
@@ -11,9 +11,14 @@ export interface IPage {
     icon?: any;
     headers: {
         title: MapEntityToString;
+        description?: MapEntityToString;
     }
 }
 
+export interface IReactPageProps {
+    store: IHappyTechStore;
+    page: IReactPage;
+}
 
 
 export interface IReactPage extends IPage {

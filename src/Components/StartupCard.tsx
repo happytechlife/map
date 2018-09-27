@@ -59,7 +59,7 @@ class StartupCard extends React.Component<IProps, {}> {
         const { startup, classes, classNames } = this.props;
         const logo = cloudinaryTransform(startup.iconUrl, 'w_300,h_168,c_pad,f_png');
         return <Card className={`${classes.card} ${classNames}`}>
-            <div className={classes.details}>
+            <div className={classes.details} id={startup.name}>
                 {logo && <CardMedia
                     className={classes.cover}
                     image={logo}
@@ -71,7 +71,7 @@ class StartupCard extends React.Component<IProps, {}> {
                     </Typography>
                     <Typography variant="caption" align="center" >{startup.description}</Typography>
                     {/* <Typography variant="caption" align="left" ></Typography> */}
-                    <List >{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
+                    <List>{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
                     <Typography variant="caption" align="center" >{startup.address}</Typography>
                     <List>{startup.contacts.map(Contact)}</List>
                 </CardContent>

@@ -1,3 +1,4 @@
+
 export function groupListByProperty<T>(list: T[], key: string) {
     return list.reduce((acc, v) => {
         if (!acc[v[key]]) {
@@ -29,5 +30,6 @@ export function groupListByMethod<T>(list: T[], method: (o: T) => IGroupKey): Re
         return acc;
     }, {})
 }
+
 
 

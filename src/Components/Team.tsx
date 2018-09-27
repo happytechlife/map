@@ -1,20 +1,18 @@
 import * as React from 'react';
 import { List, Divider, Card, CardContent, Typography, CardActions } from '@material-ui/core'
-import { IHappyTechStore, ITeamMember } from '../models';
+import { ITeamMember } from '../models';
 import * as md from './../Markdowns/team.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { snLinkedin, snTwitter, snFacebook } from '../Utils/socialNetworks';
 import { groupListByProperty } from '../Utils/misc';
+import { IReactPageProps } from '../Utils/Pages/models';
+import { helmet } from '../Utils/Helmet';
 
-interface IProps {
-    store: IHappyTechStore
-}
-
-export class Team extends React.Component<IProps, {}> {
+export class Team extends React.Component<IReactPageProps, {}> {
 
     public render() {
-        const { store } = this.props;
+        const { store, page } = this.props;
         if (!store) {
             return null;
         }
@@ -22,6 +20,7 @@ export class Team extends React.Component<IProps, {}> {
         const teamMembersByTeam = getTeamMembersByTeam(team);
 
         return <React.Fragment>
+            {page && helmet(page, store)}
             <Markdown md={md}>
                 <Divider style={{ margin: 24 }} />
                 {Object.keys(teamMembersByTeam).map((key, i) => {

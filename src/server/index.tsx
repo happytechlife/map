@@ -12,6 +12,7 @@ import { StaticRouter, Switch } from 'react-router';
 import { renderRoutes } from '../Router/Routes';
 import { IHappyTechStore } from '../models';
 import { allRouterPages } from './../Utils/Pages/pages';
+import { Helmet } from 'react-helmet';
 
 const port = process.env.PORT || 9000;
 // const port = 9000;
@@ -52,10 +53,13 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
     console.log('start loading store');
     const store = await getStore();
 
+
     allRouterPages.forEach(page => {
+
         server.get(`/${page.route}`, async (req, res) => {
             const ra = getReactApp(store, req.url);
-            res.send(html({ title: page.headers.title(store, req.params), store, ...ra }));
+            const helmet = Helmet.renderStatic();
+            res.send(html({ helmet, title: page.headers.title(store, req.params), store, ...ra }));
         })
     })
 

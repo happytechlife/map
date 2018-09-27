@@ -4,6 +4,8 @@ import './base.css';
 import { IHappyTechStore } from '../../models';
 import './md.css';
 import { getHtml } from './pages';
+import { IMarkdownPage } from './models';
+import { helmet } from '../Helmet';
 
 export class Text extends React.Component<{}, {}> {
     public render() {
@@ -17,6 +19,7 @@ interface IProps {
     store?: IHappyTechStore;
     html?: string;
     md?: string;
+    page?: IMarkdownPage;
 }
 export class Markdown extends React.Component<IProps, {}> {
 
@@ -24,10 +27,12 @@ export class Markdown extends React.Component<IProps, {}> {
         const { html, md } = this.props;
         return html || (md ? getHtml(md) : '<div>no_content</div>');
     }
+
     public render() {
         const { html } = this;
-
-        return < Paper className="md-container main-paper">
+        const { page, store } = this.props;
+        return <Paper className="md-container main-paper">
+            {page && helmet(page, store)}
             <div className="md" dangerouslySetInnerHTML={{ __html: html }} />
             <div className="md-children" style={{ width: '100%' }}>{this.props.children}</div>
         </Paper >

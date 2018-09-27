@@ -6,21 +6,22 @@ import './Startups.css';
 import * as md from './../Markdowns/startups.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { HappyTechTypeForm } from '../Utils/typeform';
+import { IReactPageProps } from '../Utils/Pages/models';
+import { helmet } from '../Utils/Helmet';
 
-interface IProps {
+interface IProps extends IReactPageProps {
     store: IHappyTechStore
 }
 
-
-
 export class Startups extends React.Component<IProps, {}> {
     public render() {
-        const { store } = this.props;
+        const { store, page } = this.props;
         if (!store) {
             return null;
         }
         const { startups } = store;
         return <React.Fragment>
+            {page && helmet(page, store)}
             <Markdown md={md}>
                 {HappyTechTypeForm('NCIVkm', "Remplir le formulaire d'adhésion startup")}
                 <Divider style={{ margin: 24 }} />

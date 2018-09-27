@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IHappyTechStore, IEvent } from '../models';
+import { IEvent } from '../models';
 import * as md from './../Markdowns/events.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
@@ -10,16 +10,14 @@ import * as moment from 'moment';
 import { ExternalLink } from '../Utils/ExternalLink';
 import { WithWidthProps, isWidthDown } from '@material-ui/core/withWidth';
 import { Breakpoint } from '@material-ui/core/styles/createBreakpoints';
-
-interface IProps {
-    store: IHappyTechStore;
-}
+import { IReactPageProps } from '../Utils/Pages/models';
+import { helmet } from '../Utils/Helmet';
 
 
-
-class Events extends React.Component<IProps & WithWidthProps, {}> {
+type IProps = IReactPageProps & WithWidthProps;
+class Events extends React.Component<IProps, {}> {
     public render() {
-        const { store, width } = this.props;
+        const { store, width, page } = this.props;
         if (!store) {
             return null;
         }
@@ -36,6 +34,7 @@ class Events extends React.Component<IProps & WithWidthProps, {}> {
         });
         console.log(eventsByDate);
         return <React.Fragment>
+            {page && helmet(page, store)}
             <Markdown md={md}>
                 {/* {HappyTechTypeForm('QFxtC9', "Remplir le formulaire d'adhésion entreprise")} */}
                 <Divider style={{ margin: 24 }} />

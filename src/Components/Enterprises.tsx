@@ -1,23 +1,23 @@
 import * as React from 'react';
 import { Divider, Card, CardMedia, CardContent, Typography, List, CardActions } from '@material-ui/core'
-import { IHappyTechStore, ICompany } from '../models';
+import { ICompany } from '../models';
 import * as md from './../Markdowns/entreprises.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { HappyTechTypeForm } from '../Utils/typeform';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
+import { IReactPageProps } from '../Utils/Pages/models';
+import { helmet } from '../Utils/Helmet';
 
-interface IProps {
-    store: IHappyTechStore
-}
 
-export class Entreprises extends React.Component<IProps, {}> {
+export class Entreprises extends React.Component<IReactPageProps, {}> {
     public render() {
-        const { store } = this.props;
+        const { store, page } = this.props;
         if (!store) {
             return null;
         }
         const { entreprises } = store;
         return <React.Fragment>
+            {page && helmet(page, store)}
             <Markdown md={md}>
                 {HappyTechTypeForm('QFxtC9', "Remplir le formulaire d'adhésion entreprise")}
                 <Divider style={{ margin: 24 }} />

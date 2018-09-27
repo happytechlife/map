@@ -16,13 +16,13 @@ interface IParams {
 function getMarkdownPagesRoutes(store?: IHappyTechStore) {
     return Object.keys(markdownPages).map(name => {
         const page = markdownPages[name];
-        return <Route key={page.route} exact={true} path={`/${page.route}`} component={() => <Markdown html={page.html} store={store} />} />
+        return <Route key={page.route} exact={true} path={`/${page.route}`} component={() => <Markdown page={page} html={page.html} store={store} />} />
     })
 }
 
 function getReactPagesRoutes(store?: IHappyTechStore) {
     return reactPages.map(page => {
-        return <Route key={page.route} exact={true} path={`/${page.route}`} component={(props: IParams) => <page.component {...props.match.params} store={store} />} />
+        return <Route key={page.route} exact={true} path={`/${page.route}`} component={(props: IParams) => <page.component page={page} {...props.match.params} store={store} />} />
     })
 }
 export const renderRoutes = (store?: IHappyTechStore) => {
