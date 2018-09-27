@@ -1,3 +1,5 @@
+![HappyTech Summit](https://res.cloudinary.com/happytech/image/upload/w_320/v1538052261/logos/HappyTechSummit.jpg)
+
 # HappyTech Summit
 
 ## Qu'est-ce que c'est ?
@@ -6,7 +8,7 @@
  
  Les startups, qui proposent des solutions technologiques innovantes au service du bien-être dans le monde du travail, se regroupent la même journée dans des villages thématiques répondant aux besoins des entreprises.
 
- La première édition a lieu à Paris, le **6 Décembre 2018 de 9h à 18h chez Starway Sentier, au 104 boulevard Sébastopol dans le 3ème arrondissement de Paris**.
+ La première édition a lieu à Paris, le **6 Décembre 2018 de 9h à 18h chez Starway Sentier, au 104 boulevard Sébastopol dans le 3ème arrondissement de Paris**. La totalité de l'espace sera dédiée à la HappyTech Summit.
 
 ## Quels sont les exposants ?
 
@@ -33,7 +35,18 @@ afin d'accompagner la transition culturelle des entreprises et répondre à leur
 
 Ce salon est à destination des professionels uniquement.
 
-Quelque soit votre rôle dans votre entreprise, (Direction des Ressources Humaines, Direction Générale, Direction de l’Innovation, Direction de l’Environnement de Travail, Direction de la Communication, Direction Marketing, Responsable fonctionnel, Manager ou employé...) vous trouverez au HappyTech Summit toutes les solutions clé en main pour une mise en place immédiate dans votre entreprise.
+Quelque soit votre rôle dans votre entreprise
+- Direction des Ressources Humaines
+- Direction Générale
+- Direction de l’Innovation
+- Direction de l’Environnement de Travail
+- Direction de la Communication
+- Direction Marketing
+- CE
+- Syndicats
+- Responsable fonctionnel, Manager ou employé...
+
+Vous trouverez au HappyTech Summit toutes les solutions clé en main pour une mise en place immédiate dans votre entreprise.
  
 ## Quels sont les villages thématiques ?
 
