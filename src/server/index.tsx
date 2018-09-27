@@ -13,6 +13,7 @@ import { renderRoutes } from '../Router/Routes';
 import { IHappyTechStore } from '../models';
 import { allRouterPages } from './../Utils/Pages/pages';
 import { Helmet } from 'react-helmet';
+import { startupLinkName } from '../Components/StartupCard';
 
 const port = process.env.PORT || 9000;
 // const port = 9000;
@@ -55,6 +56,16 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
 
 
     allRouterPages.forEach(page => {
+        server.get(`/startups/:name/logos/label.png`, async (req, res) => {
+            console.log(req.params);
+            const { name } = req.params;
+            const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
+            if (startup) {
+
+            }
+            res.send('coucou');
+        })
+
 
         server.get(`/${page.route}`, async (req, res) => {
             const ra = getReactApp(store, req.url);
