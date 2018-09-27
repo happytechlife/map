@@ -5,9 +5,10 @@ import './Startups.css';
 import * as md from './../Markdowns/presse.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
-
+import { getHeaders } from '../Utils/Pages/pages';
+import BookIcon from '@material-ui/icons/Book';
 
 export class PresseGrid extends React.Component<IReactPageProps, {}> {
     public render() {
@@ -32,3 +33,11 @@ function PresseCard(presse: IPresse) {
         {logo && <img src={logo} />}
     </Card>;
 }
+
+export const pressePage: IReactPage = {
+    menuTitle: 'Presse',
+    icon: BookIcon,
+    route: 'presse',
+    component: PresseGrid,
+    headers: getHeaders('La HappyTech dans la presse')
+};

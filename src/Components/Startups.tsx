@@ -6,8 +6,10 @@ import './Startups.css';
 import * as md from './../Markdowns/startups.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { HappyTechTypeForm } from '../Utils/typeform';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
+import { getHeaders } from '../Utils/Pages/pages';
+import ViewModule from '@material-ui/icons/ViewModule';
 
 interface IProps extends IReactPageProps {
     store: IHappyTechStore
@@ -35,4 +37,13 @@ export class Startups extends React.Component<IProps, {}> {
             </Markdown>
         </React.Fragment>
     }
+}
+
+
+export const startupsPage: IReactPage = {
+    menuTitle: 'Les startups',
+    icon: ViewModule,
+    route: 'startups',
+    component: Startups,
+    headers: getHeaders('Les startups de la HappyTech')
 }

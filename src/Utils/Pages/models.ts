@@ -4,7 +4,18 @@ type PagesName = 'presentation' | 'entreprises';
 export type MarkdownPages = Record<PagesName, IMarkdownPage>
 
 type MapEntityToString = (store?: IHappyTechStore, params?: any) => string;
+type MapEntityToMetaTag = (store?: IHappyTechStore, params?: any) => IMetaTag;
 
+interface IMetaTag {
+    tags: string;
+    description: string;
+    title: string;
+}
+
+interface ITwitterShare {
+    title: MapEntityToString;
+    description: MapEntityToString;
+}
 export interface IPage {
     route: string;
     menuTitle: string;
@@ -12,6 +23,11 @@ export interface IPage {
     headers: {
         title: MapEntityToString;
         description?: MapEntityToString;
+        meta?: MapEntityToMetaTag;
+        share?: {
+            twitter: ITwitterShare,
+            og: ITwitterShare
+        }
     }
 }
 

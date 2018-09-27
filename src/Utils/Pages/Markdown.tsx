@@ -4,7 +4,7 @@ import './base.css';
 import { IHappyTechStore } from '../../models';
 import './md.css';
 import { getHtml } from './pages';
-import { IMarkdownPage } from './models';
+import { IPage } from './models';
 import { helmet } from '../Helmet';
 
 export class Text extends React.Component<{}, {}> {
@@ -19,7 +19,7 @@ interface IProps {
     store?: IHappyTechStore;
     html?: string;
     md?: string;
-    page?: IMarkdownPage;
+    page?: IPage;
 }
 export class Markdown extends React.Component<IProps, {}> {
 

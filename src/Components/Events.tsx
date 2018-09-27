@@ -10,8 +10,10 @@ import * as moment from 'moment';
 import { ExternalLink } from '../Utils/ExternalLink';
 import { WithWidthProps, isWidthDown } from '@material-ui/core/withWidth';
 import { Breakpoint } from '@material-ui/core/styles/createBreakpoints';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
+import EventIcon from '@material-ui/icons/Event';
+import { getHeaders } from '../Utils/Pages/pages';
 
 
 type IProps = IReactPageProps & WithWidthProps;
@@ -80,3 +82,11 @@ function EventCard(event: IEvent, width: Breakpoint) {
     </Card>;
     return card;
 }
+
+export const eventsPage: IReactPage = {
+    menuTitle: 'Retrouvez-nous',
+    icon: EventIcon,
+    route: 'evenements',
+    component: Events,
+    headers: getHeaders('Les évenemnts de la HappyTech')
+};

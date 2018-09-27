@@ -1,13 +1,14 @@
 import * as React from 'react';
-import { Divider, Card, CardMedia, CardContent, Typography, List, CardActions } from '@material-ui/core'
 import { ICompany } from '../models';
+import { Divider, Card, CardMedia, CardContent, Typography, List, CardActions } from '@material-ui/core'
 import * as md from './../Markdowns/entreprises.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { HappyTechTypeForm } from '../Utils/typeform';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
-
+import { getHeaders } from '../Utils/Pages/pages';
+import AccountBalance from '@material-ui/icons/AccountBalance';
 
 export class Entreprises extends React.Component<IReactPageProps, {}> {
     public render() {
@@ -47,3 +48,11 @@ function CompanyCard(company: ICompany) {
         </div>
     </Card>;
 }
+
+const entreprisesPage: IReactPage = {
+    menuTitle: 'Les entreprises',
+    icon: AccountBalance,
+    route: 'entreprises',
+    component: Entreprises,
+    headers: getHeaders('Les entreprises HappyTech')
+};

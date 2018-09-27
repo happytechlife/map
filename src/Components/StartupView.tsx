@@ -7,11 +7,15 @@ import './StartupCard';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { Contact, startupLinkName } from './StartupCard';
 import { snTwitter, snFacebook, snLinkedin, snYoutube, snInstagram } from '../Utils/socialNetworks';
-interface IProps {
+import { IReactPageProps } from '../Utils/Pages/models';
+import { helmet } from '../Utils/Helmet';
+interface IP {
     store: IHappyTechStore;
     name: string;
     classes: any;
 }
+
+type IProps = IP & IReactPageProps;
 
 const styles: any = (theme: any) => ({
     card: {
@@ -47,7 +51,7 @@ const styles: any = (theme: any) => ({
 });
 class StartupView extends React.Component<IProps, {}> {
     public render() {
-        const { store, name } = this.props;
+        const { store, name, page } = this.props;
         if (!store) {
             return null;
         }
@@ -57,6 +61,7 @@ class StartupView extends React.Component<IProps, {}> {
             const { socialNetwork, pitch } = startup;
             const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fit');
             return <Paper style={{ margin: 16, padding: 16 }}>
+                {page && helmet(page, store, { name })}
                 <Hidden smDown={true}>
                     {logo && <img src={logo} style={{ margin: 24 }} />}
                 </Hidden>

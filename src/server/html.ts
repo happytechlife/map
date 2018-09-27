@@ -11,7 +11,7 @@ interface IHtml {
 }
 const html = ({ helmet, title, store, body, css }: IHtml) => `
   <!DOCTYPE html>
-  <html>
+  <html prefix="og: http://ogp.me/ns#">
     <head>
       ${helmet.title.toString()}
       ${helmet.meta.toString()}

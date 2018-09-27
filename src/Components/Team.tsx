@@ -6,8 +6,12 @@ import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { snLinkedin, snTwitter, snFacebook } from '../Utils/socialNetworks';
 import { groupListByProperty } from '../Utils/misc';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
+import People from '@material-ui/icons/People';
+import { getHeaders } from '../Utils/Pages/pages';
+
+
 
 export class Team extends React.Component<IReactPageProps, {}> {
 
@@ -51,4 +55,12 @@ function teamMember(tm: ITeamMember) {
             {tm.facebook && snFacebook(tm.facebook)}
         </CardActions>
     </Card>
+}
+
+export const teamPage: IReactPage = {
+    menuTitle: 'L\'équipe',
+    route: 'team',
+    icon: People,
+    component: Team,
+    headers: getHeaders(`L'équipe HappyTech`)
 }

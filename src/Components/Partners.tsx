@@ -5,9 +5,10 @@ import { Markdown } from '../Utils/Pages/Markdown';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { Card, CardMedia, CardContent, Typography, CardActions, List, Divider } from '@material-ui/core';
 import { groupListByProperty } from '../Utils/misc';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
-
+import { getHeaders } from '../Utils/Pages/pages';
+import SyncIcon from '@material-ui/icons/Sync';
 
 export class Partners extends React.Component<IReactPageProps, {}> {
     public render() {
@@ -54,3 +55,11 @@ function PartnerCard(partner: IPartner) {
         </div>
     </Card>;
 }
+
+export const partnersPage: IReactPage = {
+    menuTitle: 'Les partenaires',
+    icon: SyncIcon,
+    route: 'partenaires',
+    component: Partners,
+    headers: getHeaders('Les partenaires de la HappyTech')
+};
