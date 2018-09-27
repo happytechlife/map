@@ -57,10 +57,10 @@ function teamMember(tm: ITeamMember) {
     </Card>
 }
 
-export const teamPage: IReactPage = {
+export const teamPage = (): IReactPage => ({
     menuTitle: 'L\'équipe',
     route: 'team',
     icon: People,
     component: Team,
     headers: getHeaders(`L'équipe HappyTech`)
-}
+})

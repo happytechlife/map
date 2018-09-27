@@ -56,10 +56,10 @@ function PartnerCard(partner: IPartner) {
     </Card>;
 }
 
-export const partnersPage: IReactPage = {
+export const partnersPage = (): IReactPage => ({
     menuTitle: 'Les partenaires',
     icon: SyncIcon,
     route: 'partenaires',
     component: Partners,
     headers: getHeaders('Les partenaires de la HappyTech')
-};
+});

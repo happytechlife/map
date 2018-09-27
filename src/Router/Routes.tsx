@@ -21,7 +21,7 @@ function getMarkdownPagesRoutes(store?: IHappyTechStore) {
 }
 
 function getReactPagesRoutes(store?: IHappyTechStore) {
-    return reactPages.map(page => {
+    return reactPages().map(page => {
         return <Route key={page.route} exact={true} path={`/${page.route}`} component={(props: IParams) => <page.component page={page} {...props.match.params} store={store} />} />
     })
 }

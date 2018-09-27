@@ -34,10 +34,10 @@ function PresseCard(presse: IPresse) {
     </Card>;
 }
 
-export const pressePage: IReactPage = {
+export const pressePage = (): IReactPage => ({
     menuTitle: 'Presse',
     icon: BookIcon,
     route: 'presse',
     component: PresseGrid,
     headers: getHeaders('La HappyTech dans la presse')
-};
+});

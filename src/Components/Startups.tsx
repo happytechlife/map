@@ -40,10 +40,10 @@ export class Startups extends React.Component<IProps, {}> {
 }
 
 
-export const startupsPage: IReactPage = {
+export const startupsPage = (): IReactPage => ({
     menuTitle: 'Les startups',
     icon: ViewModule,
     route: 'startups',
     component: Startups,
     headers: getHeaders('Les startups de la HappyTech')
-}
+});

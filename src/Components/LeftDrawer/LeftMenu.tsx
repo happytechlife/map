@@ -26,4 +26,4 @@ export const LeftMenu = (text: string, link: string, onLinkClick: () => void, Ic
     </div>;
 }
 
-export const leftMenus = (onLinkClick: () => void) => menuPages.map(p => MenuFromPage(p, onLinkClick));
+export const leftMenus = (onLinkClick: () => void) => menuPages().map(p => MenuFromPage(p, onLinkClick));

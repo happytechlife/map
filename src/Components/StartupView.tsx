@@ -7,7 +7,7 @@ import './StartupCard';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { Contact, startupLinkName } from './StartupCard';
 import { snTwitter, snFacebook, snLinkedin, snYoutube, snInstagram } from '../Utils/socialNetworks';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
 interface IP {
     store: IHappyTechStore;
@@ -96,3 +96,16 @@ class StartupView extends React.Component<IProps, {}> {
 }
 
 export default withStyles(styles, { withTheme: true })(StartupView);
+
+export const startupPage = (): IReactPage => ({
+    menuTitle: '--',
+    route: 'startups/:name',
+    component: StartupView,
+    headers: {
+        title: (store: IHappyTechStore, params: { name: string }) => {
+            const { name } = params;
+            const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
+            return startup ? `La super startup ${startup.name}` : '<no-startup>'
+        }
+    }
+})

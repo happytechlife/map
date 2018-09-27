@@ -10,13 +10,13 @@ function ogTags(page: IPage, store?: IHappyTechStore, params?: any) {
         const { meta } = headers;
         if (meta) {
             const m = meta(store, params);
-            return <React.Fragment>
-                <meta property="og:title" content={m.title} />
-                <meta property="og:description" content={m.description} />
-                {/* <meta property="og:type" content="video.movie" /> */}
-                {/* <meta property="og:url" content={url} /> */}
-                <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
-            </React.Fragment>
+            return [
+                <meta key={0} property="og:title" content={m.title} />,
+                <meta key={1} property="og:description" content={m.description} />,
+                <meta key={2} property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+            ];
+            {/* <meta property="og:type" content="video.movie" /> */ }
+            {/* <meta property="og:url" content={url} /> */ }
         }
     }
     return null;

@@ -49,10 +49,10 @@ function CompanyCard(company: ICompany) {
     </Card>;
 }
 
-const entreprisesPage: IReactPage = {
+export const entreprisesPage = (): IReactPage => ({
     menuTitle: 'Les entreprises',
     icon: AccountBalance,
     route: 'entreprises',
     component: Entreprises,
     headers: getHeaders('Les entreprises HappyTech')
-};
+});

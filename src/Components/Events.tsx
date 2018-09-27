@@ -83,10 +83,10 @@ function EventCard(event: IEvent, width: Breakpoint) {
     return card;
 }
 
-export const eventsPage: IReactPage = {
+export const eventsPage = (): IReactPage => ({
     menuTitle: 'Retrouvez-nous',
     icon: EventIcon,
     route: 'evenements',
     component: Events,
     headers: getHeaders('Les évenemnts de la HappyTech')
-};
+});

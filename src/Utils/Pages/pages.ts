@@ -69,12 +69,13 @@ export const markdownPages: IMarkdownPage[] = [
     presentation, homePage, summit
 ]
 
-export const reactPages: IReactPage[] = [
-    startupsPage, startupPage, teamPage, entreprisesPage, partnersPage, eventsPage, pressePage
-]
-export const menuPages: IPage[] = [
-    presentation, startupsPage, entreprisesPage, teamPage, eventsPage, partnersPage, summit, pressePage
-];
+// 
+export const reactPages = (): IReactPage[] => ([
+    startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage()
+])
+export const menuPages = (): IPage[] => ([
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), partnersPage(), summit, pressePage()
+]);
 export const allRouterPages: IPage[] = [
-    ...markdownPages, ...reactPages
+    ...markdownPages, ...reactPages()
 ]
