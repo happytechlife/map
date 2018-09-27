@@ -115,10 +115,12 @@ export const startupPage = (): IReactPage => ({
                     share: {
                         twitter: {
                             title: sn ? `@${sn.twitter} x @HappyTechFrance : ${startup.tagline}` : '...',
-                            description
+                            description,
+                            image: startup.iconUrl
                         },
                         og: {
-                            title, description
+                            title, description,
+                            image: cloudinaryTransform(startup.iconUrl, 'w_1200,h_630,c_fit,f_png,b_white')
                         }
                     }
                 }

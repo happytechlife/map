@@ -61,9 +61,9 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
             const { name } = req.params;
             const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
             if (startup) {
-
+                res.send(startup.name);
             }
-            res.send('coucou');
+            res.send(name);
         })
 
 

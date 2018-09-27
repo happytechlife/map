@@ -8,7 +8,7 @@ function ogTags(og: IOpenGraphShare) {
     return [
         <meta key={0} property="og:title" content={og.title} />,
         <meta key={1} property="og:description" content={og.description} />,
-        <meta key={2} property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+        <meta key={2} property="og:image" content={og.image} />
     ];
     {/* <meta property="og:type" content="video.movie" /> */ }
     {/* <meta property="og:url" content={url} /> */ }
@@ -16,13 +16,13 @@ function ogTags(og: IOpenGraphShare) {
 }
 
 function twitterTags(twitter: ITwitterShare) {
-    const { title, description } = twitter;
+    const { title, description, image } = twitter;
     return [
         <meta key={0} name="twitter:card" content="summary" />,
         <meta key={1} name="twitter:site" content="@HappyTechFrance" />,
         <meta key={2} name="twitter:title" content={title} />,
         <meta key={3} name="twitter:description" content={description} />,
-        <meta key={4} name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+        <meta key={4} name="twitter:image" content={image} />
     ];
     return null;
 }

@@ -12,6 +12,7 @@ const html = ({ helmet, store, body, css }: IHtml) => `
   <!DOCTYPE html>
   <html prefix="og: http://ogp.me/ns#">
     <head>
+      <meta charset="utf-8" />
       ${helmet.title.toString()}
       ${helmet.meta.toString()}
       ${helmet.link.toString()}

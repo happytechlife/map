@@ -14,11 +14,13 @@ interface IMetaTag {
 export interface ITwitterShare {
     title: string;
     description: string;
+    image: string;
 }
 
 export interface IOpenGraphShare {
     title: string;
     description: string;
+    image: string;
 }
 
 export interface IMetaHeaders {
