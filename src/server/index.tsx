@@ -14,7 +14,7 @@ import { IHappyTechStore } from '../models';
 import { allRouterPages } from './../Utils/Pages/pages';
 import { Helmet } from 'react-helmet';
 import { startupLinkName } from '../Components/StartupCard';
-
+import Jimp = require('jimp');
 const port = process.env.PORT || 9000;
 // const port = 9000;
 
@@ -57,13 +57,27 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
 
     allRouterPages.forEach(page => {
         server.get(`/startups/:name/logos/label.png`, async (req, res) => {
+
             console.log(req.params);
             const { name } = req.params;
             const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
+
             if (startup) {
-                res.send(startup.name);
+                const icon = await Jimp.read(startup.iconUrl);
+                // console.log(icon.getMIME())
+                // return res.send(startup.name);
+                const mime = icon.getMIME();
+                // const b = await icon.getBuffer(mime, () => false);
+                icon.resize(200, 200).getBuffer(mime, (err, buffer) => {
+                    res.writeHead(200, {
+                        'Content-Type': mime,
+                        'Content-Length': buffer.length
+                    });
+                    res.end(buffer);
+                })
+                // return res.send(b);
             }
-            res.send(name);
+            // return res.send(name);
         })
 
 

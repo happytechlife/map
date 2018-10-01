@@ -5,130 +5,280 @@
       "name": "AllSessions",
       "address": "6-8 Avenue de la Porte de Champerret, 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528453797/allsessions.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 0,
+          "startup_name": "AllSessions",
+          "firstname": "Antoine",
+          "lastname": "Thoreau",
+          "email": "antoine@allsessions.fr",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "antoinethoreau",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538405839/website/people/Antoine_Thoreau.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.88626319999999,
         "lng": 2.2874510999999984
       },
       "tags": [],
-      "description": "AllSessions est la plateforme du sport entre collègues : développez le bien-être avec des activités pour tous les goûts (fitness, yoga, boxe, sports collectifs...), boostez la cohésion de vos équipes avec un challenge ludique et fédérateur !"
+      "description": "AllSessions est la plateforme du sport entre collègues : développez le bien-être avec des activités pour tous les goûts (fitness, yoga, boxe, sports collectifs...), boostez la cohésion de vos équipes avec un challenge ludique et fédérateur !",
+      "tagline": ""
     },
     {
       "rowId": 1,
-      "name": "Artify",
-      "address": "42 rue Marius Aufan 92300 Courbevoie",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587209/ARTIFY-01_2557.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.8898851,
-        "lng": 2.2857175000000325
-      },
-      "tags": [],
-      "description": "ARTIFY révèle l’Art dans les espaces de vie professionnels grâce au meilleur de la Technologie. Nous proposons aux entreprises un tableau connecté dédié à l’art. Nous répondons ainsi à leurs enjeux de décoration, de communication, d’innovation et de bien-être."
-    },
-    {
-      "rowId": 2,
-      "name": "Aura",
-      "address": "27 rue du Chemin Vert 75011 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.8586119,
-        "lng": 2.3730536000000484
-      },
-      "tags": [],
-      "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable."
-    },
-    {
-      "rowId": 3,
-      "name": "Aurasens",
-      "address": "81 rue Réaumur 75002 Paris",
-      "iconUrl": "",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.88626319999999,
-        "lng": 2.2874510999999984
-      },
-      "tags": [],
-      "description": "Aurasens conçoit et développe des solutions permettant des voyages sensoriels d’un nouveau genre alliant la musique et le massage. L’utilisateur écoute de la musique par casque ou par enceintes et ressent des vibrations qui se déplacent sur son corps comme un massage. La musique écoutée et les vibrations ressenties sont en parfaite harmonie et offrent une sensation d’immersion audio-tactile."
-    },
-    {
-      "rowId": 4,
-      "name": "Bee",
-      "address": "14 rue de Péronne, 78500 Sartrouville",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520521005/Bee_bien_etre.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.93694929999999,
-        "lng": 2.171336500000052
-      },
-      "tags": [],
-      "description": "Avec Bee-Bien-être en entreprise, rejoignez le réseau des Happyculteurs d’entreprises ! Faites appel à des experts bien-être-santé pour la mise en place et la gestion complète de votre programme Bien-être-santé sur-mesure, au sein de votre entreprise."
-    },
-    {
-      "rowId": 5,
-      "name": "Bleexo",
-      "address": "42 Rue du Languedoc, 31000 Toulouse",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521631206/bleexo.svg",
-      "contacts": [],
-      "latLng": {
-        "lat": 43.5983098,
-        "lng": 1.4457777000000078
-      },
-      "tags": [],
-      "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
-    },
-    {
-      "rowId": 6,
-      "name": "Bloom At Work",
-      "address": "14 rue Eugène Freyssinet 75013 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900089/bloomatworkx2.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.8350722,
-        "lng": 2.370609800000011
-      },
-      "tags": [],
-      "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work."
-    },
-    {
-      "rowId": 7,
-      "name": "BoostYourFit",
-      "address": "101, rue de Sèvres - 75272 Paris Cedex 06",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378272/boostyourfit.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.8484788,
-        "lng": 2.3210417000000234
-      },
-      "tags": [],
-      "description": "BoostYourFit est le 1er réseau social d’entreprise intelligent basé sur le sport."
-    },
-    {
-      "rowId": 8,
-      "name": "ChaudPatate",
+      "name": "Antimauxdedos",
       "address": "10 rue Penthièvre 75008 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378273/chaud-patate.jpg",
-      "contacts": [],
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538407819/website/startup/antimauxdedos.png",
+      "contacts": [
+        {
+          "rowId": 1,
+          "startup_name": "Antimauxdedos",
+          "firstname": "Paul",
+          "lastname": "Voillemin",
+          "email": "paul@chaudpatate.org",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "paulvoillemin",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Paul_Voillemin.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8733291,
         "lng": 2.316598699999986
       },
       "tags": [],
-      "description": "Adoptez la Chaud Patate attitude pour booster vos évènements de team building et d'icebreaker"
+      "description": "Antimauxdedos.com révolutionne grâce à sa méthode la lutte contre les douleurs de dos en entreprise. ",
+      "tagline": ""
+    },
+    {
+      "rowId": 2,
+      "name": "Artify",
+      "address": "42 rue Marius Aufan 92300 Courbevoie",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587209/ARTIFY-01_2557.png",
+      "contacts": [
+        {
+          "rowId": 2,
+          "startup_name": "Artify",
+          "firstname": "Christophe",
+          "lastname": "Roux",
+          "email": "christophe.roux@artify.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "christopheroux1",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Roux.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8898851,
+        "lng": 2.2857175000000325
+      },
+      "tags": [],
+      "description": "ARTIFY révèle l’Art dans les espaces de vie professionnels grâce au meilleur de la Technologie. Nous proposons aux entreprises un tableau connecté dédié à l’art. Nous répondons ainsi à leurs enjeux de décoration, de communication, d’innovation et de bien-être.",
+      "tagline": ""
+    },
+    {
+      "rowId": 3,
+      "name": "Aura",
+      "address": "27 rue du Chemin Vert 75011 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+      "contacts": [
+        {
+          "rowId": 3,
+          "startup_name": "Aura",
+          "firstname": "Thomas",
+          "lastname": "Demerens",
+          "email": "thomas@aura-urbaine.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "thomas-demerens-40048aa0",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Thomas_Demerens.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8586119,
+        "lng": 2.3730536000000484
+      },
+      "tags": [],
+      "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable.",
+      "tagline": ""
+    },
+    {
+      "rowId": 4,
+      "name": "Aurasens",
+      "address": "81 rue Réaumur 75002 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977312/website/startup/AURASENS_1.png",
+      "contacts": [
+        {
+          "rowId": 4,
+          "startup_name": "Aurasens",
+          "firstname": "Olivier",
+          "lastname": "Zeller",
+          "email": "olivier.zeller@aurasens.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "olivierzeller",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Olivier_Zeller.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.88626319999999,
+        "lng": 2.2874510999999984
+      },
+      "tags": [],
+      "description": "Aurasens conçoit et développe des solutions permettant des voyages sensoriels d’un nouveau genre alliant la musique et le massage. L’utilisateur écoute de la musique par casque ou par enceintes et ressent des vibrations qui se déplacent sur son corps comme un massage. La musique écoutée et les vibrations ressenties sont en parfaite harmonie et offrent une sensation d’immersion audio-tactile.",
+      "tagline": ""
+    },
+    {
+      "rowId": 5,
+      "name": "Bee",
+      "address": "14 rue de Péronne, 78500 Sartrouville",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520521005/Bee_bien_etre.png",
+      "contacts": [
+        {
+          "rowId": 5,
+          "startup_name": "Bee",
+          "firstname": "Alban",
+          "lastname": "Jourdet",
+          "email": "ajourdet@bee-bienetreentreprise.com ",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "alban-jourdet-b3723563",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405760/website/people/Alban_Jourdet.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.93694929999999,
+        "lng": 2.171336500000052
+      },
+      "tags": [],
+      "description": "Avec Bee-Bien-être en entreprise, rejoignez le réseau des Happyculteurs d’entreprises ! Faites appel à des experts bien-être-santé pour la mise en place et la gestion complète de votre programme Bien-être-santé sur-mesure, au sein de votre entreprise.",
+      "tagline": ""
+    },
+    {
+      "rowId": 6,
+      "name": "Bleexo",
+      "address": "42 Rue du Languedoc, 31000 Toulouse",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521631206/bleexo.svg",
+      "contacts": [
+        {
+          "rowId": 6,
+          "startup_name": "Bleexo",
+          "firstname": "Stéphane",
+          "lastname": "Waller",
+          "email": "stephane.waller@bleexo.com",
+          "telephone": "",
+          "title": "CEO ",
+          "linkedin": "swmeltis",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Stephane_Waller.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 43.5983098,
+        "lng": 1.4457777000000078
+      },
+      "tags": [],
+      "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien.",
+      "tagline": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
+    },
+    {
+      "rowId": 7,
+      "name": "Bloom At Work",
+      "address": "14 rue Eugène Freyssinet 75013 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900089/bloomatworkx2.png",
+      "contacts": [
+        {
+          "rowId": 7,
+          "startup_name": "Bloom At Work",
+          "firstname": "Charles",
+          "lastname": "De Fréminville",
+          "email": "charles@bloom-at-work.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "bloom-with-charles",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Charles_de_Fr%C3%A9minville.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8350722,
+        "lng": 2.370609800000011
+      },
+      "tags": [],
+      "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work.",
+      "tagline": ""
+    },
+    {
+      "rowId": 8,
+      "name": "BoostYourFit",
+      "address": "101, rue de Sèvres - 75272 Paris Cedex 06",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378272/boostyourfit.png",
+      "contacts": [
+        {
+          "rowId": 8,
+          "startup_name": "BoostYourFit",
+          "firstname": "Fabien",
+          "lastname": "Guillemot",
+          "email": "fguillemot@boostyourfit.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "fabien-guillemot-5b96002",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Fabien_Guillemot.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8484788,
+        "lng": 2.3210417000000234
+      },
+      "tags": [],
+      "description": "BoostYourFit est le 1er réseau social d’entreprise intelligent basé sur le sport.",
+      "tagline": "BoostYourFit est le 1er réseau social d’entreprise intelligent basé sur le sport."
     },
     {
       "rowId": 9,
       "name": "Cocoworker",
       "address": "6 Allée des Sablons, 94120 Fontenay-sous-Bois",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523613348/coco.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 9,
+          "startup_name": "Cocoworker",
+          "firstname": "Faustine",
+          "lastname": "Duriez",
+          "email": "faustine@cocoworkers.com",
+          "telephone": "",
+          "title": "CEO & Fondatrice",
+          "linkedin": "faustine-duriez-2617013b",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Faustine_Duriez.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8546261,
         "lng": 2.491816800000038
       },
       "tags": [],
-      "description": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues."
+      "description": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues.",
+      "tagline": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues."
     },
     {
       "rowId": 10,
@@ -137,7 +287,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
       "contacts": [
         {
-          "rowId": 0,
+          "rowId": 10,
           "startup_name": "Comeet",
           "firstname": "Samuel",
           "lastname": "Metias",
@@ -155,350 +305,1151 @@
         "lng": 2.2337430999999697
       },
       "tags": [],
-      "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+      "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires.",
+      "tagline": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
     },
     {
       "rowId": 11,
       "name": "Contextor",
       "address": "5 rue Guy Mocquet, 91400 Orsay",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521196200/Contextor_Logo_white__baseline.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 11,
+          "startup_name": "Contextor",
+          "firstname": "Philippe",
+          "lastname": "Roux",
+          "email": "ppoux@contextor.eu",
+          "telephone": "",
+          "title": "Directeur général",
+          "linkedin": "",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.7004544,
         "lng": 2.189630099999931
       },
       "tags": [],
-      "description": "Pionnier de la Robotic Process Automation, Contextor améliore le confort au travail de dizaines de milliers de personnes, en les déchargeant de toutes les tâches répétitives et fastidieuses liées à leur poste de travail informatique : copier-coller, changement d’application etc. Contextor permet aux collaborateurs de consacrer plus de temps aux tâches à valeur ajoutée qui mobilisent leur intelligence et leur sens de la relation humaine."
+      "description": "Pionnier de la Robotic Process Automation, Contextor améliore le confort au travail de dizaines de milliers de personnes, en les déchargeant de toutes les tâches répétitives et fastidieuses liées à leur poste de travail informatique : copier-coller, changement d’application etc. Contextor permet aux collaborateurs de consacrer plus de temps aux tâches à valeur ajoutée qui mobilisent leur intelligence et leur sens de la relation humaine.",
+      "tagline": ""
     },
     {
       "rowId": 12,
       "name": "Cowork.io",
       "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 12,
+          "startup_name": "Cowork.io",
+          "firstname": "Pierre-André",
+          "lastname": "Svetchine",
+          "email": "pasvetchine@cowork.io",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "psvetchine",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Pierre-Andr%C3%A9_Svetchine.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8716208,
         "lng": 2.347764600000005
       },
       "tags": [],
-      "description": "Créez du bien être et de l'engagement dans vos espaces de travail. CoWork.io, logiciel de gestion d'espaces de travail partagés et collaboratifs."
+      "description": "Créez du bien être et de l'engagement dans vos espaces de travail. CoWork.io, logiciel de gestion d'espaces de travail partagés et collaboratifs.",
+      "tagline": ""
     },
     {
       "rowId": 13,
       "name": "Eveia",
       "address": "32 RUE DE LA GARENNE - 41400 VALLIERES LES GRANDES",
-      "iconUrl": "",
-      "contacts": [],
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977883/website/startup/Eveia.png",
+      "contacts": [
+        {
+          "rowId": 13,
+          "startup_name": "Eveia",
+          "firstname": "Vincent",
+          "lastname": "Fourdrinier",
+          "email": "info@eveia.io",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "vincentfourdrinier",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Vincent_Fourdrinier.jpg"
+        }
+      ],
       "latLng": {
         "lat": 47.42791099999999,
         "lng": 1.1542702000000418
       },
       "tags": [],
-      "description": "Eveia Active Footrest est une solution globale et unique. Elle est constituée du seul repose-pieds actif connecté du marché qui s'utilise en position assise sans changer son environnement. Couplée à son application de coaching/gestion/gamification, elle accompagne l'utilisateur au quotidien."
+      "description": "Eveia Active Footrest est une solution globale et unique. Elle est constituée du seul repose-pieds actif connecté du marché qui s'utilise en position assise sans changer son environnement. Couplée à son application de coaching/gestion/gamification, elle accompagne l'utilisateur au quotidien.",
+      "tagline": ""
     },
     {
       "rowId": 14,
       "name": "Feeleo",
       "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 14,
+          "startup_name": "Feeleo",
+          "firstname": "Basil",
+          "lastname": "Yaïche",
+          "email": "b.yaiche@feeleo.co",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "basil-yaiche-751836151",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8909327,
         "lng": 2.243474900000024
       },
       "tags": [],
-      "description": "Feeleo propose des interventions innovantes visant à améliorer le bien-être des salariés : méditation, sophrologie, improvisation, conseils…tout est mis à votre disposition pour répondre spécifiquement à vos besoin via des intervenants qualifiés et bienveillants."
+      "description": "Feeleo propose des interventions innovantes visant à améliorer le bien-être des salariés : méditation, sophrologie, improvisation, conseils…tout est mis à votre disposition pour répondre spécifiquement à vos besoin via des intervenants qualifiés et bienveillants.",
+      "tagline": ""
     },
     {
       "rowId": 15,
       "name": "Fidensio",
       "address": "5 Parvis Alan Turing, 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 15,
+          "startup_name": "Fidensio",
+          "firstname": "Johan",
+          "lastname": "Melab",
+          "email": "johan@fidensio.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "johan-melab",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.83477,
         "lng": 2.3707703999999694
       },
       "tags": [],
-      "description": "Fidensio, c'est la conciergerie connectée au bureau ! Intuitive et innovante, la e-conciergerie Fidensio accompagne les collaborateurs dans leur équilibre vie privée vie professionnelle en leur proposant plus d'une vingtaine de services pour leur simplifier le quotidien : Pressing, Services à domicile, Achats express...."
+      "description": "Fidensio, c'est la conciergerie connectée au bureau ! Intuitive et innovante, la e-conciergerie Fidensio accompagne les collaborateurs dans leur équilibre vie privée vie professionnelle en leur proposant plus d'une vingtaine de services pour leur simplifier le quotidien : Pressing, Services à domicile, Achats express....",
+      "tagline": ""
     },
     {
       "rowId": 16,
       "name": "Happy Quest",
       "address": "104 rue Oberkampf 75011 PARIS",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 16,
+          "startup_name": "Happy Quest",
+          "firstname": "Lewis",
+          "lastname": "Gotteland",
+          "email": "lewis@happyquest.co",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "lewis-gotteland-69398961",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lewis.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8658807,
         "lng": 2.3785932000000685
       },
       "tags": [],
-      "description": "Happy Quest, le bonheur en action. Jouer, Mesurer et Récolter un max de sourires pour agir sur son bonheur au travail. #Appli #Pédagogique #Fun #Sens"
+      "description": "Happy Quest, le bonheur en action. Jouer, Mesurer et Récolter un max de sourires pour agir sur son bonheur au travail. #Appli #Pédagogique #Fun #Sens",
+      "tagline": ""
     },
     {
       "rowId": 17,
       "name": "Humancraft",
       "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 17,
+          "startup_name": "Humancraft",
+          "firstname": "Bertrand",
+          "lastname": "Pierson",
+          "email": "bpierson@humancraft.eu",
+          "telephone": "",
+          "title": "Fondateur",
+          "linkedin": "bertrand-pierson-053a739",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8832455,
         "lng": 2.2684090000000197
       },
       "tags": [],
-      "description": "HumanCraft est le spécialiste de l’intermédiation des acteurs du numérique : nous référençons des Entreprises de Services du Numérique (ex-SSII) à taille humaine avec une forte culture d’entreprise et des recrutements de qualité que nous valorisons auprès des acteurs du marché de l’IT."
+      "description": "HumanCraft est le spécialiste de l’intermédiation des acteurs du numérique : nous référençons des Entreprises de Services du Numérique (ex-SSII) à taille humaine avec une forte culture d’entreprise et des recrutements de qualité que nous valorisons auprès des acteurs du marché de l’IT.",
+      "tagline": ""
     },
     {
       "rowId": 18,
       "name": "Humeaning",
       "address": "4 place de l'Opéra 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 18,
+          "startup_name": "Humeaning",
+          "firstname": "Béatrice",
+          "lastname": "Duboisset",
+          "email": "beatrice.duboisset@humeaning.fr",
+          "telephone": "",
+          "title": "CEO & Fondatrice",
+          "linkedin": "beatriceduboisset",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8705039,
         "lng": 2.3328566000000137
       },
       "tags": [],
-      "description": "Les consultan.t.e.s humeaning conçoivent et animent des programmes de sensibilisation pour créer des déclics en donnant des repères sur les enjeux de la transformation et l’innovation. De plus, nous intervenons auprès d’équipes spécifiques ou sur l’ensemble de l’organisation pour créer une culture commune."
+      "description": "Les consultan.t.e.s humeaning conçoivent et animent des programmes de sensibilisation pour créer des déclics en donnant des repères sur les enjeux de la transformation et l’innovation. De plus, nous intervenons auprès d’équipes spécifiques ou sur l’ensemble de l’organisation pour créer une culture commune.",
+      "tagline": ""
     },
     {
       "rowId": 19,
       "name": "IDPosition",
       "address": "85 rue de Lourmel 75015 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1526484792/22496134_1576625562402911_1022557821186686753_o.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 19,
+          "startup_name": "IDPosition",
+          "firstname": "Francis",
+          "lastname": "Schlayen",
+          "email": "f.schlayen@idposition.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "fschlayen",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407940/website/people/Francis_Schlayen.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8446824,
         "lng": 2.287366700000007
       },
       "tags": [],
-      "description": "iDPosition c’est rapprocher chaque collaborateur à son entreprise, grâce à de nouveaux Services, en s’appuyant sur la technologie QRFID®"
+      "description": "iDPosition c’est rapprocher chaque collaborateur à son entreprise, grâce à de nouveaux Services, en s’appuyant sur la technologie QRFID®",
+      "tagline": ""
     },
     {
       "rowId": 20,
       "name": "Kiplin",
       "address": "3 boulevard Saint Martin, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 20,
+          "startup_name": "Kiplin",
+          "firstname": "Vincent",
+          "lastname": "Tharreau",
+          "email": "",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "vincent-tharreau-468b398a",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8678678,
         "lng": 2.361802500000067
       },
       "tags": [],
-      "description": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
+      "description": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif.",
+      "tagline": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
     },
     {
       "rowId": 21,
       "name": "Klimat",
       "address": "94 rue Lafayette 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 21,
+          "startup_name": "Klimat",
+          "firstname": "Jean-Pierre",
+          "lastname": "Brun",
+          "email": "jeanpierre.brun@empreintehumaine.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "jean-pierre-brun-4581461b",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408242/website/people/Jean-Pierre_Brun.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8771096,
         "lng": 2.349093400000015
       },
       "tags": [],
-      "description": "Klimat est donc un outil novateur en matière de baromètre, il propose aussi une analyse des commentaires à l’aide d’un outil d’intelligence artificielle. Klimat va encore plus loin avec son module d’analyse prédictive RH et son coffre à outils contenant des conseils vidéo, des infographies et des articles de blog."
+      "description": "Klimat est donc un outil novateur en matière de baromètre, il propose aussi une analyse des commentaires à l’aide d’un outil d’intelligence artificielle. Klimat va encore plus loin avec son module d’analyse prédictive RH et son coffre à outils contenant des conseils vidéo, des infographies et des articles de blog.",
+      "tagline": ""
     },
     {
       "rowId": 22,
       "name": "Lyyti",
       "address": "104 boulevard de Sébastopol 75003 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 22,
+          "startup_name": "Lyyti",
+          "firstname": "Tehani",
+          "lastname": "Leprieur",
+          "email": "tehani.leprieur@lyyti.com",
+          "telephone": "",
+          "title": "Directrice générale",
+          "linkedin": "tehani-leprieur",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Tehani_Leprieur.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8680143,
         "lng": 2.353812699999935
       },
       "tags": [],
-      "description": "Lyyti est un outil puissant pour la gestion d'évènements, le marketing évènementiel et la mesure du succès d'un évènement."
+      "description": "Lyyti est un outil puissant pour la gestion d'évènements, le marketing évènementiel et la mesure du succès d'un évènement.",
+      "tagline": ""
     },
     {
       "rowId": 23,
       "name": "Melomind",
       "address": "85 rue Maubeuge 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 23,
+          "startup_name": "Melomind",
+          "firstname": "Yohan",
+          "lastname": "Attal",
+          "email": "yohan.attal@mybraintech.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "yohan-attal-7a6a6546",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407783/website/people/Yohan-Attal---CEO--Co-Founder-ConvertImage.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8808257,
         "lng": 2.3525792000000365
       },
       "tags": [],
-      "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés."
+      "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés.",
+      "tagline": ""
     },
     {
       "rowId": 24,
       "name": "monaSTAY",
       "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 24,
+          "startup_name": "monaSTAY",
+          "firstname": "Aymeric",
+          "lastname": "Dognin",
+          "email": "aymeric@monastay.fr",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "aymeric-dognin-06bba85",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406446/website/people/Aymeric_Dognin.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8909327,
         "lng": 2.243474900000024
       },
       "tags": [],
-      "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox »."
+      "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox ».",
+      "tagline": ""
     },
     {
       "rowId": 25,
       "name": "OneConciergerie",
       "address": "4 rue du Général Lanrezac 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 25,
+          "startup_name": "OneConciergerie",
+          "firstname": "Jean-Pierre",
+          "lastname": "Benedetti",
+          "email": "jean.benedetti@jobbers.co",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "jeanbenedetti",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Jean_Benedetti.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.87586810000001,
         "lng": 2.293845899999951
       },
       "tags": [],
-      "description": "One Conciergerie, fondée en 2013, est précurseur de la conciergerie digitale. En janvier 2018 One Conciergerie a présenté au CES, son application conversationnelle dénommé ONEAPP, une innovation portant à la fois sur le moteur d’intelligence artificielle mais aussi sur la personnalisation de l’interface conversationnelle."
+      "description": "One Conciergerie, fondée en 2013, est précurseur de la conciergerie digitale. En janvier 2018 One Conciergerie a présenté au CES, son application conversationnelle dénommé ONEAPP, une innovation portant à la fois sur le moteur d’intelligence artificielle mais aussi sur la personnalisation de l’interface conversationnelle.",
+      "tagline": ""
     },
     {
       "rowId": 26,
       "name": "Plantez Respirez",
       "address": "340 rue Saint Jacques 75005 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 26,
+          "startup_name": "Plantez Respirez",
+          "firstname": "Lena",
+          "lastname": "Soffer",
+          "email": "contact@plantezrespirez.com",
+          "telephone": "",
+          "title": "CEO & Fondatrice",
+          "linkedin": "lena-soffer",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.83955539999999,
         "lng": 2.339911099999995
       },
       "tags": [],
-      "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail."
+      "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail.",
+      "tagline": ""
     },
     {
       "rowId": 27,
       "name": "Roti.express",
       "address": "55 boulevard Vincent-Auriol 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 27,
+          "startup_name": "Roti.express",
+          "firstname": "Antoine",
+          "lastname": "Durand",
+          "email": "antoine.durand4@gmail.com",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "antoined4",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405804/website/people/Antoine_Durand.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8336874,
         "lng": 2.371536600000013
       },
       "tags": [],
-      "description": "Obtenez un feedback instantané sur vos réunions, conférences, ateliers, formations en ligne… afin de les rendre plus productifs et satisfaisants pour chaque participant."
+      "description": "Obtenez un feedback instantané sur vos réunions, conférences, ateliers, formations en ligne… afin de les rendre plus productifs et satisfaisants pour chaque participant.",
+      "tagline": ""
     },
     {
       "rowId": 28,
       "name": "Serenity",
       "address": "87 rue Réaumur, 75002, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 28,
+          "startup_name": "Serenity",
+          "firstname": "Marc",
+          "lastname": "Guillaumet",
+          "email": "marc@iris-immersive.com",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "marc-guillaumet-3935ab2",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408612/website/people/Marc_Guillaumet.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8670373,
         "lng": 2.347658200000069
       },
       "tags": [],
-      "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables."
+      "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables.",
+      "tagline": ""
     },
     {
       "rowId": 29,
       "name": "Supermood",
       "address": "41 Rue des Jeuneurs, 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 29,
+          "startup_name": "Supermood",
+          "firstname": "Kevin",
+          "lastname": "Bourgeois",
+          "email": "kevin@supermood.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "kevin-bourgeois-24770655",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Kevin_Bourgeois.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8697909,
         "lng": 2.343161699999996
       },
       "tags": [],
-      "description": "Intuitive et automatisée, Supermood est une solution SaaS permettant aux RH et top-managers de mesurer et d'améliorer l’engagement de leurs collaborateurs grâce à des sondages intelligents, réguliers, et anonymes. "
+      "description": "Intuitive et automatisée, Supermood est une solution SaaS permettant aux RH et top-managers de mesurer et d'améliorer l’engagement de leurs collaborateurs grâce à des sondages intelligents, réguliers, et anonymes. ",
+      "tagline": ""
     },
     {
       "rowId": 30,
       "name": "The Place To Coach",
       "address": "5 Parvis Alan Turing, 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 31,
+          "startup_name": "The Place To Coach",
+          "firstname": "Timothée",
+          "lastname": "Ferras",
+          "email": "timothee@theplacetocoach.com",
+          "telephone": "",
+          "title": "CEO & Fondateur",
+          "linkedin": "timotheeferras",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.83477,
         "lng": 2.3707703999999694
       },
       "tags": [],
-      "description": "LA plateforme de rencontre, pour permettre à chaque cadre de rencontrer un partenaire de vie professionnelle, avec l'aide et la caution de partenaires et d'institutions et écoles de coaching de 1er plan."
+      "description": "LA plateforme de rencontre, pour permettre à chaque cadre de rencontrer un partenaire de vie professionnelle, avec l'aide et la caution de partenaires et d'institutions et écoles de coaching de 1er plan.",
+      "tagline": ""
     },
     {
       "rowId": 31,
       "name": "TOD",
       "address": "27 rue Raffet 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 32,
+          "startup_name": "TOD",
+          "firstname": "Gaëlle",
+          "lastname": "Monteiller",
+          "email": "gaelle.monteiller@yourtod.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondatrice",
+          "linkedin": "gaëlle-monteiller-5a0a31",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Ga%C3%ABlle_Monteiller.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.85166719999999,
         "lng": 2.264681399999972
       },
       "tags": [],
-      "description": "Le hub qui révolutionne le management des talents pour plus de sens et d'engagement. TOD renverse les codes classiques d’identification des talents en utilisant les neurosciences et les sciences du comportement pour répondre aux besoins RH d’aujourd’hui."
+      "description": "Le hub qui révolutionne le management des talents pour plus de sens et d'engagement. TOD renverse les codes classiques d’identification des talents en utilisant les neurosciences et les sciences du comportement pour répondre aux besoins RH d’aujourd’hui.",
+      "tagline": ""
     },
     {
       "rowId": 32,
       "name": "TrainMe",
       "address": "6 Rue Claude Farrère, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 33,
+          "startup_name": "TrainMe",
+          "firstname": "Gatien",
+          "lastname": "Letartre",
+          "email": "gatien.letartre@trainme.co",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "gatien-letartre-76a83525",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Gatien_Letartre.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8426547,
         "lng": 2.253331399999979
       },
       "tags": [],
-      "description": "TrainMe facilite l'activité physique et le bien-être des collaborateurs. TrainMe vous propose une solution adaptée, qualitative et clef en main pour mettre en place du sport et du bien-être au sein de votre entreprise."
+      "description": "TrainMe facilite l'activité physique et le bien-être des collaborateurs. TrainMe vous propose une solution adaptée, qualitative et clef en main pour mettre en place du sport et du bien-être au sein de votre entreprise.",
+      "tagline": ""
     },
     {
       "rowId": 33,
-      "name": "WeHobby",
-      "address": "24 avenue Marceau 75008 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.866673,
-        "lng": 2.3002329999999347
-      },
-      "tags": [],
-      "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
-    },
-    {
-      "rowId": 34,
       "name": "Wellnesstraining",
       "address": "17 boulevard Saint Martin 75003, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 34,
+          "startup_name": "Wellnesstraining",
+          "firstname": "Michel ",
+          "lastname": "Rota",
+          "email": "michel.rota@wellnesstraining.fr",
+          "telephone": "",
+          "title": "Directeur général",
+          "linkedin": "michel-rota-76644016",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8679847,
         "lng": 2.3601346000000376
       },
       "tags": [],
-      "description": "Well by Wellness training est une application qui vous permet d'établir votre scoring Santé Globale afin de vous apporter des recommandations personnalisées et vous mettre en relation avec un expert Wellness."
+      "description": "Well by Wellness training est une application qui vous permet d'établir votre scoring Santé Globale afin de vous apporter des recommandations personnalisées et vous mettre en relation avec un expert Wellness.",
+      "tagline": ""
     },
     {
-      "rowId": 35,
+      "rowId": 34,
       "name": "Windoo",
       "address": "6 Rue Claude Farrère, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 35,
+          "startup_name": "Windoo",
+          "firstname": "Arnaud",
+          "lastname": "Varnier",
+          "email": "arnaud@windoo.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "arnaud-varnier-b85547109",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8426547,
         "lng": 2.253331399999979
       },
       "tags": [],
-      "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place."
+      "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place.",
+      "tagline": ""
+    },
+    {
+      "rowId": 35,
+      "name": "Yuco",
+      "address": "24 avenue Marceau 75008 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
+      "contacts": [
+        {
+          "rowId": 36,
+          "startup_name": "Yuco",
+          "firstname": "Charlélie",
+          "lastname": "Vallet",
+          "email": "charlelie@yuco.co",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "charlelie-vallet-8904a426",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.866673,
+        "lng": 2.3002329999999347
+      },
+      "tags": [],
+      "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau.",
+      "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
     },
     {
       "rowId": 36,
       "name": "ZestMeUp",
       "address": "71 rue de Saussure 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 37,
+          "startup_name": "ZestMeUp",
+          "firstname": "Christophe",
+          "lastname": "Bergeon",
+          "email": "christophe.bergeon@zestmeup.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "cbergeon",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8860731,
         "lng": 2.313658900000064
       },
       "tags": [],
-      "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant."
+      "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
+      "tagline": ""
     }
   ],
   "contacts": [
     {
       "rowId": 0,
+      "startup_name": "AllSessions",
+      "firstname": "Antoine",
+      "lastname": "Thoreau",
+      "email": "antoine@allsessions.fr",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "antoinethoreau",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538405839/website/people/Antoine_Thoreau.jpg",
+      "startup": {
+        "rowId": 0,
+        "name": "AllSessions",
+        "address": "6-8 Avenue de la Porte de Champerret, 75017 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528453797/allsessions.jpg",
+        "contacts": [
+          {
+            "rowId": 0,
+            "startup_name": "AllSessions",
+            "firstname": "Antoine",
+            "lastname": "Thoreau",
+            "email": "antoine@allsessions.fr",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "antoinethoreau",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538405839/website/people/Antoine_Thoreau.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.88626319999999,
+          "lng": 2.2874510999999984
+        },
+        "tags": [],
+        "description": "AllSessions est la plateforme du sport entre collègues : développez le bien-être avec des activités pour tous les goûts (fitness, yoga, boxe, sports collectifs...), boostez la cohésion de vos équipes avec un challenge ludique et fédérateur !",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 1,
+      "startup_name": "Antimauxdedos",
+      "firstname": "Paul",
+      "lastname": "Voillemin",
+      "email": "paul@chaudpatate.org",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "paulvoillemin",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Paul_Voillemin.jpg",
+      "startup": {
+        "rowId": 1,
+        "name": "Antimauxdedos",
+        "address": "10 rue Penthièvre 75008 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538407819/website/startup/antimauxdedos.png",
+        "contacts": [
+          {
+            "rowId": 1,
+            "startup_name": "Antimauxdedos",
+            "firstname": "Paul",
+            "lastname": "Voillemin",
+            "email": "paul@chaudpatate.org",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "paulvoillemin",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Paul_Voillemin.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8733291,
+          "lng": 2.316598699999986
+        },
+        "tags": [],
+        "description": "Antimauxdedos.com révolutionne grâce à sa méthode la lutte contre les douleurs de dos en entreprise. ",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 2,
+      "startup_name": "Artify",
+      "firstname": "Christophe",
+      "lastname": "Roux",
+      "email": "christophe.roux@artify.fr",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "christopheroux1",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Roux.jpg",
+      "startup": {
+        "rowId": 2,
+        "name": "Artify",
+        "address": "42 rue Marius Aufan 92300 Courbevoie",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587209/ARTIFY-01_2557.png",
+        "contacts": [
+          {
+            "rowId": 2,
+            "startup_name": "Artify",
+            "firstname": "Christophe",
+            "lastname": "Roux",
+            "email": "christophe.roux@artify.fr",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "christopheroux1",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Roux.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8898851,
+          "lng": 2.2857175000000325
+        },
+        "tags": [],
+        "description": "ARTIFY révèle l’Art dans les espaces de vie professionnels grâce au meilleur de la Technologie. Nous proposons aux entreprises un tableau connecté dédié à l’art. Nous répondons ainsi à leurs enjeux de décoration, de communication, d’innovation et de bien-être.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 3,
+      "startup_name": "Aura",
+      "firstname": "Thomas",
+      "lastname": "Demerens",
+      "email": "thomas@aura-urbaine.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "thomas-demerens-40048aa0",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Thomas_Demerens.jpg",
+      "startup": {
+        "rowId": 3,
+        "name": "Aura",
+        "address": "27 rue du Chemin Vert 75011 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+        "contacts": [
+          {
+            "rowId": 3,
+            "startup_name": "Aura",
+            "firstname": "Thomas",
+            "lastname": "Demerens",
+            "email": "thomas@aura-urbaine.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "thomas-demerens-40048aa0",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Thomas_Demerens.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8586119,
+          "lng": 2.3730536000000484
+        },
+        "tags": [],
+        "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 4,
+      "startup_name": "Aurasens",
+      "firstname": "Olivier",
+      "lastname": "Zeller",
+      "email": "olivier.zeller@aurasens.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "olivierzeller",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Olivier_Zeller.jpg",
+      "startup": {
+        "rowId": 4,
+        "name": "Aurasens",
+        "address": "81 rue Réaumur 75002 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977312/website/startup/AURASENS_1.png",
+        "contacts": [
+          {
+            "rowId": 4,
+            "startup_name": "Aurasens",
+            "firstname": "Olivier",
+            "lastname": "Zeller",
+            "email": "olivier.zeller@aurasens.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "olivierzeller",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Olivier_Zeller.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.88626319999999,
+          "lng": 2.2874510999999984
+        },
+        "tags": [],
+        "description": "Aurasens conçoit et développe des solutions permettant des voyages sensoriels d’un nouveau genre alliant la musique et le massage. L’utilisateur écoute de la musique par casque ou par enceintes et ressent des vibrations qui se déplacent sur son corps comme un massage. La musique écoutée et les vibrations ressenties sont en parfaite harmonie et offrent une sensation d’immersion audio-tactile.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 5,
+      "startup_name": "Bee",
+      "firstname": "Alban",
+      "lastname": "Jourdet",
+      "email": "ajourdet@bee-bienetreentreprise.com ",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "alban-jourdet-b3723563",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405760/website/people/Alban_Jourdet.jpg",
+      "startup": {
+        "rowId": 5,
+        "name": "Bee",
+        "address": "14 rue de Péronne, 78500 Sartrouville",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520521005/Bee_bien_etre.png",
+        "contacts": [
+          {
+            "rowId": 5,
+            "startup_name": "Bee",
+            "firstname": "Alban",
+            "lastname": "Jourdet",
+            "email": "ajourdet@bee-bienetreentreprise.com ",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "alban-jourdet-b3723563",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405760/website/people/Alban_Jourdet.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.93694929999999,
+          "lng": 2.171336500000052
+        },
+        "tags": [],
+        "description": "Avec Bee-Bien-être en entreprise, rejoignez le réseau des Happyculteurs d’entreprises ! Faites appel à des experts bien-être-santé pour la mise en place et la gestion complète de votre programme Bien-être-santé sur-mesure, au sein de votre entreprise.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 6,
+      "startup_name": "Bleexo",
+      "firstname": "Stéphane",
+      "lastname": "Waller",
+      "email": "stephane.waller@bleexo.com",
+      "telephone": "",
+      "title": "CEO ",
+      "linkedin": "swmeltis",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Stephane_Waller.jpg",
+      "startup": {
+        "rowId": 6,
+        "name": "Bleexo",
+        "address": "42 Rue du Languedoc, 31000 Toulouse",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521631206/bleexo.svg",
+        "contacts": [
+          {
+            "rowId": 6,
+            "startup_name": "Bleexo",
+            "firstname": "Stéphane",
+            "lastname": "Waller",
+            "email": "stephane.waller@bleexo.com",
+            "telephone": "",
+            "title": "CEO ",
+            "linkedin": "swmeltis",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Stephane_Waller.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 43.5983098,
+          "lng": 1.4457777000000078
+        },
+        "tags": [],
+        "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien.",
+        "tagline": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
+      }
+    },
+    {
+      "rowId": 7,
+      "startup_name": "Bloom At Work",
+      "firstname": "Charles",
+      "lastname": "De Fréminville",
+      "email": "charles@bloom-at-work.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "bloom-with-charles",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Charles_de_Fr%C3%A9minville.jpg",
+      "startup": {
+        "rowId": 7,
+        "name": "Bloom At Work",
+        "address": "14 rue Eugène Freyssinet 75013 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900089/bloomatworkx2.png",
+        "contacts": [
+          {
+            "rowId": 7,
+            "startup_name": "Bloom At Work",
+            "firstname": "Charles",
+            "lastname": "De Fréminville",
+            "email": "charles@bloom-at-work.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "bloom-with-charles",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Charles_de_Fr%C3%A9minville.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8350722,
+          "lng": 2.370609800000011
+        },
+        "tags": [],
+        "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 8,
+      "startup_name": "BoostYourFit",
+      "firstname": "Fabien",
+      "lastname": "Guillemot",
+      "email": "fguillemot@boostyourfit.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "fabien-guillemot-5b96002",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Fabien_Guillemot.jpg",
+      "startup": {
+        "rowId": 8,
+        "name": "BoostYourFit",
+        "address": "101, rue de Sèvres - 75272 Paris Cedex 06",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378272/boostyourfit.png",
+        "contacts": [
+          {
+            "rowId": 8,
+            "startup_name": "BoostYourFit",
+            "firstname": "Fabien",
+            "lastname": "Guillemot",
+            "email": "fguillemot@boostyourfit.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "fabien-guillemot-5b96002",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Fabien_Guillemot.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8484788,
+          "lng": 2.3210417000000234
+        },
+        "tags": [],
+        "description": "BoostYourFit est le 1er réseau social d’entreprise intelligent basé sur le sport.",
+        "tagline": "BoostYourFit est le 1er réseau social d’entreprise intelligent basé sur le sport."
+      }
+    },
+    {
+      "rowId": 9,
+      "startup_name": "Cocoworker",
+      "firstname": "Faustine",
+      "lastname": "Duriez",
+      "email": "faustine@cocoworkers.com",
+      "telephone": "",
+      "title": "CEO & Fondatrice",
+      "linkedin": "faustine-duriez-2617013b",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Faustine_Duriez.jpg",
+      "startup": {
+        "rowId": 9,
+        "name": "Cocoworker",
+        "address": "6 Allée des Sablons, 94120 Fontenay-sous-Bois",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523613348/coco.jpg",
+        "contacts": [
+          {
+            "rowId": 9,
+            "startup_name": "Cocoworker",
+            "firstname": "Faustine",
+            "lastname": "Duriez",
+            "email": "faustine@cocoworkers.com",
+            "telephone": "",
+            "title": "CEO & Fondatrice",
+            "linkedin": "faustine-duriez-2617013b",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Faustine_Duriez.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8546261,
+          "lng": 2.491816800000038
+        },
+        "tags": [],
+        "description": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues.",
+        "tagline": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues."
+      }
+    },
+    {
+      "rowId": 10,
       "startup_name": "Comeet",
       "firstname": "Samuel",
       "lastname": "Metias",
@@ -516,7 +1467,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
         "contacts": [
           {
-            "rowId": 0,
+            "rowId": 10,
             "startup_name": "Comeet",
             "firstname": "Samuel",
             "lastname": "Metias",
@@ -534,7 +1485,1087 @@
           "lng": 2.2337430999999697
         },
         "tags": [],
-        "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+        "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires.",
+        "tagline": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+      }
+    },
+    {
+      "rowId": 11,
+      "startup_name": "Contextor",
+      "firstname": "Philippe",
+      "lastname": "Roux",
+      "email": "ppoux@contextor.eu",
+      "telephone": "",
+      "title": "Directeur général",
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg",
+      "startup": {
+        "rowId": 11,
+        "name": "Contextor",
+        "address": "5 rue Guy Mocquet, 91400 Orsay",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521196200/Contextor_Logo_white__baseline.jpg",
+        "contacts": [
+          {
+            "rowId": 11,
+            "startup_name": "Contextor",
+            "firstname": "Philippe",
+            "lastname": "Roux",
+            "email": "ppoux@contextor.eu",
+            "telephone": "",
+            "title": "Directeur général",
+            "linkedin": "",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.7004544,
+          "lng": 2.189630099999931
+        },
+        "tags": [],
+        "description": "Pionnier de la Robotic Process Automation, Contextor améliore le confort au travail de dizaines de milliers de personnes, en les déchargeant de toutes les tâches répétitives et fastidieuses liées à leur poste de travail informatique : copier-coller, changement d’application etc. Contextor permet aux collaborateurs de consacrer plus de temps aux tâches à valeur ajoutée qui mobilisent leur intelligence et leur sens de la relation humaine.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 12,
+      "startup_name": "Cowork.io",
+      "firstname": "Pierre-André",
+      "lastname": "Svetchine",
+      "email": "pasvetchine@cowork.io",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "psvetchine",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Pierre-Andr%C3%A9_Svetchine.jpg",
+      "startup": {
+        "rowId": 12,
+        "name": "Cowork.io",
+        "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
+        "contacts": [
+          {
+            "rowId": 12,
+            "startup_name": "Cowork.io",
+            "firstname": "Pierre-André",
+            "lastname": "Svetchine",
+            "email": "pasvetchine@cowork.io",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "psvetchine",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Pierre-Andr%C3%A9_Svetchine.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8716208,
+          "lng": 2.347764600000005
+        },
+        "tags": [],
+        "description": "Créez du bien être et de l'engagement dans vos espaces de travail. CoWork.io, logiciel de gestion d'espaces de travail partagés et collaboratifs.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 13,
+      "startup_name": "Eveia",
+      "firstname": "Vincent",
+      "lastname": "Fourdrinier",
+      "email": "info@eveia.io",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "vincentfourdrinier",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Vincent_Fourdrinier.jpg",
+      "startup": {
+        "rowId": 13,
+        "name": "Eveia",
+        "address": "32 RUE DE LA GARENNE - 41400 VALLIERES LES GRANDES",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977883/website/startup/Eveia.png",
+        "contacts": [
+          {
+            "rowId": 13,
+            "startup_name": "Eveia",
+            "firstname": "Vincent",
+            "lastname": "Fourdrinier",
+            "email": "info@eveia.io",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "vincentfourdrinier",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Vincent_Fourdrinier.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 47.42791099999999,
+          "lng": 1.1542702000000418
+        },
+        "tags": [],
+        "description": "Eveia Active Footrest est une solution globale et unique. Elle est constituée du seul repose-pieds actif connecté du marché qui s'utilise en position assise sans changer son environnement. Couplée à son application de coaching/gestion/gamification, elle accompagne l'utilisateur au quotidien.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 14,
+      "startup_name": "Feeleo",
+      "firstname": "Basil",
+      "lastname": "Yaïche",
+      "email": "b.yaiche@feeleo.co",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "basil-yaiche-751836151",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg",
+      "startup": {
+        "rowId": 14,
+        "name": "Feeleo",
+        "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
+        "contacts": [
+          {
+            "rowId": 14,
+            "startup_name": "Feeleo",
+            "firstname": "Basil",
+            "lastname": "Yaïche",
+            "email": "b.yaiche@feeleo.co",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "basil-yaiche-751836151",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8909327,
+          "lng": 2.243474900000024
+        },
+        "tags": [],
+        "description": "Feeleo propose des interventions innovantes visant à améliorer le bien-être des salariés : méditation, sophrologie, improvisation, conseils…tout est mis à votre disposition pour répondre spécifiquement à vos besoin via des intervenants qualifiés et bienveillants.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 15,
+      "startup_name": "Fidensio",
+      "firstname": "Johan",
+      "lastname": "Melab",
+      "email": "johan@fidensio.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "johan-melab",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg",
+      "startup": {
+        "rowId": 15,
+        "name": "Fidensio",
+        "address": "5 Parvis Alan Turing, 75013 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
+        "contacts": [
+          {
+            "rowId": 15,
+            "startup_name": "Fidensio",
+            "firstname": "Johan",
+            "lastname": "Melab",
+            "email": "johan@fidensio.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "johan-melab",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.83477,
+          "lng": 2.3707703999999694
+        },
+        "tags": [],
+        "description": "Fidensio, c'est la conciergerie connectée au bureau ! Intuitive et innovante, la e-conciergerie Fidensio accompagne les collaborateurs dans leur équilibre vie privée vie professionnelle en leur proposant plus d'une vingtaine de services pour leur simplifier le quotidien : Pressing, Services à domicile, Achats express....",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 16,
+      "startup_name": "Happy Quest",
+      "firstname": "Lewis",
+      "lastname": "Gotteland",
+      "email": "lewis@happyquest.co",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "lewis-gotteland-69398961",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lewis.jpg",
+      "startup": {
+        "rowId": 16,
+        "name": "Happy Quest",
+        "address": "104 rue Oberkampf 75011 PARIS",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
+        "contacts": [
+          {
+            "rowId": 16,
+            "startup_name": "Happy Quest",
+            "firstname": "Lewis",
+            "lastname": "Gotteland",
+            "email": "lewis@happyquest.co",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "lewis-gotteland-69398961",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lewis.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8658807,
+          "lng": 2.3785932000000685
+        },
+        "tags": [],
+        "description": "Happy Quest, le bonheur en action. Jouer, Mesurer et Récolter un max de sourires pour agir sur son bonheur au travail. #Appli #Pédagogique #Fun #Sens",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 17,
+      "startup_name": "Humancraft",
+      "firstname": "Bertrand",
+      "lastname": "Pierson",
+      "email": "bpierson@humancraft.eu",
+      "telephone": "",
+      "title": "Fondateur",
+      "linkedin": "bertrand-pierson-053a739",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg",
+      "startup": {
+        "rowId": 17,
+        "name": "Humancraft",
+        "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
+        "contacts": [
+          {
+            "rowId": 17,
+            "startup_name": "Humancraft",
+            "firstname": "Bertrand",
+            "lastname": "Pierson",
+            "email": "bpierson@humancraft.eu",
+            "telephone": "",
+            "title": "Fondateur",
+            "linkedin": "bertrand-pierson-053a739",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8832455,
+          "lng": 2.2684090000000197
+        },
+        "tags": [],
+        "description": "HumanCraft est le spécialiste de l’intermédiation des acteurs du numérique : nous référençons des Entreprises de Services du Numérique (ex-SSII) à taille humaine avec une forte culture d’entreprise et des recrutements de qualité que nous valorisons auprès des acteurs du marché de l’IT.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 18,
+      "startup_name": "Humeaning",
+      "firstname": "Béatrice",
+      "lastname": "Duboisset",
+      "email": "beatrice.duboisset@humeaning.fr",
+      "telephone": "",
+      "title": "CEO & Fondatrice",
+      "linkedin": "beatriceduboisset",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg",
+      "startup": {
+        "rowId": 18,
+        "name": "Humeaning",
+        "address": "4 place de l'Opéra 75002 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
+        "contacts": [
+          {
+            "rowId": 18,
+            "startup_name": "Humeaning",
+            "firstname": "Béatrice",
+            "lastname": "Duboisset",
+            "email": "beatrice.duboisset@humeaning.fr",
+            "telephone": "",
+            "title": "CEO & Fondatrice",
+            "linkedin": "beatriceduboisset",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8705039,
+          "lng": 2.3328566000000137
+        },
+        "tags": [],
+        "description": "Les consultan.t.e.s humeaning conçoivent et animent des programmes de sensibilisation pour créer des déclics en donnant des repères sur les enjeux de la transformation et l’innovation. De plus, nous intervenons auprès d’équipes spécifiques ou sur l’ensemble de l’organisation pour créer une culture commune.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 19,
+      "startup_name": "IDPosition",
+      "firstname": "Francis",
+      "lastname": "Schlayen",
+      "email": "f.schlayen@idposition.fr",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "fschlayen",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407940/website/people/Francis_Schlayen.jpg",
+      "startup": {
+        "rowId": 19,
+        "name": "IDPosition",
+        "address": "85 rue de Lourmel 75015 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1526484792/22496134_1576625562402911_1022557821186686753_o.png",
+        "contacts": [
+          {
+            "rowId": 19,
+            "startup_name": "IDPosition",
+            "firstname": "Francis",
+            "lastname": "Schlayen",
+            "email": "f.schlayen@idposition.fr",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "fschlayen",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407940/website/people/Francis_Schlayen.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8446824,
+          "lng": 2.287366700000007
+        },
+        "tags": [],
+        "description": "iDPosition c’est rapprocher chaque collaborateur à son entreprise, grâce à de nouveaux Services, en s’appuyant sur la technologie QRFID®",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 20,
+      "startup_name": "Kiplin",
+      "firstname": "Vincent",
+      "lastname": "Tharreau",
+      "email": "",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "vincent-tharreau-468b398a",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg",
+      "startup": {
+        "rowId": 20,
+        "name": "Kiplin",
+        "address": "3 boulevard Saint Martin, Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
+        "contacts": [
+          {
+            "rowId": 20,
+            "startup_name": "Kiplin",
+            "firstname": "Vincent",
+            "lastname": "Tharreau",
+            "email": "",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "vincent-tharreau-468b398a",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8678678,
+          "lng": 2.361802500000067
+        },
+        "tags": [],
+        "description": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif.",
+        "tagline": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
+      }
+    },
+    {
+      "rowId": 21,
+      "startup_name": "Klimat",
+      "firstname": "Jean-Pierre",
+      "lastname": "Brun",
+      "email": "jeanpierre.brun@empreintehumaine.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "jean-pierre-brun-4581461b",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408242/website/people/Jean-Pierre_Brun.jpg",
+      "startup": {
+        "rowId": 21,
+        "name": "Klimat",
+        "address": "94 rue Lafayette 75010 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
+        "contacts": [
+          {
+            "rowId": 21,
+            "startup_name": "Klimat",
+            "firstname": "Jean-Pierre",
+            "lastname": "Brun",
+            "email": "jeanpierre.brun@empreintehumaine.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "jean-pierre-brun-4581461b",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408242/website/people/Jean-Pierre_Brun.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8771096,
+          "lng": 2.349093400000015
+        },
+        "tags": [],
+        "description": "Klimat est donc un outil novateur en matière de baromètre, il propose aussi une analyse des commentaires à l’aide d’un outil d’intelligence artificielle. Klimat va encore plus loin avec son module d’analyse prédictive RH et son coffre à outils contenant des conseils vidéo, des infographies et des articles de blog.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 22,
+      "startup_name": "Lyyti",
+      "firstname": "Tehani",
+      "lastname": "Leprieur",
+      "email": "tehani.leprieur@lyyti.com",
+      "telephone": "",
+      "title": "Directrice générale",
+      "linkedin": "tehani-leprieur",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Tehani_Leprieur.jpg",
+      "startup": {
+        "rowId": 22,
+        "name": "Lyyti",
+        "address": "104 boulevard de Sébastopol 75003 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
+        "contacts": [
+          {
+            "rowId": 22,
+            "startup_name": "Lyyti",
+            "firstname": "Tehani",
+            "lastname": "Leprieur",
+            "email": "tehani.leprieur@lyyti.com",
+            "telephone": "",
+            "title": "Directrice générale",
+            "linkedin": "tehani-leprieur",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Tehani_Leprieur.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8680143,
+          "lng": 2.353812699999935
+        },
+        "tags": [],
+        "description": "Lyyti est un outil puissant pour la gestion d'évènements, le marketing évènementiel et la mesure du succès d'un évènement.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 23,
+      "startup_name": "Melomind",
+      "firstname": "Yohan",
+      "lastname": "Attal",
+      "email": "yohan.attal@mybraintech.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "yohan-attal-7a6a6546",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407783/website/people/Yohan-Attal---CEO--Co-Founder-ConvertImage.jpg",
+      "startup": {
+        "rowId": 23,
+        "name": "Melomind",
+        "address": "85 rue Maubeuge 75010 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
+        "contacts": [
+          {
+            "rowId": 23,
+            "startup_name": "Melomind",
+            "firstname": "Yohan",
+            "lastname": "Attal",
+            "email": "yohan.attal@mybraintech.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "yohan-attal-7a6a6546",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407783/website/people/Yohan-Attal---CEO--Co-Founder-ConvertImage.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8808257,
+          "lng": 2.3525792000000365
+        },
+        "tags": [],
+        "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 24,
+      "startup_name": "monaSTAY",
+      "firstname": "Aymeric",
+      "lastname": "Dognin",
+      "email": "aymeric@monastay.fr",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "aymeric-dognin-06bba85",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406446/website/people/Aymeric_Dognin.jpg",
+      "startup": {
+        "rowId": 24,
+        "name": "monaSTAY",
+        "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
+        "contacts": [
+          {
+            "rowId": 24,
+            "startup_name": "monaSTAY",
+            "firstname": "Aymeric",
+            "lastname": "Dognin",
+            "email": "aymeric@monastay.fr",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "aymeric-dognin-06bba85",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406446/website/people/Aymeric_Dognin.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8909327,
+          "lng": 2.243474900000024
+        },
+        "tags": [],
+        "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox ».",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 25,
+      "startup_name": "OneConciergerie",
+      "firstname": "Jean-Pierre",
+      "lastname": "Benedetti",
+      "email": "jean.benedetti@jobbers.co",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "jeanbenedetti",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Jean_Benedetti.jpg",
+      "startup": {
+        "rowId": 25,
+        "name": "OneConciergerie",
+        "address": "4 rue du Général Lanrezac 75017 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
+        "contacts": [
+          {
+            "rowId": 25,
+            "startup_name": "OneConciergerie",
+            "firstname": "Jean-Pierre",
+            "lastname": "Benedetti",
+            "email": "jean.benedetti@jobbers.co",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "jeanbenedetti",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Jean_Benedetti.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.87586810000001,
+          "lng": 2.293845899999951
+        },
+        "tags": [],
+        "description": "One Conciergerie, fondée en 2013, est précurseur de la conciergerie digitale. En janvier 2018 One Conciergerie a présenté au CES, son application conversationnelle dénommé ONEAPP, une innovation portant à la fois sur le moteur d’intelligence artificielle mais aussi sur la personnalisation de l’interface conversationnelle.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 26,
+      "startup_name": "Plantez Respirez",
+      "firstname": "Lena",
+      "lastname": "Soffer",
+      "email": "contact@plantezrespirez.com",
+      "telephone": "",
+      "title": "CEO & Fondatrice",
+      "linkedin": "lena-soffer",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg",
+      "startup": {
+        "rowId": 26,
+        "name": "Plantez Respirez",
+        "address": "340 rue Saint Jacques 75005 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
+        "contacts": [
+          {
+            "rowId": 26,
+            "startup_name": "Plantez Respirez",
+            "firstname": "Lena",
+            "lastname": "Soffer",
+            "email": "contact@plantezrespirez.com",
+            "telephone": "",
+            "title": "CEO & Fondatrice",
+            "linkedin": "lena-soffer",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.83955539999999,
+          "lng": 2.339911099999995
+        },
+        "tags": [],
+        "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 27,
+      "startup_name": "Roti.express",
+      "firstname": "Antoine",
+      "lastname": "Durand",
+      "email": "antoine.durand4@gmail.com",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "antoined4",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405804/website/people/Antoine_Durand.jpg",
+      "startup": {
+        "rowId": 27,
+        "name": "Roti.express",
+        "address": "55 boulevard Vincent-Auriol 75013 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
+        "contacts": [
+          {
+            "rowId": 27,
+            "startup_name": "Roti.express",
+            "firstname": "Antoine",
+            "lastname": "Durand",
+            "email": "antoine.durand4@gmail.com",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "antoined4",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405804/website/people/Antoine_Durand.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8336874,
+          "lng": 2.371536600000013
+        },
+        "tags": [],
+        "description": "Obtenez un feedback instantané sur vos réunions, conférences, ateliers, formations en ligne… afin de les rendre plus productifs et satisfaisants pour chaque participant.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 28,
+      "startup_name": "Serenity",
+      "firstname": "Marc",
+      "lastname": "Guillaumet",
+      "email": "marc@iris-immersive.com",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "marc-guillaumet-3935ab2",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408612/website/people/Marc_Guillaumet.jpg",
+      "startup": {
+        "rowId": 28,
+        "name": "Serenity",
+        "address": "87 rue Réaumur, 75002, Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
+        "contacts": [
+          {
+            "rowId": 28,
+            "startup_name": "Serenity",
+            "firstname": "Marc",
+            "lastname": "Guillaumet",
+            "email": "marc@iris-immersive.com",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "marc-guillaumet-3935ab2",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408612/website/people/Marc_Guillaumet.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8670373,
+          "lng": 2.347658200000069
+        },
+        "tags": [],
+        "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 29,
+      "startup_name": "Supermood",
+      "firstname": "Kevin",
+      "lastname": "Bourgeois",
+      "email": "kevin@supermood.fr",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "kevin-bourgeois-24770655",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Kevin_Bourgeois.jpg",
+      "startup": {
+        "rowId": 29,
+        "name": "Supermood",
+        "address": "41 Rue des Jeuneurs, 75002 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
+        "contacts": [
+          {
+            "rowId": 29,
+            "startup_name": "Supermood",
+            "firstname": "Kevin",
+            "lastname": "Bourgeois",
+            "email": "kevin@supermood.fr",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "kevin-bourgeois-24770655",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Kevin_Bourgeois.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8697909,
+          "lng": 2.343161699999996
+        },
+        "tags": [],
+        "description": "Intuitive et automatisée, Supermood est une solution SaaS permettant aux RH et top-managers de mesurer et d'améliorer l’engagement de leurs collaborateurs grâce à des sondages intelligents, réguliers, et anonymes. ",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 30,
+      "startup_name": "Teamstarter",
+      "firstname": "Ségolène",
+      "lastname": "Mouterde",
+      "email": "segolene@teamstarter.co",
+      "telephone": "",
+      "title": "CEO & Co-Fondatrice",
+      "linkedin": "ségolène-mouterde-89747585",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png"
+    },
+    {
+      "rowId": 31,
+      "startup_name": "The Place To Coach",
+      "firstname": "Timothée",
+      "lastname": "Ferras",
+      "email": "timothee@theplacetocoach.com",
+      "telephone": "",
+      "title": "CEO & Fondateur",
+      "linkedin": "timotheeferras",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg",
+      "startup": {
+        "rowId": 30,
+        "name": "The Place To Coach",
+        "address": "5 Parvis Alan Turing, 75013 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
+        "contacts": [
+          {
+            "rowId": 31,
+            "startup_name": "The Place To Coach",
+            "firstname": "Timothée",
+            "lastname": "Ferras",
+            "email": "timothee@theplacetocoach.com",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "timotheeferras",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.83477,
+          "lng": 2.3707703999999694
+        },
+        "tags": [],
+        "description": "LA plateforme de rencontre, pour permettre à chaque cadre de rencontrer un partenaire de vie professionnelle, avec l'aide et la caution de partenaires et d'institutions et écoles de coaching de 1er plan.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 32,
+      "startup_name": "TOD",
+      "firstname": "Gaëlle",
+      "lastname": "Monteiller",
+      "email": "gaelle.monteiller@yourtod.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondatrice",
+      "linkedin": "gaëlle-monteiller-5a0a31",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Ga%C3%ABlle_Monteiller.jpg",
+      "startup": {
+        "rowId": 31,
+        "name": "TOD",
+        "address": "27 rue Raffet 75016 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
+        "contacts": [
+          {
+            "rowId": 32,
+            "startup_name": "TOD",
+            "firstname": "Gaëlle",
+            "lastname": "Monteiller",
+            "email": "gaelle.monteiller@yourtod.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondatrice",
+            "linkedin": "gaëlle-monteiller-5a0a31",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Ga%C3%ABlle_Monteiller.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.85166719999999,
+          "lng": 2.264681399999972
+        },
+        "tags": [],
+        "description": "Le hub qui révolutionne le management des talents pour plus de sens et d'engagement. TOD renverse les codes classiques d’identification des talents en utilisant les neurosciences et les sciences du comportement pour répondre aux besoins RH d’aujourd’hui.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 33,
+      "startup_name": "TrainMe",
+      "firstname": "Gatien",
+      "lastname": "Letartre",
+      "email": "gatien.letartre@trainme.co",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "gatien-letartre-76a83525",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Gatien_Letartre.jpg",
+      "startup": {
+        "rowId": 32,
+        "name": "TrainMe",
+        "address": "6 Rue Claude Farrère, 75016 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
+        "contacts": [
+          {
+            "rowId": 33,
+            "startup_name": "TrainMe",
+            "firstname": "Gatien",
+            "lastname": "Letartre",
+            "email": "gatien.letartre@trainme.co",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "gatien-letartre-76a83525",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Gatien_Letartre.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8426547,
+          "lng": 2.253331399999979
+        },
+        "tags": [],
+        "description": "TrainMe facilite l'activité physique et le bien-être des collaborateurs. TrainMe vous propose une solution adaptée, qualitative et clef en main pour mettre en place du sport et du bien-être au sein de votre entreprise.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 34,
+      "startup_name": "Wellnesstraining",
+      "firstname": "Michel ",
+      "lastname": "Rota",
+      "email": "michel.rota@wellnesstraining.fr",
+      "telephone": "",
+      "title": "Directeur général",
+      "linkedin": "michel-rota-76644016",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg",
+      "startup": {
+        "rowId": 33,
+        "name": "Wellnesstraining",
+        "address": "17 boulevard Saint Martin 75003, Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
+        "contacts": [
+          {
+            "rowId": 34,
+            "startup_name": "Wellnesstraining",
+            "firstname": "Michel ",
+            "lastname": "Rota",
+            "email": "michel.rota@wellnesstraining.fr",
+            "telephone": "",
+            "title": "Directeur général",
+            "linkedin": "michel-rota-76644016",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8679847,
+          "lng": 2.3601346000000376
+        },
+        "tags": [],
+        "description": "Well by Wellness training est une application qui vous permet d'établir votre scoring Santé Globale afin de vous apporter des recommandations personnalisées et vous mettre en relation avec un expert Wellness.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 35,
+      "startup_name": "Windoo",
+      "firstname": "Arnaud",
+      "lastname": "Varnier",
+      "email": "arnaud@windoo.fr",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "arnaud-varnier-b85547109",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg",
+      "startup": {
+        "rowId": 34,
+        "name": "Windoo",
+        "address": "6 Rue Claude Farrère, 75016 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
+        "contacts": [
+          {
+            "rowId": 35,
+            "startup_name": "Windoo",
+            "firstname": "Arnaud",
+            "lastname": "Varnier",
+            "email": "arnaud@windoo.fr",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "arnaud-varnier-b85547109",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8426547,
+          "lng": 2.253331399999979
+        },
+        "tags": [],
+        "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 36,
+      "startup_name": "Yuco",
+      "firstname": "Charlélie",
+      "lastname": "Vallet",
+      "email": "charlelie@yuco.co",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "charlelie-vallet-8904a426",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg",
+      "startup": {
+        "rowId": 35,
+        "name": "Yuco",
+        "address": "24 avenue Marceau 75008 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
+        "contacts": [
+          {
+            "rowId": 36,
+            "startup_name": "Yuco",
+            "firstname": "Charlélie",
+            "lastname": "Vallet",
+            "email": "charlelie@yuco.co",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "charlelie-vallet-8904a426",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.866673,
+          "lng": 2.3002329999999347
+        },
+        "tags": [],
+        "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau.",
+        "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
+      }
+    },
+    {
+      "rowId": 37,
+      "startup_name": "ZestMeUp",
+      "firstname": "Christophe",
+      "lastname": "Bergeon",
+      "email": "christophe.bergeon@zestmeup.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "cbergeon",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg",
+      "startup": {
+        "rowId": 36,
+        "name": "ZestMeUp",
+        "address": "71 rue de Saussure 75017 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
+        "contacts": [
+          {
+            "rowId": 37,
+            "startup_name": "ZestMeUp",
+            "firstname": "Christophe",
+            "lastname": "Bergeon",
+            "email": "christophe.bergeon@zestmeup.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "cbergeon",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8860731,
+          "lng": 2.313658900000064
+        },
+        "tags": [],
+        "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
+        "tagline": ""
       }
     }
   ],
@@ -556,7 +2587,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
         "contacts": [
           {
-            "rowId": 0,
+            "rowId": 10,
             "startup_name": "Comeet",
             "firstname": "Samuel",
             "lastname": "Metias",
@@ -574,7 +2605,8 @@
           "lng": 2.2337430999999697
         },
         "tags": [],
-        "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
+        "description": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires.",
+        "tagline": "Rencontrez tous vos collègues autrement. Découvrez des personnes ayant des points communs et compétences complémentaires."
       }
     },
     {
@@ -590,13 +2622,28 @@
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 28,
+            "startup_name": "Serenity",
+            "firstname": "Marc",
+            "lastname": "Guillaumet",
+            "email": "marc@iris-immersive.com",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "marc-guillaumet-3935ab2",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408612/website/people/Marc_Guillaumet.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.8670373,
           "lng": 2.347658200000069
         },
         "tags": [],
-        "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables."
+        "description": "SERENITY allie les méthodes anti-stress traditionnelles - sophrologie, relaxologie, méditation - à la réalité virtuelle dans un outil complet et innovant pour lutter contre le stress. Grâce à ses +140 séances autonomes et guidées de relaxation immersive, SERENITY améliore le bien-être de vos collaborateurs et favorise le développement personnel pour des résultats immédiats et durables.",
+        "tagline": ""
       }
     },
     {
@@ -612,13 +2659,28 @@
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 26,
+            "startup_name": "Plantez Respirez",
+            "firstname": "Lena",
+            "lastname": "Soffer",
+            "email": "contact@plantezrespirez.com",
+            "telephone": "",
+            "title": "CEO & Fondatrice",
+            "linkedin": "lena-soffer",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.83955539999999,
           "lng": 2.339911099999995
         },
         "tags": [],
-        "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail."
+        "description": "Plantez Respirez mesure la qualité de l’air à l’intérieur de vos locaux et vous préconise les plantes nécessaires pour un environnement sain et une meilleure qualité de vie au travail.",
+        "tagline": ""
       }
     },
     {
@@ -633,13 +2695,28 @@
         "name": "monaSTAY",
         "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 24,
+            "startup_name": "monaSTAY",
+            "firstname": "Aymeric",
+            "lastname": "Dognin",
+            "email": "aymeric@monastay.fr",
+            "telephone": "",
+            "title": "CEO & Fondateur",
+            "linkedin": "aymeric-dognin-06bba85",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406446/website/people/Aymeric_Dognin.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.8909327,
           "lng": 2.243474900000024
         },
         "tags": [],
-        "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox »."
+        "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox ».",
+        "tagline": ""
       }
     },
     {
@@ -652,17 +2729,32 @@
         "WebApp"
       ],
       "startup": {
-        "rowId": 5,
+        "rowId": 6,
         "name": "Bleexo",
         "address": "42 Rue du Languedoc, 31000 Toulouse",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521631206/bleexo.svg",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 6,
+            "startup_name": "Bleexo",
+            "firstname": "Stéphane",
+            "lastname": "Waller",
+            "email": "stephane.waller@bleexo.com",
+            "telephone": "",
+            "title": "CEO ",
+            "linkedin": "swmeltis",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Stephane_Waller.jpg"
+          }
+        ],
         "latLng": {
           "lat": 43.5983098,
           "lng": 1.4457777000000078
         },
         "tags": [],
-        "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
+        "description": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien.",
+        "tagline": "En temps réel, Bleexo analyse tous les leviers de l'engagement & coache les managers au quotidien."
       }
     },
     {
@@ -673,17 +2765,32 @@
         "Nature"
       ],
       "startup": {
-        "rowId": 2,
+        "rowId": 3,
         "name": "Aura",
         "address": "27 rue du Chemin Vert 75011 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 3,
+            "startup_name": "Aura",
+            "firstname": "Thomas",
+            "lastname": "Demerens",
+            "email": "thomas@aura-urbaine.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "thomas-demerens-40048aa0",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Thomas_Demerens.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.8586119,
           "lng": 2.3730536000000484
         },
         "tags": [],
-        "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable."
+        "description": "AURA intègre la Nature au coeur des espaces de travail pour le bien-être des collaborateurs. Nous concevons des potagers autonomes, ludiques, et qui fonctionnent sur une technique d'agriculture durable.",
+        "tagline": ""
       }
     },
     {
@@ -698,13 +2805,28 @@
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 37,
+            "startup_name": "ZestMeUp",
+            "firstname": "Christophe",
+            "lastname": "Bergeon",
+            "email": "christophe.bergeon@zestmeup.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "cbergeon",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.8860731,
           "lng": 2.313658900000064
         },
         "tags": [],
-        "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant."
+        "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
+        "tagline": ""
       }
     },
     {
@@ -720,32 +2842,62 @@
         "name": "Melomind",
         "address": "85 rue Maubeuge 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 23,
+            "startup_name": "Melomind",
+            "firstname": "Yohan",
+            "lastname": "Attal",
+            "email": "yohan.attal@mybraintech.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "yohan-attal-7a6a6546",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407783/website/people/Yohan-Attal---CEO--Co-Founder-ConvertImage.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.8808257,
           "lng": 2.3525792000000365
         },
         "tags": [],
-        "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés."
+        "description": "La première solution d’entraînement cérébral à la relaxation récompensée au CES 2018. Composée d’un casque audio muni de capteurs de mesure cérébrale et d’une application de coaching personnalisée, Melomind s’adresse aux entreprises souhaitant renforcer la résilience au stress de leurs employés.",
+        "tagline": ""
       }
     },
     {
       "rowId": 8,
-      "startup_name": "WeHobby",
+      "startup_name": "Yuco",
       "tags": [],
       "tagNames": [],
       "startup": {
-        "rowId": 33,
-        "name": "WeHobby",
+        "rowId": 35,
+        "name": "Yuco",
         "address": "24 avenue Marceau 75008 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 36,
+            "startup_name": "Yuco",
+            "firstname": "Charlélie",
+            "lastname": "Vallet",
+            "email": "charlelie@yuco.co",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "charlelie-vallet-8904a426",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.866673,
           "lng": 2.3002329999999347
         },
         "tags": [],
-        "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
+        "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau.",
+        "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
       }
     },
     {
@@ -756,17 +2908,32 @@
         "IA"
       ],
       "startup": {
-        "rowId": 6,
+        "rowId": 7,
         "name": "Bloom At Work",
         "address": "14 rue Eugène Freyssinet 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900089/bloomatworkx2.png",
-        "contacts": [],
+        "contacts": [
+          {
+            "rowId": 7,
+            "startup_name": "Bloom At Work",
+            "firstname": "Charles",
+            "lastname": "De Fréminville",
+            "email": "charles@bloom-at-work.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "bloom-with-charles",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Charles_de_Fr%C3%A9minville.jpg"
+          }
+        ],
         "latLng": {
           "lat": 48.8350722,
           "lng": 2.370609800000011
         },
         "tags": [],
-        "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work."
+        "description": "Prenez le pouls de vos équipes, analysez les résultats en temps réel et boostez l’épanouissement au travail avec les coachs Bloom at Work.",
+        "tagline": ""
       }
     },
     {
@@ -775,20 +2942,7 @@
       "tags": [],
       "tagNames": [
         "WebApp"
-      ],
-      "startup": {
-        "rowId": 8,
-        "name": "ChaudPatate",
-        "address": "10 rue Penthièvre 75008 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378273/chaud-patate.jpg",
-        "contacts": [],
-        "latLng": {
-          "lat": 48.8733291,
-          "lng": 2.316598699999986
-        },
-        "tags": [],
-        "description": "Adoptez la Chaud Patate attitude pour booster vos évènements de team building et d'icebreaker"
-      }
+      ]
     }
   ],
   "tags": [
@@ -889,35 +3043,72 @@
     },
     {
       "rowId": 1,
-      "startupName": "Artify"
+      "startupName": "Artify",
+      "webSite": "http://www.artify.fr/",
+      "linkedIn": "artify-fr",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "artify_fr"
     },
     {
       "rowId": 2,
-      "startupName": "Aura"
+      "startupName": "Aura",
+      "webSite": "http://www.aura-urbaine.com/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "auraurbaine",
+      "instagram": "",
+      "youTube": "UCY1sde5XQCbV_r78YsWUxjQ"
     },
     {
       "rowId": 3,
-      "startupName": "Bee"
+      "startupName": "Bee",
+      "webSite": "http://bee-bienetreentreprise.com/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "BeeBienetreentreprise"
     },
     {
       "rowId": 4,
-      "startupName": "Bleexo"
+      "startupName": "Bleexo",
+      "webSite": "https://www.bleexo.com/",
+      "linkedIn": "bleexo/?originalSubdomain=fr",
+      "twitter": "",
+      "facebook": "bleexo",
+      "instagram": "",
+      "youTube": "UC5hRGtrz2AKdJ0WxwIZMDWw"
     },
     {
       "rowId": 5,
-      "startupName": "Bloom At Work"
+      "startupName": "Bloom At Work",
+      "webSite": "https://www.bloom-at-work.com/fr/",
+      "linkedIn": "bloom-at-work",
+      "twitter": "bloom_at_work"
     },
     {
       "rowId": 6,
-      "startupName": "BoostYourFit"
+      "startupName": "BoostYourFit",
+      "webSite": "http://www.boostyourfit.com/",
+      "linkedIn": "boostyourfit",
+      "twitter": "",
+      "facebook": "BoostYourFit"
     },
     {
       "rowId": 7,
-      "startupName": "ChaudPatate"
+      "startupName": "Antimauxdedos",
+      "webSite": "https://www.antimauxdedos.com/",
+      "linkedIn": "antimauxdedos",
+      "twitter": "antimauxdedos?lang=en"
     },
     {
       "rowId": 8,
-      "startupName": "Cocoworker"
+      "startupName": "Cocoworker",
+      "webSite": "http://www.cocoworker.com/",
+      "linkedIn": "cocoworker/",
+      "twitter": "CocoworkerFr",
+      "facebook": "Cocoworker/",
+      "instagram": "",
+      "youTube": "UCE475vOTEjC3zHsKSnfoIdg"
     },
     {
       "rowId": 9,
@@ -931,11 +3122,23 @@
     },
     {
       "rowId": 10,
-      "startupName": "Contextor"
+      "startupName": "Contextor",
+      "webSite": "https://contextor.eu/fr/",
+      "linkedIn": "Contextor",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "youTube": "UCkJEtt4vQqJ_HJ7DxiR19qw"
     },
     {
       "rowId": 11,
-      "startupName": "Cowork.io"
+      "startupName": "Cowork.io",
+      "webSite": "https://cowork.io/fr/",
+      "linkedIn": "cowork.io",
+      "twitter": "",
+      "facebook": "coworkio",
+      "instagram": "cowork.io",
+      "youTube": "UCobOvrKF0Qc15euGXp8LmaA"
     },
     {
       "rowId": 12,
@@ -943,7 +3146,13 @@
     },
     {
       "rowId": 13,
-      "startupName": "Fidensio"
+      "startupName": "Fidensio",
+      "webSite": "https://www.fidensio.com/",
+      "linkedIn": "pressingbox",
+      "twitter": "FidensioFr",
+      "facebook": "FidensioFR",
+      "instagram": "",
+      "youTube": "UC6M68L_d7IyhdVbhyic_Acg"
     },
     {
       "rowId": 14,
@@ -951,7 +3160,11 @@
     },
     {
       "rowId": 15,
-      "startupName": "Humancraft"
+      "startupName": "Humancraft",
+      "webSite": "https://humancraft.eu/",
+      "linkedIn": "humancraft",
+      "twitter": "",
+      "facebook": "HumanCraftEU"
     },
     {
       "rowId": 16,
@@ -959,11 +3172,19 @@
     },
     {
       "rowId": 17,
-      "startupName": "IDPosition"
+      "startupName": "IDPosition",
+      "webSite": "http://www.idposition.fr/",
+      "linkedIn": "idposition"
     },
     {
       "rowId": 18,
-      "startupName": "Kiplin"
+      "startupName": "Kiplin",
+      "webSite": "https://www.kiplin.com/",
+      "linkedIn": "kiplin",
+      "twitter": "kiplin",
+      "facebook": "bykiplin",
+      "instagram": "bykiplin",
+      "youTube": "UCrJUC3Qi__cJqrnDu_42drQ"
     },
     {
       "rowId": 19,
@@ -971,7 +3192,13 @@
     },
     {
       "rowId": 20,
-      "startupName": "Lyyti"
+      "startupName": "Lyyti",
+      "webSite": "https://www.lyyti.com/fr",
+      "linkedIn": "lyyti-france",
+      "twitter": "lyytifrance",
+      "facebook": "LyytiFR",
+      "instagram": "",
+      "youTube": "UC4NJPgYBhlIOkWDuwr1GJoA"
     },
     {
       "rowId": 21,
@@ -983,15 +3210,32 @@
     },
     {
       "rowId": 23,
-      "startupName": "OneConciergerie"
+      "startupName": "OneConciergerie",
+      "webSite": "http://www.oneconciergerie.com/",
+      "linkedIn": "jobbers-sas/?trk=prof-0-ovw-curr_pos",
+      "twitter": "Jobbersandco",
+      "facebook": "",
+      "instagram": "",
+      "youTube": "UCaTCEOjYcod_Bhu6YgQKLRA"
     },
     {
       "rowId": 24,
-      "startupName": "Plantez Respirez"
+      "startupName": "Plantez Respirez",
+      "webSite": "https://plantezrespirez.com/",
+      "linkedIn": "plantez-respirez-plant-breath/?trk=ppro_cprof",
+      "twitter": "",
+      "facebook": "plantezrespirez",
+      "instagram": "plantezrespirez"
     },
     {
       "rowId": 25,
-      "startupName": "Roti.express"
+      "startupName": "Roti.express",
+      "webSite": "https://roti.express/",
+      "linkedIn": "roti-express-pro",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "youTube": "UCfIxDIFvoDaixE7SEBm3DlA"
     },
     {
       "rowId": 26,
@@ -1007,15 +3251,29 @@
     },
     {
       "rowId": 29,
-      "startupName": "TOD"
+      "startupName": "TOD",
+      "webSite": "https://www.yourtod.com/",
+      "linkedIn": "yourtod"
     },
     {
       "rowId": 30,
-      "startupName": "TrainMe"
+      "startupName": "TrainMe",
+      "webSite": "https://trainme.co/corporate",
+      "linkedIn": "trainme",
+      "twitter": "",
+      "facebook": "trainme.co",
+      "instagram": "trainme.co/",
+      "youTube": "UCsVhuscfCRWsM1jqf4WGL1w"
     },
     {
       "rowId": 31,
-      "startupName": "WeHobby"
+      "startupName": "Yuco",
+      "webSite": "https://www.wehobby.com/fr/",
+      "linkedIn": "yuco",
+      "twitter": "Yuco_team",
+      "facebook": "",
+      "instagram": "",
+      "youTube": "UCQADkPFzzFhwFa12O2iYGHQ"
     },
     {
       "rowId": 32,
@@ -1023,11 +3281,18 @@
     },
     {
       "rowId": 33,
-      "startupName": "Windoo"
+      "startupName": "Windoo",
+      "webSite": "https://windoo.fr/",
+      "linkedIn": "windoo",
+      "twitter": "Team_Windoo"
     },
     {
       "rowId": 34,
-      "startupName": "ZestMeUp"
+      "startupName": "ZestMeUp",
+      "webSite": "https://zestmeup.com/fr/",
+      "linkedIn": "zestmeup/?trk=top_nav_home",
+      "twitter": "zestme_up",
+      "facebook": "ZestMeUp?fref=ts"
     }
   ],
   "startupPitchs": [
@@ -1076,7 +3341,7 @@
       "name": "Exponens",
       "description": "Cabinet comptable",
       "website": "",
-      "type": "Avantages pour startups"
+      "type": "Aide l'association"
     },
     {
       "rowId": 3,
@@ -1089,7 +3354,8 @@
       "rowId": 4,
       "name": "NewCap",
       "description": "Investor Relations - Strategic Communications",
-      "website": "https://www.newcap.fr/"
+      "website": "https://www.newcap.fr/",
+      "type": "Aide l'association"
     }
   ],
   "entreprises": [
