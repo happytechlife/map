@@ -2,6 +2,7 @@ import { IEvent, IStartup } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
 import { IHappyTechStore } from "../models";
 import * as moment from "moment";
+import { toCompareStartupName } from "../Components/StartupCard";
 
 export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
     constructor(spreadsheetId: string) {
@@ -24,7 +25,7 @@ export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
     };
     public resolve2 = (store: IHappyTechStore) => {
         store.events = store.events.map(e => {
-            e.startups = e.startupNames.map(sn => store.startups.find(s => s.name === sn)).filter(Object) as IStartup[];
+            e.startups = e.startupNames.map(sn => store.startups.find(s => toCompareStartupName(s.name) === toCompareStartupName(sn))).filter(Boolean) as IStartup[];
             e.date = moment(e.dateString, 'DD/MM/YYYY');
             return e;
         })

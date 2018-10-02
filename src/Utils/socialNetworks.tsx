@@ -21,3 +21,6 @@ export function snInstagram(key: string) {
 export function snYoutube(key: string) {
     return socialNetwork('youtube', `https://www.youtube.com/channel/${key}`)
 }
+export function snMeetup(key: string) {
+    return socialNetwork('meetup', `https://www.meetup.com/fr-FR/${key}`)
+}

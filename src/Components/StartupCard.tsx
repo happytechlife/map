@@ -86,6 +86,6 @@ class StartupCard extends React.Component<IProps, {}> {
 
 export default withStyles(styles, { withTheme: true })(StartupCard);
 
-
 export const startupLink = (startup: IStartup) => `/startups/${startupLinkName(startup)}`;
-export const startupLinkName = (startup: IStartup) => startup.name.toLocaleLowerCase().replace(/ /g, '-');
+export const startupLinkName = (startup: IStartup) => toCompareStartupName(startup.name);
+export const toCompareStartupName = (name: string) => name.toLocaleLowerCase().replace(/ /g, '-');

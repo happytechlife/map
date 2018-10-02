@@ -12,7 +12,7 @@ import * as classNames from 'classnames';
 import { leftMenus } from './LeftMenu';
 import '../../App.css';
 import { Hidden } from '@material-ui/core';
-import { snLinkedin, snTwitter, snFacebook } from '../../Utils/socialNetworks';
+import { snLinkedin, snTwitter, snFacebook, snInstagram, snYoutube, snMeetup } from '../../Utils/socialNetworks';
 
 interface IProps {
     theme?: any;
@@ -87,14 +87,17 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
             <Divider />
             {leftMenus(this.handleDrawerClose)}
             <Divider />
-            <div style={{ marginRight: 16, marginTop: 16 }} className="flexCenter">
+            <div style={{ marginRight: 16, marginTop: 16, flexWrap: 'wrap' }} className="flexCenter">
+                <div style={{ width: '100%', textAlign: 'center', marginBottom: 8 }}>Suivez nous !</div>
                 {snLinkedin('happytech')}
                 {snTwitter('happytechfrance')}
                 {snFacebook('happytech.life')}
+                {snYoutube('happytech.life')}
+                {snInstagram('happytech.life')}
+                {snMeetup('HappyTech-France')}
             </div>
         </React.Fragment>
     }
-
     public render() {
         const { classes } = this.props;
         const { open } = this.state;

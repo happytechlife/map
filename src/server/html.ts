@@ -8,15 +8,33 @@ interface IHtml {
 
   helmet: HelmetData;
 }
+
+
+const ldJson = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://www.happytech.life",
+  "sameAs": [
+    "https://twitter.com/happytechfrance",
+    "https://www.facebook.com/happytech.life",
+    "https://www.linkedin.com/company/happytech",
+    "https://www.instagram.com/happytech.life",
+    "https://www.youtube.com/channel/UCaGZlvSIGVetXWzVR5CwdwA"],
+  "@id": "https://www.happytech.life/#organization",
+  "name": "HappyTech",
+  "logo": "https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png"
+};
+
 const html = ({ helmet, store, body, css }: IHtml) => `
   <!DOCTYPE html>
   <html prefix="og: http://ogp.me/ns#">
     <head>
       <meta charset="utf-8" />
+      <link rel="canonical" href="https://www.happytech.life/" />
       ${helmet.title.toString()}
       ${helmet.meta.toString()}
       ${helmet.link.toString()}
-
+      <script type='application/ld+json'>${JSON.stringify(ldJson)}</script>
       <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       
@@ -29,6 +47,16 @@ const html = ({ helmet, store, body, css }: IHtml) => `
       <script type="text/javascript" >
         window.GlobalStore = ${ JSON.stringify(cj.stringify(store))}
       </script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99292406-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-99292406-1');
+      </script>
+
     </head>
     <body style="margin:0">
       <div id="root">${body}</div>

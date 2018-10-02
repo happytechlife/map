@@ -1,7 +1,7 @@
 :root{
   --main:orange;
 }
-body{
+body, .hbspt-form, label{
   font-family: 'Quicksand', Arial, Helvetica, sans-serif
 }
 .flexCenter{

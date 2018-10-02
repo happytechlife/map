@@ -8,7 +8,10 @@ function ogTags(og: IOpenGraphShare) {
     return [
         <meta key={0} property="og:title" content={og.title} />,
         <meta key={1} property="og:description" content={og.description} />,
-        <meta key={2} property="og:image" content={og.image} />
+        <meta key={2} property="og:image" content={og.image} />,
+        <meta key={3} property="og:site_name" content="HappyTech France" />,
+        <meta key={4} property="og:locale" content="fr_FR" />,
+        <meta key={5} property="og:type" content="website" />
     ];
     {/* <meta property="og:type" content="video.movie" /> */ }
     {/* <meta property="og:url" content={url} /> */ }
@@ -22,7 +25,8 @@ function twitterTags(twitter: ITwitterShare) {
         <meta key={1} name="twitter:site" content="@HappyTechFrance" />,
         <meta key={2} name="twitter:title" content={title} />,
         <meta key={3} name="twitter:description" content={description} />,
-        <meta key={4} name="twitter:image" content={image} />
+        <meta key={4} name="twitter:image" content={image} />,
+        <meta key={5} name="twitter:creator" content="@HappyTechFrance" />
     ];
     return null;
 }

@@ -11,6 +11,10 @@ import { getHeaders } from '../Utils/Pages/pages';
 import SyncIcon from '@material-ui/icons/Sync';
 import { ExternalLink } from '../Utils/ExternalLink';
 
+
+export const hubspotForm = () => <div className="flexCenter" dangerouslySetInnerHTML={{
+    __html: `<script charSet="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script><script>hbspt.forms.create({"portalId": "3943429","formId": "be6c09e3-ecd5-4ded-bf38-ec78398459c8"});</script>`
+}} />
 export class Partners extends React.Component<IReactPageProps, {}> {
     public render() {
         const { store, page } = this.props;
@@ -31,13 +35,14 @@ export class Partners extends React.Component<IReactPageProps, {}> {
                         <List style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>{values.map(PartnerCard)}</List >
                     </React.Fragment>
                 })}
+                <Divider style={{ margin: 24 }} />
             </Markdown>
         </React.Fragment>
     }
 }
 
 function PartnerCard(partner: IPartner) {
-    const logo = cloudinaryTransform(partner.logo, 'w_300,h_168,c_pad,f_png');
+    const logo = cloudinaryTransform(partner.logo, 'w_300,h_168,c_pad,f_png,q_100');
     return <Card key={partner.rowId} style={{ width: 320, margin: 8 }}>
         <div >
             {logo && <CardMedia style={{ paddingTop: '56.25%', marginTop: 8 }}
@@ -64,3 +69,4 @@ export const partnersPage = (): IReactPage => ({
     component: Partners,
     headers: () => getHeaders('Les partenaires de la HappyTech')
 });
+

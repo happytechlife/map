@@ -842,6 +842,34 @@
     },
     {
       "rowId": 30,
+      "name": "Teamstarter",
+      "address": "10 rue du Faubourg Poissonière 75010 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
+      "contacts": [
+        {
+          "rowId": 30,
+          "startup_name": "Teamstarter",
+          "firstname": "Ségolène",
+          "lastname": "Mouterde",
+          "email": "segolene@teamstarter.co",
+          "telephone": "",
+          "title": "CEO & Co-Fondatrice",
+          "linkedin": "ségolène-mouterde-89747585",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8714758,
+        "lng": 2.348107700000014
+      },
+      "tags": [],
+      "description": "Teamstarter est une plateforme de financement participatif pour libérer les collaborateurs afin qu’ils puissent réaliser des projets ensemble",
+      "tagline": ""
+    },
+    {
+      "rowId": 31,
       "name": "The Place To Coach",
       "address": "5 Parvis Alan Turing, 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
@@ -869,7 +897,7 @@
       "tagline": ""
     },
     {
-      "rowId": 31,
+      "rowId": 32,
       "name": "TOD",
       "address": "27 rue Raffet 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
@@ -897,7 +925,7 @@
       "tagline": ""
     },
     {
-      "rowId": 32,
+      "rowId": 33,
       "name": "TrainMe",
       "address": "6 Rue Claude Farrère, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
@@ -925,7 +953,7 @@
       "tagline": ""
     },
     {
-      "rowId": 33,
+      "rowId": 34,
       "name": "Wellnesstraining",
       "address": "17 boulevard Saint Martin 75003, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
@@ -953,7 +981,7 @@
       "tagline": ""
     },
     {
-      "rowId": 34,
+      "rowId": 35,
       "name": "Windoo",
       "address": "6 Rue Claude Farrère, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
@@ -981,7 +1009,7 @@
       "tagline": ""
     },
     {
-      "rowId": 35,
+      "rowId": 36,
       "name": "Yuco",
       "address": "24 avenue Marceau 75008 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
@@ -1009,7 +1037,7 @@
       "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
     },
     {
-      "rowId": 36,
+      "rowId": 37,
       "name": "ZestMeUp",
       "address": "71 rue de Saussure 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
@@ -2279,7 +2307,35 @@
       "linkedin": "ségolène-mouterde-89747585",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png"
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png",
+      "startup": {
+        "rowId": 30,
+        "name": "Teamstarter",
+        "address": "10 rue du Faubourg Poissonière 75010 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
+        "contacts": [
+          {
+            "rowId": 30,
+            "startup_name": "Teamstarter",
+            "firstname": "Ségolène",
+            "lastname": "Mouterde",
+            "email": "segolene@teamstarter.co",
+            "telephone": "",
+            "title": "CEO & Co-Fondatrice",
+            "linkedin": "ségolène-mouterde-89747585",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8714758,
+          "lng": 2.348107700000014
+        },
+        "tags": [],
+        "description": "Teamstarter est une plateforme de financement participatif pour libérer les collaborateurs afin qu’ils puissent réaliser des projets ensemble",
+        "tagline": ""
+      }
     },
     {
       "rowId": 31,
@@ -2294,7 +2350,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg",
       "startup": {
-        "rowId": 30,
+        "rowId": 31,
         "name": "The Place To Coach",
         "address": "5 Parvis Alan Turing, 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
@@ -2335,7 +2391,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Ga%C3%ABlle_Monteiller.jpg",
       "startup": {
-        "rowId": 31,
+        "rowId": 32,
         "name": "TOD",
         "address": "27 rue Raffet 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
@@ -2376,7 +2432,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Gatien_Letartre.jpg",
       "startup": {
-        "rowId": 32,
+        "rowId": 33,
         "name": "TrainMe",
         "address": "6 Rue Claude Farrère, 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
@@ -2417,7 +2473,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg",
       "startup": {
-        "rowId": 33,
+        "rowId": 34,
         "name": "Wellnesstraining",
         "address": "17 boulevard Saint Martin 75003, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
@@ -2458,7 +2514,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg",
       "startup": {
-        "rowId": 34,
+        "rowId": 35,
         "name": "Windoo",
         "address": "6 Rue Claude Farrère, 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
@@ -2499,7 +2555,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg",
       "startup": {
-        "rowId": 35,
+        "rowId": 36,
         "name": "Yuco",
         "address": "24 avenue Marceau 75008 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
@@ -2540,7 +2596,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg",
       "startup": {
-        "rowId": 36,
+        "rowId": 37,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
@@ -2801,7 +2857,7 @@
         "WebApp"
       ],
       "startup": {
-        "rowId": 36,
+        "rowId": 37,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
@@ -2872,7 +2928,7 @@
       "tags": [],
       "tagNames": [],
       "startup": {
-        "rowId": 35,
+        "rowId": 36,
         "name": "Yuco",
         "address": "24 avenue Marceau 75008 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378281/wehobby.png",
@@ -3072,7 +3128,7 @@
       "rowId": 4,
       "startupName": "Bleexo",
       "webSite": "https://www.bleexo.com/",
-      "linkedIn": "bleexo/?originalSubdomain=fr",
+      "linkedIn": "bleexo",
       "twitter": "",
       "facebook": "bleexo",
       "instagram": "",
@@ -3142,7 +3198,11 @@
     },
     {
       "rowId": 12,
-      "startupName": "Feeleo"
+      "startupName": "Feeleo",
+      "webSite": "https://www.feeleo.co/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "Feeleo-297335087446857"
     },
     {
       "rowId": 13,
@@ -3156,7 +3216,11 @@
     },
     {
       "rowId": 14,
-      "startupName": "Happy Quest"
+      "startupName": "Happy Quest",
+      "webSite": "https://www.happyquest.co/",
+      "linkedIn": "happyquest",
+      "twitter": "",
+      "facebook": "Happy-Quest-207862793132586"
     },
     {
       "rowId": 15,
@@ -3202,17 +3266,25 @@
     },
     {
       "rowId": 21,
-      "startupName": "monaSTAY"
+      "startupName": "monaSTAY",
+      "webSite": "https://www.monastay.fr/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "monaSTAY.fr"
     },
     {
       "rowId": 22,
-      "startupName": "Melomind"
+      "startupName": "Melomind",
+      "webSite": "https://www.melomind.com/",
+      "linkedIn": "",
+      "twitter": "mybraintech",
+      "facebook": "mybraintech"
     },
     {
       "rowId": 23,
       "startupName": "OneConciergerie",
       "webSite": "http://www.oneconciergerie.com/",
-      "linkedIn": "jobbers-sas/?trk=prof-0-ovw-curr_pos",
+      "linkedIn": "jobbers-sas",
       "twitter": "Jobbersandco",
       "facebook": "",
       "instagram": "",
@@ -3222,7 +3294,7 @@
       "rowId": 24,
       "startupName": "Plantez Respirez",
       "webSite": "https://plantezrespirez.com/",
-      "linkedIn": "plantez-respirez-plant-breath/?trk=ppro_cprof",
+      "linkedIn": "plantez-respirez-plant-breath",
       "twitter": "",
       "facebook": "plantezrespirez",
       "instagram": "plantezrespirez"
@@ -3239,7 +3311,11 @@
     },
     {
       "rowId": 26,
-      "startupName": "Serenity"
+      "startupName": "Serenity",
+      "webSite": "http://www.iris-immersive.com/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "iris.immersive"
     },
     {
       "rowId": 27,
@@ -3293,6 +3369,14 @@
       "linkedIn": "zestmeup/?trk=top_nav_home",
       "twitter": "zestme_up",
       "facebook": "ZestMeUp?fref=ts"
+    },
+    {
+      "rowId": 35,
+      "startupName": "Teamstarter",
+      "webSite": "https://teamstarter.co/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "teamstarterapp"
     }
   ],
   "startupPitchs": [
@@ -3311,7 +3395,14 @@
       "description": "Pour fêter le mois de la rentrée, la HappyTech et Real Estate Development by Euro Disney sont heureux de vous retrouver autour d'une matinée dans un cadre hors du temps, à Villages Nature Paris, pour parler du bien-être au travail. \n \nL'évènement se déroulera dans la salle Forum à Villages Nature Paris, lieu idyllique pour échanger sur la HappyTech et assister au pitch de nos startups sur le sujet : \"Comment améliorer le management innovant à travers des solutions digitales qui améliorent le bien-être au travail ?\".\n \nDes témoignages de plusieurs grands groupes clôtureront l'événement. ",
       "startupNames": [
         "Comeet",
-        "Fidensio"
+        "Fidensio",
+        "Plantez Respirez",
+        "Cowork.io",
+        "The Place To Coach",
+        "Bloom at work",
+        "Bee",
+        "Lyyti",
+        "Melomind"
       ],
       "dateString": "28-09-2018",
       "time": "9:00-14:00",
@@ -3319,66 +3410,97 @@
       "address": "Route de Villeneuve, 77700 Bailly-Romainvilliers",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1537881253/website/events/disney-real-estate.jpg",
       "registerLink": "https://www.lyyti.fi/reg/happy_morning_280918_newsletter"
+    },
+    {
+      "rowId": 1,
+      "name": "WeBuild",
+      "description": "WeBuild #FutureOfwork, est l’événement annuel incontournable, qui répond aux nouveaux challenges de la transformation RH, de l’intelligence collective, de l’empowerment et de l’agilité des entreprises.",
+      "startupNames": [
+        "Bleexo",
+        "TOD",
+        "Serenity",
+        "Allsessions",
+        "Comeet",
+        "Antimauxdedos",
+        "Cowork.io",
+        "Bee",
+        "Boostyourfit",
+        "Bloom at work"
+      ],
+      "dateString": "25-10-2018",
+      "time": "8:00-19:00",
+      "location": "Nextdoor",
+      "address": "43 rue Camille Desmoulins – Issy-les-Moulineaux Cedex",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538507864/website/events/webuild2018.jpg",
+      "registerLink": "https://www.womum.net/webuild/billetterie/"
     }
   ],
   "partners": [
     {
       "rowId": 0,
       "name": "Hubspot",
-      "description": "90% remise année 1",
-      "website": "",
-      "type": "Avantages pour startups"
+      "description": "90% de remise sur Hubspot la première année pour les membres HappyTech",
+      "website": "https://www.hubspot.com/",
+      "type": "Avantages pour les startups",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538511210/website/partners/hubspot-2.png"
     },
     {
       "rowId": 1,
       "name": "B. Conseil",
-      "description": "Financement",
-      "website": "",
-      "type": "Avantages pour startups"
+      "description": "Obtenir un Crédit d’Impôt Innovation ou Recherche n’est pas évident !",
+      "website": "https://www.bconseil.fr",
+      "type": "Avantages pour les startups",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538510603/website/partners/bconseil.png"
     },
     {
       "rowId": 2,
       "name": "Exponens",
-      "description": "Cabinet comptable",
-      "website": "",
-      "type": "Aide l'association"
+      "description": "Groupe indépendant d'expertise comptable, de conseil et d'audit",
+      "website": "http://www.exponens.com/",
+      "type": "Aide l'association",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538510525/website/partners/exponens.png"
     },
     {
       "rowId": 3,
       "name": "Womum",
-      "description": "",
-      "website": "",
-      "type": "Evenements"
+      "description": "WoMum Concept, créé par Audrey Ango, est à l’image de sa créatrice : féminin, plein de pep’s, moderne et la communication dans les veines.",
+      "website": "https://www.womum.net/",
+      "type": "Événements",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538510817/website/partners/womum.jpg"
     },
     {
       "rowId": 4,
       "name": "NewCap",
-      "description": "Investor Relations - Strategic Communications",
+      "description": "féminin, plein de pep’s, moderne et la communication dans les veines.",
       "website": "https://www.newcap.fr/",
-      "type": "Aide l'association"
+      "type": "Aide l'association",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538510644/website/partners/newcap.jpg"
     }
   ],
   "entreprises": [
     {
       "rowId": 0,
       "name": "Nexity",
-      "description": "...",
+      "description": "",
       "startupNames": [],
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537877961/website/companies/nexity.jpg"
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537877961/website/companies/nexity.jpg",
+      "link": "https://ct.nexity.fr/"
     },
     {
       "rowId": 1,
       "name": "Talan",
-      "description": "...",
+      "description": "",
       "startupNames": [],
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537877910/website/companies/talan.png"
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537877910/website/companies/talan.png",
+      "link": "https://www.talan.com/"
     },
     {
       "rowId": 2,
       "name": "Essec",
-      "description": "...",
+      "description": "",
       "startupNames": [],
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537878279/website/companies/essec.png"
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1537878279/website/companies/essec.png",
+      "link": "http://essec-ventures.essec.edu/sectors-incubators/happy-tech"
     }
   ],
   "presse": [
@@ -3392,6 +3514,83 @@
       "authorTwitter": "",
       "dateString": "26-01-2018",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1537965793/website/presse/lemonde.png"
+    },
+    {
+      "rowId": 1,
+      "source": "FranceInfo",
+      "title": "On s'y emploie. Les start up au service du bien-être au travail",
+      "tagline": "Aujourd'hui gros plan sur un collectif de start up qui veulent apporter du bonheur au travail, grâce à la technologie.",
+      "author": "Philippe Duport",
+      "link": "https://www.francetvinfo.fr/replay-radio/on-s-y-emploie-de-philippe-duport/on-s-y-emploie-les-start-up-au-service-du-bien-etre-au-travail_2256755.html",
+      "authorTwitter": "",
+      "dateString": "02-07-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538509418/website/presse/franceinfo.png"
+    },
+    {
+      "rowId": 2,
+      "source": "Challenge",
+      "title": "Macron et Pénicaud veulent faire de Paris la capitale mondiale du bien-être au travail",
+      "tagline": "Le président et sa ministre du travail se mobilisent pour faire de Paris la capitale mondiale du HappyTech, ces start-ups expertes en bien-être au travail",
+      "author": "Thuy-Diep Nguyen",
+      "link": "https://www.challenges.fr/emploi/management/quand-macron-et-penicaud-se-revent-en-chief-happiness-officers-du-travail_502503",
+      "authorTwitter": "",
+      "dateString": "27-09-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508221/website/presse/challenges.svg"
+    },
+    {
+      "rowId": 3,
+      "source": "Forbes",
+      "title": "HappyTech : Faire De La France Le Pays Du Bien-Être Au Travail",
+      "tagline": "",
+      "author": "Audrey Chabal",
+      "link": "https://www.forbes.fr/management/happytech-faire-de-la-france-le-pays-du-bien-etre-au-travail/?cn-reloaded=1",
+      "authorTwitter": "",
+      "dateString": "05-07-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508275/website/presse/forbes.svg"
+    },
+    {
+      "rowId": 4,
+      "source": "Welcome To The Jungle",
+      "title": "La HappyTech, la technologie au service du bien-être au travail",
+      "tagline": "",
+      "author": "",
+      "link": "https://www.welcometothejungle.co/articles/la-happytech-technologie-au-service-du-bien-etre-au-travail",
+      "authorTwitter": "",
+      "dateString": "",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508443/website/presse/welcometothejungle.svg"
+    },
+    {
+      "rowId": 5,
+      "source": "Europe1",
+      "title": "Circuits courts - Peut-on être heureux au boulot",
+      "tagline": "",
+      "author": "",
+      "link": "https://www.europe1.fr/emissions/circuits-courts/circuits-courts-peut-on-etre-heureux-au-boulot-19022018-3578798",
+      "authorTwitter": "",
+      "dateString": "19-09-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508474/website/presse/europe1.png"
+    },
+    {
+      "rowId": 6,
+      "source": "La Tribune",
+      "title": "Les \"HappyTech\", ces startups qui s'attaquent au mal-être au travail",
+      "tagline": "",
+      "author": "Sylvain Rolland",
+      "link": "https://www.latribune.fr/technos-medias/innovation-et-start-up/les-happytech-ces-startups-qui-s-attaquent-au-mal-etre-au-travail-751987.html",
+      "authorTwitter": "",
+      "dateString": "",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508511/website/presse/latribune.png"
+    },
+    {
+      "rowId": 7,
+      "source": "Maddyness",
+      "title": "Pourquoi l’IA est l’avenir de l’humain dans l’entreprise",
+      "tagline": "",
+      "author": "Iris Maignan",
+      "link": "https://www.maddyness.com/2017/07/12/tech-pourquoi-lia-est-lavenir-de-lhumain-dans-lentreprise/",
+      "authorTwitter": "",
+      "dateString": "27-12-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508295/website/presse/Maddyness.svg"
     }
   ]
 }

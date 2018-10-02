@@ -12,6 +12,7 @@ import { startupPage } from '../../Components/StartupView';
 import { partnersPage } from '../../Components/Partners';
 import { pressePage } from '../../Components/Presse';
 import { entreprisesPage } from '../../Components/Enterprises';
+import { contactPage } from '../../Components/Contact';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -57,13 +58,23 @@ const summit = {
 export const homePage = { ...presentation, route: '/' };
 
 export function getHeaders(title: string): IMetaHeaders {
+    const description = "HappyTech, L'innovation technologique au service du bien-être en entreprise.";
+    const image = 'https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png'
     return {
         title,
-        description: '',
+        description,
         meta: {
             title,
-            description: '',
-            tags: ''
+            description,
+            tags: 'qvt, bien-être, intelligence artificielle'
+        },
+        share: {
+            twitter: {
+                title, description, image
+            },
+            og: {
+                title, description, image
+            }
         }
     };
 }
@@ -73,10 +84,10 @@ export const markdownPages: IMarkdownPage[] = [
 ]
 
 export const reactPages = (): IReactPage[] => ([
-    startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage()
+    startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), partnersPage(), summit, pressePage()
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summit, pressePage(), contactPage()
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()

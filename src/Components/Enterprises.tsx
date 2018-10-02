@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ICompany } from '../models';
-import { Divider, Card, CardMedia, CardContent, Typography, List, CardActions } from '@material-ui/core'
+import { Divider, Card, CardMedia, CardContent, Typography, List, CardActions, Button } from '@material-ui/core'
 import * as md from './../Markdowns/entreprises.md';
 import { Markdown } from '../Utils/Pages/Markdown';
 import { HappyTechTypeForm } from '../Utils/typeform';
@@ -9,6 +9,7 @@ import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
 import { getHeaders } from '../Utils/Pages/pages';
 import AccountBalance from '@material-ui/icons/AccountBalance';
+import { ExternalLink } from '../Utils/ExternalLink';
 
 export class Entreprises extends React.Component<IReactPageProps, {}> {
     public render() {
@@ -43,12 +44,11 @@ function CompanyCard(company: ICompany) {
                 <Typography variant="caption" align="center" >{company.description}</Typography>
             </CardContent>
             <CardActions>
-                {company.link && company.link && <a href={company.link}>Voir le site</a>}
+                {company.link && <ExternalLink link={company.link}><Button variant="raised">Voir le site</Button></ExternalLink>}
             </CardActions>
         </div>
     </Card>;
 }
-
 export const entreprisesPage = (): IReactPage => ({
     menuTitle: 'Les entreprises',
     icon: AccountBalance,

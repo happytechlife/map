@@ -65,7 +65,7 @@ function EventCard(event: IEvent, width: Breakpoint) {
                     </h2>
                     {event.date &&
                         <h4 className="flexCenter" style={{ flexGrow: 1, margin: 4 }}>
-                            {moment(event.date).format('dddd, MMMM Do YYYY')} - {event.time}
+                            {moment(event.date).format('dddd Do MMMM YYYY')} - {event.time}
                         </h4>}
                     <ExternalLink link={event.registerLink}><Button style={{ marginTop: 12 }} variant="raised">Inscrivez-vous</Button></ExternalLink>
                 </div>
