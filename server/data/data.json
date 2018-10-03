@@ -3096,7 +3096,7 @@
       "firstname": "Caroline ",
       "lastname": "Bilger",
       "email": "caroline@bilger.fr",
-      "team": "Bénévole",
+      "team": "Bénévoles",
       "role": "Events",
       "active": true,
       "linkedin": "",
@@ -3110,7 +3110,7 @@
       "firstname": "Alexis",
       "lastname": "De Monicault",
       "email": "alexis@happytech.life",
-      "team": "Bénévole",
+      "team": "Bénévoles",
       "role": "Youtubeur",
       "active": true,
       "linkedin": "",
@@ -3124,13 +3124,13 @@
       "firstname": "Elodie",
       "lastname": "Gaspart",
       "email": "el.gaspart@gmail.com",
-      "team": "Bénévole",
+      "team": "Bénévoles",
       "role": "Recrutement ",
       "active": true,
       "linkedin": "",
       "twitter": "",
       "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555616/website/people/Elodie.jpg",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538571516/website/people/Elodie.jpg",
       "fullname": "Elodie Gaspart"
     },
     {
@@ -3138,8 +3138,8 @@
       "firstname": "Marion ",
       "lastname": "Gaullin",
       "email": "marion@happytech.life",
-      "team": "Bénévole",
-      "role": "Marketing & Com",
+      "team": "Bénévoles",
+      "role": "Marketing & Communucation",
       "active": true,
       "linkedin": "",
       "twitter": "",
@@ -3152,7 +3152,7 @@
       "firstname": "Mathilde ",
       "lastname": "Debeuf",
       "email": "mathilde.debeuf@happytech.life",
-      "team": "Bénévole",
+      "team": "Bénévoles",
       "role": "Design & Montage vidéos",
       "active": true,
       "linkedin": "",
@@ -3165,10 +3165,23 @@
   "startupSocialNetworks": [
     {
       "rowId": 0,
-      "startupName": "AllSessions"
+      "startupName": "AllSessions",
+      "webSite": "https://entreprises.allsessions.club/",
+      "linkedIn": "allsessions",
+      "twitter": "",
+      "facebook": "AllSessionsClub",
+      "instagram": "",
+      "youTube": "UCUZjJ8pBmJaxd2Wv23KEfcA"
     },
     {
       "rowId": 1,
+      "startupName": "Antimauxdedos",
+      "webSite": "https://www.antimauxdedos.com/",
+      "linkedIn": "antimauxdedos",
+      "twitter": "antimauxdedos?lang=en"
+    },
+    {
+      "rowId": 2,
       "startupName": "Artify",
       "webSite": "http://www.artify.fr/",
       "linkedIn": "artify-fr",
@@ -3177,7 +3190,7 @@
       "instagram": "artify_fr"
     },
     {
-      "rowId": 2,
+      "rowId": 3,
       "startupName": "Aura",
       "webSite": "http://www.aura-urbaine.com/",
       "linkedIn": "",
@@ -3187,7 +3200,16 @@
       "youTube": "UCY1sde5XQCbV_r78YsWUxjQ"
     },
     {
-      "rowId": 3,
+      "rowId": 4,
+      "startupName": "Aurasens",
+      "webSite": "http://www.aurasens.com/",
+      "linkedIn": "aurasens",
+      "twitter": "Aurasens?lang=en",
+      "facebook": "aurasens",
+      "instagram": "aurasens/?hl=fr"
+    },
+    {
+      "rowId": 5,
       "startupName": "Bee",
       "webSite": "http://bee-bienetreentreprise.com/",
       "linkedIn": "",
@@ -3195,7 +3217,7 @@
       "facebook": "BeeBienetreentreprise"
     },
     {
-      "rowId": 4,
+      "rowId": 6,
       "startupName": "Bleexo",
       "webSite": "https://www.bleexo.com/",
       "linkedIn": "bleexo",
@@ -3205,14 +3227,14 @@
       "youTube": "UC5hRGtrz2AKdJ0WxwIZMDWw"
     },
     {
-      "rowId": 5,
+      "rowId": 7,
       "startupName": "Bloom At Work",
       "webSite": "https://www.bloom-at-work.com/fr/",
       "linkedIn": "bloom-at-work",
       "twitter": "bloom_at_work"
     },
     {
-      "rowId": 6,
+      "rowId": 8,
       "startupName": "BoostYourFit",
       "webSite": "http://www.boostyourfit.com/",
       "linkedIn": "boostyourfit",
@@ -3220,14 +3242,7 @@
       "facebook": "BoostYourFit"
     },
     {
-      "rowId": 7,
-      "startupName": "Antimauxdedos",
-      "webSite": "https://www.antimauxdedos.com/",
-      "linkedIn": "antimauxdedos",
-      "twitter": "antimauxdedos?lang=en"
-    },
-    {
-      "rowId": 8,
+      "rowId": 9,
       "startupName": "Cocoworker",
       "webSite": "http://www.cocoworker.com/",
       "linkedIn": "cocoworker/",
@@ -3237,7 +3252,7 @@
       "youTube": "UCE475vOTEjC3zHsKSnfoIdg"
     },
     {
-      "rowId": 9,
+      "rowId": 10,
       "startupName": "Comeet",
       "webSite": "https://www.comeet.in/",
       "linkedIn": "comeet.in",
@@ -3247,7 +3262,7 @@
       "youTube": "UCUWl7HAzeDl54HVEYGFqNnw"
     },
     {
-      "rowId": 10,
+      "rowId": 11,
       "startupName": "Contextor",
       "webSite": "https://contextor.eu/fr/",
       "linkedIn": "Contextor",
@@ -3257,7 +3272,7 @@
       "youTube": "UCkJEtt4vQqJ_HJ7DxiR19qw"
     },
     {
-      "rowId": 11,
+      "rowId": 12,
       "startupName": "Cowork.io",
       "webSite": "https://cowork.io/fr/",
       "linkedIn": "cowork.io",
@@ -3267,7 +3282,17 @@
       "youTube": "UCobOvrKF0Qc15euGXp8LmaA"
     },
     {
-      "rowId": 12,
+      "rowId": 13,
+      "startupName": "Eveia",
+      "webSite": "https://eveia.io/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "eveiawellness",
+      "instagram": "",
+      "youTube": "UCiRuEgYnXKpIFUXv96Sqicg"
+    },
+    {
+      "rowId": 14,
       "startupName": "Feeleo",
       "webSite": "https://www.feeleo.co/",
       "linkedIn": "",
@@ -3275,7 +3300,7 @@
       "facebook": "Feeleo-297335087446857"
     },
     {
-      "rowId": 13,
+      "rowId": 15,
       "startupName": "Fidensio",
       "webSite": "https://www.fidensio.com/",
       "linkedIn": "pressingbox",
@@ -3285,7 +3310,7 @@
       "youTube": "UC6M68L_d7IyhdVbhyic_Acg"
     },
     {
-      "rowId": 14,
+      "rowId": 16,
       "startupName": "Happy Quest",
       "webSite": "https://www.happyquest.co/",
       "linkedIn": "happyquest",
@@ -3293,7 +3318,7 @@
       "facebook": "Happy-Quest-207862793132586"
     },
     {
-      "rowId": 15,
+      "rowId": 17,
       "startupName": "Humancraft",
       "webSite": "https://humancraft.eu/",
       "linkedIn": "humancraft",
@@ -3301,17 +3326,18 @@
       "facebook": "HumanCraftEU"
     },
     {
-      "rowId": 16,
-      "startupName": "Humeaning"
+      "rowId": 18,
+      "startupName": "Humeaning",
+      "webSite": "http://humeaning.fr"
     },
     {
-      "rowId": 17,
+      "rowId": 19,
       "startupName": "IDPosition",
       "webSite": "http://www.idposition.fr/",
       "linkedIn": "idposition"
     },
     {
-      "rowId": 18,
+      "rowId": 20,
       "startupName": "Kiplin",
       "webSite": "https://www.kiplin.com/",
       "linkedIn": "kiplin",
@@ -3321,11 +3347,12 @@
       "youTube": "UCrJUC3Qi__cJqrnDu_42drQ"
     },
     {
-      "rowId": 19,
-      "startupName": "Klimat"
+      "rowId": 21,
+      "startupName": "Klimat",
+      "webSite": "https://klimat.io/"
     },
     {
-      "rowId": 20,
+      "rowId": 22,
       "startupName": "Lyyti",
       "webSite": "https://www.lyyti.com/fr",
       "linkedIn": "lyyti-france",
@@ -3335,15 +3362,7 @@
       "youTube": "UC4NJPgYBhlIOkWDuwr1GJoA"
     },
     {
-      "rowId": 21,
-      "startupName": "monaSTAY",
-      "webSite": "https://www.monastay.fr/",
-      "linkedIn": "",
-      "twitter": "",
-      "facebook": "monaSTAY.fr"
-    },
-    {
-      "rowId": 22,
+      "rowId": 23,
       "startupName": "Melomind",
       "webSite": "https://www.melomind.com/",
       "linkedIn": "",
@@ -3351,7 +3370,15 @@
       "facebook": "mybraintech"
     },
     {
-      "rowId": 23,
+      "rowId": 24,
+      "startupName": "monaSTAY",
+      "webSite": "https://www.monastay.fr/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "monaSTAY.fr"
+    },
+    {
+      "rowId": 25,
       "startupName": "OneConciergerie",
       "webSite": "http://www.oneconciergerie.com/",
       "linkedIn": "jobbers-sas",
@@ -3361,7 +3388,7 @@
       "youTube": "UCaTCEOjYcod_Bhu6YgQKLRA"
     },
     {
-      "rowId": 24,
+      "rowId": 26,
       "startupName": "Plantez Respirez",
       "webSite": "https://plantezrespirez.com/",
       "linkedIn": "plantez-respirez-plant-breath",
@@ -3370,7 +3397,7 @@
       "instagram": "plantezrespirez"
     },
     {
-      "rowId": 25,
+      "rowId": 27,
       "startupName": "Roti.express",
       "webSite": "https://roti.express/",
       "linkedIn": "roti-express-pro",
@@ -3380,7 +3407,7 @@
       "youTube": "UCfIxDIFvoDaixE7SEBm3DlA"
     },
     {
-      "rowId": 26,
+      "rowId": 28,
       "startupName": "Serenity",
       "webSite": "http://www.iris-immersive.com/",
       "linkedIn": "",
@@ -3388,21 +3415,37 @@
       "facebook": "iris.immersive"
     },
     {
-      "rowId": 27,
-      "startupName": "Supermood"
-    },
-    {
-      "rowId": 28,
-      "startupName": "The Place To Coach"
-    },
-    {
       "rowId": 29,
+      "startupName": "Supermood",
+      "webSite": "https://supermood.fr/",
+      "linkedIn": "supermood",
+      "twitter": "SupermoodTeam?lang=en",
+      "facebook": "SupermoodTeam"
+    },
+    {
+      "rowId": 30,
+      "startupName": "Teamstarter",
+      "webSite": "https://teamstarter.co/",
+      "linkedIn": "",
+      "twitter": "",
+      "facebook": "teamstarterapp"
+    },
+    {
+      "rowId": 31,
+      "startupName": "The Place To Coach",
+      "webSite": "http://www.theplacetocoach.com/",
+      "linkedIn": "mlt-coaching",
+      "twitter": "Placetocoach?lang=en",
+      "facebook": "ThePlacetoCoach"
+    },
+    {
+      "rowId": 32,
       "startupName": "TOD",
       "webSite": "https://www.yourtod.com/",
       "linkedIn": "yourtod"
     },
     {
-      "rowId": 30,
+      "rowId": 33,
       "startupName": "TrainMe",
       "webSite": "https://trainme.co/corporate",
       "linkedIn": "trainme",
@@ -3412,7 +3455,22 @@
       "youTube": "UCsVhuscfCRWsM1jqf4WGL1w"
     },
     {
-      "rowId": 31,
+      "rowId": 34,
+      "startupName": "Wellnesstraining",
+      "webSite": "https://wellnesstraining.fr/",
+      "linkedIn": "wellness-training",
+      "twitter": "WellnessParis?lang=en",
+      "facebook": "wellnesstraining"
+    },
+    {
+      "rowId": 35,
+      "startupName": "Windoo",
+      "webSite": "https://windoo.fr/",
+      "linkedIn": "windoo",
+      "twitter": "Team_Windoo"
+    },
+    {
+      "rowId": 36,
       "startupName": "Yuco",
       "webSite": "https://www.wehobby.com/fr/",
       "linkedIn": "yuco",
@@ -3422,39 +3480,12 @@
       "youTube": "UCQADkPFzzFhwFa12O2iYGHQ"
     },
     {
-      "rowId": 32,
-      "startupName": "Wellnesstraining"
-    },
-    {
-      "rowId": 33,
-      "startupName": "Windoo",
-      "webSite": "https://windoo.fr/",
-      "linkedIn": "windoo",
-      "twitter": "Team_Windoo"
-    },
-    {
-      "rowId": 34,
+      "rowId": 37,
       "startupName": "ZestMeUp",
       "webSite": "https://zestmeup.com/fr/",
       "linkedIn": "zestmeup/?trk=top_nav_home",
       "twitter": "zestme_up",
       "facebook": "ZestMeUp?fref=ts"
-    },
-    {
-      "rowId": 35,
-      "startupName": "Teamstarter",
-      "webSite": "https://teamstarter.co/",
-      "linkedIn": "",
-      "twitter": "",
-      "facebook": "teamstarterapp"
-    },
-    {
-      "rowId": 36,
-      "startupName": "Aurasens"
-    },
-    {
-      "rowId": 37,
-      "startupName": "Eveia"
     }
   ],
   "startupPitchs": [

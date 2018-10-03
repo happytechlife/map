@@ -3,7 +3,6 @@ import { IPage, IOpenGraphShare, ITwitterShare } from "./Pages/models";
 import { IHappyTechStore } from "../models";
 import { Helmet } from "react-helmet";
 
-
 function ogTags(og: IOpenGraphShare) {
     return [
         <meta key={0} property="og:title" content={og.title} />,
@@ -13,8 +12,6 @@ function ogTags(og: IOpenGraphShare) {
         <meta key={4} property="og:locale" content="fr_FR" />,
         <meta key={5} property="og:type" content="website" />
     ];
-    {/* <meta property="og:type" content="video.movie" /> */ }
-    {/* <meta property="og:url" content={url} /> */ }
     return null;
 }
 
