@@ -3090,6 +3090,76 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg",
       "fullname": "Samuel Métias"
+    },
+    {
+      "rowId": 3,
+      "firstname": "Caroline ",
+      "lastname": "Bilger",
+      "email": "caroline@bilger.fr",
+      "team": "Bénévole",
+      "role": "Events",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555308/website/people/Caroline.jpg",
+      "fullname": "Caroline  Bilger"
+    },
+    {
+      "rowId": 4,
+      "firstname": "Alexis",
+      "lastname": "De Monicault",
+      "email": "alexis@happytech.life",
+      "team": "Bénévole",
+      "role": "Youtubeur",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555595/website/people/Alexis_De_Monicault.jpg",
+      "fullname": "Alexis De Monicault"
+    },
+    {
+      "rowId": 5,
+      "firstname": "Elodie",
+      "lastname": "Gaspart",
+      "email": "el.gaspart@gmail.com",
+      "team": "Bénévole",
+      "role": "Recrutement ",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555616/website/people/Elodie.jpg",
+      "fullname": "Elodie Gaspart"
+    },
+    {
+      "rowId": 6,
+      "firstname": "Marion ",
+      "lastname": "Gaullin",
+      "email": "marion@happytech.life",
+      "team": "Bénévole",
+      "role": "Marketing & Com",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555701/Marion.jpg",
+      "fullname": "Marion  Gaullin"
+    },
+    {
+      "rowId": 7,
+      "firstname": "Mathilde ",
+      "lastname": "Debeuf",
+      "email": "mathilde.debeuf@happytech.life",
+      "team": "Bénévole",
+      "role": "Design & Montage vidéos",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555755/Mathilde_Debeuf.jpg",
+      "fullname": "Mathilde  Debeuf"
     }
   ],
   "startupSocialNetworks": [
@@ -3377,6 +3447,14 @@
       "linkedIn": "",
       "twitter": "",
       "facebook": "teamstarterapp"
+    },
+    {
+      "rowId": 36,
+      "startupName": "Aurasens"
+    },
+    {
+      "rowId": 37,
+      "startupName": "Eveia"
     }
   ],
   "startupPitchs": [

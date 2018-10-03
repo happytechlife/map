@@ -55,7 +55,6 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
 
     console.info('Start loading store...');
     const store = await getStore();
-
     allRouterPages.forEach(page => {
 
         server.get(`/sitemap.txt`, async (req, res) => {
