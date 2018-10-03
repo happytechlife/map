@@ -60,7 +60,7 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
         server.get(`/sitemap.txt`, async (req, res) => {
             const menus = menuPages().map(p => p.route);
             const startups = store.startups.map(s => startupPage().route.replace(':name', startupLinkName(s)));
-            let urls: string[] = [];
+            let urls: string[] = [''];
             urls = urls.concat(menus, startups)
             res.send(urls.map(u => `https://www.happytech.life/${u}`).join('\n'));
         });

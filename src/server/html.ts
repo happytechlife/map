@@ -14,6 +14,8 @@ const ldJson = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "url": "https://www.happytech.life",
+  "brand": "HappyTech",
+  "datePublished": "2018-10-03T12:02:41Z",
   "sameAs": [
     "https://twitter.com/happytechfrance",
     "https://www.facebook.com/happytech.life",
@@ -22,7 +24,10 @@ const ldJson = {
     "https://www.youtube.com/channel/UCaGZlvSIGVetXWzVR5CwdwA"],
   "@id": "https://www.happytech.life/#organization",
   "name": "HappyTech",
-  "logo": "https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png"
+  "logo": "https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png",
+  "image": [
+    "https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png"
+  ]
 };
 
 const html = ({ helmet, store, body, css }: IHtml) => `

@@ -2,6 +2,8 @@
 
 # HappyTech Summit
 
+[S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/HappyTech_Summit_0897)
+
 ## Qu'est-ce que c'est ?
 
  HappyTech Summit est **la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde**. Ce salon est à destination des professionnels cherchant à trouver des solutions clés en main pour leur initiatives de bien-être en entreprise. Plus de 50 startups seront réunit pour présenter toutes les dernières innovations et solutions en 6 villages thématiques.
@@ -31,7 +33,6 @@ afin d'accompagner la transition culturelle des entreprises et répondre à leur
  - La création de lien social
  - Le renforcement de la marque employeur
  - l’expérience collaborateur
-
 
 ## Quels est le public ?
 
