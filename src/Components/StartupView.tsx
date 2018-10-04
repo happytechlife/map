@@ -109,14 +109,14 @@ export const startupPage = (): IReactPage => ({
             if (startup) {
                 const title = `${startup.name} x HappyTech - ${startup.tagline}`;
                 const description = startup.description;
-                const sn = startup.socialNetwork;
+                // const sn = startup.socialNetwork;
                 return {
                     title, description,
                     share: {
                         twitter: {
-                            title: sn ? `@${sn.twitter} x @HappyTechFrance : ${startup.tagline}` : '...',
+                            title: `${startup.name} x HappyTech`,
                             description,
-                            image: startup.iconUrl
+                            image: cloudinaryTransform(startup.iconUrl, 'w_256,h_256,c_fit,f_png,b_white')
                         },
                         og: {
                             title, description,

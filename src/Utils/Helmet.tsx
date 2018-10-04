@@ -8,7 +8,7 @@ function ogTags(og: IOpenGraphShare) {
         <meta key={0} property="og:title" content={og.title} />,
         <meta key={1} property="og:description" content={og.description} />,
         <meta key={2} property="og:image" content={og.image} />,
-        <meta key={3} property="og:site_name" content="HappyTech France" />,
+        <meta key={3} property="og:site_name" content="HappyTech" />,
         <meta key={4} property="og:locale" content="fr_FR" />,
         <meta key={5} property="og:type" content="website" />
     ];
