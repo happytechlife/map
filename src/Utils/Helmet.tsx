@@ -34,7 +34,6 @@ const ldJson = {
     "@type": "Organization",
     "url": "https://www.happytech.life",
     "brand": "HappyTech",
-    "datePublished": "2018-10-03T12:02:41Z",
     "sameAs": [
         "https://twitter.com/happytechfrance",
         "https://www.facebook.com/happytech.life",
