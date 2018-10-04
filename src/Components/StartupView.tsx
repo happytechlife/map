@@ -117,7 +117,7 @@ export const startupPage = (): IReactPage => ({
                             title,
                             description,
                             card: 'summary_large_image',
-                            image: cloudinaryTransform(startup.iconUrl, 'w_512,h_256,c_pad,f_png,b_white')
+                            image: cloudinaryTransform(startup.iconUrl, 'w_600,h_314,c_pad,f_png,b_white')
                         },
                         og: {
                             title, description,
