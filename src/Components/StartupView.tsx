@@ -107,14 +107,14 @@ export const startupPage = (): IReactPage => ({
             const { name } = params;
             const startup = store.startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
             if (startup) {
-                const title = `${startup.name} x HappyTech - ${startup.tagline}`;
-                const description = startup.description;
+                const title = `${startup.name} x HappyTech`;
+                const description = startup.tagline;
                 // const sn = startup.socialNetwork;
                 return {
                     title, description,
                     share: {
                         twitter: {
-                            title: `${startup.name} x HappyTech`,
+                            title,
                             description,
                             card: 'summary_large_image',
                             image: cloudinaryTransform(startup.iconUrl, 'w_512,h_256,c_pad,f_png,b_white')

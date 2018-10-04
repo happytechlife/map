@@ -16,9 +16,9 @@ function ogTags(og: IOpenGraphShare) {
 }
 
 function twitterTags(twitter: ITwitterShare) {
-    const { title, description, image } = twitter;
+    const { title, description, image, card } = twitter;
     return [
-        <meta key={0} name="twitter:card" content="summary" />,
+        <meta key={0} name="twitter:card" content={card} />,
         <meta key={1} name="twitter:site" content="@HappyTechFrance" />,
         <meta key={2} name="twitter:title" content={title} />,
         <meta key={3} name="twitter:description" content={description} />,
