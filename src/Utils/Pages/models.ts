@@ -37,13 +37,25 @@ interface ILinkedDataBreadCrumbListElement {
     name: string,
     item: string
 }
-interface ILinkedDataBreadCrumb extends ILinkedData {
+export interface ILinkedDataBreadCrumb extends ILinkedData {
 
     "@type": "BreadcrumbList",
     itemListElement: ILinkedDataBreadCrumbListElement[];
 }
 
-type AnyLinkedData = ILinkedDataBreadCrumb;
+export interface ILinkedDataProduct extends ILinkedData {
+    "@type": "Product",
+    name: string;
+    image: string[];
+    description: string;
+    brand: {
+        "@type": "Thing",
+        name: string
+    }
+
+}
+
+export type AnyLinkedData = ILinkedDataBreadCrumb | ILinkedDataProduct;
 
 export interface IMetaHeaders {
     title: string;

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IHappyTechStore } from "./../models";
+import { IHappyTechStore, IStartup } from "./../models";
 import Typography from '@material-ui/core/Typography';
 import { Chip, List, withStyles, Paper, Hidden } from '@material-ui/core';
 
@@ -7,7 +7,7 @@ import './StartupCard';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { Contact, startupLinkName } from './StartupCard';
 import { snTwitter, snFacebook, snLinkedin, snYoutube, snInstagram } from '../Utils/socialNetworks';
-import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage, ILinkedDataBreadCrumb, ILinkedDataProduct } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
 import { startupsPage } from './Startups';
 interface IP {
@@ -98,6 +98,42 @@ class StartupView extends React.Component<IProps, {}> {
 
 export default withStyles(styles, { withTheme: true })(StartupView);
 
+
+function product(startup: IStartup): ILinkedDataProduct {
+    return {
+        '@context': "http://schema.org",
+        "@type": "Product",
+        name: startup.name,
+        description: startup.tagline,
+        image: [cloudinaryTransform(startup.iconUrl, 'w_512,h_512,c_pad,b_white,f_png')],
+        brand: {
+            "@type": "Thing",
+            name: startup.name
+        }
+    }
+}
+
+function breadcrumb(startup: IStartup): ILinkedDataBreadCrumb {
+    const startupsRoute = `https://www.happytech.life/${startupsPage().route}`;
+    return {
+        '@context': "http://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Startups",
+                "item": startupsRoute
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": startup.name,
+                "item": `${startupsRoute}/${startupLinkName(startup)}`
+            }
+        ]
+    }
+}
 export const startupPage = (): IReactPage => ({
     menuTitle: '--',
     route: 'startups/:name',
@@ -111,28 +147,12 @@ export const startupPage = (): IReactPage => ({
                 const title = `${startup.name} x HappyTech`;
                 const description = startup.tagline;
                 // const sn = startup.socialNetwork;
-                const startupsRoute = `https://www.happytech.life/${startupsPage().route}`;
+
                 return {
                     title, description,
                     linkedData: [
-                        {
-                            '@context': "http://schema.org",
-                            "@type": "BreadcrumbList",
-                            itemListElement: [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Startups",
-                                    "item": startupsRoute
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": startup.name,
-                                    "item": `${startupsRoute}/${startupLinkName(startup)}`
-                                }
-                            ]
-                        }
+                        breadcrumb(startup),
+                        product(startup)
                     ],
                     share: {
                         twitter: {
