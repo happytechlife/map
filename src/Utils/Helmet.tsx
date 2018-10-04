@@ -28,15 +28,40 @@ function twitterTags(twitter: ITwitterShare) {
     return null;
 }
 
+
+const ldJson = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://www.happytech.life",
+    "brand": "HappyTech",
+    "datePublished": "2018-10-03T12:02:41Z",
+    "sameAs": [
+        "https://twitter.com/happytechfrance",
+        "https://www.facebook.com/happytech.life",
+        "https://www.linkedin.com/company/happytech",
+        "https://www.instagram.com/happytech.life",
+        "https://www.youtube.com/channel/UCaGZlvSIGVetXWzVR5CwdwA"],
+    "@id": "https://www.happytech.life/#organization",
+    "name": "HappyTech",
+    "logo": "https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png",
+    "image": [
+        "https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png"
+    ]
+};
+
 export function helmet(page: IPage, store?: IHappyTechStore, params?: any) {
     if (store && page) {
         const { headers } = page;
-        const { title, description, share } = headers(store, params);
+        const { title, description, share, linkedData } = headers(store, params);
         return <Helmet>
             <title>{title}</title>
             {<meta name="description" content={description} />}
             {share && share.og && ogTags(share.og)}
             {share && share.twitter && twitterTags(share.twitter)}
+            <script type='application/ld+json'>{JSON.stringify(ldJson)}</script>
+            {linkedData && linkedData.map((ld, i) =>
+                <script type='application/ld+json' key={i}>{JSON.stringify(ld)}</script>
+            )}
         </Helmet>
     }
     return null;

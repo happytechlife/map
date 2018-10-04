@@ -13,6 +13,7 @@ import { partnersPage } from '../../Components/Partners';
 import { pressePage } from '../../Components/Presse';
 import { entreprisesPage } from '../../Components/Enterprises';
 import { contactPage } from '../../Components/Contact';
+import { cloudinaryTransform } from '../Cloudinary';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -70,7 +71,8 @@ export function getHeaders(title: string): IMetaHeaders {
         },
         share: {
             twitter: {
-                title, description, image,
+                title, description,
+                image: cloudinaryTransform(image, 'w_512,h_512,c_pad,f_png,b_white'),
                 card: 'summary'
             },
             og: {

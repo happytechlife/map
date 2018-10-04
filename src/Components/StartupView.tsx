@@ -9,6 +9,7 @@ import { Contact, startupLinkName } from './StartupCard';
 import { snTwitter, snFacebook, snLinkedin, snYoutube, snInstagram } from '../Utils/socialNetworks';
 import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
+import { startupsPage } from './Startups';
 interface IP {
     store: IHappyTechStore;
     name: string;
@@ -110,8 +111,29 @@ export const startupPage = (): IReactPage => ({
                 const title = `${startup.name} x HappyTech`;
                 const description = startup.tagline;
                 // const sn = startup.socialNetwork;
+                const startupsRoute = `https://www.happytech.life/${startupsPage().route}`;
                 return {
                     title, description,
+                    linkedData: [
+                        {
+                            '@context': "http://schema.org",
+                            "@type": "BreadcrumbList",
+                            itemListElement: [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Startups",
+                                    "item": startupsRoute
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": startup.name,
+                                    "item": `${startupsRoute}/${startupLinkName(startup)}`
+                                }
+                            ]
+                        }
+                    ],
                     share: {
                         twitter: {
                             title,

@@ -25,6 +25,26 @@ export interface IOpenGraphShare {
     image: string;
 }
 
+
+interface ILinkedData {
+    "@context": "http://schema.org",
+}
+
+
+interface ILinkedDataBreadCrumbListElement {
+    "@type": "ListItem",
+    position: number,
+    name: string,
+    item: string
+}
+interface ILinkedDataBreadCrumb extends ILinkedData {
+
+    "@type": "BreadcrumbList",
+    itemListElement: ILinkedDataBreadCrumbListElement[];
+}
+
+type AnyLinkedData = ILinkedDataBreadCrumb;
+
 export interface IMetaHeaders {
     title: string;
     description: string;
@@ -33,6 +53,8 @@ export interface IMetaHeaders {
         twitter: ITwitterShare,
         og: IOpenGraphShare
     }
+    linkedData?: AnyLinkedData[]
+
 }
 export interface IPage {
     route: string;
