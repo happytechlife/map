@@ -57,6 +57,10 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
     const store = await getStore();
     allRouterPages.forEach(page => {
 
+        server.get(`/robots.txt`, async (req, res) => {
+            res.send('Sitemap: https://www.happytech.life/sitemap.txt');
+        });
+
         server.get(`/sitemap.txt`, async (req, res) => {
             const menus = menuPages().map(p => p.route);
             const startups = store.startups.map(s => startupPage().route.replace(':name', startupLinkName(s)));
