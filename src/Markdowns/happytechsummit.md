@@ -6,7 +6,7 @@
 
 ## Qu'est-ce que c'est ?
 
- HappyTech Summit est **la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde**. Ce salon est à destination des professionnels cherchant à trouver des solutions clés en main pour leur initiatives de bien-être en entreprise. Plus de 50 startups seront réunit pour présenter toutes les dernières innovations et solutions en 6 villages thématiques.
+ HappyTech Summit est **la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde**. Ce salon est à destination des professionnels cherchant à trouver des solutions clés en main pour leur initiatives de bien-être en entreprise. Plus de 50 startups seront réuni pour présenter toutes les dernières innovations et solutions en 6 villages thématiques.
 
  Les startups, qui proposent des solutions technologiques innovantes au service du bien-être dans le monde du travail, se regroupent la même journée dans des villages thématiques répondant aux besoins des entreprises.
 
