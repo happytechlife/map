@@ -6,13 +6,13 @@
 
 ## Qu'est-ce que c'est ?
 
- HappyTech Summit est **la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde**. Ce salon est à destination des professionnels cherchant à trouver des solutions clés en main pour leur initiatives de bien-être en entreprise. Plus de 50 startups seront réuni pour présenter toutes les dernières innovations et solutions en 6 villages thématiques.
+ HappyTech Summit est **la plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise au monde**. Ce salon est à destination des professionnels cherchant à trouver des solutions clés en main pour leur initiatives de bien-être en entreprise. Plus de 50 startups seront réunis pour présenter toutes les dernières innovations et solutions en 6 villages thématiques.
 
  Les startups, qui proposent des solutions technologiques innovantes au service du bien-être dans le monde du travail, se regroupent la même journée dans des villages thématiques répondant aux besoins des entreprises.
 
- La première édition a lieu à Paris, le **6 Décembre 2018 de 9h à 18h chez Starway Sentier, au 104 boulevard Sébastopol dans le 3ème arrondissement de Paris**. La totalité de l'espace sera dédiée à la HappyTech Summit.
+ La première édition a lieu à Paris, le **6 Décembre 2018 de 9h à 18h dans l'espace de coworking [Startway Sentier](https://www.start-way.com/), au 104 boulevard Sébastopol dans le 3ème arrondissement de Paris**. La totalité de l'espace sera dédiée à la HappyTech Summit.
 
-## Quels sont les exposants ?
+## Quels sont les innovations ?
 
  Les startups proposant des innovations technologiques diverses comme 
  
@@ -34,7 +34,7 @@ afin d'accompagner la transition culturelle des entreprises et répondre à leur
  - Le renforcement de la marque employeur
  - l’expérience collaborateur
 
-## Quels est le public ?
+## Qui est invité ?
 
 Ce salon est à destination des professionnels uniquement.
 
