@@ -70,7 +70,8 @@ export function getHeaders(title: string): IMetaHeaders {
         },
         share: {
             twitter: {
-                title, description, image
+                title, description, image,
+                card: 'summary'
             },
             og: {
                 title, description, image

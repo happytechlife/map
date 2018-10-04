@@ -15,6 +15,8 @@ export interface ITwitterShare {
     title: string;
     description: string;
     image: string;
+
+    card: 'summary' | 'summary_large_image'
 }
 
 export interface IOpenGraphShare {

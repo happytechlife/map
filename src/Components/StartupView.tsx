@@ -116,11 +116,12 @@ export const startupPage = (): IReactPage => ({
                         twitter: {
                             title: `${startup.name} x HappyTech`,
                             description,
-                            image: cloudinaryTransform(startup.iconUrl, 'w_256,h_256,c_fit,f_png,b_white')
+                            card: 'summary_large_image',
+                            image: cloudinaryTransform(startup.iconUrl, 'w_512,h_256,c_pad,f_png,b_white')
                         },
                         og: {
                             title, description,
-                            image: cloudinaryTransform(startup.iconUrl, 'w_1200,h_630,c_fit,f_png,b_white')
+                            image: cloudinaryTransform(startup.iconUrl, 'w_1200,h_630,c_pad,f_png,b_white')
                         }
                     }
                 }
