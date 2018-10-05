@@ -43,7 +43,7 @@ export class Partners extends React.Component<IReactPageProps, {}> {
 
 function PartnerCard(partner: IPartner) {
     const logo = cloudinaryTransform(partner.logo, 'w_300,h_168,c_pad,f_png,q_100');
-    return <Card key={partner.rowId} style={{ width: 320, margin: 8 }}>
+    return <Card key={partner.rowId} style={{ width: 320, margin: 8, padding: 4 }}>
         <div >
             {logo && <CardMedia style={{ paddingTop: '56.25%', marginTop: 8 }}
                 image={logo}

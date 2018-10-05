@@ -6,8 +6,6 @@ import StartupCluster from './../Components/StartupCluster';
 import { ILatLng, IStartup } from '../models';
 import { IHappyTechStore } from '../models';
 import { MapCluster } from './MapCluster';
-// import { mapStyles } from './MapStyle';
-
 
 // const comeet = { lat: 48.898149, lng: 2.2340453 };
 const eiffelTower = { lat: 48.8583701, lng: 2.2922926 };
@@ -74,13 +72,11 @@ export class GoogleMap extends React.Component<IProps, IState> {
 
     public render() {
         const options = this.mapOptions();
-        return (
-            <div style={{ height: '100vh', width: '100%' }}>
-                <GoogleMapReact {...options}>
-                    {this.renderClusters()}
-                </GoogleMapReact>
-            </div>
-        );
+        return <div style={{ height: '100vh', width: '100%' }}>
+            <GoogleMapReact {...options}>
+                {this.renderClusters()}
+            </GoogleMapReact>
+        </div>;
     }
 
 
@@ -96,5 +92,6 @@ export class GoogleMap extends React.Component<IProps, IState> {
         this.setState({ zoom });
     }
 }
+
 
 

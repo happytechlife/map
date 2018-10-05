@@ -3,9 +3,9 @@ import { cloudinaryTransform } from './../Utils/Cloudinary';
 import { Tooltip } from '@material-ui/core'
 import { IStartup } from '../models';
 import './Pin.css';
-import StartupCard from './StartupCard';
 import { withStyles } from '@material-ui/core/styles';
 import { Avatar, Chip } from '@material-ui/core';
+import StartupTooltipCard from './StartupTooltipCard';
 
 interface IPinProps {
     lat: number;
@@ -49,7 +49,7 @@ class Pin extends React.Component<IPinProps, {}> {
     }
 
     private tooltip(startup: IStartup) {
-        return <StartupCard startup={startup} />;
+        return <StartupTooltipCard startup={startup} />;
         // return StartupTooltipText({ startup });
     }
 }
@@ -67,7 +67,7 @@ export const StartupChip = (startup: IStartup) => {
             avatar={<Avatar style={{ border: '1px solid #ccc', backgroundColor: 'white' }} src={cloudinaryTransform(logo, 'w_32,h_32,c_thumb,g_west,f_png')} />}
             label={startup.name} />
     }
-    return <Chip style={style} label={startup.name} key={startup.rowId}/>
+    return <Chip style={style} label={startup.name} key={startup.rowId} />
 }
 
 export const StartupTooltipText = (props: { startup: IStartup }) => {

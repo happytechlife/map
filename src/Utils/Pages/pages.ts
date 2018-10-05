@@ -14,6 +14,7 @@ import { pressePage } from '../../Components/Presse';
 import { entreprisesPage } from '../../Components/Enterprises';
 import { contactPage } from '../../Components/Contact';
 import { cloudinaryTransform } from '../Cloudinary';
+import { googleMapPage } from '../../MapClusters/GoogleMapPage';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -87,10 +88,10 @@ export const markdownPages: IMarkdownPage[] = [
 ]
 
 export const reactPages = (): IReactPage[] => ([
-    startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage()
+    googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summit, pressePage(), contactPage()
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summit, pressePage(), contactPage(), googleMapPage()
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()

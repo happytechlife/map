@@ -1,6 +1,7 @@
 import { MapCluster } from './MapCluster';
 import { distanceBetweenPoints, isMarkerInBounds } from './MapClustersHelper';
 import { IMapClustersMarker } from './models';
+// import * as google from 'googlemaps';
 
 // declare let window: any;/
 export class MapClusters<T> extends google.maps.OverlayView {

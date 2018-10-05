@@ -7,8 +7,8 @@ import Pin, { StartupTooltipText } from './Pin';
 import { buildMultiAvatar } from '../Utils/Avatars';
 import './StartupCluster.css';
 import { Badge, Tooltip } from '@material-ui/core';
-import StartupCard from './StartupCard';
 import { withStyles } from '@material-ui/core/styles';
+import StartupTooltipCard from './StartupTooltipCard';
 
 
 const styles: any = (theme: any) => ({
@@ -36,7 +36,7 @@ interface IProps {
 
 function getStartupDisplayElement(startup: IStartup) {
     return startup.iconUrl ?
-        <img src={cloudinaryTransform(startup.iconUrl, 'w_32,h_32,c_thumb,g_west')} />
+        <img src={cloudinaryTransform(startup.iconUrl, 'w_32,h_32,c_thumb,g_west,f_png')} />
         : <div className="NoIcon">{startup.name.substring(0, 2)}</div>
 }
 
@@ -72,7 +72,7 @@ class StartupCluster extends React.Component<IProps, {}> {
 
     private tooltip(startups: IStartup[]) {
         return startups.length < startupLessLimit
-            ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupCard startup={startup} key={i} />)}</div>
+            ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupTooltipCard startup={startup} key={i} />)}</div>
             : <div className="Clusters" style={{ width: 500 }}>{startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)}</div>
 
     }

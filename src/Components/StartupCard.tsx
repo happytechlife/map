@@ -81,7 +81,6 @@ class StartupCard extends React.Component<IProps, {}> {
             </div>
         </Card>;
     }
-
 }
 
 export default withStyles(styles, { withTheme: true })(StartupCard);

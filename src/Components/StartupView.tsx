@@ -146,8 +146,6 @@ export const startupPage = (): IReactPage => ({
             if (startup) {
                 const title = `${startup.name} x HappyTech`;
                 const description = startup.tagline;
-                // const sn = startup.socialNetwork;
-
                 return {
                     title, description,
                     linkedData: [
