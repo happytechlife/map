@@ -147,7 +147,7 @@ export const startupPage = (): IReactPage => ({
                 const title = `${startup.name} x HappyTech`;
                 const description = startup.tagline;
                 return {
-                    title, description,
+                    title: `${title} | ${startup.tagline}`, description,
                     linkedData: [
                         breadcrumb(startup),
                         product(startup)

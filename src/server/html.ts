@@ -11,13 +11,14 @@ interface IHtml {
 
 
 
+// <link rel="canonical" href="https://www.happytech.life/" />
 
 const html = ({ helmet, store, body, css }: IHtml) => `
   <!DOCTYPE html>
   <html prefix="og: http://ogp.me/ns#">
     <head>
       <meta charset="utf-8" />
-      <link rel="canonical" href="https://www.happytech.life/" />
+      
       ${helmet.title.toString()}
       ${helmet.meta.toString()}
       ${helmet.link.toString()}

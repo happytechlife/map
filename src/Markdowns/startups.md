@@ -1,6 +1,6 @@
 # Les startups de la HappyTech
 
-Les startups membres possédent tous le label HappyTech.
+Les startups membres possèdent toutes le label HappyTech.
 
 ## Pourquoi un label ?
 

@@ -2,7 +2,7 @@
 
 La HappyTech fédère les acteurs qui mettent la technologie au service du bien-être
 
-Les entreprises qui mettent en place des démarches en faveur du bien-être des collaborateurs et qui ont compris les enjeux liés au bien-être en entreprise
+Les entreprises qui mettent en place des **démarches en faveur du bien-être des collaborateurs** et qui ont compris les enjeux liés au bien-être en entreprise
 
 ## Pourquoi devenir une entreprise membre de la HappyTech ?
 

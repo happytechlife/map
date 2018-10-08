@@ -12,29 +12,29 @@ Retrouvez le formulaire et les informations concernant l’adhésion des entrepr
 
 Proposez-nous votre projet et ce que nous pouvons faire ensemble depuis le formulaire sur la page des [partenaires](/partenaires). Le formulaire est en bas de la page.
 
-
-## Vous êtes de la presse et souhaitez réaliser un article ou un reportage sur la HappyTech ou ces startups ?
+## Vous êtes de la presse et souhaitez réaliser un article ou un reportage sur la HappyTech ou ses startups ?
 
 Utilisez le formulaire en bas de cette page
 
-## Vous souhaitez faire un évènement et souhaitez inviter les startups ou l'association ?
+## Vous souhaitez créer un évènement et inviter les startups ou l'association ?
 
 Utilisez le formulaire en bas de cette page
 
 ## Vous souhaitez rejoindre l’association en tant que bénévole et venir nous aider ?
 
-Super, retrouves les postes dont nous avons le plus besoin sur notre page [Welcome To The Jungle]( https://www.welcometothejungle.co/companies/happytech)
-Vous n’y avez pas trouvé ce que vous cherchiez ? Voici le formulaire adéquate pour que nous vous recontactions.
+Super ! Retrouvez les postes dont nous avons le plus besoin sur notre page [Welcome To The Jungle]( https://www.welcometothejungle.co/companies/happytech)
+Vous n’y avez pas trouvé ce que vous cherchiez ? Voici le formulaire adéquat pour que nous vous recontactions.
 
 ## Bon, sinon comment je vous contacte ?
 ### Contacter nos membres
 
-Retrouves les profils des réseaux sociaux de notre équipe sur [la page de l’équipe](/team), tu peux contacter chacun directement.
+Retrouvez les profils des réseaux sociaux de notre équipe sur [la page de l’équipe](/team), vous pouvez contacter chacun directement.
 
 ### Contacter directement l’association
 
-Par email sur [contact@happytech.life](mailto:contact@happytech.life) si vous avez une demande précise ou si vous souhaitez être recontacté.
+Par email à [contact@happytech.life](mailto:contact@happytech.life) si vous avez une demande précise ou si vous souhaitez être recontacté.
 
-Via le formulaire ci dessous si vous souhaitez resté informé
+Via le formulaire ci-dessous si vous souhaitez rester informé
+
 
 
