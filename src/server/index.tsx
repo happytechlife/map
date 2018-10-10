@@ -13,8 +13,8 @@ import { renderRoutes } from '../Router/Routes';
 import { IHappyTechStore } from '../models';
 import { allRouterPages, menuPages } from './../Utils/Pages/pages';
 import { Helmet } from 'react-helmet';
-import Jimp = require('jimp');
-// import { Jimp } from 'jimp'
+// import Jimp = require('jimp');
+import * as Jimp from 'jimp'
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { toImageMime } from './images';
 import { getStartupUrl, getStartup } from '../Utils/startups';
@@ -74,7 +74,6 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
             console.log(req.params);
             const { name } = req.params;
             const startup = getStartup(store, name);
-
             if (startup) {
                 const logoUrl = cloudinaryTransform(startup.iconUrl, 'w_650,h_650,c_scale,f_png,bg_white');
                 const icon = await Jimp.read(logoUrl);
