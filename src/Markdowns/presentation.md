@@ -2,7 +2,7 @@
 
 # Qu’est-ce que la HappyTech ?
 
-La HappyTech est un mouvement qui a pour but de **fédérer les acteurs qui mettent la technologie au service du bien-être** et de labelliser les startups et les entreprises qui apportent une valeur ajoutée dans ce domaine.
+La HappyTech est un mouvement qui a pour but de **fédérer les acteurs qui mettent la technologie au service du bien-être en entreprise** et de labelliser les startups et les entreprises qui apportent une valeur ajoutée dans ce domaine.
 
 L’association française agit comme un véritable **catalyseur des projets du bien-être** et accompagne ainsi les entreprises vers la “happy responsabilité” pour faire de la France le **leader mondial du bien-être**.
 
