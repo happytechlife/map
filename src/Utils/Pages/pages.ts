@@ -53,8 +53,8 @@ const summit = {
 
 export const homePage = { ...presentation, route: '/' };
 
-export function getHeaders(title: string): IMetaHeaders {
-    const description = "HappyTech, L'innovation technologique au service du bien-être en entreprise.";
+export function getHeaders(title: string, description?: string): IMetaHeaders {
+    description = description || "HappyTech, L'innovation technologique au service du bien-être en entreprise.";
     const image = 'https://res.cloudinary.com/happytech/image/upload/v1537883204/happytech-logo.png'
     return {
         title,

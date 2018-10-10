@@ -14,13 +14,13 @@ import { IHappyTechStore } from '../models';
 import { allRouterPages, menuPages } from './../Utils/Pages/pages';
 import { Helmet } from 'react-helmet';
 import Jimp = require('jimp');
+// import { Jimp } from 'jimp'
 import { cloudinaryTransform } from '../Utils/Cloudinary';
 import { toImageMime } from './images';
 import { getStartupUrl, getStartup } from '../Utils/startups';
 import { startupPage } from '../Components/StartupView';
 const port = process.env.PORT || 9000;
 // const port = 9000;
-
 
 interface IReactApp {
     body: string;
