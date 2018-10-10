@@ -102,7 +102,7 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
     })
 
     server.get(`*`, async (req, res) => {
-        res.status(301).redirect('/')
+        res.status(404).redirect('/')
     })
 
 
