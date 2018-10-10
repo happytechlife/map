@@ -49,12 +49,9 @@ const html = ({ helmet, store, body, css }: IHtml) => `
     <body style="margin:0">
       <div id="root">${body}</div>
       <script src="/main.js" defer></script>
-      <script type="text/javascript">
-        navigator.serviceWorker.getRegistrations().then(function(registrations) {
-          for(let registration of registrations) {
-            registration.unregister()
-          } })
-      </script>
+      <!-- Start of HubSpot Embed Code -->
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3943429.js"></script>
+      <!-- End of HubSpot Embed Code -->      
     </body>
   </html>
 `;
