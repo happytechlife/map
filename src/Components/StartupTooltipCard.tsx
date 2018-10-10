@@ -20,7 +20,8 @@ const styles: any = (theme: any) => ({
     details: {
         display: 'flex',
         flexDirection: 'column',
-        flexGrow: '1'
+        flexGrow: '1',
+        wordBreak: 'break-word',
     },
     content: {
         flex: '1 0 auto',
@@ -28,7 +29,7 @@ const styles: any = (theme: any) => ({
     },
     cover: {
         height: 0,
-        paddingTop: '56.25%', // 16:9
+        paddingTop: '56.25%', // 16:9 // 1.77
     }
 });
 
@@ -41,7 +42,8 @@ interface IProps {
 class StartupTooltipCard extends React.Component<IProps, {}> {
     public render() {
         const { startup, classes, classNames } = this.props;
-        const logo = cloudinaryTransform(startup.iconUrl, 'w_200,h_117,c_pad,f_png');
+        const logo = cloudinaryTransform(startup.iconUrl, 'w_184,h_103,c_pad,f_png');
+        console.log(logo);
         return <Card className={`${classes.card} ${classNames}`}>
             <div className={classes.details} id={startup.name}>
                 {logo && <CardMedia

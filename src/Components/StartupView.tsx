@@ -60,7 +60,7 @@ class StartupView extends React.Component<IProps, {}> {
         const startup = getStartup(store, name);
         if (startup) {
             const { socialNetwork, pitch } = startup;
-            const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fit');
+            const logo = cloudinaryTransform(startup.iconUrl, 'w_300,f_png,c_fit');
             return <Paper style={{ margin: 16, padding: 16 }}>
                 {page && helmet(page, store, { name })}
                 <Hidden smDown={true}>
