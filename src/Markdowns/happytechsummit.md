@@ -65,6 +65,6 @@ Les startups présentes proposent toutes des indicateurs permettant de mesurer l
 
 ## Un rendez-vous à ne pas rater !
 
-Les startups de la HappyTech sont labélisées, la qualité de leurs solutions est garantie par ce **label**.
+Les startups de la HappyTech sont labéllisées, la qualité de leurs solutions est garantie par ce **label**.
 
 [S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/HappyTech_Summit_0897)

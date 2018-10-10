@@ -5,11 +5,12 @@ import { Chip, List, withStyles, Paper, Hidden } from '@material-ui/core';
 
 import './StartupCard';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
-import { Contact, startupLinkName } from './StartupCard';
+import { Contact } from './StartupCard';
 import { snTwitter, snFacebook, snLinkedin, snYoutube, snInstagram } from '../Utils/socialNetworks';
 import { IReactPageProps, IReactPage, ILinkedDataBreadCrumb, ILinkedDataProduct } from '../Utils/Pages/models';
 import { helmet } from '../Utils/Helmet';
 import { startupsPage } from './Startups';
+import { getStartup, startupLinkName } from './../Utils/startups';
 interface IP {
     store: IHappyTechStore;
     name: string;
@@ -56,8 +57,7 @@ class StartupView extends React.Component<IProps, {}> {
         if (!store) {
             return null;
         }
-        const { startups } = store;
-        const startup = startups.find(s => startupLinkName(s) === name.toLocaleLowerCase())
+        const startup = getStartup(store, name);
         if (startup) {
             const { socialNetwork, pitch } = startup;
             const logo = cloudinaryTransform(startup.iconUrl, 'w_300,c_fit');

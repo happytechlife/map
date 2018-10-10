@@ -40,10 +40,7 @@ const presentation = {
     icon: Help,
     route: 'presentation',
     html: getHtml(presentationMarkdown),
-    headers: () => ({
-        title: "HappyTech, L'innovation technologique au service du bien-être en entreprise.",
-        description: ''
-    })
+    headers: () => getHeaders("HappyTech, L'innovation technologique au service du bien-être en entreprise.")
 };
 
 const summit = {
@@ -51,10 +48,7 @@ const summit = {
     icon: InsertEmoticon,
     route: 'summit',
     html: getHtml(happytechsummitMarkdown),
-    headers: () => ({
-        title: "HappyTech Summit, La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde.",
-        description: ''
-    })
+    headers: () => getHeaders("HappyTech Summit, La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde.")
 };
 
 export const homePage = { ...presentation, route: '/' };
@@ -77,7 +71,8 @@ export function getHeaders(title: string): IMetaHeaders {
                 card: 'summary'
             },
             og: {
-                title, description, image
+                title, description,
+                image: cloudinaryTransform(image, 'w_1200,h_630,c_pad,f_png,b_white'),
             }
         }
     };

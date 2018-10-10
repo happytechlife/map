@@ -2,7 +2,7 @@ import { IEvent, IStartup } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
 import { IHappyTechStore } from "../models";
 import * as moment from "moment";
-import { toCompareStartupName } from "../Components/StartupCard";
+import { toCompareStartupName } from "../Utils/startups";
 
 export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
     constructor(spreadsheetId: string) {

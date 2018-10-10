@@ -51,7 +51,9 @@ const ldJson = {
 export function helmet(page: IPage, store?: IHappyTechStore, params?: any) {
     if (store && page) {
         const { headers } = page;
-        const { title, description, share, linkedData } = headers(store, params);
+        const h = headers(store, params)
+        const { title, description, share, linkedData } = h;
+        console.log(h);
         return <Helmet>
             <title>{title}</title>
             {<meta name="description" content={description} />}
