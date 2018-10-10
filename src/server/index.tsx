@@ -99,8 +99,9 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
                 console.log('icon', icon);
                 let label = await Jimp.read(labelUrl);
                 label = label.composite(icon, 125, 175);
-                toImageMime(res, label);
+                return toImageMime(res, label);
             }
+            res.send(`startup <${name}> not found`)
         })
 
         server.get(`/${page.route}`, async (req, res) => {
