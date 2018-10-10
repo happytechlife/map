@@ -86,22 +86,27 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
         })
 
         server.get(`/startups/images/summit/:name.png`, async (req, res) => {
-            const labelUrl = cloudinaryTransform('https://res.cloudinary.com/happytech/image/upload/v1539173249/website/summit/summit-bg.png', 'w_650,h_650');
-            console.log(req.params);
-            const { name } = req.params;
-            const startup = getStartup(store, name);
 
-            if (startup) {
-                const logoUrl = cloudinaryTransform(`${startup.iconUrl.replace('.svg', '.png')}`, 'w_400,h_200,c_pad,f_png,b_white');
-                console.log(logoUrl);
-                let icon = await Jimp.read(logoUrl);
-                icon = icon.scaleToFit(400, 200);
-                console.log('icon', icon);
-                let label = await Jimp.read(labelUrl);
-                label = label.composite(icon, 125, 175);
-                return toImageMime(res, label);
+            try {
+                const labelUrl = cloudinaryTransform('https://res.cloudinary.com/happytech/image/upload/v1539173249/website/summit/summit-bg.png', 'w_650,h_650');
+                console.log(req.params);
+                const { name } = req.params;
+                const startup = getStartup(store, name);
+                if (startup) {
+                    const logoUrl = cloudinaryTransform(`${startup.iconUrl}`, 'w_400,h_200,c_pad,f_png,b_white');
+                    console.log(logoUrl);
+                    let icon = await Jimp.read(logoUrl);
+                    icon = icon.scaleToFit(400, 200);
+                    console.log('icon', icon);
+                    let label = await Jimp.read(labelUrl);
+                    label = label.composite(icon, 125, 175);
+                    return toImageMime(res, label);
+                }
+                throw new Error(`startup [${name}] not found : ${JSON.stringify(req.params)}`)
+            } catch (err) {
+                console.error(err);
+                res.status(500).send(err.message);
             }
-            res.send(`startup <${name}> not found`)
         })
 
         server.get(`/${page.route}`, async (req, res) => {
