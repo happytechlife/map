@@ -105,6 +105,5 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
         res.status(404).redirect('/')
     })
 
-
     server.listen(port, () => console.log(`Example app listening on port ${port}!`));
 })();
