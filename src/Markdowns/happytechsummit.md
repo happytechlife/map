@@ -2,7 +2,7 @@
 
 # HappyTech Summit
 
-[S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/HappyTech_Summit_0897)
+[S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/happytech_summit_website)
 
 ## Qu'est-ce que c'est ?
 
@@ -67,4 +67,4 @@ Les startups présentes proposent toutes des indicateurs permettant de mesurer l
 
 Les startups de la HappyTech sont labéllisées, la qualité de leurs solutions est garantie par ce **label**.
 
-[S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/HappyTech_Summit_0897)
+[S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/happytech_summit_website)
