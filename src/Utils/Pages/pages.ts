@@ -48,7 +48,17 @@ const summit = {
     icon: InsertEmoticon,
     route: 'summit',
     html: getHtml(happytechsummitMarkdown),
-    headers: () => getHeaders("HappyTech Summit, La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde.")
+    headers: () => {
+        const h = getHeaders("HappyTech Summit 2018");
+        h.description = "La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde."
+        if (h.share) {
+            h.share.og.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944008/Summit/social-network.png'
+            h.share.og.description = h.description;
+            h.share.twitter.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944009/Summit/twitter.png';
+            h.share.twitter.description = h.description;
+        }
+        return h;
+    }
 };
 
 export const homePage = { ...presentation, route: '/' };

@@ -51,6 +51,7 @@ const styles: any = (theme: any) => ({
         width: 38,
     },
 });
+
 class StartupView extends React.Component<IProps, {}> {
     public render() {
         const { store, name, page } = this.props;

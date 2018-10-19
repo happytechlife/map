@@ -585,7 +585,7 @@
         "lng": 2.361802500000067
       },
       "tags": [],
-      "description": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif.",
+      "description": "Kiplin mise sur le jeu et le collectif et la data pour changer les habitudes de vie liées à la pratique d'une activité physique. Grâce à un objet connecté ou une application, une plateforme web et des défis ludiques chaque participant \"joue\"​ et retrouve le chemin de l'activité physique.",
       "tagline": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
     },
     {
@@ -1923,7 +1923,7 @@
           "lng": 2.361802500000067
         },
         "tags": [],
-        "description": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif.",
+        "description": "Kiplin mise sur le jeu et le collectif et la data pour changer les habitudes de vie liées à la pratique d'une activité physique. Grâce à un objet connecté ou une application, une plateforme web et des défis ludiques chaque participant \"joue\"​ et retrouve le chemin de l'activité physique.",
         "tagline": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
       }
     },
@@ -3160,6 +3160,82 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555755/Mathilde_Debeuf.jpg",
       "fullname": "Mathilde  Debeuf"
+    },
+    {
+      "rowId": 8,
+      "firstname": "Christelle",
+      "lastname": "Mandjiny",
+      "email": "christellemandjiny@gmail.com",
+      "team": "Bénévoles",
+      "role": "Coaching stratégie et transformation des organisations",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1539943630/website/people/Christelle_Mandjiny.jpg",
+      "fullname": "Christelle Mandjiny"
+    },
+    {
+      "rowId": 9,
+      "firstname": "Sarah",
+      "lastname": "Baron",
+      "email": "sarah.baron.sb@gmail.com",
+      "team": "Bénévoles",
+      "role": "CHO",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1539943681/website/people/Sarah.png",
+      "fullname": "Sarah Baron"
+    },
+    {
+      "rowId": 10,
+      "firstname": "Sixtine",
+      "lastname": "De Feuilhade",
+      "email": "sixtinedefeuilhade@hotmail.fr",
+      "team": "Bénévoles",
+      "role": "Adhésion startups",
+      "active": true,
+      "fullname": "Sixtine De Feuilhade"
+    },
+    {
+      "rowId": 11,
+      "firstname": "Mhaêva",
+      "lastname": "Lemoing",
+      "email": "mhaeva.lemoing@outlook.com",
+      "team": "Bénévoles",
+      "role": "Gestion de projet ",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1539944212/website/people/Mh%C3%A2eva_Lemoing.jpg",
+      "fullname": "Mhaêva Lemoing"
+    },
+    {
+      "rowId": 12,
+      "firstname": "Ndeye Aïcha",
+      "lastname": "Kassé",
+      "email": "ndeyeaichakasse@gmail.com",
+      "team": "Bénévoles",
+      "role": "Community Manager",
+      "active": true,
+      "fullname": "Ndeye Aïcha Kassé"
+    },
+    {
+      "rowId": 13,
+      "firstname": "Laetitia ",
+      "lastname": "De La Mettrie",
+      "email": "laetitia_de_la_mettrie@yahoo.fr",
+      "team": "Bénévoles",
+      "role": "Partenariats & Entreprises",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1539944165/website/people/Laetitia_De_La_Mettrie.png",
+      "fullname": "Laetitia  De La Mettrie"
     }
   ],
   "startupSocialNetworks": [
@@ -3839,6 +3915,29 @@
       "website": "https://www.obs-commedia.com/",
       "type": "Avantages pour les startups",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1538987234/website/partners/Observatoire_COM_MEDIA.png"
+    },
+    {
+      "rowId": 6,
+      "name": "Flexjob",
+      "description": "Plateforme de mise en relation entre candidats qui souhaitent travailler autrement et entreprises qui favorisent l'autonomie, la responsabilisation et la coopération entre les collaborateurs.\nParticipent au développement de la HappyTech dans la région lyonnaise",
+      "website": "https://flexjob.fr/",
+      "type": "Aide l'association",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1539851236/website/partners/Flexjob.png"
+    },
+    {
+      "rowId": 7,
+      "name": "HandiTech",
+      "description": "La HappyTech est partenaire de l'événement organisé par la HandiTech pour récompenser les meilleures innovations technologiques au profit des personnes en situation d'handicap ou de perte d'autonomie",
+      "website": "https://www.lahanditech.fr/les-trophees-2018",
+      "type": "Evénements",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1539855029/website/partners/HandiTech.jpg"
+    },
+    {
+      "rowId": 8,
+      "name": "A.C.E. REVOLUTION",
+      "description": "Workshops ciblés sur différents thèmes : l'entrepreneur d'aujourd'hui, le project design, le personal branding,...",
+      "website": "",
+      "type": "Aide l'association"
     }
   ],
   "entreprises": [
