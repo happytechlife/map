@@ -15,6 +15,7 @@ import { entreprisesPage } from '../../Components/Enterprises';
 import { contactPage } from '../../Components/Contact';
 import { cloudinaryTransform } from '../Cloudinary';
 import { googleMapPage } from '../../MapClusters/GoogleMapPage';
+import { tagsPage } from '../../Components/Tags';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -49,13 +50,14 @@ const summit = {
     route: 'summit',
     html: getHtml(happytechsummitMarkdown),
     headers: () => {
-        const h = getHeaders("HappyTech Summit 2018");
-        h.description = "La plus grande concentration d'innovations technologique au service du bien-être en entreprise dans le monde."
+        const h = getHeaders("HappyTech Summit 2018, Inscrivez-vous vite à la plus grande concentration d'innovations technologique au service du bien-être en entreprise");
+        h.description = "Le HappyTech Summit est le 1er événement en France qui réunit l’ensemble des innovations technologiques dédiées au bien-être en entreprise. Ce rendez-vous est réservé aux professionnels cherchant à trouver des solutions clés en main pour leurs initiatives de bien-être en entreprise. Plus de 40 startups seront réunies pour présenter toutes les dernières innovations et solutions en 6 villages thématiques"
         if (h.share) {
             h.share.og.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944008/Summit/social-network.png'
             h.share.og.description = h.description;
             h.share.twitter.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944009/Summit/twitter.png';
             h.share.twitter.description = h.description;
+            h.share.twitter.card = 'summary_large_image';
         }
         return h;
     }
@@ -93,7 +95,7 @@ export const markdownPages: IMarkdownPage[] = [
 ]
 
 export const reactPages = (): IReactPage[] => ([
-    googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage()
+    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage()
 ])
 export const menuPages = (): IPage[] => ([
     presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summit, pressePage(), contactPage(), googleMapPage()

@@ -9,7 +9,10 @@ export class GoogleMapPage extends React.Component<IReactPageProps, {}> {
         try {
             const { store } = this.props;
             const GoogleMap = require('./GoogleMap').GoogleMap;
-            return <GoogleMap store={store} />
+            if (GoogleMap) {
+                return <GoogleMap store={store} />
+            }
+            return null;
         }
         catch {
             return null;

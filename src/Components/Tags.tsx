@@ -7,7 +7,8 @@ import { StartupTooltipText } from './Pin';
 // import StartupCard from './StartupCard';
 {/* <StartupCard startup={s} /> */ }
 import Card from '@material-ui/core/Card';
-import { IReactPageProps } from '../Utils/Pages/models';
+import { IReactPageProps, IReactPage } from '../Utils/Pages/models';
+import { getHeaders } from '../Utils/Pages/pages';
 
 export class Tags extends React.Component<IReactPageProps, {}> {
     public render() {
@@ -28,3 +29,12 @@ export class Tags extends React.Component<IReactPageProps, {}> {
         </div>;
     }
 }
+
+export const tagsPage = (): IReactPage => ({
+    menuTitle: 'Catégories',
+    // icon: ViewModule,
+    route: 'tags',
+    component: Tags,
+    headers: () => getHeaders('Les startups de la HappyTech')
+});
+

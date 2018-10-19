@@ -68,15 +68,12 @@ class StartupCluster extends React.Component<IProps, {}> {
         return buildMultiAvatar(elements);
     }
 
-
-
     private tooltip(startups: IStartup[]) {
         return startups.length < startupLessLimit
             ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupTooltipCard startup={startup} key={i} />)}</div>
             : <div className="Clusters" style={{ width: 500 }}>{startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)}</div>
 
     }
-
 }
 
 export default withStyles(styles)(StartupCluster);
