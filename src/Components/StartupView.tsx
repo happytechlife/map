@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { IHappyTechStore, IStartup } from "./../models";
 import Typography from '@material-ui/core/Typography';
-import { Chip, List, withStyles, Paper, Hidden } from '@material-ui/core';
+import { Chip, List, withStyles, Paper, Hidden, Button } from '@material-ui/core';
 
 import './StartupCard';
 import { cloudinaryTransform } from '../Utils/Cloudinary';
@@ -11,6 +11,7 @@ import { IReactPageProps, IReactPage, ILinkedDataBreadCrumb, ILinkedDataProduct 
 import { helmet } from '../Utils/Helmet';
 import { startupsPage } from './Startups';
 import { getStartup, startupLinkName } from './../Utils/startups';
+import { ExternalLink } from '../Utils/ExternalLink';
 interface IP {
     store: IHappyTechStore;
     name: string;
@@ -76,7 +77,9 @@ class StartupView extends React.Component<IProps, {}> {
                 <List>{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
                 <Typography variant="caption" align="center" >{startup.address}</Typography>
                 <List>{startup.contacts.map(Contact)}</List>
+
                 {socialNetwork && <div>
+                    <ExternalLink link={socialNetwork.webSite}><Button variant="raised">Voir le site</Button></ExternalLink>
                     {socialNetwork.twitter && snTwitter(socialNetwork.twitter)}
                     {socialNetwork.facebook && snFacebook(socialNetwork.facebook)}
                     {socialNetwork.linkedIn && snLinkedin(socialNetwork.linkedIn)}

@@ -58,15 +58,11 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
     console.info('Start loading store...');
     const store = await getStore();
     allRouterPages.forEach(page => {
-
-
         server.get(`/${page.route}`, async (req, res) => {
             const ra = getReactApp(store, req.url);
             const helmet = Helmet.renderStatic();
             res.send(html({ helmet, store, ...ra }));
         })
-
-
     })
 
     server.get(`/robots.txt`, async (req, res) => {

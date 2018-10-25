@@ -3327,6 +3327,10 @@
       "team": "Bénévoles",
       "role": "Adhésion startups",
       "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1539956897/website/people/Sixtine_De_Feuilhade.jpg",
       "fullname": "Sixtine De Feuilhade"
     },
     {
@@ -3351,6 +3355,10 @@
       "team": "Bénévoles",
       "role": "Community Manager",
       "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1540395796/website/people/A%C3%AFcha.jpg",
       "fullname": "Ndeye Aïcha Kassé"
     },
     {
@@ -3698,8 +3706,8 @@
     {
       "rowId": 0,
       "startupName": "Antimauxdedos",
-      "presentation": "En 2018, HumanCraft compte 85 tribus partenaires prêtes à accompagner nos clients dans leur transformation digitale (Dev, DevOps, BigData, CyberSecu, Product Management, Mobile, Change Management) et 15 clients de toutes tailles dont le groupe Société Générale, Microsoft, Meetic, Fromageries Bel, Stelliant.",
-      "problems": "En France, les lombalgies représentent 20% des arrêts de travail. Des efforts importants ont été fait dans les entreprises sur l’ergonomie des postes de travail et la prévention liée à la posture. \r\nL’atelier AntiMauxDeDos vient renforcer la démarche de prévention d’une entreprise en proposant aux collaborateurs d’être autonomes dans leur lutte contre leurs douleurs de dos en leur apprenant à les gérer et à les anticiper.\r\nNous offrons les clefs du bien-être à vos collaborateurs en les aidant à se construire une démarche préventive hebdomadaire. ",
+      "presentation": "Antimauxdedos.com est un service clés en mains qui permet à vos collaborateurs de prévenir et de gérer leurs douleurs au dos. Le service inclus la gestion de l'organisation des ateliers, les inscriptions, les réservation et les enquêtes d'impacts de nos prestations.",
+      "problems": "En France, les lombalgies représentent 20% des arrêts de travail. Des efforts importants ont été fait dans les entreprises sur l’ergonomie des postes de travail et la prévention liée à la posture. \nL’atelier AntiMauxDeDos vient renforcer la démarche de prévention d’une entreprise en proposant aux collaborateurs d’être autonomes dans leur lutte contre leurs douleurs de dos en leur apprenant à les gérer et à les anticiper.\nNous offrons les clefs du bien-être à vos collaborateurs en les aidant à se construire une démarche préventive hebdomadaire. ",
       "numbers": "La méthode AntiMauxDeDos créée en mars 2018 est le fruit de 10 années d’expériences et d’accompagnements auprès d’une clientèle BtoC (environs 500 personnes). Aujourd’hui nous souhaitons faire profiter les entreprises de notre savoir-faire. En seulement 3 mois, une dizaine d’opportunités se sont offertes à nous.  \r\nLe 1er grand compte à nous faire confiance est GRDF."
     },
     {
@@ -3803,7 +3811,7 @@
     {
       "rowId": 15,
       "startupName": "Humancraft",
-      "presentation": "Après à peine neuf mois d’ouverture de sa plateforme, la communauté TOD compte désormais plus de 500 membres et en accueille chaque jour de nouveaux . Plus d’une quinzaine de clients nous ont déjà fait confiance, dans tous les secteurs d’activité, de la mode à l’industrie lourde, de la startup au grand groupe, comme Energies Libres, Suez ou Lafarge. Ce qui les réunit, c’est une véritable volonté de développer leurs collaborateurs autour de valeurs humaines partagées, c’est la recherche de talents engagés, c’est la volonté de libérer le potentiel de leurs équipes actuelles et à venir. ",
+      "presentation": "En 2018, HumanCraft compte 85 tribus partenaires prêtes à accompagner nos clients dans leur transformation digitale (Dev, DevOps, BigData, CyberSecu, Product Management, Mobile, Change Management) et 15 clients de toutes tailles dont le groupe Société Générale, Microsoft, Meetic, Fromageries Bel, Stelliant.",
       "problems": "Conscient des difficultés à trouver le bon expert en prestations de services, HumanCraft se positionne comme le tiers de confiance du marché de l’IT. Via notre plateforme, nous qualifions pour nos clients les meilleurs compétences, garantissons la qualité des prestations délivrées et permettons à nos partenaires d’intervenir chez des acteurs majeurs grâce à notre référencement atypique.\r\nTrouver le bon expert IT n’a jamais été aussi facile.",
       "numbers": "En 2018, HumanCraft compte 85 tribus partenaires prêtes à accompagner nos clients dans leur transformation digitale (Dev, DevOps, BigData, CyberSecu, Product Management, Mobile, Change Management) et 15 clients de toutes tailles dont le groupe Société Générale, Microsoft, Meetic, Fromageries Bel, Stelliant."
     },
