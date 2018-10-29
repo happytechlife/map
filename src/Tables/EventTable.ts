@@ -13,7 +13,7 @@ export class EventTable extends GoogleSpreadSheetTable<IEvent, IHappyTechStore>{
             rowId,
             name: d[0],
             description: d[1],
-            startupNames: d[2].split(',').map(s => s.trim()),
+            startupNames: (d[2] || '').split(',').map(s => s.trim()),
             dateString: d[3],
             time: d[4],
             location: d[5],

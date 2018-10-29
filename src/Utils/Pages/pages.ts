@@ -50,7 +50,7 @@ const summit = {
     route: 'summit',
     html: getHtml(happytechsummitMarkdown),
     headers: () => {
-        const h = getHeaders("HappyTech Summit 2018, Inscrivez-vous vite à la plus grande concentration d'innovations technologique au service du bien-être en entreprise");
+        const h = getHeaders("HappyTech Summit 2018, Inscrivez-vous vite à la plus grande concentration d'innovations technologiques au service du bien-être en entreprise");
         h.description = "Le HappyTech Summit est le 1er événement en France qui réunit l’ensemble des innovations technologiques dédiées au bien-être en entreprise. Ce rendez-vous est réservé aux professionnels cherchant à trouver des solutions clés en main pour leurs initiatives de bien-être en entreprise. Plus de 40 startups seront réunies pour présenter toutes les dernières innovations et solutions en 6 villages thématiques"
         if (h.share) {
             h.share.og.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944008/Summit/social-network.png'

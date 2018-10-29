@@ -3185,7 +3185,7 @@
       "lastname": "Mohtacham",
       "email": "pouya@happytech.life",
       "team": "Bureau",
-      "role": "Président",
+      "role": "Fondateur & Président",
       "active": true,
       "linkedin": "pouyamohtacham",
       "twitter": "pouya69",
@@ -3213,12 +3213,12 @@
       "lastname": "Métias",
       "email": "samuel@comeet.in",
       "team": "Ambassadeurs",
-      "role": "Porte Parole",
+      "role": "Fondateur & Porte Parole",
       "active": true,
       "linkedin": "",
       "twitter": "",
       "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1540807552/website/people/samuel_metias.jpg",
       "fullname": "Samuel Métias"
     },
     {
@@ -3374,6 +3374,62 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1539944165/website/people/Laetitia_De_La_Mettrie.png",
       "fullname": "Laetitia  De La Mettrie"
+    },
+    {
+      "rowId": 14,
+      "firstname": "Laurent",
+      "lastname": "Boure",
+      "email": "laurentboure@gmail.com",
+      "team": "Ambassadeurs",
+      "role": "Evangéliste",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1540806837/website/people/Laurent.png",
+      "fullname": "Laurent Boure"
+    },
+    {
+      "rowId": 15,
+      "firstname": "Angelika",
+      "lastname": "Mleczko",
+      "email": "angelika@letincellecho.com",
+      "team": "Ambassadeurs",
+      "role": "Co-Fondateur & CHO",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1540807450/website/people/angelika.jpg",
+      "fullname": "Angelika Mleczko"
+    },
+    {
+      "rowId": 16,
+      "firstname": "Arnaud",
+      "lastname": "Collery",
+      "email": "arnaud@kikaimining.com",
+      "team": "Ambassadeurs",
+      "role": "Co-Fondateur, Trainer & Speaker",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1540807491/website/people/arnaud.jpg",
+      "fullname": "Arnaud Collery"
+    },
+    {
+      "rowId": 17,
+      "firstname": "Johan",
+      "lastname": "Melab",
+      "email": "johan@fidensio.com",
+      "team": "Bureau",
+      "role": "Adhésions entreprises",
+      "active": true,
+      "linkedin": "",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg",
+      "fullname": "Johan Melab"
     }
   ],
   "startupSocialNetworks": [
@@ -4003,6 +4059,16 @@
       "address": "",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1539190009/website/events/LOIC.png",
       "registerLink": "http://loic.lu/"
+    },
+    {
+      "rowId": 4,
+      "name": "Panorama des Innovations Managériales (7e édition)",
+      "description": "Découvrez les tendances du management pendant 2 jours : \n✔ Comment faire de l’épanouissement individuel un levier d’efficacité collective ?\r\n✔ Comment favoriser l’engagement et la fidélisation des talents ?\r\n✔ Comment cultiver l’aimer-faire plutôt que le savoir-faire ?\r\n✔ Comment travailler autrement et développer un état d’esprit créatif, agile et collaboratif ?",
+      "startupNames": [
+        "Tod",
+        "Bloom at Work",
+        "Comeet"
+      ]
     }
   ],
   "partners": [
@@ -4067,7 +4133,7 @@
       "name": "HandiTech",
       "description": "La HappyTech est partenaire de l'événement organisé par la HandiTech pour récompenser les meilleures innovations technologiques au profit des personnes en situation d'handicap ou de perte d'autonomie",
       "website": "https://www.lahanditech.fr/les-trophees-2018",
-      "type": "Evénements",
+      "type": "Événements",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1539855029/website/partners/HandiTech.jpg"
     },
     {
