@@ -29,7 +29,7 @@ export class Startups extends React.Component<IProps, {}> {
                 <Divider style={{ margin: 24 }} />
                 <Hidden smDown={true}>
                     <div className="flexCenter">
-                        <img src={`https://res.cloudinary.com/happytech/image/upload/w_720/v1537882261/website/carte_sept.png`} />
+                        <img src={`https://res.cloudinary.com/happytech/image/upload/w_720/v1541512016/website/carte_oct.png`} />
                     </div>
                     <Divider style={{ margin: 24 }} />
                 </Hidden>
