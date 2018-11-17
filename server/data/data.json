@@ -568,12 +568,12 @@
         {
           "rowId": 20,
           "startup_name": "Kiplin",
-          "firstname": "Vincent",
-          "lastname": "Tharreau",
-          "email": "",
+          "firstname": "Benoit",
+          "lastname": "Fagnou",
+          "email": "benoit.fagnou@kiplin.com",
           "telephone": "",
-          "title": "CEO & Fondateur",
-          "linkedin": "vincent-tharreau-468b398a",
+          "title": "Directeur Commercial",
+          "linkedin": "benoit-fagnou-68240911b",
           "twitter": "",
           "facebook": "",
           "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg"
@@ -729,12 +729,40 @@
     },
     {
       "rowId": 26,
+      "name": "Pickr",
+      "address": "25 t rue pierre brossolette 93110 rosny sous bois",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
+      "contacts": [
+        {
+          "rowId": 26,
+          "startup_name": "Pickr",
+          "firstname": "Marc",
+          "lastname": "Rota",
+          "email": "marc@pickr.fr",
+          "telephone": "",
+          "title": "Cofondateur",
+          "linkedin": "marc-rota-7631135",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1542364774/website/people/Marc_Rota.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.862725,
+        "lng": 2.287592000000018
+      },
+      "tags": [],
+      "description": "Pickr, crée des pauses saines et conviviales en entreprise, via la livraison d'en-cas bio ou naturels",
+      "tagline": ""
+    },
+    {
+      "rowId": 27,
       "name": "Plantez Respirez",
       "address": "340 rue Saint Jacques 75005 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
       "contacts": [
         {
-          "rowId": 26,
+          "rowId": 27,
           "startup_name": "Plantez Respirez",
           "firstname": "Lena",
           "lastname": "Soffer",
@@ -756,13 +784,13 @@
       "tagline": ""
     },
     {
-      "rowId": 27,
+      "rowId": 28,
       "name": "Roti.express",
       "address": "55 boulevard Vincent-Auriol 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
       "contacts": [
         {
-          "rowId": 27,
+          "rowId": 28,
           "startup_name": "Roti.express",
           "firstname": "Antoine",
           "lastname": "Durand",
@@ -784,13 +812,13 @@
       "tagline": ""
     },
     {
-      "rowId": 28,
+      "rowId": 29,
       "name": "Serenity",
       "address": "87 rue Réaumur, 75002, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
       "contacts": [
         {
-          "rowId": 28,
+          "rowId": 29,
           "startup_name": "Serenity",
           "firstname": "Elodie ",
           "lastname": "Livernette",
@@ -812,13 +840,13 @@
       "tagline": "Avec Serenity Relaxation, luttez efficacement contre le stress et apportez un mieux-être durable"
     },
     {
-      "rowId": 29,
+      "rowId": 30,
       "name": "Supermood",
       "address": "41 Rue des Jeuneurs, 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
       "contacts": [
         {
-          "rowId": 29,
+          "rowId": 30,
           "startup_name": "Supermood",
           "firstname": "Kevin",
           "lastname": "Bourgeois",
@@ -840,13 +868,13 @@
       "tagline": ""
     },
     {
-      "rowId": 30,
+      "rowId": 31,
       "name": "Teamstarter",
       "address": "10 rue du Faubourg Poissonière 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
       "contacts": [
         {
-          "rowId": 30,
+          "rowId": 31,
           "startup_name": "Teamstarter",
           "firstname": "Ségolène",
           "lastname": "Mouterde",
@@ -865,34 +893,6 @@
       },
       "tags": [],
       "description": "Teamstarter est une plateforme de financement participatif pour libérer les collaborateurs afin qu’ils puissent réaliser des projets ensemble",
-      "tagline": ""
-    },
-    {
-      "rowId": 31,
-      "name": "The Place To Coach",
-      "address": "5 Parvis Alan Turing, 75013 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
-      "contacts": [
-        {
-          "rowId": 31,
-          "startup_name": "The Place To Coach",
-          "firstname": "Timothée",
-          "lastname": "Ferras",
-          "email": "timothee@theplacetocoach.com",
-          "telephone": "",
-          "title": "CEO & Fondateur",
-          "linkedin": "timotheeferras",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.83477,
-        "lng": 2.3707703999999694
-      },
-      "tags": [],
-      "description": "LA plateforme de rencontre, pour permettre à chaque cadre de rencontrer un partenaire de vie professionnelle, avec l'aide et la caution de partenaires et d'institutions et écoles de coaching de 1er plan.",
       "tagline": ""
     },
     {
@@ -1009,12 +1009,40 @@
     },
     {
       "rowId": 36,
+      "name": "Wingzy",
+      "address": "8 rue du Faubourg Poissonnière 75010 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
+      "contacts": [
+        {
+          "rowId": 36,
+          "startup_name": "Wingzy",
+          "firstname": "Clément ",
+          "lastname": "Dietschy",
+          "email": "clement@wingzy.io",
+          "telephone": "",
+          "title": "Cofondateur",
+          "linkedin": "clementdietschy",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.862725,
+        "lng": 2.287592000000018
+      },
+      "tags": [],
+      "description": "Wingzy c'est l'annuaire d'entreprise qui trouve nos Wings : nos talents, nos compétences, nos énergies. ",
+      "tagline": ""
+    },
+    {
+      "rowId": 37,
       "name": "Yuco",
       "address": "21 place des Nations Unies, 92110 Clichy",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
       "contacts": [
         {
-          "rowId": 36,
+          "rowId": 37,
           "startup_name": "Yuco",
           "firstname": "Charlélie",
           "lastname": "Vallet",
@@ -1036,13 +1064,13 @@
       "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
     },
     {
-      "rowId": 37,
+      "rowId": 38,
       "name": "ZestMeUp",
       "address": "71 rue de Saussure 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
       "contacts": [
         {
-          "rowId": 37,
+          "rowId": 38,
           "startup_name": "ZestMeUp",
           "firstname": "Christophe",
           "lastname": "Bergeon",
@@ -1887,12 +1915,12 @@
     {
       "rowId": 20,
       "startup_name": "Kiplin",
-      "firstname": "Vincent",
-      "lastname": "Tharreau",
-      "email": "",
+      "firstname": "Benoit",
+      "lastname": "Fagnou",
+      "email": "benoit.fagnou@kiplin.com",
       "telephone": "",
-      "title": "CEO & Fondateur",
-      "linkedin": "vincent-tharreau-468b398a",
+      "title": "Directeur Commercial",
+      "linkedin": "benoit-fagnou-68240911b",
       "twitter": "",
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg",
@@ -1905,12 +1933,12 @@
           {
             "rowId": 20,
             "startup_name": "Kiplin",
-            "firstname": "Vincent",
-            "lastname": "Tharreau",
-            "email": "",
+            "firstname": "Benoit",
+            "lastname": "Fagnou",
+            "email": "benoit.fagnou@kiplin.com",
             "telephone": "",
-            "title": "CEO & Fondateur",
-            "linkedin": "vincent-tharreau-468b398a",
+            "title": "Directeur Commercial",
+            "linkedin": "benoit-fagnou-68240911b",
             "twitter": "",
             "facebook": "",
             "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg"
@@ -2132,6 +2160,47 @@
     },
     {
       "rowId": 26,
+      "startup_name": "Pickr",
+      "firstname": "Marc",
+      "lastname": "Rota",
+      "email": "marc@pickr.fr",
+      "telephone": "",
+      "title": "Cofondateur",
+      "linkedin": "marc-rota-7631135",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1542364774/website/people/Marc_Rota.jpg",
+      "startup": {
+        "rowId": 26,
+        "name": "Pickr",
+        "address": "25 t rue pierre brossolette 93110 rosny sous bois",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
+        "contacts": [
+          {
+            "rowId": 26,
+            "startup_name": "Pickr",
+            "firstname": "Marc",
+            "lastname": "Rota",
+            "email": "marc@pickr.fr",
+            "telephone": "",
+            "title": "Cofondateur",
+            "linkedin": "marc-rota-7631135",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1542364774/website/people/Marc_Rota.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.862725,
+          "lng": 2.287592000000018
+        },
+        "tags": [],
+        "description": "Pickr, crée des pauses saines et conviviales en entreprise, via la livraison d'en-cas bio ou naturels",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 27,
       "startup_name": "Plantez Respirez",
       "firstname": "Lena",
       "lastname": "Soffer",
@@ -2143,13 +2212,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg",
       "startup": {
-        "rowId": 26,
+        "rowId": 27,
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
         "contacts": [
           {
-            "rowId": 26,
+            "rowId": 27,
             "startup_name": "Plantez Respirez",
             "firstname": "Lena",
             "lastname": "Soffer",
@@ -2172,7 +2241,7 @@
       }
     },
     {
-      "rowId": 27,
+      "rowId": 28,
       "startup_name": "Roti.express",
       "firstname": "Antoine",
       "lastname": "Durand",
@@ -2184,13 +2253,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405804/website/people/Antoine_Durand.jpg",
       "startup": {
-        "rowId": 27,
+        "rowId": 28,
         "name": "Roti.express",
         "address": "55 boulevard Vincent-Auriol 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
         "contacts": [
           {
-            "rowId": 27,
+            "rowId": 28,
             "startup_name": "Roti.express",
             "firstname": "Antoine",
             "lastname": "Durand",
@@ -2213,7 +2282,7 @@
       }
     },
     {
-      "rowId": 28,
+      "rowId": 29,
       "startup_name": "Serenity",
       "firstname": "Elodie ",
       "lastname": "Livernette",
@@ -2225,13 +2294,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1540896861/website/people/Elodie_Livernette.jpg",
       "startup": {
-        "rowId": 28,
+        "rowId": 29,
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
         "contacts": [
           {
-            "rowId": 28,
+            "rowId": 29,
             "startup_name": "Serenity",
             "firstname": "Elodie ",
             "lastname": "Livernette",
@@ -2254,7 +2323,7 @@
       }
     },
     {
-      "rowId": 29,
+      "rowId": 30,
       "startup_name": "Supermood",
       "firstname": "Kevin",
       "lastname": "Bourgeois",
@@ -2266,13 +2335,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Kevin_Bourgeois.jpg",
       "startup": {
-        "rowId": 29,
+        "rowId": 30,
         "name": "Supermood",
         "address": "41 Rue des Jeuneurs, 75002 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
         "contacts": [
           {
-            "rowId": 29,
+            "rowId": 30,
             "startup_name": "Supermood",
             "firstname": "Kevin",
             "lastname": "Bourgeois",
@@ -2295,7 +2364,7 @@
       }
     },
     {
-      "rowId": 30,
+      "rowId": 31,
       "startup_name": "Teamstarter",
       "firstname": "Ségolène",
       "lastname": "Mouterde",
@@ -2307,13 +2376,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png",
       "startup": {
-        "rowId": 30,
+        "rowId": 31,
         "name": "Teamstarter",
         "address": "10 rue du Faubourg Poissonière 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
         "contacts": [
           {
-            "rowId": 30,
+            "rowId": 31,
             "startup_name": "Teamstarter",
             "firstname": "Ségolène",
             "lastname": "Mouterde",
@@ -2332,47 +2401,6 @@
         },
         "tags": [],
         "description": "Teamstarter est une plateforme de financement participatif pour libérer les collaborateurs afin qu’ils puissent réaliser des projets ensemble",
-        "tagline": ""
-      }
-    },
-    {
-      "rowId": 31,
-      "startup_name": "The Place To Coach",
-      "firstname": "Timothée",
-      "lastname": "Ferras",
-      "email": "timothee@theplacetocoach.com",
-      "telephone": "",
-      "title": "CEO & Fondateur",
-      "linkedin": "timotheeferras",
-      "twitter": "",
-      "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg",
-      "startup": {
-        "rowId": 31,
-        "name": "The Place To Coach",
-        "address": "5 Parvis Alan Turing, 75013 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378279/theplacetocoach.jpg",
-        "contacts": [
-          {
-            "rowId": 31,
-            "startup_name": "The Place To Coach",
-            "firstname": "Timothée",
-            "lastname": "Ferras",
-            "email": "timothee@theplacetocoach.com",
-            "telephone": "",
-            "title": "CEO & Fondateur",
-            "linkedin": "timotheeferras",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Timoth%C3%A9e_Ferras.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.83477,
-          "lng": 2.3707703999999694
-        },
-        "tags": [],
-        "description": "LA plateforme de rencontre, pour permettre à chaque cadre de rencontrer un partenaire de vie professionnelle, avec l'aide et la caution de partenaires et d'institutions et écoles de coaching de 1er plan.",
         "tagline": ""
       }
     },
@@ -2542,6 +2570,47 @@
     },
     {
       "rowId": 36,
+      "startup_name": "Wingzy",
+      "firstname": "Clément ",
+      "lastname": "Dietschy",
+      "email": "clement@wingzy.io",
+      "telephone": "",
+      "title": "Cofondateur",
+      "linkedin": "clementdietschy",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg",
+      "startup": {
+        "rowId": 36,
+        "name": "Wingzy",
+        "address": "8 rue du Faubourg Poissonnière 75010 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
+        "contacts": [
+          {
+            "rowId": 36,
+            "startup_name": "Wingzy",
+            "firstname": "Clément ",
+            "lastname": "Dietschy",
+            "email": "clement@wingzy.io",
+            "telephone": "",
+            "title": "Cofondateur",
+            "linkedin": "clementdietschy",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.862725,
+          "lng": 2.287592000000018
+        },
+        "tags": [],
+        "description": "Wingzy c'est l'annuaire d'entreprise qui trouve nos Wings : nos talents, nos compétences, nos énergies. ",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 37,
       "startup_name": "Yuco",
       "firstname": "Charlélie",
       "lastname": "Vallet",
@@ -2553,13 +2622,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg",
       "startup": {
-        "rowId": 36,
+        "rowId": 37,
         "name": "Yuco",
         "address": "21 place des Nations Unies, 92110 Clichy",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
         "contacts": [
           {
-            "rowId": 36,
+            "rowId": 37,
             "startup_name": "Yuco",
             "firstname": "Charlélie",
             "lastname": "Vallet",
@@ -2582,7 +2651,7 @@
       }
     },
     {
-      "rowId": 37,
+      "rowId": 38,
       "startup_name": "ZestMeUp",
       "firstname": "Christophe",
       "lastname": "Bergeon",
@@ -2594,13 +2663,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg",
       "startup": {
-        "rowId": 37,
+        "rowId": 38,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
         "contacts": [
           {
-            "rowId": 37,
+            "rowId": 38,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -2673,13 +2742,13 @@
         "Expériences Sensorielles"
       ],
       "startup": {
-        "rowId": 28,
+        "rowId": 29,
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
         "contacts": [
           {
-            "rowId": 28,
+            "rowId": 29,
             "startup_name": "Serenity",
             "firstname": "Elodie ",
             "lastname": "Livernette",
@@ -2710,13 +2779,13 @@
         "Nature"
       ],
       "startup": {
-        "rowId": 26,
+        "rowId": 27,
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
         "contacts": [
           {
-            "rowId": 26,
+            "rowId": 27,
             "startup_name": "Plantez Respirez",
             "firstname": "Lena",
             "lastname": "Soffer",
@@ -2856,13 +2925,13 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 37,
+        "rowId": 38,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
         "contacts": [
           {
-            "rowId": 37,
+            "rowId": 38,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -2930,13 +2999,13 @@
         "Application Mobile"
       ],
       "startup": {
-        "rowId": 36,
+        "rowId": 37,
         "name": "Yuco",
         "address": "21 place des Nations Unies, 92110 Clichy",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
         "contacts": [
           {
-            "rowId": 36,
+            "rowId": 37,
             "startup_name": "Yuco",
             "firstname": "Charlélie",
             "lastname": "Vallet",
@@ -3058,12 +3127,12 @@
           {
             "rowId": 20,
             "startup_name": "Kiplin",
-            "firstname": "Vincent",
-            "lastname": "Tharreau",
-            "email": "",
+            "firstname": "Benoit",
+            "lastname": "Fagnou",
+            "email": "benoit.fagnou@kiplin.com",
             "telephone": "",
-            "title": "CEO & Fondateur",
-            "linkedin": "vincent-tharreau-468b398a",
+            "title": "Directeur Commercial",
+            "linkedin": "benoit-fagnou-68240911b",
             "twitter": "",
             "facebook": "",
             "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg"
@@ -3201,7 +3270,7 @@
       "team": "Bureau",
       "role": "Déléguée Générale",
       "active": true,
-      "linkedin": "",
+      "linkedin": "margaux-cohen-salmon-901529b0/",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1537741942/website/people/margaux-cohen.jpg",
@@ -3215,9 +3284,9 @@
       "team": "Bureau",
       "role": "Fondateur & Porte Parole",
       "active": true,
-      "linkedin": "",
-      "twitter": "",
-      "facebook": "",
+      "linkedin": "smetias",
+      "twitter": "smetias?lang=en",
+      "facebook": "samuel.metias?ref=br_rs",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1540807552/website/people/samuel_metias.jpg",
       "fullname": "Samuel Métias"
     },
@@ -3229,7 +3298,7 @@
       "team": "Bénévoles",
       "role": "Events",
       "active": true,
-      "linkedin": "",
+      "linkedin": "carolinebilger",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555308/website/people/Caroline.jpg",
@@ -3243,8 +3312,8 @@
       "team": "Bénévoles",
       "role": "Youtubeur",
       "active": true,
-      "linkedin": "",
-      "twitter": "",
+      "linkedin": "alexis-de-monicault-85a17010",
+      "twitter": "aademonicault?lang=en",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555595/website/people/Alexis_De_Monicault.jpg",
       "fullname": "Alexis De Monicault"
@@ -3257,7 +3326,7 @@
       "team": "Bénévoles",
       "role": "Recrutement ",
       "active": true,
-      "linkedin": "",
+      "linkedin": "elodie-gaspart-3143803a",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538571516/website/people/Elodie.jpg",
@@ -3271,7 +3340,7 @@
       "team": "Bénévoles",
       "role": "Marketing & Communucation",
       "active": true,
-      "linkedin": "",
+      "linkedin": "mariongaulin",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555701/Marion.jpg",
@@ -3285,7 +3354,7 @@
       "team": "Bénévoles",
       "role": "Design & Montage vidéos",
       "active": true,
-      "linkedin": "",
+      "linkedin": "mathilde-debeuf-6087756a",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538555755/Mathilde_Debeuf.jpg",
@@ -3299,7 +3368,7 @@
       "team": "Bénévoles",
       "role": "Coaching stratégie et transformation des organisations",
       "active": true,
-      "linkedin": "",
+      "linkedin": "christellemandjiny",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1539943630/website/people/Christelle_Mandjiny.jpg",
@@ -3313,7 +3382,7 @@
       "team": "Bénévoles",
       "role": "CHO",
       "active": true,
-      "linkedin": "",
+      "linkedin": "sarah-baron-cho",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1539943681/website/people/Sarah.png",
@@ -3327,7 +3396,7 @@
       "team": "Bénévoles",
       "role": "Adhésion startups",
       "active": true,
-      "linkedin": "",
+      "linkedin": "sixtine-de-feuilhade-58516522",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1539956897/website/people/Sixtine_De_Feuilhade.jpg",
@@ -3341,7 +3410,7 @@
       "team": "Bénévoles",
       "role": "Gestion de projet ",
       "active": true,
-      "linkedin": "",
+      "linkedin": "mhâeva-lemoing-2292138",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1539944212/website/people/Mh%C3%A2eva_Lemoing.jpg",
@@ -3355,7 +3424,7 @@
       "team": "Bénévoles",
       "role": "Community Manager",
       "active": true,
-      "linkedin": "",
+      "linkedin": "✅-ndèye-aïcha-kassé-83062a2b",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1540395796/website/people/A%C3%AFcha.jpg",
@@ -3369,7 +3438,7 @@
       "team": "Bénévoles",
       "role": "Partenariats & Entreprises",
       "active": true,
-      "linkedin": "",
+      "linkedin": "laetitiadelamettrie",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1539944165/website/people/Laetitia_De_La_Mettrie.png",
@@ -3397,7 +3466,7 @@
       "team": "Ambassadeurs",
       "role": "Co-Fondateur & CHO",
       "active": true,
-      "linkedin": "",
+      "linkedin": "angelika-mleczko-404b2b22",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1540807450/website/people/angelika.jpg",
@@ -3411,7 +3480,7 @@
       "team": "Ambassadeurs",
       "role": "Co-Fondateur, Trainer & Speaker",
       "active": true,
-      "linkedin": "",
+      "linkedin": "arnaudcollery",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1540807491/website/people/arnaud.jpg",
@@ -3425,7 +3494,7 @@
       "team": "Bureau",
       "role": "Adhésions entreprises",
       "active": true,
-      "linkedin": "",
+      "linkedin": "johan-melab",
       "twitter": "",
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg",
@@ -3659,6 +3728,15 @@
     },
     {
       "rowId": 26,
+      "startupName": "Pickr",
+      "webSite": "https://pickr.fr/",
+      "linkedIn": "pickr-bio",
+      "twitter": "BioPickr?lang=en",
+      "facebook": "pickrbio",
+      "instagram": "pickrbio/?hl=en"
+    },
+    {
+      "rowId": 27,
       "startupName": "Plantez Respirez",
       "webSite": "https://plantezrespirez.com/",
       "linkedIn": "plantez-respirez-plant-breath",
@@ -3667,7 +3745,7 @@
       "instagram": "plantezrespirez"
     },
     {
-      "rowId": 27,
+      "rowId": 28,
       "startupName": "Roti.express",
       "webSite": "https://roti.express/",
       "linkedIn": "roti-express-pro",
@@ -3677,7 +3755,7 @@
       "youTube": "UCfIxDIFvoDaixE7SEBm3DlA"
     },
     {
-      "rowId": 28,
+      "rowId": 29,
       "startupName": "Serenity",
       "webSite": "http://www.iris-immersive.com/",
       "linkedIn": "",
@@ -3685,7 +3763,7 @@
       "facebook": "iris.immersive"
     },
     {
-      "rowId": 29,
+      "rowId": 30,
       "startupName": "Supermood",
       "webSite": "https://supermood.fr/",
       "linkedIn": "supermood",
@@ -3693,20 +3771,12 @@
       "facebook": "SupermoodTeam"
     },
     {
-      "rowId": 30,
+      "rowId": 31,
       "startupName": "Teamstarter",
       "webSite": "https://teamstarter.co/",
       "linkedIn": "",
       "twitter": "",
       "facebook": "teamstarterapp"
-    },
-    {
-      "rowId": 31,
-      "startupName": "The Place To Coach",
-      "webSite": "http://www.theplacetocoach.com/",
-      "linkedIn": "mlt-coaching",
-      "twitter": "Placetocoach?lang=en",
-      "facebook": "ThePlacetoCoach"
     },
     {
       "rowId": 32,
@@ -3741,6 +3811,16 @@
     },
     {
       "rowId": 36,
+      "startupName": "Wingzy",
+      "webSite": "https://wingzy.com/fr/",
+      "linkedIn": "wingzy",
+      "twitter": "Wingzy_io?lang=en",
+      "facebook": "",
+      "instagram": "",
+      "youTube": "UCqGEWycv-KM25QnfIULYUwg"
+    },
+    {
+      "rowId": 37,
       "startupName": "Yuco",
       "webSite": "https://www.wehobby.com/fr/",
       "linkedIn": "yuco",
@@ -3750,10 +3830,10 @@
       "youTube": "UCQADkPFzzFhwFa12O2iYGHQ"
     },
     {
-      "rowId": 37,
+      "rowId": 38,
       "startupName": "ZestMeUp",
       "webSite": "https://zestmeup.com/fr/",
-      "linkedIn": "zestmeup/?trk=top_nav_home",
+      "linkedIn": "zestmeup",
       "twitter": "zestme_up",
       "facebook": "ZestMeUp?fref=ts"
     }
@@ -3915,62 +3995,76 @@
     },
     {
       "rowId": 22,
+      "startupName": "Pickr",
+      "presentation": "Pickr, crée des pauses saines et conviviales en entreprise, via la livraison d'en-cas bio ou naturels  (fruits, graines et fruits secs, biscuits, barres, chocolats, boissons chaudes, boissons fraîches, etc) livrés et installés sur place, sous forme d'abonnement (sans engagement) ou de commandes ponctuelles (selon les besoins ou événements de nos clients).\n\nUn parcours client simplifié via sa plateforme digitale et son e-boutique : commandes, gestion de ses abonnements, espace client, facturation, ... \n\n\nPickr affiche également la volonté d'aller plus loin en proposant à chaque moment de livraison, des moments d'échanges et d’animation, en s’entourant des partenaires spécialistes de la QVT et du bien-être en entreprise : jeux sportifs ou ludiques, conseils/ infos nutrition, conseils santé/bien-être, Icebreaker, team-building, jeux-concours, etc.\n",
+      "problems": "Notre service s'adresse aux entreprises, CEO, office manager, CHO, RH ou acteurs de la QVT qui, comme nous, sont convaincus que les pauses sont un formidable levier pour créer de la cohésion, augmenter la satisfaction et la rétention de ses collaborateurs, et véhiculer une marque employeur forte. \n\nNos ambitions sont : \nd'aider les entreprises à améliorer la qualité de vie de leurs salariés\nde créer de la convivialité et de la cohésion d'équipe autour des pauses\nde démocratiser l’accès aux  encas bio pour toutes les entreprises, quelle que soit leur taille ou secteur d'activité.\n\nIn fine, l'objectif est d'aider les offices managers, CHO, responsables RH ou QVT à créer une dynamique de groupe et montrer leur attachement au bien-être de leurs équipes, tout en simplifiant leurs tâches quotidiennes.",
+      "numbers": "91 % : Part des dirigeants qui estiment que la performance est liée directement à l'alimentation. \n32 % : Part des salariés de < 30 ans avouent qui sauter fréquemment la pause déjeuner. \nOR : 50% des salariés français en 2018 ne disposent pas d’offre de snacking sur leur lieu de travail et encore moins d’une offre de snacking saine  (78% des salariés attendent plus d'offres de bio sur leur lieu de travail).\n\nDans le même temps, les entreprises sont confrontées aux difficultés d'instaurer durablement le bien-être au sein de leur organisation : seuls 7% des salariés français se disent engagés dans leur entreprise, 61% voulait changer d’entreprise en 2018. Or pour 60% d’entre eux, l’ambiance de travail est un critère important pour le choix d’une entreprise. \n\nEnfin : 84% des salariés jugent que la pause-café est « importante » voire « indispensable » dans une journée de travail. Pour 81%, elle favoriserait l’échange d’idées et l’entraide des salariés qui peuvent alors parler d’un problème rencontré. Elle favoriserait aussi bien l’efficacité et le bien-être au travail que la créativité et le renforcement des liens sociaux. \n\nLancé depuis juin 2018, Pickr a su rapidement se faire sa place en apportant de l'innovation et de la fraîcheur sur un marché  concurrentiel, grâce à une double approche : la pause saine ET conviviale, avec une volonté affichée de jouer un rôle durable sur l’amélioration de la qualité de vie au travail.\n"
+    },
+    {
+      "rowId": 23,
       "startupName": "Plantez Respirez",
       "presentation": "Plantez Respirez fait le lien entre bien-être au travail, qualité de l’air et présence végétale.\nAujourd’hui, les plantes font partie de l’espace de travail car elles ont le pouvoir d’améliorer la qualité de l’air intérieur et leur présence réduit le stress, améliore la productivité et répondent au besoin de nature et de biophilie des collaborateurs.\nPlantez Respirez mesure la qualité de l’air dans l’espace de travail pour préconiser le quota des plantes nécessaires selon les résultats et la surface des locaux. Ils installent les plantes en forme d’îles végétales pour créer un environnement plus dense et plus naturel. Nous assurons l’entretien et veillons sur la qualité de l’air tout au long de l’année. ",
       "problems": "Depuis 2016, la qualité de l’air intérieur fait partie de la politique RSE des entreprises car nous passons une grande partie de la journée dans l’espace de travail où l’air est parfois 5 fois plus pollué que l’air extérieur. \r\nLa présence des plantes au bureau améliore la qualité de l’air souvent très sec à cause du chauffage ce qui favorise la propagation des virus et l’absentéisme. L’être humain a besoin de nature dans sa vie quotidienne et souffre de ce manque sur son lieu de travail. Plantez Respirez permet de reconnecter les collaborateurs avec tout ce qui est vivant et leur humanité.",
       "numbers": "Plantez Respirez a été créé début 2018.  Rakuten-Price Minister est son premier client et lui a confié au moment de leur changement d’image, la mesure de la qualité de l’air et la végétalisation de ses locaux. "
     },
     {
-      "rowId": 23,
+      "rowId": 24,
       "startupName": "Roti.express",
       "presentation": "Roti.express est une plateforme de collecte de feedback pour  vos réunions, conférences, ateliers, formations, etc.,  afin de les rendre plus productifs et satisfaisants pour chaque participant.\r\nR.O.T.I. pour « Return On Time Invested » est une méthode agile, rapide (moins de 30 sec), ludique et facile à mettre en oeuvre pour activer une boucle de feedback et identifier des axes d’amélioration. ",
       "problems": "Nous adressons le phénomène de “Réunionite” en entreprise et ses conséquences désastreuses…\r\n• Humaines : démotivation chronique, désengagement et à long terme démission & fuite des talents\r\n• Économiques    : non-productivité, coûts faramineux, mais surtout aucune métrique sur la valeur ajoutée des réunions\r\nComment ? En s’intéressant au ressenti des participants et en ouvrant un canal de communication bottom-up !",
       "numbers": "Harvard Business Review (2018) sur 182 cadres supérieurs interrogés :\r\n65% déclarent que les réunions les empêchaient de mener à bien leur propre travail \r\n74% pensent que les réunions sont improductives et inefficaces.\r\nLancée en octobre 2017 notre plateforme est déjà utilisée dans plus de 50 \r\nentreprises françaises et internationales !"
     },
     {
-      "rowId": 24,
+      "rowId": 25,
       "startupName": "Serenity",
       "presentation": "Serenity permet d’effectuer des séances guidées et des exercices autonomes autour de thématiques variées comme la confiance en soi, l’amélioration du sommeil ou la gestion des émotions et utilise la Réalité Virtuelle comme un catalyseur.\nNos motivations? Replacer l’humain au cœur du monde du travail, changer les habitudes et faire rayonner le bien-être pour faire rimer bienveillance et performance.\nCréée par des professionnels de la Relaxation et de la Sophrologie, la Relaxation Immersive allie les méthodes anti-stress traditionnelles et les dernières innovations technologiques pour se sentir mieux immédiatement et durablement.",
       "problems": "Le stress touche la santé mentale et physique, les relations sociales, la qualité du travail et la productivité de vos collaborateurs. Conscient des difficultés à mettre en place des solutions pour combattre le stress, Serenity a été conçue pour être accessible à tous, à tout moment et très simple à utiliser.\n \nEn démocratisant l’accès au bien-être et en favorisant le développement personnel, Serenity apporte une réponse ludique, discrète et efficace pour lutter efficacement contre le stress et apporter un mieux-être individuel et collectif.",
       "numbers": "50% des salariés en France déclarent souffrir de stress ou d’anxiété dans le cadre de leur travail.\nPour combattre cet ennemi n°1 de l’entreprise, Serenity propose +180 combinaisons variées de séances de 5 à 20 minutes pour répondre aux besoins de chacun.\nDepuis le lancement de Serenity en 2018, déjà une quinzaine de clients comme Renault et Michelin nous font déjà confiance."
     },
     {
-      "rowId": 25,
+      "rowId": 26,
       "startupName": "Teamstarter",
       "presentation": "Teamstarter est une plateforme de financement participatif pour libérer les collaborateurs afin qu’ils puissent réaliser des projets ensemble. \nSur cette plateforme, chaque collaborateur peut financer, collaborer ou mener un projet grâce à des crédits alloués par l'entreprise.",
       "problems": "Aujourd’hui, les entreprises ne regardent plus seulement la performance financière mais également la performance globale car cela aura plus d’impact sur leur chiffre d’affaires à long terme. C’est pour cette raison que chaque organisation est aujourd’hui à la recherche de plus d’agilité, d’indépendance et d’initiatives de la part de ses collaborateurs.\r\nEntre en scène Teamstarter qui donne les moyens aux collaborateurs de prendre des initiatives.",
       "numbers": "• 3,4 fois plus d’initiatives de culture d’entreprise grâce à Teamstarter \r\n• Avoir Teamstarter en entreprise permet de faire émerger jusqu’à 5 fois plus d’innovation\r\n• 88% des collaborateurs affirment que Teamstarter a amélioré leur bien-être au travail"
     },
     {
-      "rowId": 26,
+      "rowId": 27,
       "startupName": "TOD",
       "presentation": "TOD, c’est avant tout la première communauté de talents, qualifiée pour ses valeurs humaines et sa capacité d’engagement. La force et l’originalité de la communauté reposent sur l’expression des aspirations réelles et sincères de ses membres. \r\nCe que nous offrons à nos clients, c’est : \r\nL’accès à un vivier de Talents unis par la force de leurs rêves professionnels et leur engagement ! La promesse d’un épanouissement et d’une réalisation dans le travail. \r\n",
       "problems": "Un outil d’analyse et d’évaluation des talents totalement nouveau qui permet d’identifier les aspirations naturelles et les lignes de forces de chacun pour optimiser le matching dans les processus de recrutement ou la performance individuelle et collective des équipes en place . \r\nUn processus TOD unique à la disposition des entreprises pour booster le capital humain, libérer les potentiels, recruter des talents externes,.....",
       "numbers": "Après à peine neuf mois d’ouverture de sa plateforme, la communauté TOD compte désormais plus de 500 membres et en accueille chaque jour de nouveaux . Plus d’une quinzaine de clients nous ont déjà fait confiance, dans tous les secteurs d’activité, de la mode à l’industrie lourde, de la startup au grand groupe, comme Energies Libres, Suez ou Lafarge. Ce qui les réunit, c’est une véritable volonté de développer leurs collaborateurs autour de valeurs humaines partagées, c’est la recherche de talents engagés, c’est la volonté de libérer le potentiel de leurs équipes actuelles et à venir. "
     },
     {
-      "rowId": 27,
+      "rowId": 28,
       "startupName": "TrainMe",
       "presentation": "TrainMe est la première plateforme communautaire permettant de réserver un coach sportif particulier, ou entre amis, à domicile ou proche de chez soi. La marque a décliné son service et touche aujourd’hui la sphère professionnelle avec TrainMe Corporate; cours collectifs en entreprise.",
       "problems": "Diminuer l’absentéisme, créer de la cohésion entre ses équipes ou tout simplement améliorer le bien-être de ses collaborateurs, le sport répond à de nombreuses problématiques pour lesquelles nous sommes présents et forts de solutions. Avec notre plateforme dédiée, chaque entreprise bénéficie d’un réel outil pour simplifier la gestion de ses événements sportifs.",
       "numbers": "En 2018, TrainMe compte plus de 300 cours par mois en entreprise, 60 clients dont NBC Universal, Total ou encore Auchan et plus de 2000 collaborateurs et plus de 18000 utilisateurs. \r\n"
     },
     {
-      "rowId": 28,
+      "rowId": 29,
       "startupName": "Windoo",
       "presentation": "Windoo est la première solution complète dédiée au bien-être en entreprise. \r\nDepuis une plateforme privée, nos clients accèdent en quelques clics à plusieurs centaines d’activités d’équipe (sport, team-building, formations…), renforcent la cohésion interne et abordent sereinement les nouveaux enjeux RH grâce à une palette de  fonctionnalités innovantes .",
       "problems": "Créé par des experts, Windoo intervient auprès de ses clients sur trois problématiques majeures : la marque employeur, la cohésion interne et la santé des collaborateurs.\r\nAvec nos partenaires, nous imaginons le monde du travail de demain : un partenariat « win-win » entre l’entreprise et ses salariés.",
       "numbers": "Windoo, c’est plus de 4000 événements créés auprès de  80 clients tels que Payfit, Dailymotion, Air Liquide ou Vinci, et un taux de satisfaction de 98% en 2017. "
     },
     {
-      "rowId": 29,
+      "rowId": 30,
+      "startupName": "Wingzy",
+      "presentation": "Wingzy c'est l'annuaire d'entreprise qui trouve nos Wings : nos talents, nos compétences, nos énergies. Une app simple et ludique qui accélère la collaboration en valorisant les humains et leurs talents dans votre entreprise.",
+      "problems": "Nos boites changent constamment, nous perdons notre temps à chercher des informations et des personnes, nous perdons nos talents invisibles derrière la complexité de l'organisation, nous perdons nos collaborateurs qui ont besoin de reconnaissance et d'autonomie.",
+      "numbers": "Crée en juin 2018, des milliers d'utilisateurs, des dizaines d'entreprises, une première levée de fond, 6 startuper·euses plein·es de Wings, et 3 minutes pour créer le Wingzy de votre boite !"
+    },
+    {
+      "rowId": 31,
       "startupName": "Yuco",
       "presentation": "Yuco propose des parcours personnalisés, dédiés au bien-être du collaborateur en fonction de ses objectifs et intérêts : développer ses compétences et son leadership, se détendre, se dépenser. L’application permet également de connecter les collaborateurs entre eux autour de leurs passions, des communautés sont ainsi spontanément créées.",
       "problems": "Nos actions contribuent à améliorer  la cohésion d’équipe, l’engagement des collaborateurs, la performance de l’organisation et ont un impact positif sur la marque employeur.\r\nL’objectif ? Améliorer la qualité de vie au travail, car nous sommes convaincus que les entreprises qui réussissent sont celles qui prennent soin de leurs salariés.",
       "numbers": "En 2018, Yuco est le premier réseau de bien-être en entreprise de France avec 500 experts, 23 clients dont STMicroelectonics, Groupama, ManoMano et plus de 18 000 utilisateurs. "
     },
     {
-      "rowId": 30,
+      "rowId": 32,
       "startupName": "ZestMeUp",
       "presentation": "Zest améliore l’engagement et le succès de vos équipes pour avoir des équipes épanouies, des collaborateurs plus heureux et des entreprises plus performantes.\r\nZest permet de mesurer l’humeur des équipes en temps réel et de construire une culture du feedback pour redynamiser la communication et le lien entre les équipes. La collaboration, l’échange fréquent et le partage de connaissances sont les vecteurs principaux de l’accomplissement personnel et collectif dont sont avides les collaborateurs. ",
       "problems": "De nombreux défis attendent les entreprises de demain, mais la bataille de l’engagement a déjà commencé. Zest accompagne les organisations dans cette transition, en redonnant à l’humain une place centrale dans les organisations. En 3 étapes, Zest aide à mieux comprendre les équipes et leurs besoins. Construire une culture d’entreprise autour de la reconnaissance, de la collaboration et du temps réel mène toute l’organisation au succès. \n1. Mieux connaître les équipes : les collaborateurs partagent leur humeur quotidiennement, répondent à des enquêtes d’engagement et peuvent évaluer leur entreprise sur leurs principaux leviers de motivation. Les managers peuvent mesurer ces données grâce à des tableaux de bord clairs, avec la possibilité de forer au cœur des problématiques grâces à des filtres aboutis. \n2. Booster la collaboration : Les talents peuvent gérer leurs objectifs et mesurer leur progression, créer des groupes de projets transverses, faire ou recevoir des feedbacks et faire des points réguliers avec leurs managers sur leur contribution et leur état d’esprit au travail. \n3. Favoriser la reconnaissance : En quelques clics les employés peuvent envoyer des « Zests », un moyen simple de féliciter ou remercier un collaborateur. Ils peuvent aussi partager leur souhait de progresser sur des sujets de développement personnel et professionnel. ",
@@ -4197,7 +4291,7 @@
     },
     {
       "rowId": 2,
-      "source": "Challenge",
+      "source": "Challenges",
       "title": "Macron et Pénicaud veulent faire de Paris la capitale mondiale du bien-être au travail",
       "tagline": "Le président et sa ministre du travail se mobilisent pour faire de Paris la capitale mondiale du HappyTech, ces start-ups expertes en bien-être au travail",
       "author": "Thuy-Diep Nguyen",
@@ -4260,6 +4354,116 @@
       "authorTwitter": "",
       "dateString": "27-12-2017",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1538508295/website/presse/Maddyness.svg"
+    },
+    {
+      "rowId": 8,
+      "source": "Les Echos",
+      "title": "Bonheur au travail : comment bien s'inspirer des startups",
+      "tagline": "",
+      "author": "Julia Lemarchand",
+      "link": "https://start.lesechos.fr/rejoindre-une-entreprise/actu-recrutement/bonheur-au-travail-comment-bien-s-inspirer-des-startups-12200.php",
+      "authorTwitter": "",
+      "dateString": "22-06-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211876/website/presse/lesechos.png"
+    },
+    {
+      "rowId": 9,
+      "source": "Le Nouvel Economiste",
+      "title": "Le bien-être par l'espace de travail, une tendance de fond",
+      "tagline": "",
+      "author": "Chloë Violette",
+      "link": "https://www.lenouveleconomiste.fr/lesdossiers/le-bien-etre-par-lespace-de-travail-une-tendance-de-fond-62674/",
+      "authorTwitter": "",
+      "dateString": "01-03-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211876/website/presse/le_nouvel_economiste.jpg"
+    },
+    {
+      "rowId": 10,
+      "source": "Le Journal de l'Eco",
+      "title": "HappyTech : collectif contre le mal-être au travail",
+      "tagline": "",
+      "author": "",
+      "link": "https://lejournaldeleco.fr/happytech-collectif-contre-le-mal-etre-au-travail/#.W-wvhdVKiUk",
+      "authorTwitter": "",
+      "dateString": "29-09-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211876/website/presse/journal_de_l_echo.png"
+    },
+    {
+      "rowId": 11,
+      "source": "HR Voice",
+      "title": "L’intelligence artificielle au service du bien-être au travail",
+      "tagline": "",
+      "author": "Samuel Metias",
+      "link": "https://www.hr-voice.com/bien-etre-qvt/lintelligence-artificielle-au-service-du-bien-etre-au-travail/2018/01/09/",
+      "authorTwitter": "",
+      "dateString": "09-01-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211877/website/presse/HR_Voice_logo_HD.jpg"
+    },
+    {
+      "rowId": 12,
+      "source": "Abilways Digital",
+      "title": "Les startups qui font le bonheur au travail",
+      "tagline": "",
+      "author": "",
+      "link": "https://www.abilways-digital.com/magazine/les-startups-qui-font-le-bonheur-au-travail",
+      "authorTwitter": "",
+      "dateString": "07-07-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211876/website/presse/abilwaysdigital.jpg"
+    },
+    {
+      "rowId": 13,
+      "source": "France Inter",
+      "title": "La technologie au service du bien-être au travail ?",
+      "tagline": "",
+      "author": "Valère Corréard",
+      "link": "https://www.franceinter.fr/emissions/social-lab/social-lab-29-octobre-2017?xtmc=happytech&xtnp=1&xtcr=1",
+      "authorTwitter": "",
+      "dateString": "29-10-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211877/website/presse/france-inter.jpg"
+    },
+    {
+      "rowId": 14,
+      "source": "LinkedIn",
+      "title": "La transformation digitale des organisations est Happy... Tech !",
+      "tagline": "",
+      "author": "Emilie LETAILLEUR",
+      "link": "https://www.linkedin.com/pulse/la-transformation-digitale-des-organisations-est-happy-letailleur/",
+      "authorTwitter": "",
+      "dateString": "10-07-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211877/website/presse/LinkedIn-420x420-arrondi.png"
+    },
+    {
+      "rowId": 15,
+      "source": "Cadre Emploi",
+      "title": "À quoi ressemblera le bien-être au travail demain ?",
+      "tagline": "",
+      "author": "Quentin Velluet",
+      "link": "https://www.cadremploi.fr/editorial/actualites/actu-emploi/detail/article/ces-start-up-qui-veulent-vous-rendre-heureux-au-travail.html",
+      "authorTwitter": "",
+      "dateString": "28-11-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211876/website/presse/cadre_emploi.png"
+    },
+    {
+      "rowId": 16,
+      "source": "Business O Feminin",
+      "title": "Journée mondiale du bonheur : le boom de la HappyTech",
+      "tagline": "",
+      "author": "Paulina Jonquères d'Oriola",
+      "link": "https://businessofeminin.com/feature/happytech/",
+      "authorTwitter": "",
+      "dateString": "20-03-2018",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211876/website/presse/business_o_feminin.png"
+    },
+    {
+      "rowId": 17,
+      "source": "Change the Work",
+      "title": "QVT, À LA DÉCOUVERTE D’HAPPYTECH",
+      "tagline": "",
+      "author": "",
+      "link": "https://changethework.com/qvt-decouverte-happytech/",
+      "authorTwitter": "",
+      "dateString": "24-07-2017",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211877/website/presse/change-the-wor.png"
     }
   ]
 }
