@@ -1,4 +1,4 @@
-![HappyTech Summit](https://res.cloudinary.com/happytech/image/upload/w_320/v1538052261/logos/HappyTechSummit.jpg)
+![HappyTech Summit](https://res.cloudinary.com/happytech/image/upload/w_600/v1542451457/Summit/Visuel-HappyTech-Summit.png)
 
 # HappyTech Summit
 
