@@ -1,10 +1,7 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
-import * as happytechsummitMarkdown from './../../Markdowns/happytechsummit.md';
 import { IMarkdownPage, IPage, IReactPage, IMetaHeaders } from './models';
 import Help from '@material-ui/icons/Help';
-
-import InsertEmoticon from '@material-ui/icons/InsertEmoticon';
 import { teamPage } from '../../Components/Team';
 import { eventsPage } from '../../Components/Events';
 import { startupsPage } from '../../Components/Startups';
@@ -16,6 +13,7 @@ import { contactPage } from '../../Components/Contact';
 import { cloudinaryTransform } from '../Cloudinary';
 import { googleMapPage } from '../../MapClusters/GoogleMapPage';
 import { tagsPage } from '../../Components/Tags';
+import { summitPage } from '../../Components/Summit';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -44,24 +42,6 @@ const presentation = {
     headers: () => getHeaders("HappyTech, L'innovation technologique au service du bien-être en entreprise.")
 };
 
-const summit = {
-    menuTitle: 'HappyTech Summit 2018',
-    icon: InsertEmoticon,
-    route: 'summit',
-    html: getHtml(happytechsummitMarkdown),
-    headers: () => {
-        const h = getHeaders("HappyTech Summit 2018, Inscrivez-vous vite à la plus grande concentration d'innovations technologiques au service du bien-être en entreprise");
-        h.description = "Le HappyTech Summit est le 1er événement en France qui réunit l’ensemble des innovations technologiques dédiées au bien-être en entreprise. Ce rendez-vous est réservé aux professionnels cherchant à trouver des solutions clés en main pour leurs initiatives de bien-être en entreprise. Plus de 40 startups seront réunies pour présenter toutes les dernières innovations et solutions en 6 villages thématiques"
-        if (h.share) {
-            h.share.og.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944008/Summit/social-network.png'
-            h.share.og.description = h.description;
-            h.share.twitter.image = 'https://res.cloudinary.com/happytech/image/upload/v1539944009/Summit/twitter.png';
-            h.share.twitter.description = h.description;
-            h.share.twitter.card = 'summary_large_image';
-        }
-        return h;
-    }
-};
 
 export const homePage = { ...presentation, route: '/' };
 export function getHeaders(title: string, description?: string): IMetaHeaders {
@@ -90,14 +70,14 @@ export function getHeaders(title: string, description?: string): IMetaHeaders {
 }
 
 export const markdownPages: IMarkdownPage[] = [
-    presentation, homePage, summit
+    presentation, homePage
 ]
 
 export const reactPages = (): IReactPage[] => ([
-    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage()
+    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summit, pressePage(), contactPage(), googleMapPage()
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage()
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()

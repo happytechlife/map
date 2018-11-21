@@ -4,7 +4,7 @@ Les startups membres possèdent toutes le label HappyTech.
 
 ## Pourquoi un label ?
 
-- Identifier les startups les plus prometteuses (cf. critères)
+- Identifier les solutions les plus prometteuses (cf. critères)
 - Aider les entreprises à identifier des solutions innovantes qui répondent à leurs problématiques.
 - Structurer le marché et garantir les solutions existantes.
 

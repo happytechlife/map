@@ -1,5 +1,3 @@
-![HappyTech Summit](https://res.cloudinary.com/happytech/image/upload/w_600/v1542451457/Summit/Visuel-HappyTech-Summit.png)
-
 # HappyTech Summit
 
 [S'inscrire et recevoir votre invitation](https://www.lyyti.fi/reg/happytech_summit_website)

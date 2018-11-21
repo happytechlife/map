@@ -1,9 +1,5 @@
 import * as React from 'react';
 import { ListItem, ListItemIcon, ListItemText, Tooltip } from "@material-ui/core";
-// import MapIcon from '@material-ui/icons/Map'
-// import Help from '@material-ui/icons/Help'
-// import LinkIcon from '@material-ui/icons/Link'
-// import GroupWork from '@material-ui/icons/GroupWork'
 import { Link } from 'react-router-dom';
 import { IPage } from '../../Utils/Pages/models';
 import { menuPages } from '../../Utils/Pages/pages';

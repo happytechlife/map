@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { List, Divider, Hidden } from '@material-ui/core'
+import { List, Divider } from '@material-ui/core'
 import { IHappyTechStore } from '../models';
 import StartupCard from './StartupCard';
 import './Startups.css';
