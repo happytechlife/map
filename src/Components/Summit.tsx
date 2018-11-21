@@ -21,7 +21,7 @@ export class Summit extends React.Component<IProps, {}> {
         return <React.Fragment>
             {page && helmet(page, store)}
             <div className="flexCenter">
-                <img style={{ width: '100%' }} src={'https://res.cloudinary.com/happytech/image/upload/w_600/v1542451457/Summit/Visuel-HappyTech-Summit.png'} />
+                <img style={{ width: '100%' }} src={'https://res.cloudinary.com/happytech/image/upload/v1542451457/Summit/Visuel-HappyTech-Summit.png'} />
             </div>
             <Markdown md={md} />
         </React.Fragment>
