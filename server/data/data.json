@@ -4,7 +4,7 @@
       "rowId": 0,
       "name": "AllSessions",
       "address": "55 boulevard Vincent Auriol, 75013 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528453797/allsessions.jpg",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543395935/website/startup/allsessions.png",
       "contacts": [
         {
           "rowId": 0,
@@ -32,7 +32,7 @@
       "rowId": 1,
       "name": "Antimauxdedos",
       "address": "10 rue Penthièvre 75008 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538407819/website/startup/antimauxdedos.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396014/website/startup/antimauxdedos.png",
       "contacts": [
         {
           "rowId": 1,
@@ -60,7 +60,7 @@
       "rowId": 2,
       "name": "Artify",
       "address": "42 rue Marius Aufan 92300 Courbevoie",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587209/ARTIFY-01_2557.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396113/website/startup/artify.png",
       "contacts": [
         {
           "rowId": 2,
@@ -88,7 +88,7 @@
       "rowId": 3,
       "name": "Aura",
       "address": "27 rue du Chemin Vert 75011 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396200/website/startup/AURA.png",
       "contacts": [
         {
           "rowId": 3,
@@ -254,12 +254,40 @@
     },
     {
       "rowId": 9,
-      "name": "Cocoworker",
-      "address": "6 Allée des Sablons, 94120 Fontenay-sous-Bois",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523613348/coco.jpg",
+      "name": "Cleanitud",
+      "address": "59 rue Jean Lecanuet 76000 Rouen",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396826/website/startup/Cleanitud.png",
       "contacts": [
         {
           "rowId": 9,
+          "startup_name": "Cleanitud",
+          "firstname": "Romain",
+          "lastname": "Leclerc",
+          "email": "romain.leclerc@cleanitud.com",
+          "telephone": "",
+          "title": "Fondateur",
+          "linkedin": "romain-leclerc-9026a038",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1543313278/website/people/Romain_Leclerc.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.862725,
+        "lng": 2.287592000000018
+      },
+      "tags": [],
+      "description": "Cleanitud’ propose des solutions permettant d’améliorer l’hygiène, la santé et la Qualité de Vie au travail ",
+      "tagline": ""
+    },
+    {
+      "rowId": 10,
+      "name": "Cocoworker",
+      "address": "6 Allée des Sablons, 94120 Fontenay-sous-Bois",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397283/website/startup/cocoworker.png",
+      "contacts": [
+        {
+          "rowId": 10,
           "startup_name": "Cocoworker",
           "firstname": "Faustine",
           "lastname": "Duriez",
@@ -281,13 +309,13 @@
       "tagline": "Kiff, l'application de reconnaissance collaborative qui permet aux salariés de récompenser l'engagement et le savoir-être de leurs collègues."
     },
     {
-      "rowId": 10,
+      "rowId": 11,
       "name": "Comeet",
       "address": "14 Rue des Lilas d'Espagne, 92400 Courbevoie",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543336555/website/startup/Logo_Comeet_with_baseline.png",
       "contacts": [
         {
-          "rowId": 10,
+          "rowId": 11,
           "startup_name": "Comeet",
           "firstname": "Samuel",
           "lastname": "Metias",
@@ -309,13 +337,13 @@
       "tagline": "L'intelligence artificielle au service de la cohésion d'équipe et de l'engagement au travail."
     },
     {
-      "rowId": 11,
+      "rowId": 12,
       "name": "Contextor",
       "address": "5 rue Guy Mocquet, 91400 Orsay",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521196200/Contextor_Logo_white__baseline.jpg",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397651/website/startup/contextor.png",
       "contacts": [
         {
-          "rowId": 11,
+          "rowId": 12,
           "startup_name": "Contextor",
           "firstname": "Philippe",
           "lastname": "Roux",
@@ -337,13 +365,13 @@
       "tagline": ""
     },
     {
-      "rowId": 12,
+      "rowId": 13,
       "name": "Cowork.io",
       "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
       "contacts": [
         {
-          "rowId": 12,
+          "rowId": 13,
           "startup_name": "Cowork.io",
           "firstname": "Pierre-André",
           "lastname": "Svetchine",
@@ -365,13 +393,13 @@
       "tagline": "CoWork.io est une solution de gestion d'espaces de travail flexible centrée sur l'Humain."
     },
     {
-      "rowId": 13,
+      "rowId": 14,
       "name": "Eveia",
       "address": "32 RUE DE LA GARENNE - 41400 VALLIERES LES GRANDES",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977883/website/startup/Eveia.png",
       "contacts": [
         {
-          "rowId": 13,
+          "rowId": 14,
           "startup_name": "Eveia",
           "firstname": "Vincent",
           "lastname": "Fourdrinier",
@@ -392,13 +420,13 @@
       "tagline": ""
     },
     {
-      "rowId": 14,
+      "rowId": 15,
       "name": "Feeleo",
       "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
       "contacts": [
         {
-          "rowId": 14,
+          "rowId": 15,
           "startup_name": "Feeleo",
           "firstname": "Basil",
           "lastname": "Yaïche",
@@ -420,13 +448,13 @@
       "tagline": ""
     },
     {
-      "rowId": 15,
+      "rowId": 16,
       "name": "Fidensio",
       "address": "5 Parvis Alan Turing, 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
       "contacts": [
         {
-          "rowId": 15,
+          "rowId": 16,
           "startup_name": "Fidensio",
           "firstname": "Johan",
           "lastname": "Melab",
@@ -448,13 +476,13 @@
       "tagline": ""
     },
     {
-      "rowId": 16,
+      "rowId": 17,
       "name": "Happy Quest",
       "address": "104 rue Oberkampf 75011 PARIS",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
       "contacts": [
         {
-          "rowId": 16,
+          "rowId": 17,
           "startup_name": "Happy Quest",
           "firstname": "Lewis",
           "lastname": "Gotteland",
@@ -476,13 +504,13 @@
       "tagline": ""
     },
     {
-      "rowId": 17,
+      "rowId": 18,
       "name": "Humancraft",
       "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
       "contacts": [
         {
-          "rowId": 17,
+          "rowId": 18,
           "startup_name": "Humancraft",
           "firstname": "Bertrand",
           "lastname": "Pierson",
@@ -504,13 +532,13 @@
       "tagline": ""
     },
     {
-      "rowId": 18,
+      "rowId": 19,
       "name": "Humeaning",
       "address": "4 place de l'Opéra 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
       "contacts": [
         {
-          "rowId": 18,
+          "rowId": 19,
           "startup_name": "Humeaning",
           "firstname": "Béatrice",
           "lastname": "Duboisset",
@@ -532,13 +560,13 @@
       "tagline": ""
     },
     {
-      "rowId": 19,
+      "rowId": 20,
       "name": "IDPosition",
       "address": "85 rue de Lourmel 75015 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1526484792/22496134_1576625562402911_1022557821186686753_o.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416606/website/startup/IDPosition.png",
       "contacts": [
         {
-          "rowId": 19,
+          "rowId": 20,
           "startup_name": "IDPosition",
           "firstname": "Francis",
           "lastname": "Schlayen",
@@ -560,13 +588,13 @@
       "tagline": ""
     },
     {
-      "rowId": 20,
+      "rowId": 21,
       "name": "Kiplin",
       "address": "3 boulevard Saint Martin, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
       "contacts": [
         {
-          "rowId": 20,
+          "rowId": 21,
           "startup_name": "Kiplin",
           "firstname": "Benoit",
           "lastname": "Fagnou",
@@ -588,13 +616,13 @@
       "tagline": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
     },
     {
-      "rowId": 21,
+      "rowId": 22,
       "name": "Klimat",
       "address": "94 rue Lafayette 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
       "contacts": [
         {
-          "rowId": 21,
+          "rowId": 22,
           "startup_name": "Klimat",
           "firstname": "Jean-Pierre",
           "lastname": "Brun",
@@ -616,13 +644,41 @@
       "tagline": ""
     },
     {
-      "rowId": 22,
+      "rowId": 23,
+      "name": "Le Bon Coach",
+      "address": "20 rue Berthe Morisot, 95220 Herblay",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543440963/website/startup/Le_Bon_Coach.png",
+      "contacts": [
+        {
+          "rowId": 23,
+          "startup_name": "Le Bon Coach",
+          "firstname": "Eliott",
+          "lastname": "Saguet",
+          "email": "eliott.saguet@le-bon-coach.fr",
+          "telephone": "",
+          "title": "CEO",
+          "linkedin": "eliottsaguet",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1543230491/website/people/Eliott_Saguet.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.862725,
+        "lng": 2.287592000000018
+      },
+      "tags": [],
+      "description": "Le Bon Coach est une place de marché qui recense différents coachs, aux compétences variées.",
+      "tagline": ""
+    },
+    {
+      "rowId": 24,
       "name": "Lyyti",
       "address": "104 boulevard de Sébastopol 75003 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
       "contacts": [
         {
-          "rowId": 22,
+          "rowId": 24,
           "startup_name": "Lyyti",
           "firstname": "Tehani",
           "lastname": "Leprieur",
@@ -644,13 +700,13 @@
       "tagline": ""
     },
     {
-      "rowId": 23,
+      "rowId": 25,
       "name": "Melomind",
       "address": "85 rue Maubeuge 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
       "contacts": [
         {
-          "rowId": 23,
+          "rowId": 25,
           "startup_name": "Melomind",
           "firstname": "Yohan",
           "lastname": "Attal",
@@ -672,13 +728,13 @@
       "tagline": ""
     },
     {
-      "rowId": 24,
+      "rowId": 26,
       "name": "monaSTAY",
       "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
       "contacts": [
         {
-          "rowId": 24,
+          "rowId": 26,
           "startup_name": "monaSTAY",
           "firstname": "Aymeric",
           "lastname": "Dognin",
@@ -700,13 +756,13 @@
       "tagline": ""
     },
     {
-      "rowId": 25,
+      "rowId": 27,
       "name": "OneConciergerie",
       "address": "4 rue du Général Lanrezac 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
       "contacts": [
         {
-          "rowId": 25,
+          "rowId": 27,
           "startup_name": "OneConciergerie",
           "firstname": "Jean-Pierre",
           "lastname": "Benedetti",
@@ -728,13 +784,13 @@
       "tagline": ""
     },
     {
-      "rowId": 26,
+      "rowId": 28,
       "name": "Pickr",
       "address": "25 t rue pierre brossolette 93110 rosny sous bois",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
       "contacts": [
         {
-          "rowId": 26,
+          "rowId": 28,
           "startup_name": "Pickr",
           "firstname": "Marc",
           "lastname": "Rota",
@@ -756,13 +812,13 @@
       "tagline": ""
     },
     {
-      "rowId": 27,
+      "rowId": 29,
       "name": "Plantez Respirez",
       "address": "340 rue Saint Jacques 75005 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
       "contacts": [
         {
-          "rowId": 27,
+          "rowId": 29,
           "startup_name": "Plantez Respirez",
           "firstname": "Lena",
           "lastname": "Soffer",
@@ -784,13 +840,13 @@
       "tagline": ""
     },
     {
-      "rowId": 28,
+      "rowId": 30,
       "name": "Roti.express",
       "address": "55 boulevard Vincent-Auriol 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
       "contacts": [
         {
-          "rowId": 28,
+          "rowId": 30,
           "startup_name": "Roti.express",
           "firstname": "Antoine",
           "lastname": "Durand",
@@ -812,13 +868,13 @@
       "tagline": ""
     },
     {
-      "rowId": 29,
+      "rowId": 31,
       "name": "Serenity",
       "address": "87 rue Réaumur, 75002, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
       "contacts": [
         {
-          "rowId": 29,
+          "rowId": 31,
           "startup_name": "Serenity",
           "firstname": "Elodie ",
           "lastname": "Livernette",
@@ -840,13 +896,13 @@
       "tagline": "Avec Serenity Relaxation, luttez efficacement contre le stress et apportez un mieux-être durable"
     },
     {
-      "rowId": 30,
+      "rowId": 32,
       "name": "Supermood",
       "address": "41 Rue des Jeuneurs, 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
       "contacts": [
         {
-          "rowId": 30,
+          "rowId": 32,
           "startup_name": "Supermood",
           "firstname": "Kevin",
           "lastname": "Bourgeois",
@@ -868,13 +924,13 @@
       "tagline": ""
     },
     {
-      "rowId": 31,
+      "rowId": 33,
       "name": "Teamstarter",
       "address": "10 rue du Faubourg Poissonière 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
       "contacts": [
         {
-          "rowId": 31,
+          "rowId": 33,
           "startup_name": "Teamstarter",
           "firstname": "Ségolène",
           "lastname": "Mouterde",
@@ -896,13 +952,13 @@
       "tagline": ""
     },
     {
-      "rowId": 32,
+      "rowId": 34,
       "name": "TOD",
       "address": "27 rue Raffet 75016 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
       "contacts": [
         {
-          "rowId": 32,
+          "rowId": 34,
           "startup_name": "TOD",
           "firstname": "Gaëlle",
           "lastname": "Monteiller",
@@ -924,13 +980,13 @@
       "tagline": "TOD allie les aspirations professionnelles des Talents aux enjeux des Entreprises !"
     },
     {
-      "rowId": 33,
+      "rowId": 35,
       "name": "TrainMe",
       "address": "6 Rue Claude Farrère, 75016 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543441725/website/startup/trainme.png",
       "contacts": [
         {
-          "rowId": 33,
+          "rowId": 35,
           "startup_name": "TrainMe",
           "firstname": "Gatien",
           "lastname": "Letartre",
@@ -952,13 +1008,13 @@
       "tagline": ""
     },
     {
-      "rowId": 34,
+      "rowId": 36,
       "name": "Wellnesstraining",
       "address": "17 boulevard Saint Martin 75003, Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
       "contacts": [
         {
-          "rowId": 34,
+          "rowId": 36,
           "startup_name": "Wellnesstraining",
           "firstname": "Michel ",
           "lastname": "Rota",
@@ -980,13 +1036,13 @@
       "tagline": ""
     },
     {
-      "rowId": 35,
+      "rowId": 37,
       "name": "Windoo",
       "address": "6 Rue Claude Farrère, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
       "contacts": [
         {
-          "rowId": 35,
+          "rowId": 37,
           "startup_name": "Windoo",
           "firstname": "Arnaud",
           "lastname": "Varnier",
@@ -1008,13 +1064,13 @@
       "tagline": ""
     },
     {
-      "rowId": 36,
+      "rowId": 38,
       "name": "Wingzy",
       "address": "8 rue du Faubourg Poissonnière 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
       "contacts": [
         {
-          "rowId": 36,
+          "rowId": 38,
           "startup_name": "Wingzy",
           "firstname": "Clément ",
           "lastname": "Dietschy",
@@ -1036,13 +1092,13 @@
       "tagline": ""
     },
     {
-      "rowId": 37,
+      "rowId": 39,
       "name": "Yuco",
       "address": "21 place des Nations Unies, 92110 Clichy",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
       "contacts": [
         {
-          "rowId": 37,
+          "rowId": 39,
           "startup_name": "Yuco",
           "firstname": "Charlélie",
           "lastname": "Vallet",
@@ -1064,13 +1120,13 @@
       "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
     },
     {
-      "rowId": 38,
+      "rowId": 40,
       "name": "ZestMeUp",
       "address": "71 rue de Saussure 75017 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
       "contacts": [
         {
-          "rowId": 38,
+          "rowId": 40,
           "startup_name": "ZestMeUp",
           "firstname": "Christophe",
           "lastname": "Bergeon",
@@ -1090,6 +1146,20 @@
       "tags": [],
       "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
       "tagline": ""
+    },
+    {
+      "rowId": 41,
+      "name": "Adilson",
+      "address": "Tour Montparnasse, 33, Avenue du Maine, 75015 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543421492/website/startup/Adilson.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8421379,
+        "lng": 2.3197627
+      },
+      "tags": [],
+      "description": "Pourquoi Faire la Sieste au Travail ?\n\nTout simplement pour se recharger et repartir plus performant ! La fatigue est loin d’être le meilleur ami de la productivité. Vous l’avez sûrement déjà ressenti, surtout après le repas du midi.\n\nEn outre, il est très compliqué de réaliser des tâches demandant une grosse concentration sur des périodes de plusieurs heures. Faire des pauses est un plus, faire de courtes siestes est un gros plus !\n",
+      "tagline": "Se ressourcer au travail !"
     }
   ],
   "contacts": [
@@ -1109,7 +1179,7 @@
         "rowId": 0,
         "name": "AllSessions",
         "address": "55 boulevard Vincent Auriol, 75013 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528453797/allsessions.jpg",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543395935/website/startup/allsessions.png",
         "contacts": [
           {
             "rowId": 0,
@@ -1150,7 +1220,7 @@
         "rowId": 1,
         "name": "Antimauxdedos",
         "address": "10 rue Penthièvre 75008 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538407819/website/startup/antimauxdedos.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396014/website/startup/antimauxdedos.png",
         "contacts": [
           {
             "rowId": 1,
@@ -1191,7 +1261,7 @@
         "rowId": 2,
         "name": "Artify",
         "address": "42 rue Marius Aufan 92300 Courbevoie",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587209/ARTIFY-01_2557.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396113/website/startup/artify.png",
         "contacts": [
           {
             "rowId": 2,
@@ -1232,7 +1302,7 @@
         "rowId": 3,
         "name": "Aura",
         "address": "27 rue du Chemin Vert 75011 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396200/website/startup/AURA.png",
         "contacts": [
           {
             "rowId": 3,
@@ -1464,6 +1534,47 @@
     },
     {
       "rowId": 9,
+      "startup_name": "Cleanitud",
+      "firstname": "Romain",
+      "lastname": "Leclerc",
+      "email": "romain.leclerc@cleanitud.com",
+      "telephone": "",
+      "title": "Fondateur",
+      "linkedin": "romain-leclerc-9026a038",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1543313278/website/people/Romain_Leclerc.jpg",
+      "startup": {
+        "rowId": 9,
+        "name": "Cleanitud",
+        "address": "59 rue Jean Lecanuet 76000 Rouen",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396826/website/startup/Cleanitud.png",
+        "contacts": [
+          {
+            "rowId": 9,
+            "startup_name": "Cleanitud",
+            "firstname": "Romain",
+            "lastname": "Leclerc",
+            "email": "romain.leclerc@cleanitud.com",
+            "telephone": "",
+            "title": "Fondateur",
+            "linkedin": "romain-leclerc-9026a038",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1543313278/website/people/Romain_Leclerc.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.862725,
+          "lng": 2.287592000000018
+        },
+        "tags": [],
+        "description": "Cleanitud’ propose des solutions permettant d’améliorer l’hygiène, la santé et la Qualité de Vie au travail ",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 10,
       "startup_name": "Cocoworker",
       "firstname": "Faustine",
       "lastname": "Duriez",
@@ -1475,13 +1586,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Faustine_Duriez.jpg",
       "startup": {
-        "rowId": 9,
+        "rowId": 10,
         "name": "Cocoworker",
         "address": "6 Allée des Sablons, 94120 Fontenay-sous-Bois",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523613348/coco.jpg",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397283/website/startup/cocoworker.png",
         "contacts": [
           {
-            "rowId": 9,
+            "rowId": 10,
             "startup_name": "Cocoworker",
             "firstname": "Faustine",
             "lastname": "Duriez",
@@ -1504,7 +1615,7 @@
       }
     },
     {
-      "rowId": 10,
+      "rowId": 11,
       "startup_name": "Comeet",
       "firstname": "Samuel",
       "lastname": "Metias",
@@ -1516,13 +1627,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1537740650/website/people/samuel_metias.jpg",
       "startup": {
-        "rowId": 10,
+        "rowId": 11,
         "name": "Comeet",
         "address": "14 Rue des Lilas d'Espagne, 92400 Courbevoie",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543336555/website/startup/Logo_Comeet_with_baseline.png",
         "contacts": [
           {
-            "rowId": 10,
+            "rowId": 11,
             "startup_name": "Comeet",
             "firstname": "Samuel",
             "lastname": "Metias",
@@ -1545,7 +1656,7 @@
       }
     },
     {
-      "rowId": 11,
+      "rowId": 12,
       "startup_name": "Contextor",
       "firstname": "Philippe",
       "lastname": "Roux",
@@ -1557,13 +1668,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg",
       "startup": {
-        "rowId": 11,
+        "rowId": 12,
         "name": "Contextor",
         "address": "5 rue Guy Mocquet, 91400 Orsay",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1521196200/Contextor_Logo_white__baseline.jpg",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397651/website/startup/contextor.png",
         "contacts": [
           {
-            "rowId": 11,
+            "rowId": 12,
             "startup_name": "Contextor",
             "firstname": "Philippe",
             "lastname": "Roux",
@@ -1586,7 +1697,7 @@
       }
     },
     {
-      "rowId": 12,
+      "rowId": 13,
       "startup_name": "Cowork.io",
       "firstname": "Pierre-André",
       "lastname": "Svetchine",
@@ -1598,13 +1709,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Pierre-Andr%C3%A9_Svetchine.jpg",
       "startup": {
-        "rowId": 12,
+        "rowId": 13,
         "name": "Cowork.io",
         "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
         "contacts": [
           {
-            "rowId": 12,
+            "rowId": 13,
             "startup_name": "Cowork.io",
             "firstname": "Pierre-André",
             "lastname": "Svetchine",
@@ -1627,7 +1738,7 @@
       }
     },
     {
-      "rowId": 13,
+      "rowId": 14,
       "startup_name": "Eveia",
       "firstname": "Vincent",
       "lastname": "Fourdrinier",
@@ -1639,13 +1750,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407034/website/people/Vincent_Fourdrinier.jpg",
       "startup": {
-        "rowId": 13,
+        "rowId": 14,
         "name": "Eveia",
         "address": "32 RUE DE LA GARENNE - 41400 VALLIERES LES GRANDES",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977883/website/startup/Eveia.png",
         "contacts": [
           {
-            "rowId": 13,
+            "rowId": 14,
             "startup_name": "Eveia",
             "firstname": "Vincent",
             "lastname": "Fourdrinier",
@@ -1667,7 +1778,7 @@
       }
     },
     {
-      "rowId": 14,
+      "rowId": 15,
       "startup_name": "Feeleo",
       "firstname": "Basil",
       "lastname": "Yaïche",
@@ -1679,13 +1790,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg",
       "startup": {
-        "rowId": 14,
+        "rowId": 15,
         "name": "Feeleo",
         "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
         "contacts": [
           {
-            "rowId": 14,
+            "rowId": 15,
             "startup_name": "Feeleo",
             "firstname": "Basil",
             "lastname": "Yaïche",
@@ -1708,7 +1819,7 @@
       }
     },
     {
-      "rowId": 15,
+      "rowId": 16,
       "startup_name": "Fidensio",
       "firstname": "Johan",
       "lastname": "Melab",
@@ -1720,13 +1831,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg",
       "startup": {
-        "rowId": 15,
+        "rowId": 16,
         "name": "Fidensio",
         "address": "5 Parvis Alan Turing, 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
         "contacts": [
           {
-            "rowId": 15,
+            "rowId": 16,
             "startup_name": "Fidensio",
             "firstname": "Johan",
             "lastname": "Melab",
@@ -1749,7 +1860,7 @@
       }
     },
     {
-      "rowId": 16,
+      "rowId": 17,
       "startup_name": "Happy Quest",
       "firstname": "Lewis",
       "lastname": "Gotteland",
@@ -1761,13 +1872,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lewis.jpg",
       "startup": {
-        "rowId": 16,
+        "rowId": 17,
         "name": "Happy Quest",
         "address": "104 rue Oberkampf 75011 PARIS",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
         "contacts": [
           {
-            "rowId": 16,
+            "rowId": 17,
             "startup_name": "Happy Quest",
             "firstname": "Lewis",
             "lastname": "Gotteland",
@@ -1790,7 +1901,7 @@
       }
     },
     {
-      "rowId": 17,
+      "rowId": 18,
       "startup_name": "Humancraft",
       "firstname": "Bertrand",
       "lastname": "Pierson",
@@ -1802,13 +1913,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg",
       "startup": {
-        "rowId": 17,
+        "rowId": 18,
         "name": "Humancraft",
         "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
         "contacts": [
           {
-            "rowId": 17,
+            "rowId": 18,
             "startup_name": "Humancraft",
             "firstname": "Bertrand",
             "lastname": "Pierson",
@@ -1831,7 +1942,7 @@
       }
     },
     {
-      "rowId": 18,
+      "rowId": 19,
       "startup_name": "Humeaning",
       "firstname": "Béatrice",
       "lastname": "Duboisset",
@@ -1843,13 +1954,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg",
       "startup": {
-        "rowId": 18,
+        "rowId": 19,
         "name": "Humeaning",
         "address": "4 place de l'Opéra 75002 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
         "contacts": [
           {
-            "rowId": 18,
+            "rowId": 19,
             "startup_name": "Humeaning",
             "firstname": "Béatrice",
             "lastname": "Duboisset",
@@ -1872,7 +1983,7 @@
       }
     },
     {
-      "rowId": 19,
+      "rowId": 20,
       "startup_name": "IDPosition",
       "firstname": "Francis",
       "lastname": "Schlayen",
@@ -1884,13 +1995,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407940/website/people/Francis_Schlayen.jpg",
       "startup": {
-        "rowId": 19,
+        "rowId": 20,
         "name": "IDPosition",
         "address": "85 rue de Lourmel 75015 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1526484792/22496134_1576625562402911_1022557821186686753_o.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416606/website/startup/IDPosition.png",
         "contacts": [
           {
-            "rowId": 19,
+            "rowId": 20,
             "startup_name": "IDPosition",
             "firstname": "Francis",
             "lastname": "Schlayen",
@@ -1913,7 +2024,7 @@
       }
     },
     {
-      "rowId": 20,
+      "rowId": 21,
       "startup_name": "Kiplin",
       "firstname": "Benoit",
       "lastname": "Fagnou",
@@ -1925,13 +2036,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg",
       "startup": {
-        "rowId": 20,
+        "rowId": 21,
         "name": "Kiplin",
         "address": "3 boulevard Saint Martin, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
         "contacts": [
           {
-            "rowId": 20,
+            "rowId": 21,
             "startup_name": "Kiplin",
             "firstname": "Benoit",
             "lastname": "Fagnou",
@@ -1954,7 +2065,7 @@
       }
     },
     {
-      "rowId": 21,
+      "rowId": 22,
       "startup_name": "Klimat",
       "firstname": "Jean-Pierre",
       "lastname": "Brun",
@@ -1966,13 +2077,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408242/website/people/Jean-Pierre_Brun.jpg",
       "startup": {
-        "rowId": 21,
+        "rowId": 22,
         "name": "Klimat",
         "address": "94 rue Lafayette 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
         "contacts": [
           {
-            "rowId": 21,
+            "rowId": 22,
             "startup_name": "Klimat",
             "firstname": "Jean-Pierre",
             "lastname": "Brun",
@@ -1995,7 +2106,48 @@
       }
     },
     {
-      "rowId": 22,
+      "rowId": 23,
+      "startup_name": "Le Bon Coach",
+      "firstname": "Eliott",
+      "lastname": "Saguet",
+      "email": "eliott.saguet@le-bon-coach.fr",
+      "telephone": "",
+      "title": "CEO",
+      "linkedin": "eliottsaguet",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1543230491/website/people/Eliott_Saguet.jpg",
+      "startup": {
+        "rowId": 23,
+        "name": "Le Bon Coach",
+        "address": "20 rue Berthe Morisot, 95220 Herblay",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543440963/website/startup/Le_Bon_Coach.png",
+        "contacts": [
+          {
+            "rowId": 23,
+            "startup_name": "Le Bon Coach",
+            "firstname": "Eliott",
+            "lastname": "Saguet",
+            "email": "eliott.saguet@le-bon-coach.fr",
+            "telephone": "",
+            "title": "CEO",
+            "linkedin": "eliottsaguet",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1543230491/website/people/Eliott_Saguet.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.862725,
+          "lng": 2.287592000000018
+        },
+        "tags": [],
+        "description": "Le Bon Coach est une place de marché qui recense différents coachs, aux compétences variées.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 24,
       "startup_name": "Lyyti",
       "firstname": "Tehani",
       "lastname": "Leprieur",
@@ -2007,13 +2159,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Tehani_Leprieur.jpg",
       "startup": {
-        "rowId": 22,
+        "rowId": 24,
         "name": "Lyyti",
         "address": "104 boulevard de Sébastopol 75003 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
         "contacts": [
           {
-            "rowId": 22,
+            "rowId": 24,
             "startup_name": "Lyyti",
             "firstname": "Tehani",
             "lastname": "Leprieur",
@@ -2036,7 +2188,7 @@
       }
     },
     {
-      "rowId": 23,
+      "rowId": 25,
       "startup_name": "Melomind",
       "firstname": "Yohan",
       "lastname": "Attal",
@@ -2048,13 +2200,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407783/website/people/Yohan-Attal---CEO--Co-Founder-ConvertImage.jpg",
       "startup": {
-        "rowId": 23,
+        "rowId": 25,
         "name": "Melomind",
         "address": "85 rue Maubeuge 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
         "contacts": [
           {
-            "rowId": 23,
+            "rowId": 25,
             "startup_name": "Melomind",
             "firstname": "Yohan",
             "lastname": "Attal",
@@ -2077,7 +2229,7 @@
       }
     },
     {
-      "rowId": 24,
+      "rowId": 26,
       "startup_name": "monaSTAY",
       "firstname": "Aymeric",
       "lastname": "Dognin",
@@ -2089,13 +2241,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406446/website/people/Aymeric_Dognin.jpg",
       "startup": {
-        "rowId": 24,
+        "rowId": 26,
         "name": "monaSTAY",
         "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
         "contacts": [
           {
-            "rowId": 24,
+            "rowId": 26,
             "startup_name": "monaSTAY",
             "firstname": "Aymeric",
             "lastname": "Dognin",
@@ -2118,7 +2270,7 @@
       }
     },
     {
-      "rowId": 25,
+      "rowId": 27,
       "startup_name": "OneConciergerie",
       "firstname": "Jean-Pierre",
       "lastname": "Benedetti",
@@ -2130,13 +2282,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Jean_Benedetti.jpg",
       "startup": {
-        "rowId": 25,
+        "rowId": 27,
         "name": "OneConciergerie",
         "address": "4 rue du Général Lanrezac 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
         "contacts": [
           {
-            "rowId": 25,
+            "rowId": 27,
             "startup_name": "OneConciergerie",
             "firstname": "Jean-Pierre",
             "lastname": "Benedetti",
@@ -2159,7 +2311,7 @@
       }
     },
     {
-      "rowId": 26,
+      "rowId": 28,
       "startup_name": "Pickr",
       "firstname": "Marc",
       "lastname": "Rota",
@@ -2171,13 +2323,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1542364774/website/people/Marc_Rota.jpg",
       "startup": {
-        "rowId": 26,
+        "rowId": 28,
         "name": "Pickr",
         "address": "25 t rue pierre brossolette 93110 rosny sous bois",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
         "contacts": [
           {
-            "rowId": 26,
+            "rowId": 28,
             "startup_name": "Pickr",
             "firstname": "Marc",
             "lastname": "Rota",
@@ -2200,7 +2352,7 @@
       }
     },
     {
-      "rowId": 27,
+      "rowId": 29,
       "startup_name": "Plantez Respirez",
       "firstname": "Lena",
       "lastname": "Soffer",
@@ -2212,13 +2364,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg",
       "startup": {
-        "rowId": 27,
+        "rowId": 29,
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
         "contacts": [
           {
-            "rowId": 27,
+            "rowId": 29,
             "startup_name": "Plantez Respirez",
             "firstname": "Lena",
             "lastname": "Soffer",
@@ -2241,7 +2393,7 @@
       }
     },
     {
-      "rowId": 28,
+      "rowId": 30,
       "startup_name": "Roti.express",
       "firstname": "Antoine",
       "lastname": "Durand",
@@ -2253,13 +2405,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405804/website/people/Antoine_Durand.jpg",
       "startup": {
-        "rowId": 28,
+        "rowId": 30,
         "name": "Roti.express",
         "address": "55 boulevard Vincent-Auriol 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
         "contacts": [
           {
-            "rowId": 28,
+            "rowId": 30,
             "startup_name": "Roti.express",
             "firstname": "Antoine",
             "lastname": "Durand",
@@ -2282,7 +2434,7 @@
       }
     },
     {
-      "rowId": 29,
+      "rowId": 31,
       "startup_name": "Serenity",
       "firstname": "Elodie ",
       "lastname": "Livernette",
@@ -2294,13 +2446,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1540896861/website/people/Elodie_Livernette.jpg",
       "startup": {
-        "rowId": 29,
+        "rowId": 31,
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
         "contacts": [
           {
-            "rowId": 29,
+            "rowId": 31,
             "startup_name": "Serenity",
             "firstname": "Elodie ",
             "lastname": "Livernette",
@@ -2323,7 +2475,7 @@
       }
     },
     {
-      "rowId": 30,
+      "rowId": 32,
       "startup_name": "Supermood",
       "firstname": "Kevin",
       "lastname": "Bourgeois",
@@ -2335,13 +2487,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Kevin_Bourgeois.jpg",
       "startup": {
-        "rowId": 30,
+        "rowId": 32,
         "name": "Supermood",
         "address": "41 Rue des Jeuneurs, 75002 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
         "contacts": [
           {
-            "rowId": 30,
+            "rowId": 32,
             "startup_name": "Supermood",
             "firstname": "Kevin",
             "lastname": "Bourgeois",
@@ -2364,7 +2516,7 @@
       }
     },
     {
-      "rowId": 31,
+      "rowId": 33,
       "startup_name": "Teamstarter",
       "firstname": "Ségolène",
       "lastname": "Mouterde",
@@ -2376,13 +2528,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png",
       "startup": {
-        "rowId": 31,
+        "rowId": 33,
         "name": "Teamstarter",
         "address": "10 rue du Faubourg Poissonière 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
         "contacts": [
           {
-            "rowId": 31,
+            "rowId": 33,
             "startup_name": "Teamstarter",
             "firstname": "Ségolène",
             "lastname": "Mouterde",
@@ -2405,7 +2557,7 @@
       }
     },
     {
-      "rowId": 32,
+      "rowId": 34,
       "startup_name": "TOD",
       "firstname": "Gaëlle",
       "lastname": "Monteiller",
@@ -2417,13 +2569,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Ga%C3%ABlle_Monteiller.jpg",
       "startup": {
-        "rowId": 32,
+        "rowId": 34,
         "name": "TOD",
         "address": "27 rue Raffet 75016 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
         "contacts": [
           {
-            "rowId": 32,
+            "rowId": 34,
             "startup_name": "TOD",
             "firstname": "Gaëlle",
             "lastname": "Monteiller",
@@ -2446,7 +2598,7 @@
       }
     },
     {
-      "rowId": 33,
+      "rowId": 35,
       "startup_name": "TrainMe",
       "firstname": "Gatien",
       "lastname": "Letartre",
@@ -2458,13 +2610,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Gatien_Letartre.jpg",
       "startup": {
-        "rowId": 33,
+        "rowId": 35,
         "name": "TrainMe",
         "address": "6 Rue Claude Farrère, 75016 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378280/trainme.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543441725/website/startup/trainme.png",
         "contacts": [
           {
-            "rowId": 33,
+            "rowId": 35,
             "startup_name": "TrainMe",
             "firstname": "Gatien",
             "lastname": "Letartre",
@@ -2487,7 +2639,7 @@
       }
     },
     {
-      "rowId": 34,
+      "rowId": 36,
       "startup_name": "Wellnesstraining",
       "firstname": "Michel ",
       "lastname": "Rota",
@@ -2499,13 +2651,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg",
       "startup": {
-        "rowId": 34,
+        "rowId": 36,
         "name": "Wellnesstraining",
         "address": "17 boulevard Saint Martin 75003, Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520587655/logo.jpg",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
         "contacts": [
           {
-            "rowId": 34,
+            "rowId": 36,
             "startup_name": "Wellnesstraining",
             "firstname": "Michel ",
             "lastname": "Rota",
@@ -2528,7 +2680,7 @@
       }
     },
     {
-      "rowId": 35,
+      "rowId": 37,
       "startup_name": "Windoo",
       "firstname": "Arnaud",
       "lastname": "Varnier",
@@ -2540,13 +2692,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg",
       "startup": {
-        "rowId": 35,
+        "rowId": 37,
         "name": "Windoo",
         "address": "6 Rue Claude Farrère, 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
         "contacts": [
           {
-            "rowId": 35,
+            "rowId": 37,
             "startup_name": "Windoo",
             "firstname": "Arnaud",
             "lastname": "Varnier",
@@ -2569,7 +2721,7 @@
       }
     },
     {
-      "rowId": 36,
+      "rowId": 38,
       "startup_name": "Wingzy",
       "firstname": "Clément ",
       "lastname": "Dietschy",
@@ -2581,13 +2733,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg",
       "startup": {
-        "rowId": 36,
+        "rowId": 38,
         "name": "Wingzy",
         "address": "8 rue du Faubourg Poissonnière 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
         "contacts": [
           {
-            "rowId": 36,
+            "rowId": 38,
             "startup_name": "Wingzy",
             "firstname": "Clément ",
             "lastname": "Dietschy",
@@ -2610,7 +2762,7 @@
       }
     },
     {
-      "rowId": 37,
+      "rowId": 39,
       "startup_name": "Yuco",
       "firstname": "Charlélie",
       "lastname": "Vallet",
@@ -2622,13 +2774,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg",
       "startup": {
-        "rowId": 37,
+        "rowId": 39,
         "name": "Yuco",
         "address": "21 place des Nations Unies, 92110 Clichy",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
         "contacts": [
           {
-            "rowId": 37,
+            "rowId": 39,
             "startup_name": "Yuco",
             "firstname": "Charlélie",
             "lastname": "Vallet",
@@ -2651,7 +2803,7 @@
       }
     },
     {
-      "rowId": 38,
+      "rowId": 40,
       "startup_name": "ZestMeUp",
       "firstname": "Christophe",
       "lastname": "Bergeon",
@@ -2663,13 +2815,13 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg",
       "startup": {
-        "rowId": 38,
+        "rowId": 40,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
         "contacts": [
           {
-            "rowId": 38,
+            "rowId": 40,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -2704,13 +2856,13 @@
         "Réseaux Sociaux"
       ],
       "startup": {
-        "rowId": 10,
+        "rowId": 11,
         "name": "Comeet",
         "address": "14 Rue des Lilas d'Espagne, 92400 Courbevoie",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535402312/logo_comeet_4x.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543336555/website/startup/Logo_Comeet_with_baseline.png",
         "contacts": [
           {
-            "rowId": 10,
+            "rowId": 11,
             "startup_name": "Comeet",
             "firstname": "Samuel",
             "lastname": "Metias",
@@ -2742,13 +2894,13 @@
         "Expériences Sensorielles"
       ],
       "startup": {
-        "rowId": 29,
+        "rowId": 31,
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
         "contacts": [
           {
-            "rowId": 29,
+            "rowId": 31,
             "startup_name": "Serenity",
             "firstname": "Elodie ",
             "lastname": "Livernette",
@@ -2779,13 +2931,13 @@
         "Nature"
       ],
       "startup": {
-        "rowId": 27,
+        "rowId": 29,
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1527595304/plantezresipirez.jpg",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
         "contacts": [
           {
-            "rowId": 27,
+            "rowId": 29,
             "startup_name": "Plantez Respirez",
             "firstname": "Lena",
             "lastname": "Soffer",
@@ -2815,13 +2967,13 @@
         "Deconnexion"
       ],
       "startup": {
-        "rowId": 24,
+        "rowId": 26,
         "name": "monaSTAY",
         "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
         "contacts": [
           {
-            "rowId": 24,
+            "rowId": 26,
             "startup_name": "monaSTAY",
             "firstname": "Aymeric",
             "lastname": "Dognin",
@@ -2892,7 +3044,7 @@
         "rowId": 3,
         "name": "Aura",
         "address": "27 rue du Chemin Vert 75011 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1532101409/aura.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543396200/website/startup/AURA.png",
         "contacts": [
           {
             "rowId": 3,
@@ -2925,13 +3077,13 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 38,
+        "rowId": 40,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378496/Zest-logo_2_10x.png",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
         "contacts": [
           {
-            "rowId": 38,
+            "rowId": 40,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -2963,13 +3115,13 @@
         "Casques Neuro-Sciences"
       ],
       "startup": {
-        "rowId": 23,
+        "rowId": 25,
         "name": "Melomind",
         "address": "85 rue Maubeuge 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
         "contacts": [
           {
-            "rowId": 23,
+            "rowId": 25,
             "startup_name": "Melomind",
             "firstname": "Yohan",
             "lastname": "Attal",
@@ -2999,13 +3151,13 @@
         "Application Mobile"
       ],
       "startup": {
-        "rowId": 37,
+        "rowId": 39,
         "name": "Yuco",
         "address": "21 place des Nations Unies, 92110 Clichy",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
         "contacts": [
           {
-            "rowId": 37,
+            "rowId": 39,
             "startup_name": "Yuco",
             "firstname": "Charlélie",
             "lastname": "Vallet",
@@ -3081,13 +3233,13 @@
         "Objets Connectés (IOT)"
       ],
       "startup": {
-        "rowId": 12,
+        "rowId": 13,
         "name": "Cowork.io",
         "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
         "contacts": [
           {
-            "rowId": 12,
+            "rowId": 13,
             "startup_name": "Cowork.io",
             "firstname": "Pierre-André",
             "lastname": "Svetchine",
@@ -3119,13 +3271,13 @@
         "Objets Connectés (IOT)"
       ],
       "startup": {
-        "rowId": 20,
+        "rowId": 21,
         "name": "Kiplin",
         "address": "3 boulevard Saint Martin, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
         "contacts": [
           {
-            "rowId": 20,
+            "rowId": 21,
             "startup_name": "Kiplin",
             "firstname": "Benoit",
             "lastname": "Fagnou",
@@ -3156,13 +3308,13 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 32,
+        "rowId": 34,
         "name": "TOD",
         "address": "27 rue Raffet 75016 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519897799/Tod.tiff",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
         "contacts": [
           {
-            "rowId": 32,
+            "rowId": 34,
             "startup_name": "TOD",
             "firstname": "Gaëlle",
             "lastname": "Monteiller",
@@ -3582,6 +3734,13 @@
     },
     {
       "rowId": 9,
+      "startupName": "Cleanitud",
+      "webSite": "https://www.cleanitud.com/",
+      "linkedIn": "cleanitud%27",
+      "twitter": "cleanitud"
+    },
+    {
+      "rowId": 10,
       "startupName": "Cocoworker",
       "webSite": "http://www.cocoworker.com/",
       "linkedIn": "cocoworker/",
@@ -3591,7 +3750,7 @@
       "youTube": "UCE475vOTEjC3zHsKSnfoIdg"
     },
     {
-      "rowId": 10,
+      "rowId": 11,
       "startupName": "Comeet",
       "webSite": "https://www.comeet.in/",
       "linkedIn": "comeet.in",
@@ -3601,7 +3760,7 @@
       "youTube": "UCUWl7HAzeDl54HVEYGFqNnw"
     },
     {
-      "rowId": 11,
+      "rowId": 12,
       "startupName": "Contextor",
       "webSite": "https://contextor.eu/fr/",
       "linkedIn": "Contextor",
@@ -3611,7 +3770,7 @@
       "youTube": "UCkJEtt4vQqJ_HJ7DxiR19qw"
     },
     {
-      "rowId": 12,
+      "rowId": 13,
       "startupName": "Cowork.io",
       "webSite": "https://cowork.io/fr/",
       "linkedIn": "cowork.io",
@@ -3621,7 +3780,7 @@
       "youTube": "UCobOvrKF0Qc15euGXp8LmaA"
     },
     {
-      "rowId": 13,
+      "rowId": 14,
       "startupName": "Eveia",
       "webSite": "https://eveia.io/",
       "linkedIn": "",
@@ -3631,7 +3790,7 @@
       "youTube": "UCiRuEgYnXKpIFUXv96Sqicg"
     },
     {
-      "rowId": 14,
+      "rowId": 15,
       "startupName": "Feeleo",
       "webSite": "https://www.feeleo.co/",
       "linkedIn": "",
@@ -3639,7 +3798,7 @@
       "facebook": "Feeleo-297335087446857"
     },
     {
-      "rowId": 15,
+      "rowId": 16,
       "startupName": "Fidensio",
       "webSite": "https://www.fidensio.com/",
       "linkedIn": "pressingbox",
@@ -3649,7 +3808,7 @@
       "youTube": "UC6M68L_d7IyhdVbhyic_Acg"
     },
     {
-      "rowId": 16,
+      "rowId": 17,
       "startupName": "Happy Quest",
       "webSite": "https://www.happyquest.co/",
       "linkedIn": "happyquest",
@@ -3657,7 +3816,7 @@
       "facebook": "Happy-Quest-207862793132586"
     },
     {
-      "rowId": 17,
+      "rowId": 18,
       "startupName": "Humancraft",
       "webSite": "https://humancraft.eu/",
       "linkedIn": "humancraft",
@@ -3665,18 +3824,18 @@
       "facebook": "HumanCraftEU"
     },
     {
-      "rowId": 18,
+      "rowId": 19,
       "startupName": "Humeaning",
       "webSite": "http://humeaning.fr"
     },
     {
-      "rowId": 19,
+      "rowId": 20,
       "startupName": "IDPosition",
       "webSite": "http://www.idposition.fr/",
       "linkedIn": "idposition"
     },
     {
-      "rowId": 20,
+      "rowId": 21,
       "startupName": "Kiplin",
       "webSite": "https://www.kiplin.com/",
       "linkedIn": "kiplin",
@@ -3686,12 +3845,21 @@
       "youTube": "UCrJUC3Qi__cJqrnDu_42drQ"
     },
     {
-      "rowId": 21,
+      "rowId": 22,
       "startupName": "Klimat",
       "webSite": "https://klimat.io/"
     },
     {
-      "rowId": 22,
+      "rowId": 23,
+      "startupName": "Le Bon Coach",
+      "webSite": "https://www.le-bon-coach.fr/fr/",
+      "linkedIn": "le-bon-coach",
+      "twitter": "",
+      "facebook": "leboncoachfr",
+      "instagram": "leboncoachfrance"
+    },
+    {
+      "rowId": 24,
       "startupName": "Lyyti",
       "webSite": "https://www.lyyti.com/fr",
       "linkedIn": "lyyti-france",
@@ -3701,7 +3869,7 @@
       "youTube": "UC4NJPgYBhlIOkWDuwr1GJoA"
     },
     {
-      "rowId": 23,
+      "rowId": 25,
       "startupName": "Melomind",
       "webSite": "https://www.melomind.com/",
       "linkedIn": "",
@@ -3709,7 +3877,7 @@
       "facebook": "mybraintech"
     },
     {
-      "rowId": 24,
+      "rowId": 26,
       "startupName": "monaSTAY",
       "webSite": "https://www.monastay.fr/",
       "linkedIn": "",
@@ -3717,7 +3885,7 @@
       "facebook": "monaSTAY.fr"
     },
     {
-      "rowId": 25,
+      "rowId": 27,
       "startupName": "OneConciergerie",
       "webSite": "http://www.oneconciergerie.com/",
       "linkedIn": "jobbers-sas",
@@ -3727,7 +3895,7 @@
       "youTube": "UCaTCEOjYcod_Bhu6YgQKLRA"
     },
     {
-      "rowId": 26,
+      "rowId": 28,
       "startupName": "Pickr",
       "webSite": "https://pickr.fr/",
       "linkedIn": "pickr-bio",
@@ -3736,7 +3904,7 @@
       "instagram": "pickrbio/?hl=en"
     },
     {
-      "rowId": 27,
+      "rowId": 29,
       "startupName": "Plantez Respirez",
       "webSite": "https://plantezrespirez.com/",
       "linkedIn": "plantez-respirez-plant-breath",
@@ -3745,7 +3913,7 @@
       "instagram": "plantezrespirez"
     },
     {
-      "rowId": 28,
+      "rowId": 30,
       "startupName": "Roti.express",
       "webSite": "https://roti.express/",
       "linkedIn": "roti-express-pro",
@@ -3755,7 +3923,7 @@
       "youTube": "UCfIxDIFvoDaixE7SEBm3DlA"
     },
     {
-      "rowId": 29,
+      "rowId": 31,
       "startupName": "Serenity",
       "webSite": "http://www.iris-immersive.com/",
       "linkedIn": "",
@@ -3763,7 +3931,7 @@
       "facebook": "iris.immersive"
     },
     {
-      "rowId": 30,
+      "rowId": 32,
       "startupName": "Supermood",
       "webSite": "https://supermood.fr/",
       "linkedIn": "supermood",
@@ -3771,7 +3939,7 @@
       "facebook": "SupermoodTeam"
     },
     {
-      "rowId": 31,
+      "rowId": 33,
       "startupName": "Teamstarter",
       "webSite": "https://teamstarter.co/",
       "linkedIn": "",
@@ -3779,13 +3947,13 @@
       "facebook": "teamstarterapp"
     },
     {
-      "rowId": 32,
+      "rowId": 34,
       "startupName": "TOD",
       "webSite": "https://www.yourtod.com/",
       "linkedIn": "yourtod"
     },
     {
-      "rowId": 33,
+      "rowId": 35,
       "startupName": "TrainMe",
       "webSite": "https://trainme.co/corporate",
       "linkedIn": "trainme",
@@ -3795,7 +3963,7 @@
       "youTube": "UCsVhuscfCRWsM1jqf4WGL1w"
     },
     {
-      "rowId": 34,
+      "rowId": 36,
       "startupName": "Wellnesstraining",
       "webSite": "https://wellnesstraining.fr/",
       "linkedIn": "wellness-training",
@@ -3803,14 +3971,14 @@
       "facebook": "wellnesstraining"
     },
     {
-      "rowId": 35,
+      "rowId": 37,
       "startupName": "Windoo",
       "webSite": "https://windoo.fr/",
       "linkedIn": "windoo",
       "twitter": "Team_Windoo"
     },
     {
-      "rowId": 36,
+      "rowId": 38,
       "startupName": "Wingzy",
       "webSite": "https://wingzy.com/fr/",
       "linkedIn": "wingzy",
@@ -3820,7 +3988,7 @@
       "youTube": "UCqGEWycv-KM25QnfIULYUwg"
     },
     {
-      "rowId": 37,
+      "rowId": 39,
       "startupName": "Yuco",
       "webSite": "https://www.wehobby.com/fr/",
       "linkedIn": "yuco",
@@ -3830,7 +3998,7 @@
       "youTube": "UCQADkPFzzFhwFa12O2iYGHQ"
     },
     {
-      "rowId": 38,
+      "rowId": 40,
       "startupName": "ZestMeUp",
       "webSite": "https://zestmeup.com/fr/",
       "linkedIn": "zestmeup",
@@ -3890,181 +4058,195 @@
     },
     {
       "rowId": 7,
+      "startupName": "Cleanitud",
+      "presentation": "Cleanitud’ propose des solutions permettant d’améliorer l’hygiène, la santé et la Qualité de Vie au travail . Nous avons développé :\r\n-\tdes distributeurs de rince bouche permettant de faciliter l’hygiène bucco-dentaire sur le lieu de travail\r\n-\tla 1er borne de prévention santé et Qualité de vie au travail complétée d’une solution de désinfection   des mains",
+      "problems": "La borne MyCareStation permet de communiquer autour de la prévention Santé et QVT.\r\nLe contenu sur le thématique Santé, Nutrition, Sport et Bien-être est remis à jour mensuellement.\r\nNous fournissons en complément une solution de désinfection des mains sans alcool et sans parabène. ",
+      "numbers": "Nous avons plus de 60 clients en moins de 3 ans d’existence.\r\n3 000 distributeurs de rince bouche\r\nUne dizaine de borne MyCareStation déployée en seulement 3 mois de commercialisation"
+    },
+    {
+      "rowId": 8,
       "startupName": "Cocoworker",
       "presentation": "Kiff by Cocoworker est un système de reconnaissance des collaborateurs par les collaborateurs, adapté aux nouvelles pratiques collaboratives et participatives. Il permet aux salariés de révéler et reconnaître le savoir-être (les soft skills) et l’engagement de leurs collègues en les récompensant avec des kiffs. \r\nLes « Kiffs » sont des feedbacks positifs possédant une valeur financière. Ils peuvent se transformer en primes, cadeaux et dons aux associations selon le choix de l’entreprise.",
       "problems": "Le manque de reconnaissance au travail impacte l’engagement, la performance et le bien-être des salariés en entreprise. Aujourd’hui 7 salariés sur 10 considèrent souffrir d'un manque dans ce domaine et 54% se disent insatisfaits des politiques de considération proposées en interne pour répondre à leur besoin de reconnaissance et de visibilité (étude Cadremploi/Deloitte 2015). \r\nNotre raison d’être ? Aider les salariés et les entreprises à grandir et s’épanouir dans le nouveau monde du travail.",
       "numbers": "Plus de 2000 kiffs ont déjà été échangés sur la première application d’appréciation collaborative qui compte plusieurs grandes entreprises comme clients (RTE, Orange, April ou Total) et qui comptabilise un taux d’engagement moyen de 83%. "
     },
     {
-      "rowId": 8,
+      "rowId": 9,
       "startupName": "Comeet",
       "presentation": "Comeet est une application proposant un assistant personnel intelligent permettant aux professionnels de développer leur réseau de façon simple et ludique et de transformer le lieu de travail en un lieu de convivialité.  \nSon intelligence artificielle permet de mettre en relation des professionnels ayant des affinités autour d'une activité qui leur correspond.",
       "problems": "« Remettre l'Humain au cœur de la transformation numérique en réinventant les interactions en entreprise, voilà notre credo ! Ensemble, créons des moments de partage uniques pour chaque employé. La transformation digitale, c’est une aventure humaine avant tout. »\n\nSamuel Metias",
       "numbers": "En 2018, plus de 3 000 utilisateurs ont téléchargé l’application Comeet et nous travaillons actuellement avec une dizaine de clients dont Microsoft France, Nexity Conseil & Transaction et le Pôle Léonard De Vinci."
     },
     {
-      "rowId": 9,
+      "rowId": 10,
       "startupName": "Contextor",
       "presentation": "Contextor est un éditeur de logiciels français, spécialiste depuis 15 ans de la Robotic Process Automation. Contextor accélère la transformation numérique en améliorant l’expérience client et le confort de travail des collaborateurs. Contextor réduit le time to market en optimisant les processus métier tout en garantissant le respect des procédures.",
       "problems": "Dans les grandes organisations, les utilisateurs de postes de travail informatiques passent beaucoup de temps à interagir avec les différentes applications du système d’information : ils effectuent de nombreux copier-coller de données, comparent et vérifient les informations issues de deux applications, etc. L’automatisation robotisée des processus, ou RPA, consiste à mettre en œuvre des \"robots logiciels\" pour automatiser ces tâches fastidieuses et sans valeur ajoutée. Cette démarche permet de libérer 20% à 30% du temps de l’utilisateur, qui peut se consacrer à des actions présentant une vraie valeur et accroître la qualité du service rendu aux clients. Corollairement, cette automatisation améliore sensiblement le confort des collaborateurs au travail.",
       "numbers": "Contextor compte une trentaine de collaborateurs, réalisera plus de 5M€ de CA en 2018 et a été choisi par BNP Paribas, HelloBank, Société Générale, Natixis, ING Belgium, American Express, bpost, AXA Assistance, AG2R La Mondiale, Harmonie Mutuelle, Klesia, ENGIE, EDF, Orange, SFR, Bouygues Telecom, Vodafone, Sodexo, Worldline, BMW…"
     },
     {
-      "rowId": 10,
+      "rowId": 11,
       "startupName": "Cowork.io",
       "presentation": "CoWork.io apporte du bien-être et de l’engagement dans les espaces de travail en créant une nouvelle expérience pour les employés dans le bureau nouvelle génération.\r\nLa solution CoWork.io (logiciel desktop, application mobile, objets connectés et services) permet de gérer tous les espaces de travail : flex office / smart office, coworking, immeubles multi-locataires, etc",
       "problems": "CoWork.io permet de simplifier la vie au bureau : réservation de salle de réunion, accès aux services professionnels et personnels, accès dématérialisé, cartographie indoor... L'objectif ? Créer un espace de travail (enfin) centré sur l'Humain ! \r\nCoWork.io inclue également des outils de récolte et d'analyse afin de piloter l'espace de travail par la donnée. Un véritable \"Google Analytic\" de votre espace de travail !",
       "numbers": "CoWork.io est intégré dans plus de 100 bâtiments et utilisés tous les jours par plus de 20 000 utilisateurs. La solution, par ailleurs leader français sur le marché du coworking, a déjà séduit de nombreux clients dont Le Village by CA, The Bureau, Deskopolitan, Nexity, BNP Paribas Real Estate, Engie, JLL Canada…"
     },
     {
-      "rowId": 11,
+      "rowId": 12,
       "startupName": "Eveia",
       "presentation": "eveia Active Footrest est une solution globale et unique. \nElle est constituée du seul repose-pieds actif connecté du marché qui s'utilise en position assise sans changer son environnement. \nCouplée à son application de coaching/gestion/gamification, elle accompagne l'utilisateur au quotidien.",
       "problems": "La sédentarité! \nEn effet, en entreprise, elle est responsable de la mauvaise santé, de l'absentéisme et de la perte de productivité. \nElle est d'ailleurs considérée comme la prochaine cigarette par l'OMS, en effet 31% de la population adulte mondial est sédentaire, avec les trop nombreux effets sur la santé déjà cités !",
       "numbers": "31% de la population adulte mondiale est concerné par le manque d'activité/sédentarité.\r\nLe seul repose-pieds actif du marché, à roue d'inertie connecté à une application de coaching/gamification/suivi à pouvoir s'utiliser assis.\r\nDes ventes dans 18 pays et plus de 120 clients, alors que le produit n'est pas encore commercialisé.\r\nUn prix public à 399€ TTC ---> 349€ HT.\r\n150 calories brulées/h"
     },
     {
-      "rowId": 12,
+      "rowId": 13,
       "startupName": "Feeleo",
       "presentation": "Feeleo propose des solutions visant à améliorer le bien être des salariés : méditation, sophrologie, team building, conseil en management… Des activités aussi riches que variées qui nous permettent de répondre précisément à la demande de chaque entreprise.",
       "problems": "Nous souhaitons être vecteur de transformation du stress, du burn out, du manque de cohésion et du manque de motivation des salariés vers un bien être global au sein de la structure au sein de laquelle nous intervenons.",
       "numbers": "Le mal être coute 12600 euros par an et par années aux entreprises françaises.  Feeleo a pour objectif de réduire ce coût en apportant son expertise sur le bien être au travail.\r\n"
     },
     {
-      "rowId": 13,
+      "rowId": 14,
       "startupName": "Fidensio",
       "presentation": "Fidensio, c'est la conciergerie connectée au bureau ! Intuitive et innovante, la e-conciergerie Fidensio accompagne les collaborateurs dans leur équilibre vie privée vie professionnelle en leur proposant plus d'une vingtaine de services pour leur simplifier le quotidien : pressing, services à domicile, achats express....",
       "problems": "Dans un contexte hyper concurrentiel, valoriser sa marque employeur afin d'attirer et fidéliser les meilleurs profils est un facteur clé de succès pour les entreprises que nous accompagnons. La E-conciergerie, Fidensio permet aux entreprises de fidéliser leurs collaborateurs en harmonisant durablement leur équilibre vie privée / vie professionnelle. ",
       "numbers": "En 2018, Fidensio simplifie le quotidien de plusieurs milliers d'employés. Aujourd'hui, nous valorisons la marque employeur de plus de 20 clients de toutes tailles (50 à 5000 collaborateurs) comme Total, XL Group, Le Figaro, Linkedin ou Morgan Stanley… En Janvier, Fidensio intègre Station F et place le sujet du bien-être au travail au coeur du plus grand incubateur du monde."
     },
     {
-      "rowId": 14,
+      "rowId": 15,
       "startupName": "Happy Quest",
       "presentation": "Happy Quest propose un parcours digital, pédagogique et ludique à chaque collaborateur pour agir quotidiennement sur son bonheur au travail. \r\nHappy Quest est issue d’une initiative interne de collaborateurs désireux de transformer les découvertes scientifiques (en neurosciences, psychologie positive et science du bonheur) en bonnes pratiques pour leurs collègues.",
       "problems": "Le jeu permet de réduire le stress, multiplier les interactions bienveillantes et développer la collaboration grâce à une pause positive au quotidien.\nL’outil permet aussi à chacun de mesurer son bien-être ressenti pour se situer et personnaliser son parcours. Il fournit ainsi à l’organisation un tableau de bord pour piloter la QVT.\nHappy Quest allie apprentissage, plaisir et sens pour rendre le bonheur au travail accessible à tous.",
       "numbers": "L’entreprise sociale Happy Quest, lancée début 2018 déploie près de 400 contenus positifs expertisés auprès des 12 000 utilisateurs de ses premiers clients, dont Engie notamment."
     },
     {
-      "rowId": 15,
+      "rowId": 16,
       "startupName": "Humancraft",
       "presentation": "En 2018, HumanCraft compte 85 tribus partenaires prêtes à accompagner nos clients dans leur transformation digitale (Dev, DevOps, BigData, CyberSecu, Product Management, Mobile, Change Management) et 15 clients de toutes tailles dont le groupe Société Générale, Microsoft, Meetic, Fromageries Bel, Stelliant.",
       "problems": "Conscient des difficultés à trouver le bon expert en prestations de services, HumanCraft se positionne comme le tiers de confiance du marché de l’IT. Via notre plateforme, nous qualifions pour nos clients les meilleurs compétences, garantissons la qualité des prestations délivrées et permettons à nos partenaires d’intervenir chez des acteurs majeurs grâce à notre référencement atypique.\r\nTrouver le bon expert IT n’a jamais été aussi facile.",
       "numbers": "En 2018, HumanCraft compte 85 tribus partenaires prêtes à accompagner nos clients dans leur transformation digitale (Dev, DevOps, BigData, CyberSecu, Product Management, Mobile, Change Management) et 15 clients de toutes tailles dont le groupe Société Générale, Microsoft, Meetic, Fromageries Bel, Stelliant."
     },
     {
-      "rowId": 16,
+      "rowId": 17,
       "startupName": "IDPosition",
       "presentation": "iDPosition transforme en « smartbuilding » l’environnement de travail sans fil et sans pile.\r\n La solution iDPosition connecte les biens et les espaces à l’occupant, apporte du confort au quotidien, fluidifie les échanges avec la Direction de l’Environnement de Travail et valorise une démarche éco-responsable en offrant une seconde vie aux mobiliers en fin de cycle.",
       "problems": "Avec la technologie Q-RFID:\r\niDPosition simplifie la déclaration d’incidents pour l’occupant et le connecte à son environnement. Aucun frein à l’usage, pas d’application à installer: un smartphone connecté suffit! Les remontées d’information à la DET et aux facilities sont améliorées jusqu’à 200 %\r\niDPosition maintient à jour votre environnement de travail grâce à notre inventaire dynamique RFID. Les temps de relevé sont diminués par 400%",
       "numbers": "iDPosition est déployé sur près de 30 000 biens et espaces et propose un service à plus de 6000 collaborateurs.\r\niDPosition équipe la Tour First, Le Conseil Départemental des Yvelines, Génies des Lieux, Haworth, La Société Générale, CBRE, Métropole PACA,  … "
     },
     {
-      "rowId": 17,
+      "rowId": 18,
       "startupName": "Kiplin",
       "presentation": "Kiplin déploie de nouveaux programmes de prévention santé pour accompagner les utilisateurs dans leurs changements de comportements de santé... \r\nGrâce à ses plateformes web, ses univers ludiques et ses solutions connectées (simples et accessibles à tous), Kiplin embarque les participants dans des histoires à vivre en équipes à base de défis et énigmes : un voyage de la terre à la lune, un tour du monde… Grâce à un podomètre ou une application mobile, chacun peut suivre son activité physique en temps réel en s’immergeant dans ces aventures.",
       "problems": "La prévention santé et la cohésion par le jeu, le digital et le collectif. Améliorer la santé des collaborateurs, lutter contre les effets de la sédentarité tout en favorisant le partage des bons réflexes.\r\nGrâce à l'analyse des datas recueillies par nos plateformes, Kiplin quantifie le retour sur investissement en prouvant son impact sur l'amélioration de la productivité et la réduction de l'absentéisme.",
       "numbers": "12 000 utilisateur actifs, 300 expériences connectés déployées chez Orange, Sodexo, l'APHP, l'Oréal, Harmonie Mutuelle, etc... pour quels résultats ?\r\nTaux d'engagement : 70 %\r\nChangement de comportements : 60 % des utilisateurs Kiplin affirment changer leur approche liée à la pratique d'une activité physique adaptée.\r\n"
     },
     {
-      "rowId": 18,
+      "rowId": 19,
+      "startupName": "Le Bon Coach",
+      "presentation": "Le Bon Coach met en lumière des séances de coaching, d’horizon et de spécialités différentes, réservables en trois clics.\nNos professionnels sont mis à la disposition des utilisateurs du site, de façon à rendre plus simples et efficaces leur première mise en relation.\nNotre rôle est d’accompagner les particuliers et les entreprises dans la recherche de coaching, que ce soit pour du sport, de la santé et du bien-être. \nLe Bon Coach offre la possibilité à ses utilisateurs de trouver la discipline qu’ils recherchent et surtout, de l’intégrer sans difficulté à leur quotidien, que ce soit chez eux ou en entreprise !\nLe Bon Coach propose trois grandes catégories : Le sport, la santé et le bien-être.\nL’accès à nos coachs professionnels et diplômés d’État est gratuit pour les utilisateurs et entreprises partenaires.\nPour devenir la meilleure version de soi-même : Bien dans sa tête, bien dans son corps, tout devient possible !",
+      "problems": "Le Bon Coach a été créé pour répondre aux problématiques suivantes : \r\nComment rendre accessible l’activité du coaching personnalisé, pour tous, partout en France ? \r\nComment recenser sur une même plateforme des coach pour particulier(s) et entreprise(s), avec des disciplines aussi nombreuses que variées ?\r\nComment répondre à tous les problèmes vécus par les membres d’une entreprises (stress/ relation en entreprise), grâce au soutien de professionnels de sport, santé et bien-être. ",
+      "numbers": "De nos jours, le marché Français du sport s’élève à 38,1 milliards d’euros. \r\nD’après les études réalisées, près d’un Français sur deux pratique une activité sportive plus d’une fois par mois, dont 72% pratique à hauteur d’une fois par semaine. C’est donc un marché conséquent, non négligeable ! \r\nLe secteur sportif privé (clubs de sport, gestion d'installation sportives, enseignements du sport...) employait 124 286 salariés en 2015. \r\nDepuis plusieurs années maintenant, on constate une augmentation massive des coachs de bien-être et santé, comme des nutritionnistes (actuellement 11 000), des coachs de Yoga, de Pilate et autres disciplines permettant de se sentir mieux dans sa tête, pour ensuite se sentir mieux dans son corps. \r\nDans tout cet univers, Le Bon Coach représente environ 500 coachs et Mon Coach Pro environ 250 coachs. \r\nLe site récence 250 entreprises partenaires et les connexions mensuelles s’élèvent à 30 000 ! \r\nCe n’est que le début d’une belle histoire ! "
+    },
+    {
+      "rowId": 20,
       "startupName": "Lyyti",
       "presentation": "LYYTI part d'une idée simple vous permettre d’utiliser efficacement les données collectées de vos événements et d'en mesurer le retour sur investissement. Notre plateforme permet aux directions commerciales & marketing d’optimiser la transformation de leurs leads suite à un événement business ou aux services RH de digitaliser le suivi et la communication des formations…",
       "problems": "Le calendrier d’évènements apporte à l’entreprise une vision globale. Les fonctionnalités de communication permettent de gagner du temps et d’augmenter le taux de participation. Le suivi en temps réel et les reporting assurent sa réussite. \r\nAu delà d’être RGPD compliant en interne, Lyyti apporte à ses clients un process conforme au RGPD grâce aux fonctionnalités développées, afin de centraliser les données événementielles.",
       "numbers": "LYYTI comptabilise plus de 2 millions de participants chaque année, pour plus de 50 000 évènements par an. Près de 900 clients nous utilisent, de la TPE jusqu’aux grands groupes aussi bien dans le secteur privé que public. Fort de son succès dans les pays nordiques depuis bientôt 11 ans, Lyyti arrive en France en 2017 !"
     },
     {
-      "rowId": 19,
+      "rowId": 21,
       "startupName": "Melomind",
       "presentation": "Melomind est un casque audio équipé de capteurs encéphalographiques capables de suivre l'activité de votre cerveau en temps réel. En vous guidant au travers d'exercices de relaxation spécialement calibrés sur votre propre activité cérébrale, Melomind va renforcer votre capacité naturelle à vous détendre. \r\nMelomind vous emmène dans un voyage sonore au coeur de votre cerveau et de votre relaxation, pour vous aider à vous recentrer et à vous sentir plus fort et serein face aux moments de stress du quotidien. ",
       "problems": "Melomind est une nouvelle solution basée sur les neurosciences destinée aux collaborateurs des entreprises pour combattre le stress. En effet, le stress touche la majorité des collaborateurs, il accroît considérablement leur mal-être et leur niveau d'anxiété. Les neurosciences offrent désormais de nouvelles clés pour travailler en profondeur les mécanismes cérébraux naturelles de défense. \r\nMelomind fournit aux collaborateurs les moyens d’améliorer leur bien-être au quotidien et sur le long terme, et aux entreprises une solution pro-active qui impacte la qualité de vie au travail de façon significative.",
       "numbers": "La solution Melomind a été créée par la société myBrain Technologies, en partenariat avec l'institut du Cerveau et de la Moelle Epinière. Melomind a été récompensée par de nombreux prix dont le Janus de la Santé et un CES award dans la catégorie \"Tech for a better world ». \r\nLancée en janvier 2018, Melomind compte déjà plus de 1000 utilisateurs en entreprise dans de grands groupes tels qu'Enedis et La Banque Postale, avec des résultats probants : 15% de diminution de l’anxiété, et 30% d’augmentation de la relaxation."
     },
     {
-      "rowId": 20,
+      "rowId": 22,
       "startupName": "monaSTAY",
       "presentation": "monaSTAY organise des séminaires d'entreprise à vivre dans un monastère, en France ou à l'étranger. \r\nNous accompagnons les collaborateurs pour une expérience atypique dans un cadre insolite, empli de sérénité, et au milieu d'un environnement naturel d'exception.\r\nNous construisons un séminaire répondant aux besoins et aux attentes de l'entreprise.",
       "problems": "monaSTAY répond aux défis posés par l'humain dans l'entreprise et participe à redonner du sens.\r\nLes collaborateurs sont invités à déconnecter des outils numériques et à relâcher la pression. C'est un temps de digital-detox et de convivialité. \r\nNous proposons des activités et des ateliers variés, collectifs et individuels, reposant sur l'alignement coeur-corps- tête.\r\nBénéfices :\r\nNotre approche, qui vise à accroître l'engagement du collaborateur et à favoriser la cohésion d'équipe, génère un impact positif de poids sur la performance globale de l'entreprise. ",
       "numbers": "89 % des salariés français sont désengagés de leur travail (Gallup, 2017)\r\n6 heures et 15 minutes par jour, c'est le temps moyen passé par un salarié devant un écran d'ordinateur (Actineo, 2017)\r\nDéconnecter des outils numériques pour reconnecter à soi et aux autres est le défi auquel souhaite répondre monaSTAY."
     },
     {
-      "rowId": 21,
+      "rowId": 23,
       "startupName": "OneConciergerie",
       "presentation": "ONE CONCIERGERIE propose le premier assistant personnel dédié aux actifs, disponible 24/7 partout en France. Ce concierge prend les rendez-vous privés, trouve les prestataires dont vous avez besoin, les bons plans pour les loisirs, les sorties, les vacances et les transports ; organise vos vacances et allège le quotidien de vos collaborateurs.",
       "problems": "50min par jour, c’est le temps moyen que perd un salarié à gérer sa vie privée et son budget personnel au bureau.  Nous augmentons le bien-être et la productivité des salariés en prenant en charge l’organisation de leur vie personnelle.",
       "numbers": "70 000 utilisateurs\nLevée de fond en décembre 2017\n40 clients grands compte"
     },
     {
-      "rowId": 22,
+      "rowId": 24,
       "startupName": "Pickr",
       "presentation": "Pickr, crée des pauses saines et conviviales en entreprise, via la livraison d'en-cas bio ou naturels  (fruits, graines et fruits secs, biscuits, barres, chocolats, boissons chaudes, boissons fraîches, etc) livrés et installés sur place, sous forme d'abonnement (sans engagement) ou de commandes ponctuelles (selon les besoins ou événements de nos clients).\n\nUn parcours client simplifié via sa plateforme digitale et son e-boutique : commandes, gestion de ses abonnements, espace client, facturation, ... \n\n\nPickr affiche également la volonté d'aller plus loin en proposant à chaque moment de livraison, des moments d'échanges et d’animation, en s’entourant des partenaires spécialistes de la QVT et du bien-être en entreprise : jeux sportifs ou ludiques, conseils/ infos nutrition, conseils santé/bien-être, Icebreaker, team-building, jeux-concours, etc.\n",
       "problems": "Notre service s'adresse aux entreprises, CEO, office manager, CHO, RH ou acteurs de la QVT qui, comme nous, sont convaincus que les pauses sont un formidable levier pour créer de la cohésion, augmenter la satisfaction et la rétention de ses collaborateurs, et véhiculer une marque employeur forte. \n\nNos ambitions sont : \nd'aider les entreprises à améliorer la qualité de vie de leurs salariés\nde créer de la convivialité et de la cohésion d'équipe autour des pauses\nde démocratiser l’accès aux  encas bio pour toutes les entreprises, quelle que soit leur taille ou secteur d'activité.\n\nIn fine, l'objectif est d'aider les offices managers, CHO, responsables RH ou QVT à créer une dynamique de groupe et montrer leur attachement au bien-être de leurs équipes, tout en simplifiant leurs tâches quotidiennes.",
       "numbers": "91 % : Part des dirigeants qui estiment que la performance est liée directement à l'alimentation. \n32 % : Part des salariés de < 30 ans avouent qui sauter fréquemment la pause déjeuner. \nOR : 50% des salariés français en 2018 ne disposent pas d’offre de snacking sur leur lieu de travail et encore moins d’une offre de snacking saine  (78% des salariés attendent plus d'offres de bio sur leur lieu de travail).\n\nDans le même temps, les entreprises sont confrontées aux difficultés d'instaurer durablement le bien-être au sein de leur organisation : seuls 7% des salariés français se disent engagés dans leur entreprise, 61% voulait changer d’entreprise en 2018. Or pour 60% d’entre eux, l’ambiance de travail est un critère important pour le choix d’une entreprise. \n\nEnfin : 84% des salariés jugent que la pause-café est « importante » voire « indispensable » dans une journée de travail. Pour 81%, elle favoriserait l’échange d’idées et l’entraide des salariés qui peuvent alors parler d’un problème rencontré. Elle favoriserait aussi bien l’efficacité et le bien-être au travail que la créativité et le renforcement des liens sociaux. \n\nLancé depuis juin 2018, Pickr a su rapidement se faire sa place en apportant de l'innovation et de la fraîcheur sur un marché  concurrentiel, grâce à une double approche : la pause saine ET conviviale, avec une volonté affichée de jouer un rôle durable sur l’amélioration de la qualité de vie au travail.\n"
     },
     {
-      "rowId": 23,
+      "rowId": 25,
       "startupName": "Plantez Respirez",
       "presentation": "Plantez Respirez fait le lien entre bien-être au travail, qualité de l’air et présence végétale.\nAujourd’hui, les plantes font partie de l’espace de travail car elles ont le pouvoir d’améliorer la qualité de l’air intérieur et leur présence réduit le stress, améliore la productivité et répondent au besoin de nature et de biophilie des collaborateurs.\nPlantez Respirez mesure la qualité de l’air dans l’espace de travail pour préconiser le quota des plantes nécessaires selon les résultats et la surface des locaux. Ils installent les plantes en forme d’îles végétales pour créer un environnement plus dense et plus naturel. Nous assurons l’entretien et veillons sur la qualité de l’air tout au long de l’année. ",
       "problems": "Depuis 2016, la qualité de l’air intérieur fait partie de la politique RSE des entreprises car nous passons une grande partie de la journée dans l’espace de travail où l’air est parfois 5 fois plus pollué que l’air extérieur. \r\nLa présence des plantes au bureau améliore la qualité de l’air souvent très sec à cause du chauffage ce qui favorise la propagation des virus et l’absentéisme. L’être humain a besoin de nature dans sa vie quotidienne et souffre de ce manque sur son lieu de travail. Plantez Respirez permet de reconnecter les collaborateurs avec tout ce qui est vivant et leur humanité.",
       "numbers": "Plantez Respirez a été créé début 2018.  Rakuten-Price Minister est son premier client et lui a confié au moment de leur changement d’image, la mesure de la qualité de l’air et la végétalisation de ses locaux. "
     },
     {
-      "rowId": 24,
+      "rowId": 26,
       "startupName": "Roti.express",
       "presentation": "Roti.express est une plateforme de collecte de feedback pour  vos réunions, conférences, ateliers, formations, etc.,  afin de les rendre plus productifs et satisfaisants pour chaque participant.\r\nR.O.T.I. pour « Return On Time Invested » est une méthode agile, rapide (moins de 30 sec), ludique et facile à mettre en oeuvre pour activer une boucle de feedback et identifier des axes d’amélioration. ",
       "problems": "Nous adressons le phénomène de “Réunionite” en entreprise et ses conséquences désastreuses…\r\n• Humaines : démotivation chronique, désengagement et à long terme démission & fuite des talents\r\n• Économiques    : non-productivité, coûts faramineux, mais surtout aucune métrique sur la valeur ajoutée des réunions\r\nComment ? En s’intéressant au ressenti des participants et en ouvrant un canal de communication bottom-up !",
       "numbers": "Harvard Business Review (2018) sur 182 cadres supérieurs interrogés :\r\n65% déclarent que les réunions les empêchaient de mener à bien leur propre travail \r\n74% pensent que les réunions sont improductives et inefficaces.\r\nLancée en octobre 2017 notre plateforme est déjà utilisée dans plus de 50 \r\nentreprises françaises et internationales !"
     },
     {
-      "rowId": 25,
+      "rowId": 27,
       "startupName": "Serenity",
       "presentation": "Serenity permet d’effectuer des séances guidées et des exercices autonomes autour de thématiques variées comme la confiance en soi, l’amélioration du sommeil ou la gestion des émotions et utilise la Réalité Virtuelle comme un catalyseur.\nNos motivations? Replacer l’humain au cœur du monde du travail, changer les habitudes et faire rayonner le bien-être pour faire rimer bienveillance et performance.\nCréée par des professionnels de la Relaxation et de la Sophrologie, la Relaxation Immersive allie les méthodes anti-stress traditionnelles et les dernières innovations technologiques pour se sentir mieux immédiatement et durablement.",
       "problems": "Le stress touche la santé mentale et physique, les relations sociales, la qualité du travail et la productivité de vos collaborateurs. Conscient des difficultés à mettre en place des solutions pour combattre le stress, Serenity a été conçue pour être accessible à tous, à tout moment et très simple à utiliser.\n \nEn démocratisant l’accès au bien-être et en favorisant le développement personnel, Serenity apporte une réponse ludique, discrète et efficace pour lutter efficacement contre le stress et apporter un mieux-être individuel et collectif.",
       "numbers": "50% des salariés en France déclarent souffrir de stress ou d’anxiété dans le cadre de leur travail.\nPour combattre cet ennemi n°1 de l’entreprise, Serenity propose +180 combinaisons variées de séances de 5 à 20 minutes pour répondre aux besoins de chacun.\nDepuis le lancement de Serenity en 2018, déjà une quinzaine de clients comme Renault et Michelin nous font déjà confiance."
     },
     {
-      "rowId": 26,
+      "rowId": 28,
       "startupName": "Teamstarter",
       "presentation": "Teamstarter est une plateforme de financement participatif pour libérer les collaborateurs afin qu’ils puissent réaliser des projets ensemble. \nSur cette plateforme, chaque collaborateur peut financer, collaborer ou mener un projet grâce à des crédits alloués par l'entreprise.",
       "problems": "Aujourd’hui, les entreprises ne regardent plus seulement la performance financière mais également la performance globale car cela aura plus d’impact sur leur chiffre d’affaires à long terme. C’est pour cette raison que chaque organisation est aujourd’hui à la recherche de plus d’agilité, d’indépendance et d’initiatives de la part de ses collaborateurs.\r\nEntre en scène Teamstarter qui donne les moyens aux collaborateurs de prendre des initiatives.",
       "numbers": "• 3,4 fois plus d’initiatives de culture d’entreprise grâce à Teamstarter \r\n• Avoir Teamstarter en entreprise permet de faire émerger jusqu’à 5 fois plus d’innovation\r\n• 88% des collaborateurs affirment que Teamstarter a amélioré leur bien-être au travail"
     },
     {
-      "rowId": 27,
+      "rowId": 29,
       "startupName": "TOD",
       "presentation": "TOD, c’est avant tout la première communauté de talents, qualifiée pour ses valeurs humaines et sa capacité d’engagement. La force et l’originalité de la communauté reposent sur l’expression des aspirations réelles et sincères de ses membres. \r\nCe que nous offrons à nos clients, c’est : \r\nL’accès à un vivier de Talents unis par la force de leurs rêves professionnels et leur engagement ! La promesse d’un épanouissement et d’une réalisation dans le travail. \r\n",
       "problems": "Un outil d’analyse et d’évaluation des talents totalement nouveau qui permet d’identifier les aspirations naturelles et les lignes de forces de chacun pour optimiser le matching dans les processus de recrutement ou la performance individuelle et collective des équipes en place . \r\nUn processus TOD unique à la disposition des entreprises pour booster le capital humain, libérer les potentiels, recruter des talents externes,.....",
       "numbers": "Après à peine neuf mois d’ouverture de sa plateforme, la communauté TOD compte désormais plus de 500 membres et en accueille chaque jour de nouveaux . Plus d’une quinzaine de clients nous ont déjà fait confiance, dans tous les secteurs d’activité, de la mode à l’industrie lourde, de la startup au grand groupe, comme Energies Libres, Suez ou Lafarge. Ce qui les réunit, c’est une véritable volonté de développer leurs collaborateurs autour de valeurs humaines partagées, c’est la recherche de talents engagés, c’est la volonté de libérer le potentiel de leurs équipes actuelles et à venir. "
     },
     {
-      "rowId": 28,
+      "rowId": 30,
       "startupName": "TrainMe",
       "presentation": "TrainMe est la première plateforme communautaire permettant de réserver un coach sportif particulier, ou entre amis, à domicile ou proche de chez soi. La marque a décliné son service et touche aujourd’hui la sphère professionnelle avec TrainMe Corporate; cours collectifs en entreprise.",
       "problems": "Diminuer l’absentéisme, créer de la cohésion entre ses équipes ou tout simplement améliorer le bien-être de ses collaborateurs, le sport répond à de nombreuses problématiques pour lesquelles nous sommes présents et forts de solutions. Avec notre plateforme dédiée, chaque entreprise bénéficie d’un réel outil pour simplifier la gestion de ses événements sportifs.",
       "numbers": "En 2018, TrainMe compte plus de 300 cours par mois en entreprise, 60 clients dont NBC Universal, Total ou encore Auchan et plus de 2000 collaborateurs et plus de 18000 utilisateurs. \r\n"
     },
     {
-      "rowId": 29,
+      "rowId": 31,
       "startupName": "Windoo",
       "presentation": "Windoo est la première solution complète dédiée au bien-être en entreprise. \r\nDepuis une plateforme privée, nos clients accèdent en quelques clics à plusieurs centaines d’activités d’équipe (sport, team-building, formations…), renforcent la cohésion interne et abordent sereinement les nouveaux enjeux RH grâce à une palette de  fonctionnalités innovantes .",
       "problems": "Créé par des experts, Windoo intervient auprès de ses clients sur trois problématiques majeures : la marque employeur, la cohésion interne et la santé des collaborateurs.\r\nAvec nos partenaires, nous imaginons le monde du travail de demain : un partenariat « win-win » entre l’entreprise et ses salariés.",
       "numbers": "Windoo, c’est plus de 4000 événements créés auprès de  80 clients tels que Payfit, Dailymotion, Air Liquide ou Vinci, et un taux de satisfaction de 98% en 2017. "
     },
     {
-      "rowId": 30,
+      "rowId": 32,
       "startupName": "Wingzy",
       "presentation": "Wingzy c'est l'annuaire d'entreprise qui trouve nos Wings : nos talents, nos compétences, nos énergies. Une app simple et ludique qui accélère la collaboration en valorisant les humains et leurs talents dans votre entreprise.",
       "problems": "Nos boites changent constamment, nous perdons notre temps à chercher des informations et des personnes, nous perdons nos talents invisibles derrière la complexité de l'organisation, nous perdons nos collaborateurs qui ont besoin de reconnaissance et d'autonomie.",
       "numbers": "Crée en juin 2018, des milliers d'utilisateurs, des dizaines d'entreprises, une première levée de fond, 6 startuper·euses plein·es de Wings, et 3 minutes pour créer le Wingzy de votre boite !"
     },
     {
-      "rowId": 31,
+      "rowId": 33,
       "startupName": "Yuco",
       "presentation": "Yuco propose des parcours personnalisés, dédiés au bien-être du collaborateur en fonction de ses objectifs et intérêts : développer ses compétences et son leadership, se détendre, se dépenser. L’application permet également de connecter les collaborateurs entre eux autour de leurs passions, des communautés sont ainsi spontanément créées.",
       "problems": "Nos actions contribuent à améliorer  la cohésion d’équipe, l’engagement des collaborateurs, la performance de l’organisation et ont un impact positif sur la marque employeur.\r\nL’objectif ? Améliorer la qualité de vie au travail, car nous sommes convaincus que les entreprises qui réussissent sont celles qui prennent soin de leurs salariés.",
       "numbers": "En 2018, Yuco est le premier réseau de bien-être en entreprise de France avec 500 experts, 23 clients dont STMicroelectonics, Groupama, ManoMano et plus de 18 000 utilisateurs. "
     },
     {
-      "rowId": 32,
+      "rowId": 34,
       "startupName": "ZestMeUp",
       "presentation": "Zest améliore l’engagement et le succès de vos équipes pour avoir des équipes épanouies, des collaborateurs plus heureux et des entreprises plus performantes.\r\nZest permet de mesurer l’humeur des équipes en temps réel et de construire une culture du feedback pour redynamiser la communication et le lien entre les équipes. La collaboration, l’échange fréquent et le partage de connaissances sont les vecteurs principaux de l’accomplissement personnel et collectif dont sont avides les collaborateurs. ",
       "problems": "De nombreux défis attendent les entreprises de demain, mais la bataille de l’engagement a déjà commencé. Zest accompagne les organisations dans cette transition, en redonnant à l’humain une place centrale dans les organisations. En 3 étapes, Zest aide à mieux comprendre les équipes et leurs besoins. Construire une culture d’entreprise autour de la reconnaissance, de la collaboration et du temps réel mène toute l’organisation au succès. \n1. Mieux connaître les équipes : les collaborateurs partagent leur humeur quotidiennement, répondent à des enquêtes d’engagement et peuvent évaluer leur entreprise sur leurs principaux leviers de motivation. Les managers peuvent mesurer ces données grâce à des tableaux de bord clairs, avec la possibilité de forer au cœur des problématiques grâces à des filtres aboutis. \n2. Booster la collaboration : Les talents peuvent gérer leurs objectifs et mesurer leur progression, créer des groupes de projets transverses, faire ou recevoir des feedbacks et faire des points réguliers avec leurs managers sur leur contribution et leur état d’esprit au travail. \n3. Favoriser la reconnaissance : En quelques clics les employés peuvent envoyer des « Zests », un moyen simple de féliciter ou remercier un collaborateur. Ils peuvent aussi partager leur souhait de progresser sur des sujets de développement personnel et professionnel. ",
@@ -4397,7 +4579,7 @@
       "link": "https://www.hr-voice.com/bien-etre-qvt/lintelligence-artificielle-au-service-du-bien-etre-au-travail/2018/01/09/",
       "authorTwitter": "",
       "dateString": "09-01-2018",
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211877/website/presse/HR_Voice_logo_HD.jpg"
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1542211877/website/presse/HR-Voice-logo-HD.jpg"
     },
     {
       "rowId": 12,
