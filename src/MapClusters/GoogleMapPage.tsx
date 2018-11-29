@@ -19,7 +19,6 @@ export class GoogleMapPage extends React.Component<IReactPageProps, {}> {
         }
     }
 }
-
 export const googleMapPage = (): IReactPage => ({
     menuTitle: 'Où sont les startups ?',
     route: 'map',
