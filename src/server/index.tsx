@@ -26,7 +26,7 @@ const port = process.env.PORT || 9000;
 // import { request } from 'https';
 import { get } from 'request';
 // const port = 9000;
-import * as sharp from 'sharp';
+// import * as sharp from 'sharp';
 interface IReactApp {
     body: string;
     css: string;
@@ -102,22 +102,22 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
         }
     })
 
-    const getFileBuffer = (url: string) => {
-        return new Promise(r => {
-            https.request(url, (response: any) => {
-                const data = new Transform();
-                response.on('data', (c: any) => {
-                    data.push(c);
-                });
-                response.on('error', (err: any) => {
-                    console.error('error', err);
-                })
-                response.on('end', () => {
-                    r(data.read());
-                });
-            }).end();
-        })
-    }
+    // const getFileBuffer = (url: string) => {
+    //     return new Promise(r => {
+    //         https.request(url, (response: any) => {
+    //             const data = new Transform();
+    //             response.on('data', (c: any) => {
+    //                 data.push(c);
+    //             });
+    //             response.on('error', (err: any) => {
+    //                 console.error('error', err);
+    //             })
+    //             response.on('end', () => {
+    //                 r(data.read());
+    //             });
+    //         }).end();
+    //     })
+    // }
 
     const download = (url: string, filename: string, ssl?: boolean) => {
         try {
@@ -190,148 +190,148 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
         }
     })
 
-    function chunk<T>(list: T[], size: number): T[][] {
-        return list.reduce(
-            (all: any, one: any, i) => {
-                const ch = Math.floor(i / size);
-                all[ch] = [].concat((all[ch] || []), one);
-                return all;
-            },
-            []);
-    }
+    // function chunk<T>(list: T[], size: number): T[][] {
+    //     return list.reduce(
+    //         (all: any, one: any, i) => {
+    //             const ch = Math.floor(i / size);
+    //             all[ch] = [].concat((all[ch] || []), one);
+    //             return all;
+    //         },
+    //         []);
+    // }
 
 
-    function wait(t: number) {
-        return new Promise(r => {
-            setTimeout(r, t * 1000);
-        })
-    }
+    // function wait(t: number) {
+    //     return new Promise(r => {
+    //         setTimeout(r, t * 1000);
+    //     })
+    // }
 
-    const ftmp = '/tmp/map.png';
-    function save(img: sharp.Sharp, index: number) {
-        return new Promise(r => {
-            img.toBuffer((err, b) => {
-                const output = `${ftmp}.${index}.png`;
-                console.log('output', output, err)
-                fs.writeFileSync(output, b);
-                r(true);
-            })
-        })
-    }
-    server.get(`/smap/:w/:padding/:colums.png`, async (req, res) => {
-        try {
-            const template = 'transparent';
-            // const startups = store.startups.splice(0, 10);
-            // const startups = shuffle(store.startups);
-            const startups = store.startups;
-            let { w, colums, padding } = req.params;
-            w = parseInt(w, 10)
-            colums = parseInt(colums, 10)
-            padding = parseInt(padding, 10);
+    // const ftmp = '/tmp/map.png';
+    // function save(img: sharp.Sharp, index: number) {
+    //     return new Promise(r => {
+    //         img.toBuffer((err, b) => {
+    //             const output = `${ftmp}.${index}.png`;
+    //             console.log('output', output, err)
+    //             fs.writeFileSync(output, b);
+    //             r(true);
+    //         })
+    //     })
+    // }
+    // server.get(`/smap/:w/:padding/:colums.png`, async (req, res) => {
+    //     try {
+    //         const template = 'transparent';
+    //         // const startups = store.startups.splice(0, 10);
+    //         // const startups = shuffle(store.startups);
+    //         const startups = store.startups;
+    //         let { w, colums, padding } = req.params;
+    //         w = parseInt(w, 10)
+    //         colums = parseInt(colums, 10)
+    //         padding = parseInt(padding, 10);
 
-            let max = w * colums;
-            if (startups.length > colums * colums) {
-                // extend one line if got more than the square
-                max += w;
-                colums += 1;
-            }
+    //         let max = w * colums;
+    //         if (startups.length > colums * colums) {
+    //             // extend one line if got more than the square
+    //             max += w;
+    //             colums += 1;
+    //         }
 
-            console.log('count', startups.length, max, colums);
+    //         console.log('count', startups.length, max, colums);
 
-            const iw = w - 2 * padding;
+    //         const iw = w - 2 * padding;
 
-            const startupChunk = chunk(startups, colums);
-            // console.log(startupChunk.map(sc => sc.length));
-            console.log('chunk count', startupChunk.length);
-            const chunkUrls = startupChunk.map((sc, row) => {
-                const chunkImages = sc.map((startup, i) => {
-                    const x = w * (i % colums);
-                    const y = w * Math.floor(i / colums);
-                    const logo = cloudinaryTransform(`${startup.iconUrl}`, `w_${iw},h_${iw},c_pad,f_png`);
-                    const logoUrlBase = urlTo64(logo);
-                    const fetch = `l_fetch:${logoUrlBase},g_north_west,x_${x + padding},y_${y + padding},w_${iw},h_${iw}`;
-                    return fetch;
-                })
-                const chunkTransformations = chunkImages.join('/');
-                // console.log(chunkTransformations)
-                const chunkUrl = cloudinaryTransform(`https://res.cloudinary.com/happytech/image/upload/v1543333907/logos/${template}.png`, `w_${max},h_${w},f_png/${chunkTransformations}`);
-                // console.log(chunkUrl);
-                return chunkUrl;
-            });
+    //         const startupChunk = chunk(startups, colums);
+    //         // console.log(startupChunk.map(sc => sc.length));
+    //         console.log('chunk count', startupChunk.length);
+    //         const chunkUrls = startupChunk.map((sc, row) => {
+    //             const chunkImages = sc.map((startup, i) => {
+    //                 const x = w * (i % colums);
+    //                 const y = w * Math.floor(i / colums);
+    //                 const logo = cloudinaryTransform(`${startup.iconUrl}`, `w_${iw},h_${iw},c_pad,f_png`);
+    //                 const logoUrlBase = urlTo64(logo);
+    //                 const fetch = `l_fetch:${logoUrlBase},g_north_west,x_${x + padding},y_${y + padding},w_${iw},h_${iw}`;
+    //                 return fetch;
+    //             })
+    //             const chunkTransformations = chunkImages.join('/');
+    //             // console.log(chunkTransformations)
+    //             const chunkUrl = cloudinaryTransform(`https://res.cloudinary.com/happytech/image/upload/v1543333907/logos/${template}.png`, `w_${max},h_${w},f_png/${chunkTransformations}`);
+    //             // console.log(chunkUrl);
+    //             return chunkUrl;
+    //         });
 
 
-            // const u1: any = await getFileBuffer(chunkUrls[0]);
-            // const u2: any = await getFileBuffer(chunkUrls[1]);
-            // await save(sharp(u1).overlayWith(u2, { top: 0, left: 200 }), 25);
+    //         // const u1: any = await getFileBuffer(chunkUrls[0]);
+    //         // const u2: any = await getFileBuffer(chunkUrls[1]);
+    //         // await save(sharp(u1).overlayWith(u2, { top: 0, left: 200 }), 25);
 
-            // // chunkUrls.forEach((c, row) => {
-            //     const file = `/Users/pouya/Documents/poutput/map/${row}.png`;
-            //     setTimeout(() => {
-            //         download(c, file, true);
-            //     }, 1000 * row);
-            // })
-            // const t = `https://res.cloudinary.com/happytech/image/upload/v1543333907/logos/transparent.png`
-            // const opts: sharp.SharpOptions = { create: { width: 300, height: 300, channels: 3, background: 'red' } };
-            // const s1 = await getFileBuffer(u1);
-            await sharp('/Users/pouya/Downloads/transparent.png').resize(max, startupChunk.length * w).toFile(ftmp);
-            for (let index = 0; index < chunkUrls.length; index++) {
-                const input = index === 0 ? ftmp : `${ftmp}.${index - 1}.png`;
-                console.log('input', input);
-                const img = sharp(input);
-                const cu = chunkUrls[index];
-                const s1: any = await getFileBuffer(cu);
-                // console.log(s1);
-                const opts = { top: index * w, left: 0 };
-                // console.log(opts);
-                await img.overlayWith(s1, opts).toFile(`${ftmp}.${index}.png`);
-                // await save(o, index);
-                // await wait(3);
-            }
-            const last = `${ftmp}.${chunkUrls.length - 1}.png`;
-            // console.log('last', last);
-            sharp(last).pipe(res);
-            console.log('end');
-            // sharp(u1).pipe(res);
-            // img.overlayWith(u1, { top: 0, left: 0 }).extend({ bottom: 300, top: 0, left: 0, right: 0 }).overlayWith(u2, { top: 300, left: 0 }).pipe(res);
-            // const ps = chunkUrls.map(async (cu, row) => {
-            //     // console.log(cu, row);
-            // });
+    //         // // chunkUrls.forEach((c, row) => {
+    //         //     const file = `/Users/pouya/Documents/poutput/map/${row}.png`;
+    //         //     setTimeout(() => {
+    //         //         download(c, file, true);
+    //         //     }, 1000 * row);
+    //         // })
+    //         // const t = `https://res.cloudinary.com/happytech/image/upload/v1543333907/logos/transparent.png`
+    //         // const opts: sharp.SharpOptions = { create: { width: 300, height: 300, channels: 3, background: 'red' } };
+    //         // const s1 = await getFileBuffer(u1);
+    //         await sharp('/Users/pouya/Downloads/transparent.png').resize(max, startupChunk.length * w).toFile(ftmp);
+    //         for (let index = 0; index < chunkUrls.length; index++) {
+    //             const input = index === 0 ? ftmp : `${ftmp}.${index - 1}.png`;
+    //             console.log('input', input);
+    //             const img = sharp(input);
+    //             const cu = chunkUrls[index];
+    //             const s1: any = await getFileBuffer(cu);
+    //             // console.log(s1);
+    //             const opts = { top: index * w, left: 0 };
+    //             // console.log(opts);
+    //             await img.overlayWith(s1, opts).toFile(`${ftmp}.${index}.png`);
+    //             // await save(o, index);
+    //             // await wait(3);
+    //         }
+    //         const last = `${ftmp}.${chunkUrls.length - 1}.png`;
+    //         // console.log('last', last);
+    //         sharp(last).pipe(res);
+    //         console.log('end');
+    //         // sharp(u1).pipe(res);
+    //         // img.overlayWith(u1, { top: 0, left: 0 }).extend({ bottom: 300, top: 0, left: 0, right: 0 }).overlayWith(u2, { top: 300, left: 0 }).pipe(res);
+    //         // const ps = chunkUrls.map(async (cu, row) => {
+    //         //     // console.log(cu, row);
+    //         // });
 
-            // await Promise.all(ps);
-            // img.pipe(res);
-            // res.sendStatus(200);
-            // const chunkUrls = ['']
-            // const rowFetchTransformation = chunkUrls.map((rowUrl, row) => {
-            //     const y = w * row;
-            //     const logoUrlBase = urlTo64(rowUrl);
-            //     const fetchUrl = `l_fetch:${logoUrlBase},g_north_west,x_0,y_${y},w_${max},h_${w}`;
-            //     // console.log(fetchUrl);
-            //     return fetchUrl;
-            // }).join('/')
-            // const mapUrl = cloudinaryTransform(`https://res.cloudinary.com/happytech/image/upload/v1543333907/logos/${template}.png`, `w_${max},h_${max}/${rowFetchTransformation}`);
+    //         // await Promise.all(ps);
+    //         // img.pipe(res);
+    //         // res.sendStatus(200);
+    //         // const chunkUrls = ['']
+    //         // const rowFetchTransformation = chunkUrls.map((rowUrl, row) => {
+    //         //     const y = w * row;
+    //         //     const logoUrlBase = urlTo64(rowUrl);
+    //         //     const fetchUrl = `l_fetch:${logoUrlBase},g_north_west,x_0,y_${y},w_${max},h_${w}`;
+    //         //     // console.log(fetchUrl);
+    //         //     return fetchUrl;
+    //         // }).join('/')
+    //         // const mapUrl = cloudinaryTransform(`https://res.cloudinary.com/happytech/image/upload/v1543333907/logos/${template}.png`, `w_${max},h_${max}/${rowFetchTransformation}`);
 
-            // console.log(chunkUrls[0].length, mapUrl.length);
-            // get(mapUrl).on('error', (e => {
-            //     console.error('error', e);
-            //     res.send(e);
-            // })).pipe(res);
-            // get(chunkUrls[0]).pipe(res);
+    //         // console.log(chunkUrls[0].length, mapUrl.length);
+    //         // get(mapUrl).on('error', (e => {
+    //         //     console.error('error', e);
+    //         //     res.send(e);
+    //         // })).pipe(res);
+    //         // get(chunkUrls[0]).pipe(res);
 
-            // const startup = getStartup(store, name);
-            // if (startup) {
-            //     const logo = cloudinaryTransform(`${startup.iconUrl}`, `w_${w},h_${h},c_pad,f_png,b_white`);
-            //     const logoUrlBase = urlTo64(logo);
-            //     const fetch = `l_fetch:${logoUrlBase},g_north_west,x_110,y_150,w_${w},h_${h}`;
-            //     const labelUrl = cloudinaryTransform(`https://res.cloudinary.com/happytech/image/upload/v1543320907/logos/${template}.png`, `w_512,h_512/${fetch}`);
-            //     get(labelUrl).pipe(res);
-            // } else {
-            //     throw new Error(`startup [${name}] not found : ${JSON.stringify(req.params)}`)
-            // }
-        } catch (err) {
-            console.error(err);
-            res.status(500).send(err.message);
-        }
-    })
+    //         // const startup = getStartup(store, name);
+    //         // if (startup) {
+    //         //     const logo = cloudinaryTransform(`${startup.iconUrl}`, `w_${w},h_${h},c_pad,f_png,b_white`);
+    //         //     const logoUrlBase = urlTo64(logo);
+    //         //     const fetch = `l_fetch:${logoUrlBase},g_north_west,x_110,y_150,w_${w},h_${h}`;
+    //         //     const labelUrl = cloudinaryTransform(`https://res.cloudinary.com/happytech/image/upload/v1543320907/logos/${template}.png`, `w_512,h_512/${fetch}`);
+    //         //     get(labelUrl).pipe(res);
+    //         // } else {
+    //         //     throw new Error(`startup [${name}] not found : ${JSON.stringify(req.params)}`)
+    //         // }
+    //     } catch (err) {
+    //         console.error(err);
+    //         res.status(500).send(err.message);
+    //     }
+    // })
 
     server.get(`/startups/images/badge/:template/:name.png`, async (req, res) => {
         try {
