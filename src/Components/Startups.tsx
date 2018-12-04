@@ -30,7 +30,7 @@ export class Startups extends React.Component<IProps, {}> {
                 <Divider style={{ margin: 24 }} />
                 {/* <Hidden smDown={true}> */}
                 <div className="flexCenter">
-                    <img style={{ width: '100%' }} src={cloudinaryTransform('https://res.cloudinary.com/happytech/image/upload/v1542729540/website/carte/carte_nov.png', '')} />
+                    <img style={{ width: '100%' }} src={cloudinaryTransform('https://res.cloudinary.com/happytech/image/upload/v1543958370/website/carte_dec.png', '')} />
                 </div>
                 <Divider style={{ margin: 24 }} />
                 {/* </Hidden> */}
@@ -47,3 +47,4 @@ export const startupsPage = (): IReactPage => ({
     component: Startups,
     headers: () => getHeaders('Les startups de la HappyTech')
 });
+
