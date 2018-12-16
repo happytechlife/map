@@ -53,7 +53,6 @@ const happytechSwiss = {
     headers: () => getHeaders("HappyTech Swiss, L'innovation technologique au service du bien-être en entreprise.")
 };
 
-
 export const homePage = { ...presentation, route: '/' };
 export function getHeaders(title: string, description?: string): IMetaHeaders {
     description = description || "HappyTech, L'innovation technologique au service du bien-être en entreprise.";
