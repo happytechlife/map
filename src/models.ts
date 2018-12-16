@@ -83,7 +83,12 @@ export interface IStartupPitch extends IRow {
 }
 
 
-
+export interface IQuote extends IRow {
+    startupName: string;
+    quote: string;
+    level: string;
+    startup?: IStartup;
+}
 
 export interface ICompany extends IRow {
     name: string;
@@ -139,4 +144,5 @@ export interface IHappyTechStore {
     partners: IPartner[];
     entreprises: ICompany[];
     presse: IPresse[];
+    citations: IQuote[];
 }

@@ -13,6 +13,7 @@ import { PartnerTable } from './PartnerTable';
 import { CompanyTable } from './CompanyTable';
 import { EventTable } from './EventTable';
 import { PresseTable } from './PresseTable';
+import { QuoteTable } from './QuoteTable';
 
 const storePath = 'server/data/data.json';
 
@@ -31,7 +32,8 @@ export class Store {
             events: [],
             partners: [],
             entreprises: [],
-            presse: []
+            presse: [],
+            citations: []
         };
     }
     // public load = async () => {
@@ -77,6 +79,8 @@ export class Store {
     //     this.loadTables();
     // }
 
+
+
     private getSavedModel() {
         if (fs.existsSync(storePath)) {
             const content = fs.readFileSync(storePath).toString();
@@ -102,7 +106,8 @@ export class Store {
             StartupPitchsTable,
             StartupSocialNetworkTable,
             StartupTagsTable,
-            PresseTable
+            PresseTable,
+            QuoteTable
         ];
         this.tables = tablesToLoad.map(t => new t(googleConfig.spreadsheetId));
     }
@@ -148,4 +153,10 @@ export function findByKey<T>(list: any[], key: string, value: string) {
         return list[index] as T;
     }
     return null;
+}
+
+export function deletetStoreFile() {
+    if (fs.existsSync(storePath)) {
+        fs.unlinkSync(storePath);
+    }
 }

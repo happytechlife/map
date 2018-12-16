@@ -3,7 +3,7 @@ import * as express from 'express';
 import * as fs from 'fs';
 import { renderToString } from 'react-dom/server';
 import html from './html';
-import { getStore } from '../Tables/Store';
+import { getStore, deletetStoreFile } from '../Tables/Store';
 import JssProvider from 'react-jss/lib/JssProvider';
 import { SheetsRegistry } from 'jss';
 import theme from '../theme';
@@ -69,6 +69,12 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
             res.send(html({ helmet, store, ...ra }));
         })
     })
+
+    server.get(`/reset-content`, async (req, res) => {
+        deletetStoreFile();
+        await getStore();
+        res.send('reset-content done');
+    });
 
     server.get(`/robots.txt`, async (req, res) => {
         res.send('Sitemap: https://www.happytech.life/sitemap.txt');

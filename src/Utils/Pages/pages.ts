@@ -1,7 +1,9 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
+import * as swissMarkdown from './../../Markdowns/swiss.md';
 import { IMarkdownPage, IPage, IReactPage, IMetaHeaders } from './models';
 import Help from '@material-ui/icons/Help';
+import Language from '@material-ui/icons/Language';
 import { teamPage } from '../../Components/Team';
 import { eventsPage } from '../../Components/Events';
 import { startupsPage } from '../../Components/Startups';
@@ -13,6 +15,7 @@ import { contactPage } from '../../Components/Contact';
 import { cloudinaryTransform } from '../Cloudinary';
 import { googleMapPage } from '../../MapClusters/GoogleMapPage';
 import { tagsPage } from '../../Components/Tags';
+import { quotePage } from '../../Components/Quotes';
 import { summitPage } from '../../Components/Summit';
 
 export function getHtml(input: string) {
@@ -40,6 +43,14 @@ const presentation = {
     route: 'presentation',
     html: getHtml(presentationMarkdown),
     headers: () => getHeaders("HappyTech, L'innovation technologique au service du bien-être en entreprise.")
+};
+
+const happytechSwiss = {
+    menuTitle: 'Suisse',
+    icon: Language,
+    route: 'swiss',
+    html: getHtml(swissMarkdown),
+    headers: () => getHeaders("HappyTech Swiss, L'innovation technologique au service du bien-être en entreprise.")
 };
 
 
@@ -70,14 +81,14 @@ export function getHeaders(title: string, description?: string): IMetaHeaders {
 }
 
 export const markdownPages: IMarkdownPage[] = [
-    presentation, homePage
+    presentation, homePage, happytechSwiss
 ]
 
 export const reactPages = (): IReactPage[] => ([
-    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage()
+    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage(), quotePage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage()
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()
