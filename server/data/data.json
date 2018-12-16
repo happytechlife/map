@@ -3355,8 +3355,7 @@
       "tags": [],
       "tagNames": [
         "Application Mobile",
-        "Application Web",
-        "Objets Connectés (IOT)"
+        "Application Web"
       ],
       "startup": {
         "rowId": 14,
@@ -3819,6 +3818,20 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1544455953/website/people/Laetitia_Barrier.jpg",
       "fullname": "Laetitia  Barrier "
+    },
+    {
+      "rowId": 21,
+      "firstname": "Alban",
+      "lastname": "Duriez",
+      "email": "ajourdet@bee-bienetreentreprise.com ",
+      "team": "Bureau",
+      "role": "Adhésions entreprises",
+      "active": true,
+      "linkedin": "alban-jourdet-b3723563",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1538405760/website/people/Alban_Jourdet.jpg",
+      "fullname": "Alban Duriez"
     }
   ],
   "startupSocialNetworks": [
