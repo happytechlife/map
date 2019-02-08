@@ -49,11 +49,10 @@ export class GoogleMap extends React.Component<IProps, IState> {
             })).filter(s => s);
             const mc = new MapClusters(map, markers);
             mc.createClusters();
-            return mc.clusters.map((c, i) => <StartupCluster onClick={this.onClusterClick} key={i} {...c.center} cluster={c} />)
+            return mc.clusters.map((c, i) => <StartupCluster classes={{}} onClick={this.onClusterClick} key={i} {...c.center} cluster={c} />)
         }
         return null;
     }
-
     public mapOptions = () => {
         return {
             center: eiffelTower,

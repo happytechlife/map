@@ -49,7 +49,7 @@ class Pin extends React.Component<IPinProps, {}> {
     }
 
     private tooltip(startup: IStartup) {
-        return <StartupTooltipCard startup={startup} />;
+        return <StartupTooltipCard classes={{}} startup={startup} />;
         // return StartupTooltipText({ startup });
     }
 }

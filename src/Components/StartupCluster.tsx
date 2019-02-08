@@ -46,7 +46,7 @@ class StartupCluster extends React.Component<IProps, {}> {
         const { cluster, onClick, classes } = this.props;
         if (cluster.markers.length === 1) {
             const marker = cluster.markers[0];
-            return <Pin {...marker.position} startup={marker.content} />;
+            return <Pin {...marker.position} startup={marker.content} classes={{}} />;
         }
         return <div className="StartupCluster" onClick={() => { onClick(cluster) }}>
             <Tooltip
@@ -70,7 +70,7 @@ class StartupCluster extends React.Component<IProps, {}> {
 
     private tooltip(startups: IStartup[]) {
         return startups.length < startupLessLimit
-            ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupTooltipCard startup={startup} key={i} />)}</div>
+            ? <div className="Clusters" style={{ width: 700 }}>{startups.map((startup, i) => <StartupTooltipCard classes={{}} startup={startup} key={i} />)}</div>
             : <div className="Clusters" style={{ width: 500 }}>{startups.map((startup, i) => <StartupTooltipText startup={startup} key={i} />)}</div>
 
     }
