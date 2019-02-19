@@ -50,7 +50,6 @@ class StartupCluster extends React.Component<IProps, {}> {
         }
         return <div className="StartupCluster" onClick={() => { onClick(cluster) }}>
             <Tooltip
-                // open={true}
                 classes={{
                     tooltip: cluster.markers.length < startupLessLimit ? classes.less : classes.more
                 }}

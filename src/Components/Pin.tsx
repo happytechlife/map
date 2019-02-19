@@ -56,7 +56,6 @@ class Pin extends React.Component<IPinProps, {}> {
 
 export default withStyles(styles)(Pin);
 
-
 export const StartupChip = (startup: IStartup) => {
     const style = { margin: 4 };
     const logo = startup.iconUrl;

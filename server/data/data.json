@@ -366,34 +366,6 @@
     },
     {
       "rowId": 13,
-      "name": "Contextor",
-      "address": "5 rue Guy Mocquet, 91400 Orsay",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397651/website/startup/contextor.png",
-      "contacts": [
-        {
-          "rowId": 13,
-          "startup_name": "Contextor",
-          "firstname": "Philippe",
-          "lastname": "Roux",
-          "email": "ppoux@contextor.eu",
-          "telephone": "",
-          "title": "Directeur général",
-          "linkedin": "",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.7004544,
-        "lng": 2.189630099999931
-      },
-      "tags": [],
-      "description": "Pionnier de la Robotic Process Automation, Contextor améliore le confort au travail de dizaines de milliers de personnes, en les déchargeant de toutes les tâches répétitives et fastidieuses liées à leur poste de travail informatique : copier-coller, changement d’application etc. Contextor permet aux collaborateurs de consacrer plus de temps aux tâches à valeur ajoutée qui mobilisent leur intelligence et leur sens de la relation humaine.",
-      "tagline": ""
-    },
-    {
-      "rowId": 14,
       "name": "Cowork.io",
       "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
@@ -419,6 +391,25 @@
       "tags": [],
       "description": "CoWork.io est une solution de gestion d'espaces de travail flexible centrée sur l'Humain. Son offre (solution SaaS en marque blanche, objets connectés et services) permet de créer du bien être et de l’engagement dans tous les espaces de travail : coworking, immeubles de bureaux et entreprises",
       "tagline": "CoWork.io est une solution de gestion d'espaces de travail flexible centrée sur l'Humain."
+    },
+    {
+      "rowId": 14,
+      "name": "Dialoog",
+      "address": "VilletteMakerz, Folie L5, Galerie de l'Ourcq, 75019 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549623086/website/startup/logo_Dialoog.png",
+      "contacts": [
+        {
+          "rowId": 43,
+          "startup_name": "Dialoog"
+        }
+      ],
+      "latLng": {
+        "lat": 48.892369,
+        "lng": 2.388055
+      },
+      "tags": [],
+      "description": "Dialoog facilite le dialogue de l'entreprise avec ses collaborateurs : plateforme d'écoute spécialiste des questions ouvertes, Dialoog libère la parole, et utilise son intelligence artificielle pour tirer des enseignements clairs et pistes d'action concrètes de toutes ces réponses texte, même à grande échelle.",
+      "tagline": ""
     },
     {
       "rowId": 15,
@@ -478,34 +469,6 @@
     },
     {
       "rowId": 17,
-      "name": "Feeleo",
-      "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
-      "contacts": [
-        {
-          "rowId": 17,
-          "startup_name": "Feeleo",
-          "firstname": "Basil",
-          "lastname": "Yaïche",
-          "email": "b.yaiche@feeleo.co",
-          "telephone": "",
-          "title": "CEO & Fondateur",
-          "linkedin": "basil-yaiche-751836151",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8909327,
-        "lng": 2.243474900000024
-      },
-      "tags": [],
-      "description": "Feeleo propose des interventions innovantes visant à améliorer le bien-être des salariés : méditation, sophrologie, improvisation, conseils…tout est mis à votre disposition pour répondre spécifiquement à vos besoin via des intervenants qualifiés et bienveillants.",
-      "tagline": ""
-    },
-    {
-      "rowId": 18,
       "name": "Fidensio",
       "address": "5 Parvis Alan Turing, 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
@@ -530,6 +493,20 @@
       },
       "tags": [],
       "description": "Fidensio, c'est la conciergerie connectée au bureau ! Intuitive et innovante, la e-conciergerie Fidensio accompagne les collaborateurs dans leur équilibre vie privée vie professionnelle en leur proposant plus d'une vingtaine de services pour leur simplifier le quotidien : Pressing, Services à domicile, Achats express....",
+      "tagline": ""
+    },
+    {
+      "rowId": 18,
+      "name": "Follow Me",
+      "address": "61 rue traversière, 75012 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549624603/website/startup/logo_follow_me.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8489,
+        "lng": 2.3744500000000244
+      },
+      "tags": [],
+      "description": "Followme est la plateforme digitale des directions de l'environnement de travail pour collecter, suivre et gérer les demandes des collaborateurs. Les gestionnaires de l'environnement de travail gagnent du temps, valorisent leur travail et augmentent le bien être des collaborateurs.",
       "tagline": ""
     },
     {
@@ -562,62 +539,6 @@
     },
     {
       "rowId": 20,
-      "name": "Humancraft",
-      "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
-      "contacts": [
-        {
-          "rowId": 20,
-          "startup_name": "Humancraft",
-          "firstname": "Bertrand",
-          "lastname": "Pierson",
-          "email": "bpierson@humancraft.eu",
-          "telephone": "",
-          "title": "Fondateur",
-          "linkedin": "bertrand-pierson-053a739",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8832455,
-        "lng": 2.2684090000000197
-      },
-      "tags": [],
-      "description": "HumanCraft est le spécialiste de l’intermédiation des acteurs du numérique : nous référençons des Entreprises de Services du Numérique (ex-SSII) à taille humaine avec une forte culture d’entreprise et des recrutements de qualité que nous valorisons auprès des acteurs du marché de l’IT.",
-      "tagline": ""
-    },
-    {
-      "rowId": 21,
-      "name": "Humeaning",
-      "address": "4 place de l'Opéra 75002 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
-      "contacts": [
-        {
-          "rowId": 21,
-          "startup_name": "Humeaning",
-          "firstname": "Béatrice",
-          "lastname": "Duboisset",
-          "email": "beatrice.duboisset@humeaning.fr",
-          "telephone": "",
-          "title": "CEO & Fondatrice",
-          "linkedin": "beatriceduboisset",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8705039,
-        "lng": 2.3328566000000137
-      },
-      "tags": [],
-      "description": "Les consultan.t.e.s humeaning conçoivent et animent des programmes de sensibilisation pour créer des déclics en donnant des repères sur les enjeux de la transformation et l’innovation. De plus, nous intervenons auprès d’équipes spécifiques ou sur l’ensemble de l’organisation pour créer une culture commune.",
-      "tagline": ""
-    },
-    {
-      "rowId": 22,
       "name": "IDPosition",
       "address": "85 rue de Lourmel 75015 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416606/website/startup/IDPosition.png",
@@ -645,7 +566,7 @@
       "tagline": ""
     },
     {
-      "rowId": 23,
+      "rowId": 21,
       "name": "Kandu",
       "address": "130 rue de Lourmel, 75015 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549370043/website/startup/LOGO_KANDU_1.png",
@@ -659,7 +580,7 @@
       "tagline": ""
     },
     {
-      "rowId": 24,
+      "rowId": 22,
       "name": "Kiplin",
       "address": "3 boulevard Saint Martin, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
@@ -687,7 +608,7 @@
       "tagline": "Réinventez la prévention santé . Misez sur le jeu, le digital et la force du collectif."
     },
     {
-      "rowId": 25,
+      "rowId": 23,
       "name": "Klimat",
       "address": "94 rue Lafayette 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
@@ -715,7 +636,21 @@
       "tagline": ""
     },
     {
-      "rowId": 26,
+      "rowId": 24,
+      "name": "La pause baskets",
+      "address": "25 Rue du Caire, 75002 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550505423/website/startup/Logo-pour-facebook-02-300x300.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8264171,
+        "lng": 2.2734576
+      },
+      "tags": [],
+      "description": "La Pause Baskets est un service de sport en entreprise nouvelle génération alliant technologie et expertise sportive au service de la santé des employés, de la cohésion d'équipe et de la marque employeur.",
+      "tagline": "Du sport en entreprise nouvelle génération !"
+    },
+    {
+      "rowId": 25,
       "name": "Le Bon Coach",
       "address": "20 rue Berthe Morisot, 95220 Herblay",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543440963/website/startup/Le_Bon_Coach.png",
@@ -743,7 +678,7 @@
       "tagline": ""
     },
     {
-      "rowId": 27,
+      "rowId": 26,
       "name": "Lyyti",
       "address": "104 boulevard de Sébastopol 75003 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
@@ -771,7 +706,7 @@
       "tagline": ""
     },
     {
-      "rowId": 28,
+      "rowId": 27,
       "name": "Melomind",
       "address": "85 rue Maubeuge 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
@@ -799,7 +734,7 @@
       "tagline": ""
     },
     {
-      "rowId": 29,
+      "rowId": 28,
       "name": "monaSTAY",
       "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
@@ -825,6 +760,20 @@
       "tags": [],
       "description": "monaSTAY accompagne vos collaborateurs dans un cadre de paix et de sérénité, le monastère, pour vivre une expérience de convivialité et de retour sur soi, en mode « digital detox ».",
       "tagline": ""
+    },
+    {
+      "rowId": 29,
+      "name": "My mental energy pro",
+      "address": "9 rue grillet 69007 LYON",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 45.7492155,
+        "lng": 4.8455166
+      },
+      "tags": [],
+      "description": "Dispositif de prévention de la surcharge mentale au travail, avec gain en concentration et QVT, à partir des sciences cognitives : conférences, ateliers, formations, Appli B2B, contenu pour Intranet et portail QVT. Prix d'argent Trophées QVT & Prix Innovation Préventica 2018. Multilingue.",
+      "tagline": "Evitez la surchauffe mentale au travail, gagnez en concentration et bien-être ! 1° en Europe"
     },
     {
       "rowId": 30,
@@ -1164,34 +1113,6 @@
     },
     {
       "rowId": 42,
-      "name": "Yuco",
-      "address": "21 place des Nations Unies, 92110 Clichy",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
-      "contacts": [
-        {
-          "rowId": 41,
-          "startup_name": "Yuco",
-          "firstname": "Charlélie",
-          "lastname": "Vallet",
-          "email": "charlelie@yuco.co",
-          "telephone": "",
-          "title": "CEO & Co-Fondateur",
-          "linkedin": "charlelie-vallet-8904a426",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.862725,
-        "lng": 2.287592000000018
-      },
-      "tags": [],
-      "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau.",
-      "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
-    },
-    {
-      "rowId": 43,
       "name": "ZestMeUp",
       "address": "71 rue de Saussure 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
@@ -1764,35 +1685,7 @@
       "linkedin": "",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg",
-      "startup": {
-        "rowId": 13,
-        "name": "Contextor",
-        "address": "5 rue Guy Mocquet, 91400 Orsay",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397651/website/startup/contextor.png",
-        "contacts": [
-          {
-            "rowId": 13,
-            "startup_name": "Contextor",
-            "firstname": "Philippe",
-            "lastname": "Roux",
-            "email": "ppoux@contextor.eu",
-            "telephone": "",
-            "title": "Directeur général",
-            "linkedin": "",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.7004544,
-          "lng": 2.189630099999931
-        },
-        "tags": [],
-        "description": "Pionnier de la Robotic Process Automation, Contextor améliore le confort au travail de dizaines de milliers de personnes, en les déchargeant de toutes les tâches répétitives et fastidieuses liées à leur poste de travail informatique : copier-coller, changement d’application etc. Contextor permet aux collaborateurs de consacrer plus de temps aux tâches à valeur ajoutée qui mobilisent leur intelligence et leur sens de la relation humaine.",
-        "tagline": ""
-      }
+      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg"
     },
     {
       "rowId": 14,
@@ -1807,7 +1700,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Pierre-Andr%C3%A9_Svetchine.jpg",
       "startup": {
-        "rowId": 14,
+        "rowId": 13,
         "name": "Cowork.io",
         "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
@@ -1928,35 +1821,7 @@
       "linkedin": "basil-yaiche-751836151",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg",
-      "startup": {
-        "rowId": 17,
-        "name": "Feeleo",
-        "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1520934011/FEELEO_Logo_03_2018.jpg",
-        "contacts": [
-          {
-            "rowId": 17,
-            "startup_name": "Feeleo",
-            "firstname": "Basil",
-            "lastname": "Yaïche",
-            "email": "b.yaiche@feeleo.co",
-            "telephone": "",
-            "title": "CEO & Fondateur",
-            "linkedin": "basil-yaiche-751836151",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.8909327,
-          "lng": 2.243474900000024
-        },
-        "tags": [],
-        "description": "Feeleo propose des interventions innovantes visant à améliorer le bien-être des salariés : méditation, sophrologie, improvisation, conseils…tout est mis à votre disposition pour répondre spécifiquement à vos besoin via des intervenants qualifiés et bienveillants.",
-        "tagline": ""
-      }
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg"
     },
     {
       "rowId": 18,
@@ -1971,7 +1836,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Johan_Melab.jpg",
       "startup": {
-        "rowId": 18,
+        "rowId": 17,
         "name": "Fidensio",
         "address": "5 Parvis Alan Turing, 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
@@ -2051,35 +1916,7 @@
       "linkedin": "bertrand-pierson-053a739",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg",
-      "startup": {
-        "rowId": 20,
-        "name": "Humancraft",
-        "address": "8 Rue de l'Hôtel de ville, 92200 Neuilly-sur-Seine",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614511/HUMANCRAFT-LOGO.png",
-        "contacts": [
-          {
-            "rowId": 20,
-            "startup_name": "Humancraft",
-            "firstname": "Bertrand",
-            "lastname": "Pierson",
-            "email": "bpierson@humancraft.eu",
-            "telephone": "",
-            "title": "Fondateur",
-            "linkedin": "bertrand-pierson-053a739",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.8832455,
-          "lng": 2.2684090000000197
-        },
-        "tags": [],
-        "description": "HumanCraft est le spécialiste de l’intermédiation des acteurs du numérique : nous référençons des Entreprises de Services du Numérique (ex-SSII) à taille humaine avec une forte culture d’entreprise et des recrutements de qualité que nous valorisons auprès des acteurs du marché de l’IT.",
-        "tagline": ""
-      }
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg"
     },
     {
       "rowId": 21,
@@ -2092,35 +1929,7 @@
       "linkedin": "beatriceduboisset",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg",
-      "startup": {
-        "rowId": 21,
-        "name": "Humeaning",
-        "address": "4 place de l'Opéra 75002 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530696474/humeaning-site_humeaning-gris.png",
-        "contacts": [
-          {
-            "rowId": 21,
-            "startup_name": "Humeaning",
-            "firstname": "Béatrice",
-            "lastname": "Duboisset",
-            "email": "beatrice.duboisset@humeaning.fr",
-            "telephone": "",
-            "title": "CEO & Fondatrice",
-            "linkedin": "beatriceduboisset",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.8705039,
-          "lng": 2.3328566000000137
-        },
-        "tags": [],
-        "description": "Les consultan.t.e.s humeaning conçoivent et animent des programmes de sensibilisation pour créer des déclics en donnant des repères sur les enjeux de la transformation et l’innovation. De plus, nous intervenons auprès d’équipes spécifiques ou sur l’ensemble de l’organisation pour créer une culture commune.",
-        "tagline": ""
-      }
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg"
     },
     {
       "rowId": 22,
@@ -2135,7 +1944,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407940/website/people/Francis_Schlayen.jpg",
       "startup": {
-        "rowId": 22,
+        "rowId": 20,
         "name": "IDPosition",
         "address": "85 rue de Lourmel 75015 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416606/website/startup/IDPosition.png",
@@ -2176,7 +1985,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408070/website/people/Vincent_Tharreau.jpg",
       "startup": {
-        "rowId": 24,
+        "rowId": 22,
         "name": "Kiplin",
         "address": "3 boulevard Saint Martin, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
@@ -2217,7 +2026,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408242/website/people/Jean-Pierre_Brun.jpg",
       "startup": {
-        "rowId": 25,
+        "rowId": 23,
         "name": "Klimat",
         "address": "94 rue Lafayette 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
@@ -2258,7 +2067,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1543230491/website/people/Eliott_Saguet.jpg",
       "startup": {
-        "rowId": 26,
+        "rowId": 25,
         "name": "Le Bon Coach",
         "address": "20 rue Berthe Morisot, 95220 Herblay",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543440963/website/startup/Le_Bon_Coach.png",
@@ -2299,7 +2108,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406958/website/people/Tehani_Leprieur.jpg",
       "startup": {
-        "rowId": 27,
+        "rowId": 26,
         "name": "Lyyti",
         "address": "104 boulevard de Sébastopol 75003 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
@@ -2340,7 +2149,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538407783/website/people/Yohan-Attal---CEO--Co-Founder-ConvertImage.jpg",
       "startup": {
-        "rowId": 28,
+        "rowId": 27,
         "name": "Melomind",
         "address": "85 rue Maubeuge 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
@@ -2381,7 +2190,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406446/website/people/Aymeric_Dognin.jpg",
       "startup": {
-        "rowId": 29,
+        "rowId": 28,
         "name": "monaSTAY",
         "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
@@ -2912,35 +2721,7 @@
       "linkedin": "charlelie-vallet-8904a426",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg",
-      "startup": {
-        "rowId": 42,
-        "name": "Yuco",
-        "address": "21 place des Nations Unies, 92110 Clichy",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
-        "contacts": [
-          {
-            "rowId": 41,
-            "startup_name": "Yuco",
-            "firstname": "Charlélie",
-            "lastname": "Vallet",
-            "email": "charlelie@yuco.co",
-            "telephone": "",
-            "title": "CEO & Co-Fondateur",
-            "linkedin": "charlelie-vallet-8904a426",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.862725,
-          "lng": 2.287592000000018
-        },
-        "tags": [],
-        "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau.",
-        "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
-      }
+      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
     },
     {
       "rowId": 42,
@@ -2955,7 +2736,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg",
       "startup": {
-        "rowId": 43,
+        "rowId": 42,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
@@ -2980,6 +2761,29 @@
         },
         "tags": [],
         "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 43,
+      "startup_name": "Dialoog",
+      "startup": {
+        "rowId": 14,
+        "name": "Dialoog",
+        "address": "VilletteMakerz, Folie L5, Galerie de l'Ourcq, 75019 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549623086/website/startup/logo_Dialoog.png",
+        "contacts": [
+          {
+            "rowId": 43,
+            "startup_name": "Dialoog"
+          }
+        ],
+        "latLng": {
+          "lat": 48.892369,
+          "lng": 2.388055
+        },
+        "tags": [],
+        "description": "Dialoog facilite le dialogue de l'entreprise avec ses collaborateurs : plateforme d'écoute spécialiste des questions ouvertes, Dialoog libère la parole, et utilise son intelligence artificielle pour tirer des enseignements clairs et pistes d'action concrètes de toutes ces réponses texte, même à grande échelle.",
         "tagline": ""
       }
     }
@@ -3107,7 +2911,7 @@
         "Deconnexion"
       ],
       "startup": {
-        "rowId": 29,
+        "rowId": 28,
         "name": "monaSTAY",
         "address": "NextDoor Coeur Défense 110 Espl. du Général de Gaulle, 92400 Courbevoie",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
@@ -3217,7 +3021,7 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 43,
+        "rowId": 42,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
@@ -3255,7 +3059,7 @@
         "Casques Neuro-Sciences"
       ],
       "startup": {
-        "rowId": 28,
+        "rowId": 27,
         "name": "Melomind",
         "address": "85 rue Maubeuge 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
@@ -3289,35 +3093,7 @@
       "tags": [],
       "tagNames": [
         "Application Mobile"
-      ],
-      "startup": {
-        "rowId": 42,
-        "name": "Yuco",
-        "address": "21 place des Nations Unies, 92110 Clichy",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1541512128/website/startup/logo_Yuco_Degrade_2.png",
-        "contacts": [
-          {
-            "rowId": 41,
-            "startup_name": "Yuco",
-            "firstname": "Charlélie",
-            "lastname": "Vallet",
-            "email": "charlelie@yuco.co",
-            "telephone": "",
-            "title": "CEO & Co-Fondateur",
-            "linkedin": "charlelie-vallet-8904a426",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.862725,
-          "lng": 2.287592000000018
-        },
-        "tags": [],
-        "description": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau.",
-        "tagline": "Réservez les meilleurs experts pour vos activités et formations soft skills au bureau."
-      }
+      ]
     },
     {
       "rowId": 9,
@@ -3372,7 +3148,7 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 14,
+        "rowId": 13,
         "name": "Cowork.io",
         "address": "9 Rue du Faubourg Poissonnière, 75009 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
@@ -3410,7 +3186,7 @@
         "Objets Connectés (IOT)"
       ],
       "startup": {
-        "rowId": 24,
+        "rowId": 22,
         "name": "Kiplin",
         "address": "3 boulevard Saint Martin, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
@@ -3578,7 +3354,7 @@
       "linkedin": "tiana-bruscagnin",
       "twitter": "",
       "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1548670184/website/people/Tiana.png",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1549622796/website/people/photo_tiana.jpg",
       "fullname": "Tiana Bruscagnin"
     },
     {
@@ -3728,7 +3504,7 @@
       "email": "ndeyeaichakasse@gmail.com",
       "team": "Bénévoles",
       "role": "Community Manager",
-      "active": true,
+      "active": false,
       "linkedin": "✅-ndèye-aïcha-kassé-83062a2b",
       "twitter": "",
       "facebook": "",
@@ -3758,6 +3534,9 @@
       "role": "Adhésions startups",
       "active": true,
       "linkedin": "guillaume-roth",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1549906553/website/people/0.jpg",
       "fullname": "Guillaume Roth"
     },
     {
@@ -3871,6 +3650,20 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538405760/website/people/Alban_Jourdet.jpg",
       "fullname": "Alban Jourdet"
+    },
+    {
+      "rowId": 24,
+      "firstname": "Ilona ",
+      "lastname": "Tobelem",
+      "email": "ilona@happytech.life",
+      "team": "Bénévoles",
+      "role": "Presse et réseaux sociaux",
+      "active": true,
+      "linkedin": "ilona-tobelem-5359b2134/?originalSubdomain=fr",
+      "twitter": "",
+      "facebook": "",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1549906608/website/people/0.jpg",
+      "fullname": "Ilona  Tobelem"
     }
   ],
   "startupSocialNetworks": [
@@ -4595,6 +4388,23 @@
       "location": "EFE - Département formation",
       "address": "35 rue du Louvre - 75002 Paris",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1540810303/website/events/EFE.jpg"
+    },
+    {
+      "rowId": 5,
+      "name": "Solutions RH",
+      "description": "",
+      "startupNames": [
+        "Comeet",
+        "MyBrain",
+        "TOD",
+        "Windoo",
+        "Zippy"
+      ],
+      "dateString": "19-03-2019\n21-03-2019",
+      "time": "• 19/03/2019 de 14:00 à 18:30\n• 20/03/2019 de 09:30 à 18:30\n• 21/03/2019 de 09:30 à 17:30",
+      "location": "Paris Expo, Porte de Versailles",
+      "address": "1 Place de la Porte de Versailles, 75015 Paris",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1549907682/website/events/SOLUTIONS_RH.jpg"
     }
   ],
   "partners": [
