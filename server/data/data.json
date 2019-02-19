@@ -400,7 +400,16 @@
       "contacts": [
         {
           "rowId": 43,
-          "startup_name": "Dialoog"
+          "startup_name": "Dialoog",
+          "firstname": "Marion",
+          "lastname": "Pont",
+          "email": "marion@dialoog.fr",
+          "telephone": "",
+          "title": "Business Developer",
+          "linkedin": "marion-pont-9494986b",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1550583467/website/people/marionpont.jpg"
         }
       ],
       "latLng": {
@@ -2767,6 +2776,15 @@
     {
       "rowId": 43,
       "startup_name": "Dialoog",
+      "firstname": "Marion",
+      "lastname": "Pont",
+      "email": "marion@dialoog.fr",
+      "telephone": "",
+      "title": "Business Developer",
+      "linkedin": "marion-pont-9494986b",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1550583467/website/people/marionpont.jpg",
       "startup": {
         "rowId": 14,
         "name": "Dialoog",
@@ -2775,7 +2793,16 @@
         "contacts": [
           {
             "rowId": 43,
-            "startup_name": "Dialoog"
+            "startup_name": "Dialoog",
+            "firstname": "Marion",
+            "lastname": "Pont",
+            "email": "marion@dialoog.fr",
+            "telephone": "",
+            "title": "Business Developer",
+            "linkedin": "marion-pont-9494986b",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1550583467/website/people/marionpont.jpg"
           }
         ],
         "latLng": {
@@ -3536,7 +3563,7 @@
       "linkedin": "guillaume-roth",
       "twitter": "",
       "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1549906553/website/people/0.jpg",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1550580078/website/people/0.jpg",
       "fullname": "Guillaume Roth"
     },
     {
@@ -3650,20 +3677,6 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1538405760/website/people/Alban_Jourdet.jpg",
       "fullname": "Alban Jourdet"
-    },
-    {
-      "rowId": 24,
-      "firstname": "Ilona ",
-      "lastname": "Tobelem",
-      "email": "ilona@happytech.life",
-      "team": "Bénévoles",
-      "role": "Presse et réseaux sociaux",
-      "active": true,
-      "linkedin": "ilona-tobelem-5359b2134/?originalSubdomain=fr",
-      "twitter": "",
-      "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1549906608/website/people/0.jpg",
-      "fullname": "Ilona  Tobelem"
     }
   ],
   "startupSocialNetworks": [
@@ -4395,13 +4408,13 @@
       "description": "",
       "startupNames": [
         "Comeet",
-        "MyBrain",
+        "Melomind",
         "TOD",
         "Windoo",
         "Zippy"
       ],
       "dateString": "19-03-2019\n21-03-2019",
-      "time": "• 19/03/2019 de 14:00 à 18:30\n• 20/03/2019 de 09:30 à 18:30\n• 21/03/2019 de 09:30 à 17:30",
+      "time": "19/03/2019 de 14:00 à 18:30 | 20/03/2019 de 09:30 à 18:30 | 21/03/2019 de 09:30 à 17:30",
       "location": "Paris Expo, Porte de Versailles",
       "address": "1 Place de la Porte de Versailles, 75015 Paris",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1549907682/website/events/SOLUTIONS_RH.jpg"
