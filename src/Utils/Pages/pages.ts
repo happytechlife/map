@@ -1,6 +1,7 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
 import * as swissMarkdown from './../../Markdowns/swiss.md';
+import * as turkeyMarkdown from './../../Markdowns/turkey.md';
 import { IMarkdownPage, IPage, IReactPage, IMetaHeaders } from './models';
 import Help from '@material-ui/icons/Help';
 import Language from '@material-ui/icons/Language';
@@ -53,6 +54,14 @@ const happytechSwiss = {
     headers: () => getHeaders("HappyTech Swiss, L'innovation technologique au service du bien-être en entreprise.")
 };
 
+const happytechTurkey = {
+    menuTitle: 'Türkiye',
+    icon: Language,
+    route: 'turkey',
+    html: getHtml(turkeyMarkdown),
+    headers: () => getHeaders("HappyTech Türkiye, İşletmelerin refahı için teknolojik yenilik.")
+};
+
 export const homePage = { ...presentation, route: '/' };
 export function getHeaders(title: string, description?: string): IMetaHeaders {
     description = description || "HappyTech, L'innovation technologique au service du bien-être en entreprise.";
@@ -80,14 +89,14 @@ export function getHeaders(title: string, description?: string): IMetaHeaders {
 }
 
 export const markdownPages: IMarkdownPage[] = [
-    presentation, homePage, happytechSwiss
+    presentation, homePage, happytechSwiss, happytechTurkey
 ]
 
 export const reactPages = (): IReactPage[] => ([
     tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage(), quotePage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss, happytechTurkey
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()
