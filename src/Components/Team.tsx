@@ -45,7 +45,7 @@ function getTeamMembersByTeam(tms: ITeamMember[]) {
 function teamMember(tm: ITeamMember) {
     return <Card key={tm.rowId} style={{ width: 288, margin: 8, display: 'flex', flexDirection: 'column' }} className="flexCenter">
         <CardContent>
-            {tm.picture && <div className="flexCenter"><img src={cloudinaryTransform(tm.picture, 'w_96,r_max')} alt={tm.fullname} style={{ margin: 8 }} /></div>}
+            {tm.picture && <div className="flexCenter"><img src={cloudinaryTransform(tm.picture, 'w_96,r_max,f_png')} alt={tm.fullname} style={{ margin: 8 }} /></div>}
             <Typography gutterBottom={true} variant="headline" component="h2">{tm.fullname}</Typography>
             <Typography color="textSecondary">{tm.role}</Typography>
         </CardContent>
