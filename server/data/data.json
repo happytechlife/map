@@ -399,17 +399,17 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549623086/website/startup/logo_Dialoog.png",
       "contacts": [
         {
-          "rowId": 43,
+          "rowId": 42,
           "startup_name": "Dialoog",
-          "firstname": "Marion",
-          "lastname": "Pont",
-          "email": "marion@dialoog.fr",
+          "firstname": "Patrick",
+          "lastname": "Lloret",
+          "email": "patrick@dialoog.fr",
           "telephone": "",
-          "title": "Business Developer",
-          "linkedin": "marion-pont-9494986b",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "patrick-lloret-ba509440",
           "twitter": "",
           "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1550583467/website/people/marionpont.jpg"
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1550587190/website/people/Patrick_Lloret.jpg"
         }
       ],
       "latLng": {
@@ -649,7 +649,21 @@
       "name": "La pause baskets",
       "address": "25 Rue du Caire, 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550505423/website/startup/Logo-pour-facebook-02-300x300.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 43,
+          "startup_name": "La pause baskets",
+          "firstname": "Morgane",
+          "lastname": "Renault",
+          "email": "morgane@lapausebaskets.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "morgane-renault-233a1149",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585742/website/people/Morgane_Renault.jpg"
+        }
+      ],
       "latLng": {
         "lat": 48.8264171,
         "lng": 2.2734576
@@ -775,7 +789,21 @@
       "name": "My mental energy pro",
       "address": "9 rue grillet 69007 LYON",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 44,
+          "startup_name": "My mental energy pro",
+          "firstname": "Jean-Christophe",
+          "lastname": "Beau",
+          "email": "jc.beau@mymentalenergy.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "jean-christophe-beau-24a9725/?originalSubdomain=fr",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585982/website/people/Jean-Christophe_Beau.jpg"
+        }
+      ],
       "latLng": {
         "lat": 45.7492155,
         "lng": 4.8455166
@@ -1067,7 +1095,7 @@
     {
       "rowId": 40,
       "name": "Windoo",
-      "address": "6 Rue Claude Farrère, 75016 Paris",
+      "address": "26 avenue des Champs Elysées, 75008, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
       "contacts": [
         {
@@ -1085,12 +1113,12 @@
         }
       ],
       "latLng": {
-        "lat": 48.8426547,
-        "lng": 2.253331399999979
+        "lat": 48.8698,
+        "lng": 2.3087600000000066
       },
       "tags": [],
       "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place.",
-      "tagline": ""
+      "tagline": "S'épanouir au travail. "
     },
     {
       "rowId": 41,
@@ -1127,7 +1155,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
       "contacts": [
         {
-          "rowId": 42,
+          "rowId": 41,
           "startup_name": "ZestMeUp",
           "firstname": "Christophe",
           "lastname": "Bergeon",
@@ -2652,7 +2680,7 @@
       "startup": {
         "rowId": 40,
         "name": "Windoo",
-        "address": "6 Rue Claude Farrère, 75016 Paris",
+        "address": "26 avenue des Champs Elysées, 75008, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
         "contacts": [
           {
@@ -2670,12 +2698,12 @@
           }
         ],
         "latLng": {
-          "lat": 48.8426547,
-          "lng": 2.253331399999979
+          "lat": 48.8698,
+          "lng": 2.3087600000000066
         },
         "tags": [],
         "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place.",
-        "tagline": ""
+        "tagline": "S'épanouir au travail. "
       }
     },
     {
@@ -2721,19 +2749,6 @@
     },
     {
       "rowId": 41,
-      "startup_name": "Yuco",
-      "firstname": "Charlélie",
-      "lastname": "Vallet",
-      "email": "charlelie@yuco.co",
-      "telephone": "",
-      "title": "CEO & Co-Fondateur",
-      "linkedin": "charlelie-vallet-8904a426",
-      "twitter": "",
-      "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538406480/website/people/Charl%C3%A9lie_Vallet.jpg"
-    },
-    {
-      "rowId": 42,
       "startup_name": "ZestMeUp",
       "firstname": "Christophe",
       "lastname": "Bergeon",
@@ -2751,7 +2766,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
         "contacts": [
           {
-            "rowId": 42,
+            "rowId": 41,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -2774,17 +2789,17 @@
       }
     },
     {
-      "rowId": 43,
+      "rowId": 42,
       "startup_name": "Dialoog",
-      "firstname": "Marion",
-      "lastname": "Pont",
-      "email": "marion@dialoog.fr",
+      "firstname": "Patrick",
+      "lastname": "Lloret",
+      "email": "patrick@dialoog.fr",
       "telephone": "",
-      "title": "Business Developer",
-      "linkedin": "marion-pont-9494986b",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "patrick-lloret-ba509440",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1550583467/website/people/marionpont.jpg",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1550587190/website/people/Patrick_Lloret.jpg",
       "startup": {
         "rowId": 14,
         "name": "Dialoog",
@@ -2792,17 +2807,17 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549623086/website/startup/logo_Dialoog.png",
         "contacts": [
           {
-            "rowId": 43,
+            "rowId": 42,
             "startup_name": "Dialoog",
-            "firstname": "Marion",
-            "lastname": "Pont",
-            "email": "marion@dialoog.fr",
+            "firstname": "Patrick",
+            "lastname": "Lloret",
+            "email": "patrick@dialoog.fr",
             "telephone": "",
-            "title": "Business Developer",
-            "linkedin": "marion-pont-9494986b",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "patrick-lloret-ba509440",
             "twitter": "",
             "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/v1550583467/website/people/marionpont.jpg"
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1550587190/website/people/Patrick_Lloret.jpg"
           }
         ],
         "latLng": {
@@ -2812,6 +2827,88 @@
         "tags": [],
         "description": "Dialoog facilite le dialogue de l'entreprise avec ses collaborateurs : plateforme d'écoute spécialiste des questions ouvertes, Dialoog libère la parole, et utilise son intelligence artificielle pour tirer des enseignements clairs et pistes d'action concrètes de toutes ces réponses texte, même à grande échelle.",
         "tagline": ""
+      }
+    },
+    {
+      "rowId": 43,
+      "startup_name": "La pause baskets",
+      "firstname": "Morgane",
+      "lastname": "Renault",
+      "email": "morgane@lapausebaskets.fr",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "morgane-renault-233a1149",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585742/website/people/Morgane_Renault.jpg",
+      "startup": {
+        "rowId": 24,
+        "name": "La pause baskets",
+        "address": "25 Rue du Caire, 75002 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550505423/website/startup/Logo-pour-facebook-02-300x300.png",
+        "contacts": [
+          {
+            "rowId": 43,
+            "startup_name": "La pause baskets",
+            "firstname": "Morgane",
+            "lastname": "Renault",
+            "email": "morgane@lapausebaskets.fr",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "morgane-renault-233a1149",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585742/website/people/Morgane_Renault.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8264171,
+          "lng": 2.2734576
+        },
+        "tags": [],
+        "description": "La Pause Baskets est un service de sport en entreprise nouvelle génération alliant technologie et expertise sportive au service de la santé des employés, de la cohésion d'équipe et de la marque employeur.",
+        "tagline": "Du sport en entreprise nouvelle génération !"
+      }
+    },
+    {
+      "rowId": 44,
+      "startup_name": "My mental energy pro",
+      "firstname": "Jean-Christophe",
+      "lastname": "Beau",
+      "email": "jc.beau@mymentalenergy.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "linkedin": "jean-christophe-beau-24a9725/?originalSubdomain=fr",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585982/website/people/Jean-Christophe_Beau.jpg",
+      "startup": {
+        "rowId": 29,
+        "name": "My mental energy pro",
+        "address": "9 rue grillet 69007 LYON",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
+        "contacts": [
+          {
+            "rowId": 44,
+            "startup_name": "My mental energy pro",
+            "firstname": "Jean-Christophe",
+            "lastname": "Beau",
+            "email": "jc.beau@mymentalenergy.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur",
+            "linkedin": "jean-christophe-beau-24a9725/?originalSubdomain=fr",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585982/website/people/Jean-Christophe_Beau.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 45.7492155,
+          "lng": 4.8455166
+        },
+        "tags": [],
+        "description": "Dispositif de prévention de la surcharge mentale au travail, avec gain en concentration et QVT, à partir des sciences cognitives : conférences, ateliers, formations, Appli B2B, contenu pour Intranet et portail QVT. Prix d'argent Trophées QVT & Prix Innovation Préventica 2018. Multilingue.",
+        "tagline": "Evitez la surchauffe mentale au travail, gagnez en concentration et bien-être ! 1° en Europe"
       }
     }
   ],
@@ -3054,7 +3151,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
         "contacts": [
           {
-            "rowId": 42,
+            "rowId": 41,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -3116,14 +3213,6 @@
     },
     {
       "rowId": 8,
-      "startup_name": "Yuco",
-      "tags": [],
-      "tagNames": [
-        "Application Mobile"
-      ]
-    },
-    {
-      "rowId": 9,
       "startup_name": "Bloom At Work",
       "tags": [],
       "tagNames": [
@@ -3159,7 +3248,7 @@
       }
     },
     {
-      "rowId": 10,
+      "rowId": 9,
       "startup_name": "ChaudPatate",
       "tags": [],
       "tagNames": [
@@ -3167,7 +3256,7 @@
       ]
     },
     {
-      "rowId": 11,
+      "rowId": 10,
       "startup_name": "Cowork.io",
       "tags": [],
       "tagNames": [
@@ -3204,7 +3293,7 @@
       }
     },
     {
-      "rowId": 12,
+      "rowId": 11,
       "startup_name": "Kiplin",
       "tags": [],
       "tagNames": [
@@ -3242,7 +3331,7 @@
       }
     },
     {
-      "rowId": 13,
+      "rowId": 12,
       "startup_name": "TOD",
       "tags": [],
       "tagNames": [
@@ -3563,7 +3652,7 @@
       "linkedin": "guillaume-roth",
       "twitter": "",
       "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1550580078/website/people/0.jpg",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1550580078/website/people/Guillaume%20Roth.jpg",
       "fullname": "Guillaume Roth"
     },
     {
@@ -4029,16 +4118,6 @@
     },
     {
       "rowId": 41,
-      "startupName": "Yuco",
-      "webSite": "https://www.wehobby.com/fr/",
-      "linkedIn": "yuco",
-      "twitter": "Yuco_team",
-      "facebook": "",
-      "instagram": "",
-      "youTube": "UCQADkPFzzFhwFa12O2iYGHQ"
-    },
-    {
-      "rowId": 42,
       "startupName": "ZestMeUp",
       "webSite": "https://zestmeup.com/fr/",
       "linkedIn": "zestmeup",
@@ -4294,13 +4373,6 @@
     },
     {
       "rowId": 35,
-      "startupName": "Yuco",
-      "presentation": "Yuco propose des parcours personnalisés, dédiés au bien-être du collaborateur en fonction de ses objectifs et intérêts : développer ses compétences et son leadership, se détendre, se dépenser. L’application permet également de connecter les collaborateurs entre eux autour de leurs passions, des communautés sont ainsi spontanément créées.",
-      "problems": "Nos actions contribuent à améliorer  la cohésion d’équipe, l’engagement des collaborateurs, la performance de l’organisation et ont un impact positif sur la marque employeur.\r\nL’objectif ? Améliorer la qualité de vie au travail, car nous sommes convaincus que les entreprises qui réussissent sont celles qui prennent soin de leurs salariés.",
-      "numbers": "En 2018, Yuco est le premier réseau de bien-être en entreprise de France avec 500 experts, 23 clients dont STMicroelectonics, Groupama, ManoMano et plus de 18 000 utilisateurs. "
-    },
-    {
-      "rowId": 36,
       "startupName": "ZestMeUp",
       "presentation": "Zest améliore l’engagement et le succès de vos équipes pour avoir des équipes épanouies, des collaborateurs plus heureux et des entreprises plus performantes.\r\nZest permet de mesurer l’humeur des équipes en temps réel et de construire une culture du feedback pour redynamiser la communication et le lien entre les équipes. La collaboration, l’échange fréquent et le partage de connaissances sont les vecteurs principaux de l’accomplissement personnel et collectif dont sont avides les collaborateurs. ",
       "problems": "De nombreux défis attendent les entreprises de demain, mais la bataille de l’engagement a déjà commencé. Zest accompagne les organisations dans cette transition, en redonnant à l’humain une place centrale dans les organisations. En 3 étapes, Zest aide à mieux comprendre les équipes et leurs besoins. Construire une culture d’entreprise autour de la reconnaissance, de la collaboration et du temps réel mène toute l’organisation au succès. \n1. Mieux connaître les équipes : les collaborateurs partagent leur humeur quotidiennement, répondent à des enquêtes d’engagement et peuvent évaluer leur entreprise sur leurs principaux leviers de motivation. Les managers peuvent mesurer ces données grâce à des tableaux de bord clairs, avec la possibilité de forer au cœur des problématiques grâces à des filtres aboutis. \n2. Booster la collaboration : Les talents peuvent gérer leurs objectifs et mesurer leur progression, créer des groupes de projets transverses, faire ou recevoir des feedbacks et faire des points réguliers avec leurs managers sur leur contribution et leur état d’esprit au travail. \n3. Favoriser la reconnaissance : En quelques clics les employés peuvent envoyer des « Zests », un moyen simple de féliciter ou remercier un collaborateur. Ils peuvent aussi partager leur souhait de progresser sur des sujets de développement personnel et professionnel. ",
@@ -4400,12 +4472,13 @@
       "time": "8:30-17:30",
       "location": "EFE - Département formation",
       "address": "35 rue du Louvre - 75002 Paris",
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1540810303/website/events/EFE.jpg"
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1540810303/website/events/EFE.jpg",
+      "registerLink": "https://pim.efe.fr/"
     },
     {
       "rowId": 5,
       "name": "Solutions RH",
-      "description": "",
+      "description": "Le salon des outils et services dédiés aux dirigeants d'entreprises, aux responsables des ressources humaines, de la formation et des systèmes d'information",
       "startupNames": [
         "Comeet",
         "Melomind",
@@ -4417,7 +4490,40 @@
       "time": "19/03/2019 de 14:00 à 18:30 | 20/03/2019 de 09:30 à 18:30 | 21/03/2019 de 09:30 à 17:30",
       "location": "Paris Expo, Porte de Versailles",
       "address": "1 Place de la Porte de Versailles, 75015 Paris",
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1549907682/website/events/SOLUTIONS_RH.jpg"
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1549907682/website/events/SOLUTIONS_RH.jpg",
+      "registerLink": "http://www.solutions-ressources-humaines.com/visiter.php"
+    },
+    {
+      "rowId": 6,
+      "name": "Salon happytech ",
+      "description": "La HappyTech organise un salon dans les locaux de Sodexo, le temps d'une journée durant laquelle les startups HappyTech viendront exposer leur solution bien-être au travail.",
+      "startupNames": [
+        "Fidensio",
+        "Comeet",
+        "Serenity",
+        "Cleanitud",
+        "Bee",
+        "antimauxdedos",
+        "IDPosition",
+        "Plantez Respirez",
+        "kiplin",
+        "Lyyti",
+        "Wingzy? Artify",
+        "Melomind",
+        "Le bon coach",
+        "TOD",
+        "Windoo",
+        "BoostYourFit",
+        "Kandu",
+        "Teamstarter",
+        "Eveia"
+      ],
+      "dateString": "08-04-2019",
+      "time": "09:00-16:00",
+      "location": "Sodexo Nanterre",
+      "address": "19 Rue Ernest Renan, 92000 Nanterre",
+      "logo": "",
+      "registerLink": "https://life.us16.list-manage.com/track/click?u=e102d997b62f713a7c2779f46&id=3fa913df3a&e=7c6e0a9024"
     }
   ],
   "partners": [
@@ -4928,219 +5034,195 @@
     },
     {
       "rowId": 33,
-      "startupName": "Yuco",
-      "level": "Niveau 0",
-      "quote": "En attente"
-    },
-    {
-      "rowId": 34,
-      "startupName": "Yuco",
-      "level": "Niveau 0",
-      "quote": "\"Notre turnover a baissé de 15% et notre taux d'absentéisme de 20% en 6 mois, suite à la mise en place de Yuco dans nos équipes\" (Groupama)"
-    },
-    {
-      "rowId": 35,
       "startupName": "Klimat",
       "level": "Niveau -1",
       "quote": "\"Nos clients apprécient la robustesse scientifique de nos indicateurs et de nos conseils en management\""
     },
     {
-      "rowId": 36,
+      "rowId": 34,
       "startupName": "Klimat",
       "level": "Niveau -1",
       "quote": "\"100% de nos clients voient dans Klimat un outil essentiel pour améliorer les pratiques de management.\""
     },
     {
-      "rowId": 37,
+      "rowId": 35,
       "startupName": "Supermood",
       "level": "Niveau -1",
       "quote": "\"Déjà 1 million de questions posées par les leaders RH sur Supermood\""
     },
     {
-      "rowId": 38,
+      "rowId": 36,
       "startupName": "Supermood",
       "level": "Niveau -1",
       "quote": "\"Supermood permet de fabriquer du progrès dans les entreprises\" (Pierre Tafani, DRH chez Suez)"
     },
     {
-      "rowId": 39,
+      "rowId": 37,
       "startupName": "Bleexo",
       "level": "Niveau -1",
       "quote": "\"Et si votre entreprise était plus peRHformante​ et remaRHquable ?\""
     },
     {
-      "rowId": 40,
+      "rowId": 38,
       "startupName": "Bleexo",
       "level": "Niveau -1",
       "quote": "\"Enquêtes pulse, Baromètre, Conseils, Reconnaissance, 360°, nos clients adorent la plateforme 5 en 1.\""
     },
     {
-      "rowId": 41,
+      "rowId": 39,
       "startupName": "Windoo",
       "level": "Niveau 0",
       "quote": "\"Plus de 80% d'adhésion chez nos clients et 98% de satisfaction en 2018.\""
     },
     {
-      "rowId": 42,
+      "rowId": 40,
       "startupName": "Windoo",
       "level": "Niveau 0",
       "quote": "\"Tout gérer en 2 clics, une vraie amélioration de la qualité de vie au travail chez nos clients.\""
     },
     {
-      "rowId": 43,
+      "rowId": 41,
       "startupName": "Aura",
       "level": "Niveau 1",
       "quote": "\"En un an, nous avons permis à 2750 personnes d'éviter de voir un poney dans une piscine lorsque'on leur parle \"d'aquaponie\".\""
     },
     {
-      "rowId": 44,
+      "rowId": 42,
       "startupName": "Aura",
       "level": "Niveau 1",
       "quote": "\"AURA c'est, 12300 infusions menthe fraîche réalisées grâce aux poissons.\""
     },
     {
-      "rowId": 45,
+      "rowId": 43,
       "startupName": "monaSTAY",
       "level": "Niveau 1",
       "quote": "\"100% de nos participants ont totalement pu déconnecter du virtuel et reconnecter à l'essentiel.\""
     },
     {
-      "rowId": 46,
+      "rowId": 44,
       "startupName": "monaSTAY",
       "level": "Niveau 1",
       "quote": "\"99% de nos participants ont grandement apprécié le cadre inspirant de nos séminaires et l'accueil atypique des moines et moniales.\""
     },
     {
-      "rowId": 47,
+      "rowId": 45,
       "startupName": "Eveia",
       "level": "Niveau -1",
       "quote": "\"99% des testeurs du produit ont utilisé instinctivement eveia, être actif sans y penser.\""
     },
     {
-      "rowId": 48,
+      "rowId": 46,
       "startupName": "Eveia",
       "level": "Niveau -1",
       "quote": "\"Etre actif au bureau assis, c'est maintenant possible, essayez, c'est évident.\""
     },
     {
-      "rowId": 49,
+      "rowId": 47,
       "startupName": "Plantez Respirez",
       "level": "Niveau 1",
       "quote": "\"Nous pouvons vivre 3 semaines sans manger, trois jours sans boire mais pas 3 minutes sans respirer.\""
     },
     {
-      "rowId": 50,
+      "rowId": 48,
       "startupName": "Plantez Respirez",
       "level": "Niveau 1",
       "quote": "\"Après six mois de vie à côtés des les îles végétales les salariés n'ont plus mal aux yeux à la fin d'une journée de travail face à l'ordinateur.\""
     },
     {
-      "rowId": 51,
+      "rowId": 49,
       "startupName": "ZestMeUp",
       "level": "Niveau -1",
       "quote": "\"Zest aide des équipes à être plus engagées dans plus de 35 pays\""
     },
     {
-      "rowId": 52,
+      "rowId": 50,
       "startupName": "ZestMeUp",
       "level": "Niveau -1",
       "quote": "\"Lancer un sondage ne prend que 5 minutes avec Zest\""
     },
     {
-      "rowId": 53,
+      "rowId": 51,
       "startupName": "Happy Quest",
       "level": "Niveau 1",
       "quote": "\"Un challenge d’Happy Quest m’a aidé à voir et aborder différemment une collègue avec qui ma relation était très conflictuelle. Aujourd’hui ça va beaucoup mieux.\"\r\nSonia, chargé facturation chez Toulouse Métropole"
     },
     {
-      "rowId": 54,
+      "rowId": 52,
       "startupName": "Happy Quest",
       "level": "Niveau 1",
       "quote": "\"Chaque jour je prends 5min sur Happy Quest, c’est ma petite pause pour prendre soin de moi, sourire, souffler et prendre du recul\" \r\nThéo, technicien chauffagiste chez Engie Cofely"
     },
     {
-      "rowId": 55,
+      "rowId": 53,
       "startupName": "Surfy",
       "level": "Niveau 0",
       "quote": "\"Ce qui ne se mesure pas n'existe pas\""
     },
     {
-      "rowId": 56,
+      "rowId": 54,
       "startupName": "Surfy",
       "level": "Niveau 0",
       "quote": "\"Des m² bien exploités améliorent la QVT\""
     },
     {
-      "rowId": 57,
+      "rowId": 55,
       "startupName": "AllSessions",
       "level": "Niveau -1",
       "quote": "\"Non au sport contrainte. Oui au sport plaisir !\""
     },
     {
-      "rowId": 58,
+      "rowId": 56,
       "startupName": "AllSessions",
       "level": "Niveau -1",
       "quote": "\"Le sport est avant tout un moment de partage et de convivialité\""
     },
     {
-      "rowId": 59,
+      "rowId": 57,
       "startupName": "Vital Tech",
       "level": "Niveau -1",
       "quote": "\"- 1965 : Invention de l'infrathérapie - 2018 : Vital Dome transcende l'énergie au travail\""
     },
     {
-      "rowId": 60,
+      "rowId": 58,
       "startupName": "Vital Tech",
       "level": "Niveau -1",
       "quote": "\" Avec une séance par semaine en moyenne, 92% des collaborateurs sentent la différence\""
     },
     {
-      "rowId": 61,
+      "rowId": 59,
       "startupName": "Open Mind Innovation",
       "level": "Niveau -1",
       "quote": "\"Nos clients apprécient la prise de conscience créée par la comparaison de leur perception d’eux-mêmes avec les mesures en situation.\""
     },
     {
-      "rowId": 62,
+      "rowId": 60,
       "startupName": "Open Mind Innovation",
       "level": "Niveau -1",
       "quote": "\"Nos clients sont surpris de voir l’impact de la réalité virtuelle sur les réactions de leur corps, et apprécient les conseils qui peuvent leur être apportés sur la gestion du stress et des émotions.\""
     },
     {
-      "rowId": 63,
+      "rowId": 61,
       "startupName": "Lyyti",
       "level": "Niveau 0",
       "quote": "\"Le saviez-vous ? Le métier d'organisateur d'événement arrive en 5e position des métiers les plus stressants au monde.\""
     },
     {
-      "rowId": 64,
+      "rowId": 62,
       "startupName": "Lyyti",
       "level": "Niveau 0",
       "quote": "\"4 entreprises sur 5 ne connaissent pas le nombre exact d'événements qu'elles organisent et sont incapables d'en mesurer le ROI.\""
     },
     {
-      "rowId": 65,
+      "rowId": 63,
       "startupName": "IDPosition",
       "level": "Niveau 1",
       "quote": "« Chez mes clients, 100% et même plus des occupants sont connectés à leur environnement de travail sans fil, sans pile et sans application »"
     },
     {
-      "rowId": 66,
+      "rowId": 64,
       "startupName": "IDPosition",
       "level": "Niveau 1",
       "quote": "« Chez mes clients, l'interrupteur universel simplifie la vie de la Direction de l'Environnement de Travail et elle vous en remercie! »"
-    },
-    {
-      "rowId": 67,
-      "startupName": "Yuco",
-      "level": "Niveau 0",
-      "quote": "\"40% des collaborateurs des clients chez lesquels on intervient participent à l'une des activités que l'on propose\""
-    },
-    {
-      "rowId": 68,
-      "startupName": "Yuco",
-      "level": "Niveau 0",
-      "quote": "\"Notre turnover a baissé de 15% et notre taux d'absentéisme de 20% en 6 mois, suite à la mise en place de Yuco dans nos équipes\" (Groupama)"
     }
   ]
 }
