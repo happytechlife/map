@@ -77,7 +77,9 @@ const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
     });
 
     server.get(`/robots.txt`, async (req, res) => {
-        res.send('Sitemap: https://www.happytech.life/sitemap.txt');
+        res.send(`Sitemap: https://www.happytech.life/sitemap.txt
+        User-agent: *
+        Disallow: /sitemap.txt`);
     });
 
     server.get(`/sitemap.txt`, async (req, res) => {
