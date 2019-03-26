@@ -40,7 +40,7 @@
           "firstname": "Antoine",
           "lastname": "Thoreau",
           "email": "antoine@allsessions.fr",
-          "telephone": "",
+          "telephone": "0670180642",
           "title": "CEO & Fondateur",
           "linkedin": "antoinethoreau",
           "twitter": "",
@@ -68,7 +68,7 @@
           "firstname": "Paul",
           "lastname": "Voillemin",
           "email": "paul@chaudpatate.org",
-          "telephone": "",
+          "telephone": "0602619375",
           "title": "CEO & Co-Fondateur",
           "linkedin": "paulvoillemin",
           "twitter": "",
@@ -96,7 +96,7 @@
           "firstname": "Christophe",
           "lastname": "Roux",
           "email": "christophe.roux@artify.fr",
-          "telephone": "",
+          "telephone": "06 88 20 50 83",
           "title": "CEO & Co-Fondateur",
           "linkedin": "christopheroux1",
           "twitter": "",
@@ -124,7 +124,7 @@
           "firstname": "Thomas",
           "lastname": "Demerens",
           "email": "thomas@aura-urbaine.com",
-          "telephone": "",
+          "telephone": "0620448214",
           "title": "CEO & Co-Fondateur",
           "linkedin": "thomas-demerens-40048aa0",
           "twitter": "",
@@ -152,7 +152,7 @@
           "firstname": "Olivier",
           "lastname": "Zeller",
           "email": "olivier.zeller@aurasens.com",
-          "telephone": "",
+          "telephone": "06 52 05 28 69",
           "title": "CEO & Co-Fondateur",
           "linkedin": "olivierzeller",
           "twitter": "",
@@ -180,7 +180,7 @@
           "firstname": "Alban",
           "lastname": "Jourdet",
           "email": "ajourdet@bee-bienetreentreprise.com ",
-          "telephone": "",
+          "telephone": "0658193388",
           "title": "CEO & Co-Fondateur",
           "linkedin": "alban-jourdet-b3723563",
           "twitter": "",
@@ -208,7 +208,7 @@
           "firstname": "Stéphane",
           "lastname": "Waller",
           "email": "stephane.waller@bleexo.com",
-          "telephone": "",
+          "telephone": "0611892183",
           "title": "CEO ",
           "linkedin": "swmeltis",
           "twitter": "",
@@ -236,7 +236,7 @@
           "firstname": "Charles",
           "lastname": "De Fréminville",
           "email": "charles@bloom-at-work.com",
-          "telephone": "",
+          "telephone": "0669585618",
           "title": "CEO & Co-Fondateur",
           "linkedin": "bloom-with-charles",
           "twitter": "",
@@ -264,7 +264,7 @@
           "firstname": "Fabien",
           "lastname": "Guillemot",
           "email": "fguillemot@boostyourfit.com",
-          "telephone": "",
+          "telephone": "0760006023",
           "title": "CEO & Co-Fondateur",
           "linkedin": "fabien-guillemot-5b96002",
           "twitter": "",
@@ -320,7 +320,7 @@
           "firstname": "Faustine",
           "lastname": "Duriez",
           "email": "faustine@cocoworkers.com",
-          "telephone": "",
+          "telephone": "0635337231",
           "title": "CEO & Fondatrice",
           "linkedin": "faustine-duriez-2617013b",
           "twitter": "",
@@ -348,7 +348,7 @@
           "firstname": "Samuel",
           "lastname": "Metias",
           "email": "samuel@comeet.in",
-          "telephone": "",
+          "telephone": "0664406263",
           "title": "CEO & Co-Fondateur",
           "linkedin": "smetias",
           "twitter": "",
@@ -371,7 +371,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
       "contacts": [
         {
-          "rowId": 14,
+          "rowId": 13,
           "startup_name": "Cowork.io",
           "firstname": "Pierre-André",
           "lastname": "Svetchine",
@@ -399,7 +399,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549623086/website/startup/logo_Dialoog.png",
       "contacts": [
         {
-          "rowId": 42,
+          "rowId": 41,
           "startup_name": "Dialoog",
           "firstname": "Patrick",
           "lastname": "Lloret",
@@ -427,7 +427,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543508866/website/startup/Effency.png",
       "contacts": [
         {
-          "rowId": 15,
+          "rowId": 14,
           "startup_name": "Effency",
           "firstname": "Frédérique ",
           "lastname": "Chabert",
@@ -455,12 +455,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977883/website/startup/Eveia.png",
       "contacts": [
         {
-          "rowId": 16,
+          "rowId": 15,
           "startup_name": "Eveia",
           "firstname": "Vincent",
           "lastname": "Fourdrinier",
           "email": "info@eveia.io",
-          "telephone": "",
+          "telephone": "0680252673",
           "title": "CEO & Fondateur",
           "linkedin": "vincentfourdrinier",
           "twitter": "",
@@ -483,12 +483,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
       "contacts": [
         {
-          "rowId": 18,
+          "rowId": 17,
           "startup_name": "Fidensio",
           "firstname": "Johan",
           "lastname": "Melab",
           "email": "johan@fidensio.com",
-          "telephone": "",
+          "telephone": "0688611428",
           "title": "CEO & Co-Fondateur",
           "linkedin": "johan-melab",
           "twitter": "",
@@ -509,7 +509,17 @@
       "name": "Follow Me",
       "address": "61 rue traversière, 75012 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549624603/website/startup/logo_follow_me.png",
-      "contacts": [],
+      "contacts": [
+        {
+          "rowId": 45,
+          "startup_name": "Follow Me",
+          "firstname": "Didier",
+          "lastname": "Flahou",
+          "email": "dflahou@followme.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur"
+        }
+      ],
       "latLng": {
         "lat": 48.8489,
         "lng": 2.3744500000000244
@@ -525,12 +535,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
       "contacts": [
         {
-          "rowId": 19,
+          "rowId": 18,
           "startup_name": "Happy Quest",
           "firstname": "Lewis",
           "lastname": "Gotteland",
           "email": "lewis@happyquest.co",
-          "telephone": "",
+          "telephone": "0680243696",
           "title": "CEO & Fondateur",
           "linkedin": "lewis-gotteland-69398961",
           "twitter": "",
@@ -553,12 +563,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416606/website/startup/IDPosition.png",
       "contacts": [
         {
-          "rowId": 22,
+          "rowId": 21,
           "startup_name": "IDPosition",
           "firstname": "Francis",
           "lastname": "Schlayen",
           "email": "f.schlayen@idposition.fr",
-          "telephone": "",
+          "telephone": "06 79 95 35 89",
           "title": "CEO & Co-Fondateur",
           "linkedin": "fschlayen",
           "twitter": "",
@@ -595,12 +605,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
       "contacts": [
         {
-          "rowId": 23,
+          "rowId": 22,
           "startup_name": "Kiplin",
           "firstname": "Benoit",
           "lastname": "Fagnou",
           "email": "benoit.fagnou@kiplin.com",
-          "telephone": "",
+          "telephone": "0688262079",
           "title": "Directeur Commercial",
           "linkedin": "benoit-fagnou-68240911b",
           "twitter": "",
@@ -623,7 +633,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
       "contacts": [
         {
-          "rowId": 24,
+          "rowId": 23,
           "startup_name": "Klimat",
           "firstname": "Jean-Pierre",
           "lastname": "Brun",
@@ -651,7 +661,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550505423/website/startup/Logo-pour-facebook-02-300x300.png",
       "contacts": [
         {
-          "rowId": 43,
+          "rowId": 42,
           "startup_name": "La pause baskets",
           "firstname": "Morgane",
           "lastname": "Renault",
@@ -679,7 +689,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543440963/website/startup/Le_Bon_Coach.png",
       "contacts": [
         {
-          "rowId": 25,
+          "rowId": 24,
           "startup_name": "Le Bon Coach",
           "firstname": "Eliott",
           "lastname": "Saguet",
@@ -707,12 +717,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
       "contacts": [
         {
-          "rowId": 26,
+          "rowId": 25,
           "startup_name": "Lyyti",
           "firstname": "Tehani",
           "lastname": "Leprieur",
           "email": "tehani.leprieur@lyyti.com",
-          "telephone": "",
+          "telephone": "0684261663",
           "title": "Directrice générale",
           "linkedin": "tehani-leprieur",
           "twitter": "",
@@ -735,7 +745,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
       "contacts": [
         {
-          "rowId": 27,
+          "rowId": 26,
           "startup_name": "Melomind",
           "firstname": "Yohan",
           "lastname": "Attal",
@@ -763,12 +773,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
       "contacts": [
         {
-          "rowId": 28,
+          "rowId": 27,
           "startup_name": "monaSTAY",
           "firstname": "Aymeric",
           "lastname": "Dognin",
           "email": "aymeric@monastay.fr",
-          "telephone": "",
+          "telephone": "0641907728",
           "title": "CEO & Fondateur",
           "linkedin": "aymeric-dognin-06bba85",
           "twitter": "",
@@ -791,7 +801,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
       "contacts": [
         {
-          "rowId": 44,
+          "rowId": 43,
           "startup_name": "My mental energy pro",
           "firstname": "Jean-Christophe",
           "lastname": "Beau",
@@ -819,12 +829,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
       "contacts": [
         {
-          "rowId": 29,
+          "rowId": 28,
           "startup_name": "OneConciergerie",
           "firstname": "Jean-Pierre",
           "lastname": "Benedetti",
           "email": "jean.benedetti@jobbers.co",
-          "telephone": "",
+          "telephone": "0671848492",
           "title": "CEO & Fondateur",
           "linkedin": "jeanbenedetti",
           "twitter": "",
@@ -847,7 +857,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
       "contacts": [
         {
-          "rowId": 30,
+          "rowId": 29,
           "startup_name": "Pickr",
           "firstname": "Marc",
           "lastname": "Rota",
@@ -875,12 +885,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
       "contacts": [
         {
-          "rowId": 31,
+          "rowId": 30,
           "startup_name": "Plantez Respirez",
           "firstname": "Lena",
           "lastname": "Soffer",
           "email": "contact@plantezrespirez.com",
-          "telephone": "",
+          "telephone": "0659271074",
           "title": "CEO & Fondatrice",
           "linkedin": "lena-soffer",
           "twitter": "",
@@ -903,12 +913,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
       "contacts": [
         {
-          "rowId": 32,
+          "rowId": 31,
           "startup_name": "Roti.express",
           "firstname": "Antoine",
           "lastname": "Durand",
           "email": "antoine.durand4@gmail.com",
-          "telephone": "",
+          "telephone": "0769992678",
           "title": "CEO & Fondateur",
           "linkedin": "antoined4",
           "twitter": "",
@@ -931,7 +941,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
       "contacts": [
         {
-          "rowId": 33,
+          "rowId": 32,
           "startup_name": "Serenity",
           "firstname": "Elodie ",
           "lastname": "Livernette",
@@ -959,12 +969,12 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
       "contacts": [
         {
-          "rowId": 34,
+          "rowId": 33,
           "startup_name": "Supermood",
           "firstname": "Kevin",
           "lastname": "Bourgeois",
           "email": "kevin@supermood.fr",
-          "telephone": "",
+          "telephone": "0671494178",
           "title": "CEO & Co-Fondateur",
           "linkedin": "kevin-bourgeois-24770655",
           "twitter": "",
@@ -987,7 +997,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
       "contacts": [
         {
-          "rowId": 35,
+          "rowId": 34,
           "startup_name": "Teamstarter",
           "firstname": "Ségolène",
           "lastname": "Mouterde",
@@ -1015,7 +1025,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
       "contacts": [
         {
-          "rowId": 36,
+          "rowId": 35,
           "startup_name": "TOD",
           "firstname": "Gaëlle",
           "lastname": "Monteiller",
@@ -1043,7 +1053,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543441725/website/startup/trainme.png",
       "contacts": [
         {
-          "rowId": 37,
+          "rowId": 36,
           "startup_name": "TrainMe",
           "firstname": "Gatien",
           "lastname": "Letartre",
@@ -1071,7 +1081,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
       "contacts": [
         {
-          "rowId": 38,
+          "rowId": 37,
           "startup_name": "Wellnesstraining",
           "firstname": "Michel ",
           "lastname": "Rota",
@@ -1099,7 +1109,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
       "contacts": [
         {
-          "rowId": 39,
+          "rowId": 38,
           "startup_name": "Windoo",
           "firstname": "Arnaud",
           "lastname": "Varnier",
@@ -1127,7 +1137,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
       "contacts": [
         {
-          "rowId": 40,
+          "rowId": 39,
           "startup_name": "Wingzy",
           "firstname": "Clément ",
           "lastname": "Dietschy",
@@ -1155,7 +1165,7 @@
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
       "contacts": [
         {
-          "rowId": 41,
+          "rowId": 40,
           "startup_name": "ZestMeUp",
           "firstname": "Christophe",
           "lastname": "Bergeon",
@@ -1175,6 +1185,54 @@
       "tags": [],
       "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
       "tagline": ""
+    },
+    {
+      "rowId": 43,
+      "name": "Tecbak",
+      "address": "13 rue Lechapelais, 75017 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1553616040/website/startup/logo_tecbak.png",
+      "contacts": [
+        {
+          "rowId": 46,
+          "startup_name": "Tecbak",
+          "firstname": "Jerôme",
+          "lastname": "Boye",
+          "email": "jerome.boye@tecbak.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur"
+        }
+      ],
+      "latLng": {
+        "lat": 48.885771,
+        "lng": 2.3252982
+      },
+      "tags": [],
+      "description": "De nouvelles relations entre les joueurs, les entreprises et les marques. \nFaites entrer votre organisation dans la convivialité 2.0 avec un service de vente et de location d’ebabyfoot connectés à un réseau social dédié.",
+      "tagline": ""
+    },
+    {
+      "rowId": 44,
+      "name": "Karos",
+      "address": "48 rue René Clair, 75018 PARIS",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1553616430/website/startup/logo_karos.svg",
+      "contacts": [
+        {
+          "rowId": 44,
+          "startup_name": "Karos",
+          "firstname": "Christelle",
+          "lastname": "Clairville",
+          "email": "christelle@karos.fr",
+          "telephone": "",
+          "title": "Responsable Marketing B2B"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8941,
+        "lng": 2.3542400000000043
+      },
+      "tags": [],
+      "description": "L'application N°1 du ©court-voiturage domicile-travail permet à des milliers de personnes d'optimiser leurs trajets grâce à des économies de temps, d'argent et de CO2.",
+      "tagline": "KAROS révolutionne les trajets quotidiens !"
     }
   ],
   "contacts": [
@@ -1225,7 +1283,7 @@
       "firstname": "Antoine",
       "lastname": "Thoreau",
       "email": "antoine@allsessions.fr",
-      "telephone": "",
+      "telephone": "0670180642",
       "title": "CEO & Fondateur",
       "linkedin": "antoinethoreau",
       "twitter": "",
@@ -1243,7 +1301,7 @@
             "firstname": "Antoine",
             "lastname": "Thoreau",
             "email": "antoine@allsessions.fr",
-            "telephone": "",
+            "telephone": "0670180642",
             "title": "CEO & Fondateur",
             "linkedin": "antoinethoreau",
             "twitter": "",
@@ -1266,7 +1324,7 @@
       "firstname": "Paul",
       "lastname": "Voillemin",
       "email": "paul@chaudpatate.org",
-      "telephone": "",
+      "telephone": "0602619375",
       "title": "CEO & Co-Fondateur",
       "linkedin": "paulvoillemin",
       "twitter": "",
@@ -1284,7 +1342,7 @@
             "firstname": "Paul",
             "lastname": "Voillemin",
             "email": "paul@chaudpatate.org",
-            "telephone": "",
+            "telephone": "0602619375",
             "title": "CEO & Co-Fondateur",
             "linkedin": "paulvoillemin",
             "twitter": "",
@@ -1307,7 +1365,7 @@
       "firstname": "Christophe",
       "lastname": "Roux",
       "email": "christophe.roux@artify.fr",
-      "telephone": "",
+      "telephone": "06 88 20 50 83",
       "title": "CEO & Co-Fondateur",
       "linkedin": "christopheroux1",
       "twitter": "",
@@ -1325,7 +1383,7 @@
             "firstname": "Christophe",
             "lastname": "Roux",
             "email": "christophe.roux@artify.fr",
-            "telephone": "",
+            "telephone": "06 88 20 50 83",
             "title": "CEO & Co-Fondateur",
             "linkedin": "christopheroux1",
             "twitter": "",
@@ -1348,7 +1406,7 @@
       "firstname": "Thomas",
       "lastname": "Demerens",
       "email": "thomas@aura-urbaine.com",
-      "telephone": "",
+      "telephone": "0620448214",
       "title": "CEO & Co-Fondateur",
       "linkedin": "thomas-demerens-40048aa0",
       "twitter": "",
@@ -1366,7 +1424,7 @@
             "firstname": "Thomas",
             "lastname": "Demerens",
             "email": "thomas@aura-urbaine.com",
-            "telephone": "",
+            "telephone": "0620448214",
             "title": "CEO & Co-Fondateur",
             "linkedin": "thomas-demerens-40048aa0",
             "twitter": "",
@@ -1389,7 +1447,7 @@
       "firstname": "Olivier",
       "lastname": "Zeller",
       "email": "olivier.zeller@aurasens.com",
-      "telephone": "",
+      "telephone": "06 52 05 28 69",
       "title": "CEO & Co-Fondateur",
       "linkedin": "olivierzeller",
       "twitter": "",
@@ -1407,7 +1465,7 @@
             "firstname": "Olivier",
             "lastname": "Zeller",
             "email": "olivier.zeller@aurasens.com",
-            "telephone": "",
+            "telephone": "06 52 05 28 69",
             "title": "CEO & Co-Fondateur",
             "linkedin": "olivierzeller",
             "twitter": "",
@@ -1430,7 +1488,7 @@
       "firstname": "Alban",
       "lastname": "Jourdet",
       "email": "ajourdet@bee-bienetreentreprise.com ",
-      "telephone": "",
+      "telephone": "0658193388",
       "title": "CEO & Co-Fondateur",
       "linkedin": "alban-jourdet-b3723563",
       "twitter": "",
@@ -1448,7 +1506,7 @@
             "firstname": "Alban",
             "lastname": "Jourdet",
             "email": "ajourdet@bee-bienetreentreprise.com ",
-            "telephone": "",
+            "telephone": "0658193388",
             "title": "CEO & Co-Fondateur",
             "linkedin": "alban-jourdet-b3723563",
             "twitter": "",
@@ -1471,7 +1529,7 @@
       "firstname": "Stéphane",
       "lastname": "Waller",
       "email": "stephane.waller@bleexo.com",
-      "telephone": "",
+      "telephone": "0611892183",
       "title": "CEO ",
       "linkedin": "swmeltis",
       "twitter": "",
@@ -1489,7 +1547,7 @@
             "firstname": "Stéphane",
             "lastname": "Waller",
             "email": "stephane.waller@bleexo.com",
-            "telephone": "",
+            "telephone": "0611892183",
             "title": "CEO ",
             "linkedin": "swmeltis",
             "twitter": "",
@@ -1512,7 +1570,7 @@
       "firstname": "Charles",
       "lastname": "De Fréminville",
       "email": "charles@bloom-at-work.com",
-      "telephone": "",
+      "telephone": "0669585618",
       "title": "CEO & Co-Fondateur",
       "linkedin": "bloom-with-charles",
       "twitter": "",
@@ -1530,7 +1588,7 @@
             "firstname": "Charles",
             "lastname": "De Fréminville",
             "email": "charles@bloom-at-work.com",
-            "telephone": "",
+            "telephone": "0669585618",
             "title": "CEO & Co-Fondateur",
             "linkedin": "bloom-with-charles",
             "twitter": "",
@@ -1553,7 +1611,7 @@
       "firstname": "Fabien",
       "lastname": "Guillemot",
       "email": "fguillemot@boostyourfit.com",
-      "telephone": "",
+      "telephone": "0760006023",
       "title": "CEO & Co-Fondateur",
       "linkedin": "fabien-guillemot-5b96002",
       "twitter": "",
@@ -1571,7 +1629,7 @@
             "firstname": "Fabien",
             "lastname": "Guillemot",
             "email": "fguillemot@boostyourfit.com",
-            "telephone": "",
+            "telephone": "0760006023",
             "title": "CEO & Co-Fondateur",
             "linkedin": "fabien-guillemot-5b96002",
             "twitter": "",
@@ -1635,7 +1693,7 @@
       "firstname": "Faustine",
       "lastname": "Duriez",
       "email": "faustine@cocoworkers.com",
-      "telephone": "",
+      "telephone": "0635337231",
       "title": "CEO & Fondatrice",
       "linkedin": "faustine-duriez-2617013b",
       "twitter": "",
@@ -1653,7 +1711,7 @@
             "firstname": "Faustine",
             "lastname": "Duriez",
             "email": "faustine@cocoworkers.com",
-            "telephone": "",
+            "telephone": "0635337231",
             "title": "CEO & Fondatrice",
             "linkedin": "faustine-duriez-2617013b",
             "twitter": "",
@@ -1676,7 +1734,7 @@
       "firstname": "Samuel",
       "lastname": "Metias",
       "email": "samuel@comeet.in",
-      "telephone": "",
+      "telephone": "0664406263",
       "title": "CEO & Co-Fondateur",
       "linkedin": "smetias",
       "twitter": "",
@@ -1694,7 +1752,7 @@
             "firstname": "Samuel",
             "lastname": "Metias",
             "email": "samuel@comeet.in",
-            "telephone": "",
+            "telephone": "0664406263",
             "title": "CEO & Co-Fondateur",
             "linkedin": "smetias",
             "twitter": "",
@@ -1713,19 +1771,6 @@
     },
     {
       "rowId": 13,
-      "startup_name": "Contextor",
-      "firstname": "Philippe",
-      "lastname": "Roux",
-      "email": "ppoux@contextor.eu",
-      "telephone": "",
-      "title": "Directeur général",
-      "linkedin": "",
-      "twitter": "",
-      "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/c_thumb,w_200,g_face/v1538408680/website/people/Philippe_Roux.jpg"
-    },
-    {
-      "rowId": 14,
       "startup_name": "Cowork.io",
       "firstname": "Pierre-André",
       "lastname": "Svetchine",
@@ -1743,7 +1788,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
         "contacts": [
           {
-            "rowId": 14,
+            "rowId": 13,
             "startup_name": "Cowork.io",
             "firstname": "Pierre-André",
             "lastname": "Svetchine",
@@ -1766,7 +1811,7 @@
       }
     },
     {
-      "rowId": 15,
+      "rowId": 14,
       "startup_name": "Effency",
       "firstname": "Frédérique ",
       "lastname": "Chabert",
@@ -1784,7 +1829,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543508866/website/startup/Effency.png",
         "contacts": [
           {
-            "rowId": 15,
+            "rowId": 14,
             "startup_name": "Effency",
             "firstname": "Frédérique ",
             "lastname": "Chabert",
@@ -1807,12 +1852,12 @@
       }
     },
     {
-      "rowId": 16,
+      "rowId": 15,
       "startup_name": "Eveia",
       "firstname": "Vincent",
       "lastname": "Fourdrinier",
       "email": "info@eveia.io",
-      "telephone": "",
+      "telephone": "0680252673",
       "title": "CEO & Fondateur",
       "linkedin": "vincentfourdrinier",
       "twitter": "",
@@ -1825,12 +1870,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1537977883/website/startup/Eveia.png",
         "contacts": [
           {
-            "rowId": 16,
+            "rowId": 15,
             "startup_name": "Eveia",
             "firstname": "Vincent",
             "lastname": "Fourdrinier",
             "email": "info@eveia.io",
-            "telephone": "",
+            "telephone": "0680252673",
             "title": "CEO & Fondateur",
             "linkedin": "vincentfourdrinier",
             "twitter": "",
@@ -1848,12 +1893,12 @@
       }
     },
     {
-      "rowId": 17,
+      "rowId": 16,
       "startup_name": "Feeleo",
       "firstname": "Basil",
       "lastname": "Yaïche",
       "email": "b.yaiche@feeleo.co",
-      "telephone": "",
+      "telephone": "0769520550",
       "title": "CEO & Fondateur",
       "linkedin": "basil-yaiche-751836151",
       "twitter": "",
@@ -1861,12 +1906,12 @@
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Basil_Ya%C3%AFche.jpg"
     },
     {
-      "rowId": 18,
+      "rowId": 17,
       "startup_name": "Fidensio",
       "firstname": "Johan",
       "lastname": "Melab",
       "email": "johan@fidensio.com",
-      "telephone": "",
+      "telephone": "0688611428",
       "title": "CEO & Co-Fondateur",
       "linkedin": "johan-melab",
       "twitter": "",
@@ -1879,12 +1924,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535375825/Fidensio_login.png",
         "contacts": [
           {
-            "rowId": 18,
+            "rowId": 17,
             "startup_name": "Fidensio",
             "firstname": "Johan",
             "lastname": "Melab",
             "email": "johan@fidensio.com",
-            "telephone": "",
+            "telephone": "0688611428",
             "title": "CEO & Co-Fondateur",
             "linkedin": "johan-melab",
             "twitter": "",
@@ -1902,12 +1947,12 @@
       }
     },
     {
-      "rowId": 19,
+      "rowId": 18,
       "startup_name": "Happy Quest",
       "firstname": "Lewis",
       "lastname": "Gotteland",
       "email": "lewis@happyquest.co",
-      "telephone": "",
+      "telephone": "0680243696",
       "title": "CEO & Fondateur",
       "linkedin": "lewis-gotteland-69398961",
       "twitter": "",
@@ -1920,12 +1965,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1523614285/Logo_-_Happy_Quest.png",
         "contacts": [
           {
-            "rowId": 19,
+            "rowId": 18,
             "startup_name": "Happy Quest",
             "firstname": "Lewis",
             "lastname": "Gotteland",
             "email": "lewis@happyquest.co",
-            "telephone": "",
+            "telephone": "0680243696",
             "title": "CEO & Fondateur",
             "linkedin": "lewis-gotteland-69398961",
             "twitter": "",
@@ -1943,12 +1988,12 @@
       }
     },
     {
-      "rowId": 20,
+      "rowId": 19,
       "startup_name": "Humancraft",
       "firstname": "Bertrand",
       "lastname": "Pierson",
       "email": "bpierson@humancraft.eu",
-      "telephone": "",
+      "telephone": "0633057547",
       "title": "Fondateur",
       "linkedin": "bertrand-pierson-053a739",
       "twitter": "",
@@ -1956,7 +2001,7 @@
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406480/website/people/Bertrand_Pierson.jpg"
     },
     {
-      "rowId": 21,
+      "rowId": 20,
       "startup_name": "Humeaning",
       "firstname": "Béatrice",
       "lastname": "Duboisset",
@@ -1969,12 +2014,12 @@
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538408745/website/people/B%C3%A9atrice_Duboisset.jpg"
     },
     {
-      "rowId": 22,
+      "rowId": 21,
       "startup_name": "IDPosition",
       "firstname": "Francis",
       "lastname": "Schlayen",
       "email": "f.schlayen@idposition.fr",
-      "telephone": "",
+      "telephone": "06 79 95 35 89",
       "title": "CEO & Co-Fondateur",
       "linkedin": "fschlayen",
       "twitter": "",
@@ -1987,12 +2032,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416606/website/startup/IDPosition.png",
         "contacts": [
           {
-            "rowId": 22,
+            "rowId": 21,
             "startup_name": "IDPosition",
             "firstname": "Francis",
             "lastname": "Schlayen",
             "email": "f.schlayen@idposition.fr",
-            "telephone": "",
+            "telephone": "06 79 95 35 89",
             "title": "CEO & Co-Fondateur",
             "linkedin": "fschlayen",
             "twitter": "",
@@ -2010,12 +2055,12 @@
       }
     },
     {
-      "rowId": 23,
+      "rowId": 22,
       "startup_name": "Kiplin",
       "firstname": "Benoit",
       "lastname": "Fagnou",
       "email": "benoit.fagnou@kiplin.com",
-      "telephone": "",
+      "telephone": "0688262079",
       "title": "Directeur Commercial",
       "linkedin": "benoit-fagnou-68240911b",
       "twitter": "",
@@ -2028,12 +2073,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
         "contacts": [
           {
-            "rowId": 23,
+            "rowId": 22,
             "startup_name": "Kiplin",
             "firstname": "Benoit",
             "lastname": "Fagnou",
             "email": "benoit.fagnou@kiplin.com",
-            "telephone": "",
+            "telephone": "0688262079",
             "title": "Directeur Commercial",
             "linkedin": "benoit-fagnou-68240911b",
             "twitter": "",
@@ -2051,7 +2096,7 @@
       }
     },
     {
-      "rowId": 24,
+      "rowId": 23,
       "startup_name": "Klimat",
       "firstname": "Jean-Pierre",
       "lastname": "Brun",
@@ -2069,7 +2114,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1534936341/logo-klimat.png",
         "contacts": [
           {
-            "rowId": 24,
+            "rowId": 23,
             "startup_name": "Klimat",
             "firstname": "Jean-Pierre",
             "lastname": "Brun",
@@ -2092,7 +2137,7 @@
       }
     },
     {
-      "rowId": 25,
+      "rowId": 24,
       "startup_name": "Le Bon Coach",
       "firstname": "Eliott",
       "lastname": "Saguet",
@@ -2110,7 +2155,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543440963/website/startup/Le_Bon_Coach.png",
         "contacts": [
           {
-            "rowId": 25,
+            "rowId": 24,
             "startup_name": "Le Bon Coach",
             "firstname": "Eliott",
             "lastname": "Saguet",
@@ -2133,12 +2178,12 @@
       }
     },
     {
-      "rowId": 26,
+      "rowId": 25,
       "startup_name": "Lyyti",
       "firstname": "Tehani",
       "lastname": "Leprieur",
       "email": "tehani.leprieur@lyyti.com",
-      "telephone": "",
+      "telephone": "0684261663",
       "title": "Directrice générale",
       "linkedin": "tehani-leprieur",
       "twitter": "",
@@ -2151,12 +2196,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378277/lyyti.png",
         "contacts": [
           {
-            "rowId": 26,
+            "rowId": 25,
             "startup_name": "Lyyti",
             "firstname": "Tehani",
             "lastname": "Leprieur",
             "email": "tehani.leprieur@lyyti.com",
-            "telephone": "",
+            "telephone": "0684261663",
             "title": "Directrice générale",
             "linkedin": "tehani-leprieur",
             "twitter": "",
@@ -2174,7 +2219,7 @@
       }
     },
     {
-      "rowId": 27,
+      "rowId": 26,
       "startup_name": "Melomind",
       "firstname": "Yohan",
       "lastname": "Attal",
@@ -2192,7 +2237,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
         "contacts": [
           {
-            "rowId": 27,
+            "rowId": 26,
             "startup_name": "Melomind",
             "firstname": "Yohan",
             "lastname": "Attal",
@@ -2215,12 +2260,12 @@
       }
     },
     {
-      "rowId": 28,
+      "rowId": 27,
       "startup_name": "monaSTAY",
       "firstname": "Aymeric",
       "lastname": "Dognin",
       "email": "aymeric@monastay.fr",
-      "telephone": "",
+      "telephone": "0641907728",
       "title": "CEO & Fondateur",
       "linkedin": "aymeric-dognin-06bba85",
       "twitter": "",
@@ -2233,12 +2278,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
         "contacts": [
           {
-            "rowId": 28,
+            "rowId": 27,
             "startup_name": "monaSTAY",
             "firstname": "Aymeric",
             "lastname": "Dognin",
             "email": "aymeric@monastay.fr",
-            "telephone": "",
+            "telephone": "0641907728",
             "title": "CEO & Fondateur",
             "linkedin": "aymeric-dognin-06bba85",
             "twitter": "",
@@ -2256,12 +2301,12 @@
       }
     },
     {
-      "rowId": 29,
+      "rowId": 28,
       "startup_name": "OneConciergerie",
       "firstname": "Jean-Pierre",
       "lastname": "Benedetti",
       "email": "jean.benedetti@jobbers.co",
-      "telephone": "",
+      "telephone": "0671848492",
       "title": "CEO & Fondateur",
       "linkedin": "jeanbenedetti",
       "twitter": "",
@@ -2274,12 +2319,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
         "contacts": [
           {
-            "rowId": 29,
+            "rowId": 28,
             "startup_name": "OneConciergerie",
             "firstname": "Jean-Pierre",
             "lastname": "Benedetti",
             "email": "jean.benedetti@jobbers.co",
-            "telephone": "",
+            "telephone": "0671848492",
             "title": "CEO & Fondateur",
             "linkedin": "jeanbenedetti",
             "twitter": "",
@@ -2297,7 +2342,7 @@
       }
     },
     {
-      "rowId": 30,
+      "rowId": 29,
       "startup_name": "Pickr",
       "firstname": "Marc",
       "lastname": "Rota",
@@ -2315,7 +2360,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
         "contacts": [
           {
-            "rowId": 30,
+            "rowId": 29,
             "startup_name": "Pickr",
             "firstname": "Marc",
             "lastname": "Rota",
@@ -2338,12 +2383,12 @@
       }
     },
     {
-      "rowId": 31,
+      "rowId": 30,
       "startup_name": "Plantez Respirez",
       "firstname": "Lena",
       "lastname": "Soffer",
       "email": "contact@plantezrespirez.com",
-      "telephone": "",
+      "telephone": "0659271074",
       "title": "CEO & Fondatrice",
       "linkedin": "lena-soffer",
       "twitter": "",
@@ -2356,12 +2401,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
         "contacts": [
           {
-            "rowId": 31,
+            "rowId": 30,
             "startup_name": "Plantez Respirez",
             "firstname": "Lena",
             "lastname": "Soffer",
             "email": "contact@plantezrespirez.com",
-            "telephone": "",
+            "telephone": "0659271074",
             "title": "CEO & Fondatrice",
             "linkedin": "lena-soffer",
             "twitter": "",
@@ -2379,12 +2424,12 @@
       }
     },
     {
-      "rowId": 32,
+      "rowId": 31,
       "startup_name": "Roti.express",
       "firstname": "Antoine",
       "lastname": "Durand",
       "email": "antoine.durand4@gmail.com",
-      "telephone": "",
+      "telephone": "0769992678",
       "title": "CEO & Fondateur",
       "linkedin": "antoined4",
       "twitter": "",
@@ -2397,12 +2442,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
         "contacts": [
           {
-            "rowId": 32,
+            "rowId": 31,
             "startup_name": "Roti.express",
             "firstname": "Antoine",
             "lastname": "Durand",
             "email": "antoine.durand4@gmail.com",
-            "telephone": "",
+            "telephone": "0769992678",
             "title": "CEO & Fondateur",
             "linkedin": "antoined4",
             "twitter": "",
@@ -2420,7 +2465,7 @@
       }
     },
     {
-      "rowId": 33,
+      "rowId": 32,
       "startup_name": "Serenity",
       "firstname": "Elodie ",
       "lastname": "Livernette",
@@ -2438,7 +2483,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
         "contacts": [
           {
-            "rowId": 33,
+            "rowId": 32,
             "startup_name": "Serenity",
             "firstname": "Elodie ",
             "lastname": "Livernette",
@@ -2461,12 +2506,12 @@
       }
     },
     {
-      "rowId": 34,
+      "rowId": 33,
       "startup_name": "Supermood",
       "firstname": "Kevin",
       "lastname": "Bourgeois",
       "email": "kevin@supermood.fr",
-      "telephone": "",
+      "telephone": "0671494178",
       "title": "CEO & Co-Fondateur",
       "linkedin": "kevin-bourgeois-24770655",
       "twitter": "",
@@ -2479,12 +2524,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
         "contacts": [
           {
-            "rowId": 34,
+            "rowId": 33,
             "startup_name": "Supermood",
             "firstname": "Kevin",
             "lastname": "Bourgeois",
             "email": "kevin@supermood.fr",
-            "telephone": "",
+            "telephone": "0671494178",
             "title": "CEO & Co-Fondateur",
             "linkedin": "kevin-bourgeois-24770655",
             "twitter": "",
@@ -2502,7 +2547,7 @@
       }
     },
     {
-      "rowId": 35,
+      "rowId": 34,
       "startup_name": "Teamstarter",
       "firstname": "Ségolène",
       "lastname": "Mouterde",
@@ -2520,7 +2565,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
         "contacts": [
           {
-            "rowId": 35,
+            "rowId": 34,
             "startup_name": "Teamstarter",
             "firstname": "Ségolène",
             "lastname": "Mouterde",
@@ -2543,7 +2588,7 @@
       }
     },
     {
-      "rowId": 36,
+      "rowId": 35,
       "startup_name": "TOD",
       "firstname": "Gaëlle",
       "lastname": "Monteiller",
@@ -2561,7 +2606,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
         "contacts": [
           {
-            "rowId": 36,
+            "rowId": 35,
             "startup_name": "TOD",
             "firstname": "Gaëlle",
             "lastname": "Monteiller",
@@ -2584,7 +2629,7 @@
       }
     },
     {
-      "rowId": 37,
+      "rowId": 36,
       "startup_name": "TrainMe",
       "firstname": "Gatien",
       "lastname": "Letartre",
@@ -2602,7 +2647,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543441725/website/startup/trainme.png",
         "contacts": [
           {
-            "rowId": 37,
+            "rowId": 36,
             "startup_name": "TrainMe",
             "firstname": "Gatien",
             "lastname": "Letartre",
@@ -2625,7 +2670,7 @@
       }
     },
     {
-      "rowId": 38,
+      "rowId": 37,
       "startup_name": "Wellnesstraining",
       "firstname": "Michel ",
       "lastname": "Rota",
@@ -2643,7 +2688,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
         "contacts": [
           {
-            "rowId": 38,
+            "rowId": 37,
             "startup_name": "Wellnesstraining",
             "firstname": "Michel ",
             "lastname": "Rota",
@@ -2666,7 +2711,7 @@
       }
     },
     {
-      "rowId": 39,
+      "rowId": 38,
       "startup_name": "Windoo",
       "firstname": "Arnaud",
       "lastname": "Varnier",
@@ -2684,7 +2729,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
         "contacts": [
           {
-            "rowId": 39,
+            "rowId": 38,
             "startup_name": "Windoo",
             "firstname": "Arnaud",
             "lastname": "Varnier",
@@ -2707,7 +2752,7 @@
       }
     },
     {
-      "rowId": 40,
+      "rowId": 39,
       "startup_name": "Wingzy",
       "firstname": "Clément ",
       "lastname": "Dietschy",
@@ -2725,7 +2770,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
         "contacts": [
           {
-            "rowId": 40,
+            "rowId": 39,
             "startup_name": "Wingzy",
             "firstname": "Clément ",
             "lastname": "Dietschy",
@@ -2748,7 +2793,7 @@
       }
     },
     {
-      "rowId": 41,
+      "rowId": 40,
       "startup_name": "ZestMeUp",
       "firstname": "Christophe",
       "lastname": "Bergeon",
@@ -2766,7 +2811,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
         "contacts": [
           {
-            "rowId": 41,
+            "rowId": 40,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -2789,7 +2834,7 @@
       }
     },
     {
-      "rowId": 42,
+      "rowId": 41,
       "startup_name": "Dialoog",
       "firstname": "Patrick",
       "lastname": "Lloret",
@@ -2807,7 +2852,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549623086/website/startup/logo_Dialoog.png",
         "contacts": [
           {
-            "rowId": 42,
+            "rowId": 41,
             "startup_name": "Dialoog",
             "firstname": "Patrick",
             "lastname": "Lloret",
@@ -2830,7 +2875,7 @@
       }
     },
     {
-      "rowId": 43,
+      "rowId": 42,
       "startup_name": "La pause baskets",
       "firstname": "Morgane",
       "lastname": "Renault",
@@ -2848,7 +2893,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550505423/website/startup/Logo-pour-facebook-02-300x300.png",
         "contacts": [
           {
-            "rowId": 43,
+            "rowId": 42,
             "startup_name": "La pause baskets",
             "firstname": "Morgane",
             "lastname": "Renault",
@@ -2871,7 +2916,7 @@
       }
     },
     {
-      "rowId": 44,
+      "rowId": 43,
       "startup_name": "My mental energy pro",
       "firstname": "Jean-Christophe",
       "lastname": "Beau",
@@ -2889,7 +2934,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
         "contacts": [
           {
-            "rowId": 44,
+            "rowId": 43,
             "startup_name": "My mental energy pro",
             "firstname": "Jean-Christophe",
             "lastname": "Beau",
@@ -2909,6 +2954,105 @@
         "tags": [],
         "description": "Dispositif de prévention de la surcharge mentale au travail, avec gain en concentration et QVT, à partir des sciences cognitives : conférences, ateliers, formations, Appli B2B, contenu pour Intranet et portail QVT. Prix d'argent Trophées QVT & Prix Innovation Préventica 2018. Multilingue.",
         "tagline": "Evitez la surchauffe mentale au travail, gagnez en concentration et bien-être ! 1° en Europe"
+      }
+    },
+    {
+      "rowId": 44,
+      "startup_name": "Karos",
+      "firstname": "Christelle",
+      "lastname": "Clairville",
+      "email": "christelle@karos.fr",
+      "telephone": "",
+      "title": "Responsable Marketing B2B",
+      "startup": {
+        "rowId": 44,
+        "name": "Karos",
+        "address": "48 rue René Clair, 75018 PARIS",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1553616430/website/startup/logo_karos.svg",
+        "contacts": [
+          {
+            "rowId": 44,
+            "startup_name": "Karos",
+            "firstname": "Christelle",
+            "lastname": "Clairville",
+            "email": "christelle@karos.fr",
+            "telephone": "",
+            "title": "Responsable Marketing B2B"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8941,
+          "lng": 2.3542400000000043
+        },
+        "tags": [],
+        "description": "L'application N°1 du ©court-voiturage domicile-travail permet à des milliers de personnes d'optimiser leurs trajets grâce à des économies de temps, d'argent et de CO2.",
+        "tagline": "KAROS révolutionne les trajets quotidiens !"
+      }
+    },
+    {
+      "rowId": 45,
+      "startup_name": "Follow Me",
+      "firstname": "Didier",
+      "lastname": "Flahou",
+      "email": "dflahou@followme.fr",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "startup": {
+        "rowId": 18,
+        "name": "Follow Me",
+        "address": "61 rue traversière, 75012 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1549624603/website/startup/logo_follow_me.png",
+        "contacts": [
+          {
+            "rowId": 45,
+            "startup_name": "Follow Me",
+            "firstname": "Didier",
+            "lastname": "Flahou",
+            "email": "dflahou@followme.fr",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8489,
+          "lng": 2.3744500000000244
+        },
+        "tags": [],
+        "description": "Followme est la plateforme digitale des directions de l'environnement de travail pour collecter, suivre et gérer les demandes des collaborateurs. Les gestionnaires de l'environnement de travail gagnent du temps, valorisent leur travail et augmentent le bien être des collaborateurs.",
+        "tagline": ""
+      }
+    },
+    {
+      "rowId": 46,
+      "startup_name": "Tecbak",
+      "firstname": "Jerôme",
+      "lastname": "Boye",
+      "email": "jerome.boye@tecbak.com",
+      "telephone": "",
+      "title": "CEO & Co-Fondateur",
+      "startup": {
+        "rowId": 43,
+        "name": "Tecbak",
+        "address": "13 rue Lechapelais, 75017 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1553616040/website/startup/logo_tecbak.png",
+        "contacts": [
+          {
+            "rowId": 46,
+            "startup_name": "Tecbak",
+            "firstname": "Jerôme",
+            "lastname": "Boye",
+            "email": "jerome.boye@tecbak.com",
+            "telephone": "",
+            "title": "CEO & Co-Fondateur"
+          }
+        ],
+        "latLng": {
+          "lat": 48.885771,
+          "lng": 2.3252982
+        },
+        "tags": [],
+        "description": "De nouvelles relations entre les joueurs, les entreprises et les marques. \nFaites entrer votre organisation dans la convivialité 2.0 avec un service de vente et de location d’ebabyfoot connectés à un réseau social dédié.",
+        "tagline": ""
       }
     }
   ],
@@ -2935,7 +3079,7 @@
             "firstname": "Samuel",
             "lastname": "Metias",
             "email": "samuel@comeet.in",
-            "telephone": "",
+            "telephone": "0664406263",
             "title": "CEO & Co-Fondateur",
             "linkedin": "smetias",
             "twitter": "",
@@ -2968,7 +3112,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
         "contacts": [
           {
-            "rowId": 33,
+            "rowId": 32,
             "startup_name": "Serenity",
             "firstname": "Elodie ",
             "lastname": "Livernette",
@@ -3005,12 +3149,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
         "contacts": [
           {
-            "rowId": 31,
+            "rowId": 30,
             "startup_name": "Plantez Respirez",
             "firstname": "Lena",
             "lastname": "Soffer",
             "email": "contact@plantezrespirez.com",
-            "telephone": "",
+            "telephone": "0659271074",
             "title": "CEO & Fondatrice",
             "linkedin": "lena-soffer",
             "twitter": "",
@@ -3041,12 +3185,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519900964/logo_monastay_slogan_new2.png",
         "contacts": [
           {
-            "rowId": 28,
+            "rowId": 27,
             "startup_name": "monaSTAY",
             "firstname": "Aymeric",
             "lastname": "Dognin",
             "email": "aymeric@monastay.fr",
-            "telephone": "",
+            "telephone": "0641907728",
             "title": "CEO & Fondateur",
             "linkedin": "aymeric-dognin-06bba85",
             "twitter": "",
@@ -3084,7 +3228,7 @@
             "firstname": "Stéphane",
             "lastname": "Waller",
             "email": "stephane.waller@bleexo.com",
-            "telephone": "",
+            "telephone": "0611892183",
             "title": "CEO ",
             "linkedin": "swmeltis",
             "twitter": "",
@@ -3120,7 +3264,7 @@
             "firstname": "Thomas",
             "lastname": "Demerens",
             "email": "thomas@aura-urbaine.com",
-            "telephone": "",
+            "telephone": "0620448214",
             "title": "CEO & Co-Fondateur",
             "linkedin": "thomas-demerens-40048aa0",
             "twitter": "",
@@ -3151,7 +3295,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
         "contacts": [
           {
-            "rowId": 41,
+            "rowId": 40,
             "startup_name": "ZestMeUp",
             "firstname": "Christophe",
             "lastname": "Bergeon",
@@ -3189,7 +3333,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378282/melomind.png",
         "contacts": [
           {
-            "rowId": 27,
+            "rowId": 26,
             "startup_name": "Melomind",
             "firstname": "Yohan",
             "lastname": "Attal",
@@ -3230,7 +3374,7 @@
             "firstname": "Charles",
             "lastname": "De Fréminville",
             "email": "charles@bloom-at-work.com",
-            "telephone": "",
+            "telephone": "0669585618",
             "title": "CEO & Co-Fondateur",
             "linkedin": "bloom-with-charles",
             "twitter": "",
@@ -3270,7 +3414,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378276/Logo-Cowork.io.png",
         "contacts": [
           {
-            "rowId": 14,
+            "rowId": 13,
             "startup_name": "Cowork.io",
             "firstname": "Pierre-André",
             "lastname": "Svetchine",
@@ -3308,12 +3452,12 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378275/kiplin.svg",
         "contacts": [
           {
-            "rowId": 23,
+            "rowId": 22,
             "startup_name": "Kiplin",
             "firstname": "Benoit",
             "lastname": "Fagnou",
             "email": "benoit.fagnou@kiplin.com",
-            "telephone": "",
+            "telephone": "0688262079",
             "title": "Directeur Commercial",
             "linkedin": "benoit-fagnou-68240911b",
             "twitter": "",
@@ -3345,7 +3489,7 @@
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
         "contacts": [
           {
-            "rowId": 36,
+            "rowId": 35,
             "startup_name": "TOD",
             "firstname": "Gaëlle",
             "lastname": "Monteiller",
@@ -4495,34 +4639,37 @@
     },
     {
       "rowId": 6,
-      "name": "Salon happytech ",
-      "description": "La HappyTech organise un salon dans les locaux de Sodexo, le temps d'une journée durant laquelle les startups HappyTech viendront exposer leur solution bien-être au travail.",
+      "name": "happytech Connect",
+      "description": "La HappyTech organise un événement dans le bâtiment Eurêka qui héberge notamment Sodexo Pass France, Manpower Group et Total. \nSur l'heure de déjeuner, vous pourrez découvrir les startups HappyTech qui viendront exposer leur solution innovante pour le bien-être au travail.",
       "startupNames": [
-        "Fidensio",
-        "Comeet",
-        "Serenity",
-        "Cleanitud",
-        "Bee",
         "antimauxdedos",
-        "IDPosition",
-        "Plantez Respirez",
-        "kiplin",
-        "Lyyti",
-        "Wingzy? Artify",
-        "Melomind",
+        "Artify",
+        "Bee",
+        "BoostYourFit",
+        "Cleanitud",
+        "Comeet",
+        "Effency",
+        "Eveia",
+        "Fidensio",
+        "Happy Quest",
+        "ID Position",
+        "Kandu",
+        "Kiplin",
         "Le bon coach",
+        "Lyyti",
+        "Melomind",
+        "Plantez Respirez",
+        "Serenity",
+        "Teamstarter",
         "TOD",
         "Windoo",
-        "BoostYourFit",
-        "Kandu",
-        "Teamstarter",
-        "Eveia"
+        "Wingzy"
       ],
       "dateString": "08-04-2019",
-      "time": "09:00-16:00",
-      "location": "Sodexo Nanterre",
+      "time": "11:00-14:30",
+      "location": "Bâtiment Eurêka, Nanterre",
       "address": "19 Rue Ernest Renan, 92000 Nanterre",
-      "logo": "",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1553612907/website/events/happytech%20connect%20eur%C3%AAka.png",
       "registerLink": "https://life.us16.list-manage.com/track/click?u=e102d997b62f713a7c2779f46&id=3fa913df3a&e=7c6e0a9024"
     }
   ],

@@ -24,6 +24,7 @@ class Events extends React.Component<IProps, {}> {
             return null;
         }
         const { events } = store;
+        // const sortedEvents = events.sort((a, b) => moment(a.date).diff(moment(b.date)))
         const eventsByDate = groupListByMethod<IEvent>(events, (ev) => {
             if (!ev.date) {
                 return { displayName: '<no-date>', key: '0000' };
@@ -39,7 +40,7 @@ class Events extends React.Component<IProps, {}> {
             <Markdown md={md}>
                 {/* {HappyTechTypeForm('QFxtC9', "Remplir le formulaire d'adhésion entreprise")} */}
                 <Divider style={{ margin: 24 }} />
-                {Object.keys(eventsByDate).map((key, i) => {
+                {Object.keys(eventsByDate).sort((a, b) => a.localeCompare(b)).reverse().map((key, i) => {
                     const values = eventsByDate[key].list;
                     return <React.Fragment key={i}>
                         <h1 className="title">{eventsByDate[key].groupKey.displayName}</h1>
@@ -85,7 +86,7 @@ function EventCard(event: IEvent, width: Breakpoint) {
 }
 
 export const eventsPage = (): IReactPage => ({
-    menuTitle: 'Retrouvez-nous',
+    menuTitle: 'Nos événements',
     icon: EventIcon,
     route: 'evenements',
     component: EventsPage,
