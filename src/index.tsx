@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import './index.css';
+import './style.min.css';
 import App from './App';
 import 'moment/locale/fr';
 
