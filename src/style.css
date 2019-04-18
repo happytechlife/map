@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800");
+html {
+  font-size: 62.5%; }
+  html body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #001A33; }
+    html body header a, html body header a:visited {
+      font-size: 1.2rem;
+      text-decoration: 'none';
+      color: #001A33;
+      margin: 0 8px;
+      opacity: .6;
+      position: relative;
+      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease; }
+      html body header a:hover, html body header a:active, html body header a:visited:hover, html body header a:visited:active {
+        opacity: 1;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease; }
+        html body header a:hover::after, html body header a:active::after, html body header a:visited:hover::after, html body header a:visited:active::after {
+          content: '';
+          position: absolute;
+          margin: 0 20%;
+          bottom: -12px;
+          width: 60%;
+          height: 4px;
+          border-radius: 2px;
+          display: 'block';
+          background: #FFE666; }
+      html body header a:focus, html body header a:visited:focus {
+        outline: 'none'; }

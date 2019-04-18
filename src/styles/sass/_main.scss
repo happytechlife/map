@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800');
+
+@mixin transition($p, $t, $m) {
+	transition: $p $t $m;
+  -webkit-transition: $p $t $m;
+  -moz-transition: $p $t $m;
+}
+
+html {
+  font-size: 62.5%;
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: $text;
+    header {
+      a, a:visited {
+        font-size: 1.2rem;
+        text-decoration: 'none';
+        color: $text;
+        margin: 0 8px;
+        opacity: .6;
+        position: relative;
+        @include transition(all, .2s, ease);
+        &:hover, &:active {
+          opacity: 1;
+          @include transition(all, .2s, ease);
+          &::after {
+            content: '';
+            position: absolute;
+            margin: 0 20%;
+            bottom: -12px;
+            width: 60%;
+            height: 4px;
+            border-radius: 2px;
+            display: 'block';
+            background: $primary;
+          }
+        }
+        &:focus {
+          outline: 'none';
+        }
+      }
+    }
+  }
+}
