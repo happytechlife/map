@@ -8,17 +8,10 @@ export const MenuFromPage = (page: IPage, onLinkClick: () => void) => {
     return LeftMenu(page.menuTitle, page.route, onLinkClick, page.icon);
 }
 export const LeftMenu = (text: string, link: string, onLinkClick: () => void, Icon?: any) => {
-    return <div key={text}>
-        <Tooltip placement="right" title={text}>
-            <Link to={`/${link}`} style={{ textDecoration: 'none' }} onClick={onLinkClick} >
-                <ListItem button={true}>
-                    {Icon && <ListItemIcon>
-                        <Icon />
-                    </ListItemIcon>}
-                    <ListItemText primary={text} />
-                </ListItem>
-            </Link>
-        </Tooltip>
+    return <div key={text} className="link_menu">
+        <Link to={`/${link}`} onClick={onLinkClick} >
+            {text}
+        </Link>
     </div>;
 }
 
