@@ -1,6 +1,6 @@
 import { IStartup, ILatLng, IContact, IStartupSocialNetwork, IStartupPitch } from "../models";
 import { GoogleSpreadSheetTable } from "../Google/GoogleSpreadSheetTable";
-import { geocode } from '../Google/geocoder';
+// import { geocode } from '../Google/geocoder';
 import { IHappyTechStore } from "./../models";
 import { findByKey } from "./Store";
 
@@ -51,13 +51,13 @@ export class StartupTable extends GoogleSpreadSheetTable<IStartup, IHappyTechSto
     }
 }
 
-const geocodeStartup = async (startup: IStartup) => {
-    const latlng = await geocode(startup.address);
-    if (latlng) {
-        console.log('geocode', startup.name, `${latlng.lat},${latlng.lng}`);
-        startup.latLng = latlng;
-    } else {
-        console.log('impossible to geocode', startup.name);
-    }
-    return startup;
-}
+// const geocodeStartup = async (startup: IStartup) => {
+//     const latlng = await geocode(startup.address);
+//     if (latlng) {
+//         console.log('geocode', startup.name, `${latlng.lat},${latlng.lng}`);
+//         startup.latLng = latlng;
+//     } else {
+//         console.log('impossible to geocode', startup.name);
+//     }
+//     return startup;
+// }

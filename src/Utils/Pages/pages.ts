@@ -1,6 +1,7 @@
 import * as shutdown from 'showdown';
 import * as presentationMarkdown from './../../Markdowns/presentation.md';
 import * as swissMarkdown from './../../Markdowns/swiss.md';
+import * as canadaMarkdown from './../../Markdowns/canada.md';
 import * as turkeyMarkdown from './../../Markdowns/turkey.md';
 import { IMarkdownPage, IPage, IReactPage, IMetaHeaders } from './models';
 import Help from '@material-ui/icons/Help';
@@ -54,6 +55,14 @@ const happytechSwiss = {
     headers: () => getHeaders("HappyTech Swiss, L'innovation technologique au service du bien-être en entreprise.")
 };
 
+const happytechCanada = {
+    menuTitle: 'Canada',
+    icon: Language,
+    route: 'canada',
+    html: getHtml(canadaMarkdown),
+    headers: () => getHeaders("HappyTech Canada, L'innovation technologique au service du bien-être en entreprise.")
+};
+
 const happytechTurkey = {
     menuTitle: 'Türkiye',
     icon: Language,
@@ -89,14 +98,14 @@ export function getHeaders(title: string, description?: string): IMetaHeaders {
 }
 
 export const markdownPages: IMarkdownPage[] = [
-    presentation, homePage, happytechSwiss, happytechTurkey
+    presentation, homePage, happytechSwiss, happytechTurkey, happytechCanada
 ]
 
 export const reactPages = (): IReactPage[] => ([
     tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage(), quotePage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss, happytechTurkey
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss, happytechTurkey, happytechCanada
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()
