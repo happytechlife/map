@@ -56,13 +56,14 @@ function getReactApp(store: IHappyTechStore, url: string): IReactApp {
 const urlTo64 = (url: string) => Buffer.from(url).toString('base64');
 
 // tslint:disable-next-line:no-var-requires
-// const sslRedirect = require('heroku-ssl-redirect');
+const enforce = require('express-sslify');
 
 console.log('ENV is', process.env.NODE_ENV);
 (async () => {
     const server = express();
+
     if (process.env.NODE_ENV === 'production') {
-        // server.use(sslRedirect);
+        server.use(enforce.HTTPS());
     }
     server.use(express.static('client'));
 
