@@ -18,6 +18,7 @@
     "google-map-react": "^1.0.6",
     "googleapis": "^34.0.0",
     "googlemaps": "^1.12.0",
+    "heroku-ssl-redirect": "0.0.4",
     "moment": "2.22.2",
     "pluralize": "7.0.0",
     "raw-loader": "0.5.1",
@@ -60,11 +61,11 @@
     "@types/request": "2.47.1",
     "@types/showdown": "1.7.5",
     "mini-css-extract-plugin": "0.4.3",
+    "nodemon": "1.18.10",
     "ts-loader": "5.1.1",
     "typescript": "^3.0.1",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0",
-    "webpack-node-externals": "^1.7.2",
-    "nodemon": "1.18.10"
+    "webpack-node-externals": "^1.7.2"
   }
 }
