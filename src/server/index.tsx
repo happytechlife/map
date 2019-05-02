@@ -63,7 +63,7 @@ console.log('ENV is', process.env.NODE_ENV);
     const server = express();
 
     if (process.env.NODE_ENV === 'production') {
-        server.use(enforce.HTTPS());
+        server.use(enforce.HTTPS({ trustProtoHeader: true }));
     }
     server.use(express.static('client'));
 
