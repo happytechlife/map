@@ -266,7 +266,10 @@
           "email": "julie.portais@bloomin.digital",
           "telephone": "",
           "title": "Responsable Marketing & Communication",
-          "linkedin": "julie-portais-21002a63"
+          "linkedin": "julie-portais-21002a63",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013124/website/people/julie_portais_bloomin.jpg"
         }
       ],
       "latLng": {
@@ -487,7 +490,10 @@
           "email": "dflahou@followme.fr",
           "telephone": "",
           "title": "CEO & Co-Fondateur",
-          "linkedin": "didier-flahou-40703618"
+          "linkedin": "didier-flahou-40703618",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013081/website/people/didier_flahou_followme.jpg"
         }
       ],
       "latLng": {
@@ -568,7 +574,10 @@
           "email": "Nolwenn.Hemery@saint-gobain.com",
           "telephone": "",
           "title": "Marketing & communication",
-          "linkedin": "nolwenn-hemery-01042870"
+          "linkedin": "nolwenn-hemery-01042870",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012958/website/people/nolwenn_hemery_kandu.jpg"
         }
       ],
       "latLng": {
@@ -591,9 +600,12 @@
           "firstname": "Christelle",
           "lastname": "Clairville",
           "email": "christelle@karos.fr",
-          "telephone": "",
+          "telephone": "06 51 74 86 01",
           "title": "Responsable Marketing B2B",
-          "linkedin": "christellepierrejoseph"
+          "linkedin": "christellepierrejoseph",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013028/website/people/christelle_claireville_karos.jpg"
         }
       ],
       "latLng": {
@@ -786,7 +798,10 @@
           "email": "leopold@moodwork.co",
           "telephone": "",
           "title": "CEO & Co-Fondateur",
-          "linkedin": "léopold-denis-6b6a9884"
+          "linkedin": "léopold-denis-6b6a9884",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012918/website/people/leopold_denis_moodwork.jpg"
         }
       ],
       "latLng": {
@@ -865,7 +880,7 @@
           "firstname": "Marc",
           "lastname": "Rota",
           "email": "marc@pickr.fr",
-          "telephone": "",
+          "telephone": "06 77 25 18 49\n",
           "title": "Cofondateur",
           "linkedin": "marc-rota-7631135",
           "twitter": "",
@@ -1035,7 +1050,10 @@
           "email": "jerome.boye@tecbak.com",
           "telephone": "",
           "title": "CEO & Co-Fondateur",
-          "linkedin": "jérôme-boyé-23a0271a"
+          "linkedin": "jérôme-boyé-23a0271a",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg"
         }
       ],
       "latLng": {
@@ -1200,7 +1218,10 @@
           "email": "anne-charlotte@yoopies.com",
           "telephone": "",
           "title": "Sales director",
-          "linkedin": "annecharlotte-cauhape"
+          "linkedin": "annecharlotte-cauhape",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012842/website/people/anne_charlotte_yoopies.jpg"
         }
       ],
       "latLng": {
@@ -1253,7 +1274,10 @@
           "email": "chloe.pasquet@zippypass.com",
           "telephone": "",
           "title": "CEO & Co-Fondateur",
-          "linkedin": "chloé-pasquet-63984b21"
+          "linkedin": "chloé-pasquet-63984b21",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012799/website/people/chloe%CC%81_zippy_pass.jpg"
         }
       ],
       "latLng": {
@@ -1263,6 +1287,34 @@
       "tags": [],
       "description": "ZippyPass est une solution innovante sport. Vos collaborateurs peuvent faire l'activité qu'il leur convient, où et quand ils veulent : - Disponibilité des cours en temps réel - Réservation en 1 clic Vecteur de bien-être & de cohésion sociale, le pass vient dynamiser vos équipes.",
       "tagline": "Un pass pour vos collaborateurs, leur donnant accès aux meilleurs clubs & studios."
+    },
+    {
+      "rowId": 46,
+      "name": "United Heroes",
+      "address": "18 rue du Faubourg du Temple, 75011 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558012201/website/startup/united_heroes_logo.jpg",
+      "contacts": [
+        {
+          "rowId": 46,
+          "startup_name": "United Heroes",
+          "firstname": "Morgane",
+          "lastname": "Mouly",
+          "email": "morgane@sportheroes.group",
+          "telephone": "",
+          "title": "Responsable Marketing & Communication",
+          "linkedin": "morganemly",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012745/website/people/morgane_mouly_united_heroes.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8683,
+        "lng": 2.3660899999999856
+      },
+      "tags": [],
+      "description": "Notre mission est d'inciter vos collaborateurs à changer leurs habitudes pour qu’ils se sentent mieux. Et des salariés qui se sentent mieux, c’est une entreprise qui se sent mieux ! \nNous répondons à 4 enjeux RH : cohésion, culture d’entreprise & engagement, QVT & performance, Marque employeur.",
+      "tagline": "United Heroes est la plateforme bien-être au quotidien pour optimiser son expérience collaborateur"
     }
   ],
   "contacts": [
@@ -1644,6 +1696,9 @@
       "telephone": "",
       "title": "Responsable Marketing & Communication",
       "linkedin": "julie-portais-21002a63",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013124/website/people/julie_portais_bloomin.jpg",
       "startup": {
         "rowId": 9,
         "name": "Bloomin",
@@ -1658,7 +1713,10 @@
             "email": "julie.portais@bloomin.digital",
             "telephone": "",
             "title": "Responsable Marketing & Communication",
-            "linkedin": "julie-portais-21002a63"
+            "linkedin": "julie-portais-21002a63",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013124/website/people/julie_portais_bloomin.jpg"
           }
         ],
         "latLng": {
@@ -1966,6 +2024,9 @@
       "telephone": "",
       "title": "CEO & Co-Fondateur",
       "linkedin": "didier-flahou-40703618",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013081/website/people/didier_flahou_followme.jpg",
       "startup": {
         "rowId": 17,
         "name": "Follow Me",
@@ -1980,7 +2041,10 @@
             "email": "dflahou@followme.fr",
             "telephone": "",
             "title": "CEO & Co-Fondateur",
-            "linkedin": "didier-flahou-40703618"
+            "linkedin": "didier-flahou-40703618",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013081/website/people/didier_flahou_followme.jpg"
           }
         ],
         "latLng": {
@@ -2083,6 +2147,9 @@
       "telephone": "",
       "title": "Marketing & communication",
       "linkedin": "nolwenn-hemery-01042870",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012958/website/people/nolwenn_hemery_kandu.jpg",
       "startup": {
         "rowId": 20,
         "name": "Kandu",
@@ -2097,7 +2164,10 @@
             "email": "Nolwenn.Hemery@saint-gobain.com",
             "telephone": "",
             "title": "Marketing & communication",
-            "linkedin": "nolwenn-hemery-01042870"
+            "linkedin": "nolwenn-hemery-01042870",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012958/website/people/nolwenn_hemery_kandu.jpg"
           }
         ],
         "latLng": {
@@ -2115,9 +2185,12 @@
       "firstname": "Christelle",
       "lastname": "Clairville",
       "email": "christelle@karos.fr",
-      "telephone": "",
+      "telephone": "06 51 74 86 01",
       "title": "Responsable Marketing B2B",
       "linkedin": "christellepierrejoseph",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013028/website/people/christelle_claireville_karos.jpg",
       "startup": {
         "rowId": 21,
         "name": "Karos",
@@ -2130,9 +2203,12 @@
             "firstname": "Christelle",
             "lastname": "Clairville",
             "email": "christelle@karos.fr",
-            "telephone": "",
+            "telephone": "06 51 74 86 01",
             "title": "Responsable Marketing B2B",
-            "linkedin": "christellepierrejoseph"
+            "linkedin": "christellepierrejoseph",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558013028/website/people/christelle_claireville_karos.jpg"
           }
         ],
         "latLng": {
@@ -2399,6 +2475,9 @@
       "telephone": "",
       "title": "CEO & Co-Fondateur",
       "linkedin": "léopold-denis-6b6a9884",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012918/website/people/leopold_denis_moodwork.jpg",
       "startup": {
         "rowId": 28,
         "name": "Moodwork",
@@ -2413,7 +2492,10 @@
             "email": "leopold@moodwork.co",
             "telephone": "",
             "title": "CEO & Co-Fondateur",
-            "linkedin": "léopold-denis-6b6a9884"
+            "linkedin": "léopold-denis-6b6a9884",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012918/website/people/leopold_denis_moodwork.jpg"
           }
         ],
         "latLng": {
@@ -2513,7 +2595,7 @@
       "firstname": "Marc",
       "lastname": "Rota",
       "email": "marc@pickr.fr",
-      "telephone": "",
+      "telephone": "06 77 25 18 49\n",
       "title": "Cofondateur",
       "linkedin": "marc-rota-7631135",
       "twitter": "",
@@ -2531,7 +2613,7 @@
             "firstname": "Marc",
             "lastname": "Rota",
             "email": "marc@pickr.fr",
-            "telephone": "",
+            "telephone": "06 77 25 18 49\n",
             "title": "Cofondateur",
             "linkedin": "marc-rota-7631135",
             "twitter": "",
@@ -2762,6 +2844,9 @@
       "telephone": "",
       "title": "CEO & Co-Fondateur",
       "linkedin": "jérôme-boyé-23a0271a",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg",
       "startup": {
         "rowId": 37,
         "name": "Tecbak",
@@ -2776,7 +2861,10 @@
             "email": "jerome.boye@tecbak.com",
             "telephone": "",
             "title": "CEO & Co-Fondateur",
-            "linkedin": "jérôme-boyé-23a0271a"
+            "linkedin": "jérôme-boyé-23a0271a",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg"
           }
         ],
         "latLng": {
@@ -3002,6 +3090,9 @@
       "telephone": "",
       "title": "Sales director",
       "linkedin": "annecharlotte-cauhape",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012842/website/people/anne_charlotte_yoopies.jpg",
       "startup": {
         "rowId": 43,
         "name": "Yoopies at work",
@@ -3016,7 +3107,10 @@
             "email": "anne-charlotte@yoopies.com",
             "telephone": "",
             "title": "Sales director",
-            "linkedin": "annecharlotte-cauhape"
+            "linkedin": "annecharlotte-cauhape",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012842/website/people/anne_charlotte_yoopies.jpg"
           }
         ],
         "latLng": {
@@ -3078,6 +3172,9 @@
       "telephone": "",
       "title": "CEO & Co-Fondateur",
       "linkedin": "chloé-pasquet-63984b21",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012799/website/people/chloe%CC%81_zippy_pass.jpg",
       "startup": {
         "rowId": 45,
         "name": "Zippy Pass Corporate",
@@ -3092,7 +3189,10 @@
             "email": "chloe.pasquet@zippypass.com",
             "telephone": "",
             "title": "CEO & Co-Fondateur",
-            "linkedin": "chloé-pasquet-63984b21"
+            "linkedin": "chloé-pasquet-63984b21",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012799/website/people/chloe%CC%81_zippy_pass.jpg"
           }
         ],
         "latLng": {
@@ -3102,6 +3202,47 @@
         "tags": [],
         "description": "ZippyPass est une solution innovante sport. Vos collaborateurs peuvent faire l'activité qu'il leur convient, où et quand ils veulent : - Disponibilité des cours en temps réel - Réservation en 1 clic Vecteur de bien-être & de cohésion sociale, le pass vient dynamiser vos équipes.",
         "tagline": "Un pass pour vos collaborateurs, leur donnant accès aux meilleurs clubs & studios."
+      }
+    },
+    {
+      "rowId": 46,
+      "startup_name": "United Heroes",
+      "firstname": "Morgane",
+      "lastname": "Mouly",
+      "email": "morgane@sportheroes.group",
+      "telephone": "",
+      "title": "Responsable Marketing & Communication",
+      "linkedin": "morganemly",
+      "twitter": "",
+      "facebook": "",
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012745/website/people/morgane_mouly_united_heroes.jpg",
+      "startup": {
+        "rowId": 46,
+        "name": "United Heroes",
+        "address": "18 rue du Faubourg du Temple, 75011 Paris",
+        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558012201/website/startup/united_heroes_logo.jpg",
+        "contacts": [
+          {
+            "rowId": 46,
+            "startup_name": "United Heroes",
+            "firstname": "Morgane",
+            "lastname": "Mouly",
+            "email": "morgane@sportheroes.group",
+            "telephone": "",
+            "title": "Responsable Marketing & Communication",
+            "linkedin": "morganemly",
+            "twitter": "",
+            "facebook": "",
+            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012745/website/people/morgane_mouly_united_heroes.jpg"
+          }
+        ],
+        "latLng": {
+          "lat": 48.8683,
+          "lng": 2.3660899999999856
+        },
+        "tags": [],
+        "description": "Notre mission est d'inciter vos collaborateurs à changer leurs habitudes pour qu’ils se sentent mieux. Et des salariés qui se sentent mieux, c’est une entreprise qui se sent mieux ! \nNous répondons à 4 enjeux RH : cohésion, culture d’entreprise & engagement, QVT & performance, Marque employeur.",
+        "tagline": "United Heroes est la plateforme bien-être au quotidien pour optimiser son expérience collaborateur"
       }
     }
   ],
@@ -3598,20 +3739,6 @@
   "team": [
     {
       "rowId": 0,
-      "firstname": "Pouya",
-      "lastname": "Mohtacham",
-      "email": "pouya@happytech.life",
-      "team": "Bureau",
-      "role": "Fondateur & Conseiller numérique",
-      "active": true,
-      "linkedin": "pouyamohtacham",
-      "twitter": "pouya69",
-      "facebook": "pouya69",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537730087/website/people/pouya-square.png",
-      "fullname": "Pouya Mohtacham"
-    },
-    {
-      "rowId": 1,
       "firstname": "Leprieur",
       "lastname": "Tehani",
       "email": "tehani@happytech.life",
@@ -3625,7 +3752,7 @@
       "fullname": "Leprieur Tehani"
     },
     {
-      "rowId": 2,
+      "rowId": 1,
       "firstname": "Tiana",
       "lastname": "Bruscagnin",
       "email": "tiana@happytech.life",
@@ -3637,6 +3764,20 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1549622796/website/people/photo_tiana.jpg",
       "fullname": "Tiana Bruscagnin"
+    },
+    {
+      "rowId": 2,
+      "firstname": "Pouya",
+      "lastname": "Mohtacham",
+      "email": "pouya@happytech.life",
+      "team": "Bureau",
+      "role": "Fondateur & Conseiller numérique",
+      "active": true,
+      "linkedin": "pouyamohtacham",
+      "twitter": "pouya69",
+      "facebook": "pouya69",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1537730087/website/people/pouya-square.png",
+      "fullname": "Pouya Mohtacham"
     },
     {
       "rowId": 3,
@@ -3710,20 +3851,6 @@
     },
     {
       "rowId": 8,
-      "firstname": "Sixtine",
-      "lastname": "De Feuilhade",
-      "email": "sixtinedefeuilhade@hotmail.fr",
-      "team": "Bénévoles",
-      "role": "Adhésion startups",
-      "active": true,
-      "linkedin": "sixtine-de-feuilhade-58516522",
-      "twitter": "",
-      "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1539956897/website/people/Sixtine_De_Feuilhade.jpg",
-      "fullname": "Sixtine De Feuilhade"
-    },
-    {
-      "rowId": 9,
       "firstname": "Mhaêva",
       "lastname": "Lemoing",
       "email": "mhaeva.lemoing@outlook.com",
@@ -3737,7 +3864,7 @@
       "fullname": "Mhaêva Lemoing"
     },
     {
-      "rowId": 10,
+      "rowId": 9,
       "firstname": "Laetitia ",
       "lastname": "De La Mettrie",
       "email": "laetitia_de_la_mettrie@yahoo.fr",
@@ -3751,7 +3878,7 @@
       "fullname": "Laetitia  De La Mettrie"
     },
     {
-      "rowId": 11,
+      "rowId": 10,
       "firstname": "Guillaume",
       "lastname": "Roth",
       "email": "adhesions@happytech.life",
@@ -3765,7 +3892,7 @@
       "fullname": "Guillaume Roth"
     },
     {
-      "rowId": 12,
+      "rowId": 11,
       "firstname": "Laurent",
       "lastname": "Boure",
       "email": "laurentboure@gmail.com",
@@ -3779,7 +3906,7 @@
       "fullname": "Laurent Boure"
     },
     {
-      "rowId": 13,
+      "rowId": 12,
       "firstname": "Angelika",
       "lastname": "Mleczko",
       "email": "angelika@letincellecho.com",
@@ -3793,7 +3920,7 @@
       "fullname": "Angelika Mleczko"
     },
     {
-      "rowId": 14,
+      "rowId": 13,
       "firstname": "Arnaud",
       "lastname": "Collery",
       "email": "arnaud@kikaimining.com",
@@ -3807,7 +3934,7 @@
       "fullname": "Arnaud Collery"
     },
     {
-      "rowId": 15,
+      "rowId": 14,
       "firstname": "Margaux",
       "lastname": "Cohen-Salmon",
       "email": "margaux@happytech.life",
@@ -3821,7 +3948,7 @@
       "fullname": "Margaux Cohen-Salmon"
     },
     {
-      "rowId": 16,
+      "rowId": 15,
       "firstname": "Johan",
       "lastname": "Melab",
       "email": "johan@fidensio.com",
@@ -3835,7 +3962,7 @@
       "fullname": "Johan Melab"
     },
     {
-      "rowId": 17,
+      "rowId": 16,
       "firstname": "Laetitia ",
       "lastname": "Barrier ",
       "email": "laetitia_barrier@msn.com",
@@ -3849,7 +3976,7 @@
       "fullname": "Laetitia  Barrier "
     },
     {
-      "rowId": 18,
+      "rowId": 17,
       "firstname": "Alban",
       "lastname": "Jourdet",
       "email": "ajourdet@bee-bienetreentreprise.com ",
@@ -3863,7 +3990,7 @@
       "fullname": "Alban Jourdet"
     },
     {
-      "rowId": 19,
+      "rowId": 18,
       "firstname": "Valenine",
       "lastname": "Gatard",
       "email": "valentine@happytech.com",
@@ -3877,7 +4004,7 @@
       "fullname": "Valenine Gatard"
     },
     {
-      "rowId": 20,
+      "rowId": 19,
       "firstname": "Thibault",
       "lastname": "Paternoster",
       "email": "thibault@happytech.com",
@@ -4713,6 +4840,22 @@
     },
     {
       "rowId": 10,
+      "name": "Vivatech",
+      "description": "VivaTech is the world’s rendezvous for startups and leaders to celebrate innovation. It’s a gathering of the world’s brightest minds, talents, and products taking place in Paris on 16–18 May 2019.",
+      "startupNames": [
+        "Artify",
+        "Eveia",
+        "Plantez Respirez"
+      ],
+      "dateString": "16-05-2019\n18-05-2019",
+      "time": "16/05/2019 et 17/05/2019 de 08:00 à 19:00 | 18/05/2019 de 08:00 à 18:00",
+      "location": "Hall 1 & hall 2.2, Parc des expositions, Porte de Versailles",
+      "address": "1 place de la Porte de Versailles, 75015 PARIS",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1556121027/website/events/logo-vivatech.png",
+      "registerLink": "https://vivatechnology.com/get-your-pass/"
+    },
+    {
+      "rowId": 11,
       "name": "Préventica Paris 2019",
       "description": "Le congrès/salon de reference : • Sécurité/Santé • Qualité de Vie au Travail • Sécurité des personnes et des biens. \nPrésence d'un village happytech.\n",
       "startupNames": [
@@ -4731,20 +4874,74 @@
       "registerLink": "https://www.preventica.com/visiteur-formulaire-inscription.php"
     },
     {
-      "rowId": 11,
-      "name": "Vivatech",
-      "description": "VivaTech is the world’s rendezvous for startups and leaders to celebrate innovation. It’s a gathering of the world’s brightest minds, talents, and products taking place in Paris on 16–18 May 2019.",
+      "rowId": 12,
+      "name": "HappyTech Summer Camp 2019",
+      "description": "L'une des plus grande concentration d'innovations technologiques dédiées au bien-être en entreprise. \nLes startups, qui proposent des solutions technologiques innovantes au service du bien-être dans le monde du travail se regroupent la même journée dans des villages thématiques répondant aux besoins des entreprises.",
       "startupNames": [
-        "Artify",
+        "AllSessions",
+        "Antimauxdedos",
+        "Bee",
+        "Bloom at work",
+        "Bloomin",
+        "BoostYourFit",
+        "Comeet",
+        "Effency",
         "Eveia",
-        "Plantez Respirez"
+        "Fidensio",
+        "FollowMe",
+        "ID Position",
+        "Kandu",
+        "Kiplin",
+        "La Pause Baskets",
+        "Lyyti",
+        "Melomind",
+        "monaSTAY",
+        "Moodwork",
+        "PICKR",
+        "Roti.Express",
+        "Serenity",
+        "Tecbak",
+        "TOD",
+        "TrainME",
+        "Vital Tech",
+        "Wellness Training",
+        "Yoopies At Work",
+        "Zippy Pass"
       ],
-      "dateString": "16-05-2019\n18-05-2019",
-      "time": "16/05/2019 et 17/05/2019 de 08:00 à 19:00 | 18/05/2019 de 08:00 à 18:00",
-      "location": "Hall 1 & hall 2.2, Parc des expositions, Porte de Versailles",
-      "address": "1 place de la Porte de Versailles, 75015 PARIS",
-      "logo": "https://res.cloudinary.com/happytech/image/upload/v1556121027/website/events/logo-vivatech.png",
-      "registerLink": "https://vivatechnology.com/get-your-pass/"
+      "dateString": "13-06-2019",
+      "time": "09:00 à 19:00",
+      "location": "SPACES La Défense",
+      "address": "Le Belvédère 1-7 cours Valmy Puteaux Paris, 92800 France",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1557740267/website/events/Visu_HT_Summer_camp_invit_V2_copie.jpg",
+      "registerLink": "https://www.lyyti.in/happytech_summercamp_2019_website"
+    },
+    {
+      "rowId": 13,
+      "name": "happytech Connect",
+      "description": "La HappyTech organise un événement dans les locaux de TOTAL \"Le Spazio\". \nSur l'heure de déjeuner, vous pourrez découvrir une dizaine de startups HappyTech qui viendront exposer leur solution innovante pour le bien-être au travail.",
+      "startupNames": [
+        ""
+      ],
+      "dateString": "18-06-2019",
+      "time": "11:00 à 15:00",
+      "location": "TOTAL Le Spazio",
+      "address": "572 avenue du Parc de l'ile, 92029 Nanterre France",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1553612907/website/events/happytech%20connect%20eur%C3%AAka.png",
+      "registerLink": "https://www.lyyti.fi/reg/happytech_connect_18juin"
+    },
+    {
+      "rowId": 14,
+      "name": "happy-afterwork ",
+      "description": "Lors d'un afterwork, la happytech et une dizaine de ses solutions membres auront l'opportunité de pitcher dans les locaux de WOJO Neuilly.",
+      "startupNames": [
+        ""
+      ],
+      "dateString": "20-06-2019",
+      "time": "18:30 à 22:00",
+      "location": "WOJO Neuilly",
+      "address": "88 Avenue Charles de Gaulle, 92200 Neuilly-sur-Seine",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1557795093/website/events/happytech_x_wojo_2.png",
+      "registerLink": "https://www.lyyti.in/afterwork_happytech_20juin"
     }
   ],
   "partners": [
