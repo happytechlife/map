@@ -34,6 +34,30 @@
 	}
 }
 
+.f_first_col,
+.f_last_col {
+	flex: 1;
+	p {
+		font-size: 1.4rem;
+		color: $white;
+		padding-right: 16px;
+	}
+}
+.f_middle_col {
+	flex: 2;
+	display: flex;
+	.f_col {
+		flex: 1;
+		span {
+			font-size: 1.8rem;
+			font-weight: 700;
+			color: $white;
+			opacity: .3;
+			display: block;
+		}
+	}
+}
+
 html {
   font-size: 62.5%;
   body {
@@ -63,7 +87,7 @@ html {
             height: 4px;
             border-radius: 2px;
             display: 'block';
-            background: $primary;
+            background: $yellow;
           }
         }
         &:focus {
@@ -74,7 +98,7 @@ html {
     hr {
       width: 120px;
       height: 6px;
-      background: $primary;
+      background: $yellow;
       border-radius: 3px;
       margin: 16px auto 0;
       box-shadow: none;
@@ -98,6 +122,16 @@ html {
       margin: 0;
       font-size: 2.4rem;
     }
+		footer {
+			background: $blueDarker;
+			padding: 32px;
+			display: block;
+			> div {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+			}
+		}
 	}
 }
 

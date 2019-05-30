@@ -11,6 +11,7 @@ import Menu from '@material-ui/icons/Menu';
 import * as classNames from 'classnames';
 import { leftMenus } from './LeftMenu';
 import { MainMenus } from './MainMenu';
+import { Footer } from './Footer';
 import '../../App.css';
 import { Hidden } from '@material-ui/core';
 import { snLinkedin, snTwitter, snFacebook, snInstagram, snYoutube, snMeetup } from '../../Utils/socialNetworks';
@@ -22,12 +23,9 @@ const drawerWidth = 240;
 
 const styles: any = (theme: any) => ({
     root: {
-        flexGrow: 1,
-        // height: 440,
         zIndex: 1,
         overflow: 'hidden',
         position: 'relative',
-        display: 'flex',
         width: '100%',
     },
     appBar: {
@@ -56,7 +54,6 @@ const styles: any = (theme: any) => ({
         },
     },
     content: {
-        flexGrow: 1,
         backgroundColor: theme.palette.background.default,
         paddingTop: 80,
     },
@@ -88,7 +85,7 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
         const { classes } = this.props;
         return <React.Fragment>
             {leftMenus(this.handleDrawerClose)}
-            
+
             {/*<div style={{ marginRight: 16, marginTop: 16, flexWrap: 'wrap' }} className="flexCenter">
                 <div style={{ width: '100%', textAlign: 'center', marginBottom: 8 }}>Suivez nous !</div>
                 {snLinkedin('happytech')}
@@ -109,7 +106,7 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                 <AppBar position="fixed" className={classes.appBar}>
                     <div>
                         {/* <img src={`https://res.cloudinary.com/happytech/image/upload/c_fit,w_${drawerWidth - 8},h_56/v1534950160/HappyTechFrance.png`} /> */}
-                        <img src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_280/v1534950160/HappyTechFrance.png" alt="logo happytech" width='140'/>
+                        <img src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_280/v1537883204/happytech-logo.png" alt="logo happytech" width='140'/>
                     </div>
                     <Hidden smDown={true}>
                       <div className={classes.menu}>
@@ -148,6 +145,10 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                 <main className={`${classes.content} App`}>
                     {this.props.children}
                 </main>
+
+                <footer>
+                  {Footer(this.handleDrawerClose)}
+                </footer>
             </div>
         );
     }

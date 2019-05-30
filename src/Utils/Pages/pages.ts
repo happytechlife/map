@@ -96,7 +96,7 @@ export const reactPages = (): IReactPage[] => ([
     tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage(), quotePage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss, happytechTurkey
+    presentation, eventsPage(), teamPage(), startupsPage(), entreprisesPage(), partnersPage(), contactPage()
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()

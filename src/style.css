@@ -25,6 +25,27 @@
   .link_menu a:focus, .link_menu a:visited:focus {
     outline: 'none'; }
 
+.f_first_col,
+.f_last_col {
+  flex: 1; }
+  .f_first_col p,
+  .f_last_col p {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    padding-right: 16px; }
+
+.f_middle_col {
+  flex: 2;
+  display: flex; }
+  .f_middle_col .f_col {
+    flex: 1; }
+    .f_middle_col .f_col span {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      opacity: .3;
+      display: block; }
+
 html {
   font-size: 62.5%; }
   html body {
@@ -82,6 +103,14 @@ html {
     html body h3 {
       margin: 0;
       font-size: 2.4rem; }
+    html body footer {
+      background: #001A33;
+      padding: 32px;
+      display: block; }
+      html body footer > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; }
 
 #homepage {
   text-align: left;
