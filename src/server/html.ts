@@ -5,11 +5,10 @@ interface IHtml {
   store: IHappyTechStore,
   body: string,
   css: string
-
   helmet: HelmetData;
 }
 
-
+const googleMapsApi = 'AIzaSyCedkLl7E-PLQBOQOQP8hJXJUzjHmIeZTs';
 
 // <link rel="canonical" href="https://www.happytech.life/" />
 
@@ -28,7 +27,7 @@ const html = ({ helmet, store, body, css }: IHtml) => `
       <meta name="google-site-verification" content="27ecIdQDv1hp9H3lsJwap52eAcEcoV3o-Mok0TO7t_c" />
       <link rel="shortcut icon" href="https://res.cloudinary.com/happytech/image/upload/c_scale,w_128/v1534592246/logos/happytech_zoom.ico">
       <script src="https://apis.google.com/js/api.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?use_slippy=true&key=AIzaSyCYe_0CiU5xTIZ9f3svSZEaaPUjBb0CHpw&libraries=geometry,places"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?use_slippy=true&key=${googleMapsApi}&libraries=geometry,places"></script>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
       <link href="/main.css" rel="stylesheet" >
       <style id="jss-server-side">${css}</style>

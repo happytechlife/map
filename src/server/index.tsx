@@ -26,7 +26,7 @@ const port = process.env.PORT || 9001;
 // import { request } from 'https';
 import { get } from 'request';
 // const port = 9000;
-// import * as sharp from 'sharp';
+
 interface IReactApp {
     body: string;
     css: string;
