@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root{
+  --main:#EDBE53;
+}
+body, .hbspt-form, label{
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif
+}
+.flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.Loader{
+  position: fixed;
+  left:50%;
+  top:50%;
+  z-index: 999;
+  margin-left: -64px;
+  margin-top: -64px;
+}
+
+
+
+.main-paper{
+  margin:16px;
+  padding: 16px; 
+}
+
+@media screen and (max-width: 640px) {
+  .main-paper{
+    margin: 0;
+    padding: 4px; 
+  }
+}
+
+.h1{
+    margin:16px 0;
+}
+
+.md-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;    
+}
+
+.md{
+    max-width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.md h1, .md-children h1, .md-children h2.title, .md-children h3.title{
+  border-bottom: 1px solid var(--main);
+  padding-bottom: 8px;
+}
+
+
+.md blockquote{
+    font-style: italic;
+}
+
+.Pin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 2px solid orange;
+}
+
+.StartupCard{
+    max-width: 320px;
+    width: 320px;
+}
+
+.typeform-share.button{
+    background-color: var(--main);
+    border-radius: 32px;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.StartupCluster{
+    --StartupClusterSize:64px;
+    width: var(--StartupClusterSize);
+    height: var(--StartupClusterSize);
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin-left:calc(var(--StartupClusterSize) / -2);
+    margin-top:calc(var(--StartupClusterSize) / -2);
+    background-color: white;
+}
+
+.NoIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    /* background-color: blue; */
+    color:black;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.Clusters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tag{
+    width: 320px;
+    margin: 8px;
+}
+
+.Tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=main.css.map*/
