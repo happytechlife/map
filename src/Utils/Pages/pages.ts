@@ -19,6 +19,7 @@ import { googleMapPage } from '../../MapClusters/GoogleMapPage';
 import { tagsPage } from '../../Components/Tags';
 import { quotePage } from '../../Components/Quotes';
 import { summitPage } from '../../Components/Summit';
+import { summerCampPage } from './../../Components/SummerCamp';
 
 export function getHtml(input: string) {
     const classMap = {}
@@ -102,10 +103,10 @@ export const markdownPages: IMarkdownPage[] = [
 ]
 
 export const reactPages = (): IReactPage[] => ([
-    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage(), quotePage()
+    tagsPage(), googleMapPage(), startupsPage(), entreprisesPage(), partnersPage(), eventsPage(), pressePage(), teamPage(), startupPage(), contactPage(), summitPage(), summerCampPage(), quotePage()
 ])
 export const menuPages = (): IPage[] => ([
-    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss, happytechTurkey, happytechCanada
+    presentation, startupsPage(), entreprisesPage(), eventsPage(), teamPage(), partnersPage(), summitPage(), summerCampPage(), pressePage(), contactPage(), googleMapPage(), happytechSwiss, happytechTurkey, happytechCanada
 ]);
 export const allRouterPages: IPage[] = [
     ...markdownPages, ...reactPages()
