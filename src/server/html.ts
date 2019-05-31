@@ -10,8 +10,6 @@ interface IHtml {
 
 const googleMapsApi = 'AIzaSyCedkLl7E-PLQBOQOQP8hJXJUzjHmIeZTs';
 
-// <link rel="canonical" href="https://www.happytech.life/" />
-
 const html = ({ helmet, store, body, css }: IHtml) => `
   <!DOCTYPE html>
   <html prefix="og: http://ogp.me/ns#">

@@ -74,10 +74,10 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
     public insideDrawer() {
         const { classes } = this.props;
         return <React.Fragment>
-            <div className={`${classes.toolbar} ${classes.logo}`}>
+            <div className={`${classes.toolbar} ${classes.logo}`} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <div className="flexCenter" style={{ padding: 4 }}>
                     {/* <img src={`https://res.cloudinary.com/happytech/image/upload/c_fit,w_${drawerWidth - 8},h_56/v1534950160/HappyTechFrance.png`} /> */}
-                    <img src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_56/v1525446366/happytechicon.png" alt="logo happytech" />
+                    <img style={{ height: 40 }} src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_56/v1525446366/happytechicon.png" alt="logo happytech" />
                 </div>
                 {/* <img src="https://res.cloudinary.com/happytech/image/upload/c_scale,w_128/v1534592246/logos/happytech_zoom.png" alt="logo happytech" /> */}
                 {/* <IconButton onClick={this.handleDrawerClose}>
@@ -113,7 +113,6 @@ class LeftDrawer extends React.Component<IProps & { classes: any }, { open: bool
                 {this.insideDrawer()}
             </Drawer>
         );
-
 
         return (
             <div className={classes.root}>
