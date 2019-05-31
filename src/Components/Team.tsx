@@ -29,7 +29,7 @@ export class Team extends React.Component<IReactPageProps, {}> {
                 <Divider style={{ margin: 24 }} />
                 {Object.keys(teamMembersByTeam).map((key, i) => {
                     return <div style={{ width: '100%' }} key={i}>
-                        <h2 className="title">{key}</h2>
+                        <Typography variant="h4" className="title">{key}</Typography>
                         <List style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '100%' }}>{teamMembersByTeam[key].map(teamMember)}</List >
                     </div>
                 })}
@@ -46,10 +46,10 @@ function teamMember(tm: ITeamMember) {
     return <Card key={tm.rowId} style={{ width: 288, margin: 8, display: 'flex', flexDirection: 'column' }} className="flexCenter">
         <CardContent>
             {tm.picture && <div className="flexCenter"><img src={cloudinaryTransform(tm.picture, 'w_96,r_max,f_png')} alt={tm.fullname} style={{ margin: 8 }} /></div>}
-            <Typography gutterBottom={true} variant="headline" component="h2">{tm.fullname}</Typography>
-            <Typography color="textSecondary">{tm.role}</Typography>
+            <Typography gutterBottom={true} variant="subtitle1" component="h2">{tm.fullname}</Typography>
+            <Typography variant="subtitle2">{tm.role}</Typography>
         </CardContent>
-        <CardActions disableActionSpacing={true} style={{ display: 'flex' }}>
+        <CardActions style={{ display: 'flex' }}>
             {tm.linkedin && snLinkedin(tm.linkedin)}
             {tm.twitter && snTwitter(tm.twitter)}
             {tm.facebook && snFacebook(tm.facebook)}

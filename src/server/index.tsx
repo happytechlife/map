@@ -4,10 +4,9 @@ import * as fs from 'fs';
 import { renderToString } from 'react-dom/server';
 import html from './html';
 import { getStore, deletetStoreFile } from '../Tables/Store';
-import JssProvider from 'react-jss/lib/JssProvider';
-import { SheetsRegistry } from 'jss';
+// import JssProvider from 'react-jss/lib/JssProvider';
 import theme from '../theme';
-import { createGenerateClassName, MuiThemeProvider } from '@material-ui/core';
+// import { createGenerateClassName, MuiThemeProvider } from '@material-ui/core';
 import LeftDrawer from '../Components/LeftDrawer/LeftDrawer';
 import { StaticRouter, Switch } from 'react-router';
 import { renderRoutes } from '../Router/Routes';
@@ -20,9 +19,10 @@ import { startupPage } from '../Components/StartupView';
 import * as http from 'http';
 import * as https from 'https';
 import { Transform } from 'stream';
+import { ThemeProvider, ServerStyleSheets } from '@material-ui/styles';
 
 // import { request } from 'http';
-const port = process.env.PORT || 9002;
+const port = process.env.PORT || 9001;
 // import { request } from 'https';
 import { get } from 'request';
 // const port = 9000;
@@ -32,25 +32,21 @@ interface IReactApp {
     css: string;
 }
 function getReactApp(store: IHappyTechStore, url: string): IReactApp {
-    const sheetsRegistry = new SheetsRegistry();
-    const sheetsManager = new Map();
-    const generateClassName = createGenerateClassName();
+    const sheets = new ServerStyleSheets();
 
     const body = renderToString(
-        <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
-            <MuiThemeProvider theme={theme} sheetsManager={sheetsManager}>
-                <StaticRouter location={url} context={{}}>
-                    <Switch>
-                        <LeftDrawer>
-                            {renderRoutes(store)}
-                        </LeftDrawer>
-                    </Switch>
-                </StaticRouter>
-            </MuiThemeProvider>
-        </JssProvider>
+        sheets.collect(<ThemeProvider theme={theme} >
+            <StaticRouter location={url} context={{}}>
+                <Switch>
+                    <LeftDrawer>
+                        {renderRoutes(store)}
+                    </LeftDrawer>
+                </Switch>
+            </StaticRouter>
+        </ThemeProvider>)
     );
 
-    const css = sheetsRegistry.toString();
+    const css = sheets.toString();
     return { body, css };
 }
 const urlTo64 = (url: string) => Buffer.from(url).toString('base64');

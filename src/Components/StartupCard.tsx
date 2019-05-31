@@ -13,8 +13,8 @@ import { startupLink } from './../Utils/startups';
 const styles: any = (theme: any) => ({
     card: {
         display: 'flex',
-        margin: theme.spacing.unit,
-        padding: theme.spacing.unit,
+        margin: theme.spacing(1),
+        padding: theme.spacing(1),
         maxWidth: 280,
         width: 280,
     },
@@ -34,8 +34,8 @@ const styles: any = (theme: any) => ({
     controls: {
         display: 'flex',
         alignItems: 'center',
-        paddingLeft: theme.spacing.unit,
-        paddingBottom: theme.spacing.unit,
+        paddingLeft: theme.spacing(1),
+        paddingBottom: theme.spacing(1),
     },
     playIcon: {
         height: 38,
@@ -67,7 +67,7 @@ class StartupCard extends React.Component<IProps, {}> {
                     title={startup.name}
                 />}
                 <CardContent className={classes.content}>
-                    <Typography gutterBottom={true} variant="headline" component="h2">
+                    <Typography gutterBottom={true} variant="h5">
                         {startup.name}
                     </Typography>
                     <Typography variant="caption" align="center" >{startup.description}</Typography>
@@ -77,7 +77,7 @@ class StartupCard extends React.Component<IProps, {}> {
                     <List>{startup.contacts.map(Contact)}</List>
                 </CardContent>
                 <CardActions>
-                    <Link style={{ textDecoration: 'none' }} to={startupLink(startup)}><Button variant="raised">Voir</Button></Link>
+                    <Link style={{ textDecoration: 'none' }} to={startupLink(startup)}><Button variant="outlined">Voir</Button></Link>
                 </CardActions>
             </div>
         </Card>;

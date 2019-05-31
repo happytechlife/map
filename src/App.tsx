@@ -1,10 +1,12 @@
 import * as React from 'react';
 import './App.css';
 import { ApplicationRoutes } from './Router/ApplicationRoutes';
-import { MuiThemeProvider } from '@material-ui/core';
+// import { MuiThemeProvider } from '@material-ui/core';
 import theme from './theme';
 import * as cj from 'circular-json';
 import { IHappyTechStore } from './models';
+import { ThemeProvider } from '@material-ui/styles';
+
 // import { createGenerateClassName } from 'react-jss';
 // import { create } from 'jss';
 
@@ -35,11 +37,11 @@ class App extends React.Component<{}, { store?: IHappyTechStore }> {
     let { store } = this.state;
     store = gStore ? cj.parse(gStore) : store;
     // <JssProvider jss={jss} generateClassName={generateClassName}>
-    return <MuiThemeProvider theme={theme}>
+    return <ThemeProvider theme={theme}>
       {/* <div className="App"> */}
       <ApplicationRoutes store={store} />
       {/* </div> */}
-    </MuiThemeProvider>
+    </ThemeProvider>
     // </JssProvider>;
   }
 

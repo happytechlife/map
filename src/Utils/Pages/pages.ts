@@ -21,7 +21,7 @@ import { quotePage } from '../../Components/Quotes';
 import { summitPage } from '../../Components/Summit';
 import { summerCampPage } from './../../Components/SummerCamp';
 
-export function getHtml(input: string) {
+export function getHtml(input: { default: string }) {
     const classMap = {}
     const bindings = Object.keys(classMap)
         .map(key => {
@@ -33,11 +33,12 @@ export function getHtml(input: string) {
             };
         });
     const binds: any = bindings;
+
     const converter = new shutdown.Converter({
         extensions: [...binds]
     });
     converter.setOption('noHeaderId', false);
-    return converter.makeHtml(input);
+    return converter.makeHtml(input.default);
 }
 
 const presentation = {

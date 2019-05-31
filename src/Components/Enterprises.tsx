@@ -38,13 +38,13 @@ function CompanyCard(company: ICompany) {
                 title={company.name}
             />}
             <CardContent >
-                <Typography gutterBottom={true} variant="headline" component="h2">
+                <Typography gutterBottom={true} variant="subtitle1" >
                     {company.name}
                 </Typography>
                 <Typography variant="caption" align="center" >{company.description}</Typography>
             </CardContent>
             <CardActions>
-                {company.link && <ExternalLink link={company.link}><Button variant="raised">Voir le site</Button></ExternalLink>}
+                {company.link && <ExternalLink link={company.link}><Button variant="outlined">Voir le site</Button></ExternalLink>}
             </CardActions>
         </div>
     </Card>;

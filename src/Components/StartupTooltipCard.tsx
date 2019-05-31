@@ -12,8 +12,8 @@ import { Contact } from './StartupCard';
 const styles: any = (theme: any) => ({
     card: {
         display: 'flex',
-        margin: theme.spacing.unit,
-        padding: theme.spacing.unit,
+        margin: theme.spacing(1),
+        padding: theme.spacing(1),
         maxWidth: 200,
         width: 200,
     },

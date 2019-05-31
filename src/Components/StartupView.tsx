@@ -24,8 +24,8 @@ const styles: any = (theme: any) => ({
     card: {
         display: 'flex',
         // height: 152,
-        margin: theme.spacing.unit,
-        padding: theme.spacing.unit,
+        margin: theme.spacing(1),
+        padding: theme.spacing(1),
         maxWidth: 300
     },
     details: {
@@ -44,8 +44,8 @@ const styles: any = (theme: any) => ({
     controls: {
         display: 'flex',
         alignItems: 'center',
-        paddingLeft: theme.spacing.unit,
-        paddingBottom: theme.spacing.unit,
+        paddingLeft: theme.spacing(1),
+        paddingBottom: theme.spacing(1),
     },
     playIcon: {
         height: 38,
@@ -68,10 +68,10 @@ class StartupView extends React.Component<IProps, {}> {
                 <Hidden smDown={true}>
                     {logo && <img src={logo} style={{ margin: 24 }} />}
                 </Hidden>
-                <Typography variant="display2" align="center" color="textPrimary" gutterBottom={true}>
+                <Typography variant="h3" align="center" color="textPrimary" gutterBottom={true}>
                     {startup.name}
                 </Typography>
-                <Typography variant="title" align="center" color="textSecondary" paragraph={true} >
+                <Typography variant="subtitle2" align="center" color="textSecondary" paragraph={true} >
                     {startup.description}
                 </Typography>
                 <List>{startup.tags.map((t, i) => <Chip key={i} label={t.name} style={{ margin: 2 }} />)}</List>
@@ -79,7 +79,7 @@ class StartupView extends React.Component<IProps, {}> {
                 <List>{startup.contacts.map(Contact)}</List>
 
                 {socialNetwork && <div>
-                    <ExternalLink link={socialNetwork.webSite}><Button variant="raised">Voir le site</Button></ExternalLink>
+                    <ExternalLink link={socialNetwork.webSite}><Button variant="outlined">Voir le site</Button></ExternalLink>
                     {socialNetwork.twitter && snTwitter(socialNetwork.twitter)}
                     {socialNetwork.facebook && snFacebook(socialNetwork.facebook)}
                     {socialNetwork.linkedIn && snLinkedin(socialNetwork.linkedIn)}
