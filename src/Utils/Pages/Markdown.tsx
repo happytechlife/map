@@ -18,7 +18,7 @@ export class Text extends React.Component<{}, {}> {
 interface IProps {
     store?: IHappyTechStore;
     html?: string;
-    md?: string;
+    md?: { default: string };
     page?: IPage;
 }
 export class Markdown extends React.Component<IProps, {}> {

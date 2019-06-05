@@ -50,13 +50,13 @@ function PartnerCard(partner: IPartner) {
                 title={partner.name}
             />}
             <CardContent >
-                <Typography gutterBottom={true} variant="headline" component="h2">
+                <Typography gutterBottom={true} variant="h5">
                     {partner.name}
                 </Typography>
                 <Typography variant="caption" align="center" >{partner.description}</Typography>
             </CardContent>
             <CardActions>
-                {partner.website && <ExternalLink link={partner.website}><Button variant="raised">Voir le site</Button></ExternalLink>}
+                {partner.website && <ExternalLink link={partner.website}><Button variant="outlined">Voir le site</Button></ExternalLink>}
             </CardActions>
         </div>
     </Card>;

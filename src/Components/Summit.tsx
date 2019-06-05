@@ -29,7 +29,7 @@ export class Summit extends React.Component<IProps, {}> {
 }
 
 export const summitPage = (): IReactPage => ({
-    menuTitle: 'HappyTech Summit 2018',
+    menuTitle: 'HappyTech Summit',
     icon: InsertEmoticon,
     route: 'summit',
     component: Summit,
