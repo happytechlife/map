@@ -20,7 +20,7 @@ export class Tags extends React.Component<IReactPageProps, {}> {
         return <div className="Tags">
             {tags.map(tag => {
                 return <Card key={tag.rowId} style={{ width: 300 }} className="Tag">
-                    <Typography variant="headline">{tag.name}</Typography>
+                    <Typography variant="h1">{tag.name}</Typography>
                     <List style={{ display: 'flex', flexWrap: 'wrap' }}>
                         {tag.startups.map(s => <Tooltip placement="right" title={"ok"} key={s.rowId} ><StartupTooltipText startup={s} /></Tooltip>)}
                     </List >

@@ -9,7 +9,7 @@ interface IProps {
 export class Options extends React.Component<IProps, {}> {
     public render() {
         return <Paper style={{ margin: 8 }}>
-            <Button style={{ margin: 8 }} variant="raised" color="primary" onClick={() => {
+            <Button style={{ margin: 8 }} variant="outlined" color="primary" onClick={() => {
                 localStorage.removeItem('model');
                 // window.location.reload();
             }}>Happytech cocktail shaker</Button>

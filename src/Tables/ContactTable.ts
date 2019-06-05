@@ -13,7 +13,7 @@ export class ContactTable extends GoogleSpreadSheetTable<IContact, IHappyTechSto
             firstname: d[1],
             lastname: d[2],
             email: d[3],
-            telephone: d[4],
+            telephone: '',
             title: d[5],
             linkedin: d[6],
             twitter: d[7],

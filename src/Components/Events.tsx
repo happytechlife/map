@@ -70,7 +70,7 @@ function EventCard(event: IEvent, width: Breakpoint) {
                         </h4>
                     }
                     <h5 style={{ flexGrow: 1, margin: 4 }}>{event.location} - {event.address}</h5>
-                    <ExternalLink link={event.registerLink}><Button style={{ marginTop: 12 }} variant="raised">Inscrivez-vous</Button></ExternalLink>
+                    <ExternalLink link={event.registerLink}><Button style={{ marginTop: 12 }} variant="outlined">Inscrivez-vous</Button></ExternalLink>
                 </div>
             </div>
             <CardContent >
