@@ -31,10 +31,10 @@ export class Markdown extends React.Component<IProps, {}> {
     public render() {
         const { html } = this;
         const { page, store } = this.props;
-        return <Paper className="md-container main-paper">
+        return <div className="content">
             {page && helmet(page, store)}
-            <div className="md" dangerouslySetInnerHTML={{ __html: html }} />
+            <div dangerouslySetInnerHTML={{ __html: html }} />
             <div className="md-children" style={{ width: '100%' }}>{this.props.children}</div>
-        </Paper >
+        </div>
     }
 }
