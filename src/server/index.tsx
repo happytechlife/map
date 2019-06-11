@@ -33,7 +33,6 @@ interface IReactApp {
 }
 function getReactApp(store: IHappyTechStore, url: string): IReactApp {
     const sheets = new ServerStyleSheets();
-
     const body = renderToString(
         sheets.collect(<ThemeProvider theme={theme} >
             <StaticRouter location={url} context={{}}>
