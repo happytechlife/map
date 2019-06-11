@@ -11,7 +11,6 @@ import InsertEmoticon from '@material-ui/icons/InsertEmoticon';
 interface IProps extends IReactPageProps {
     store: IHappyTechStore
 }
-
 export class SummerCamp extends React.Component<IProps, {}> {
     public render() {
         const { store, page } = this.props;
