@@ -814,6 +814,20 @@
     },
     {
       "rowId": 29,
+      "name": "MovingLab",
+      "address": "LeVillageByCA Paris - 55 rue de la Boétie 75008 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1560250993/website/startup/movinglab_v1.jpg",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8733,
+        "lng": 2.312909999999988
+      },
+      "tags": [],
+      "description": "Notre service mobilio à même de gérer des milliers de mutations par an a été retenu par le Ministère des Armées. Fort de cette expérience, nous lançons une offre pour les entreprises. Votre structure a plus de 10 personnes relocalisées par an? N’hésitez pas nous faire part de vos besoins.",
+      "tagline": "Découvrez mobilio, la solution facilitant la mobilité géographique de vos collaborateurs"
+    },
+    {
+      "rowId": 30,
       "name": "My mental energy pro",
       "address": "9 rue grillet 69007 LYON",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
@@ -841,7 +855,7 @@
       "tagline": "Evitez la surchauffe mentale au travail, gagnez en concentration et bien-être ! 1° en Europe"
     },
     {
-      "rowId": 30,
+      "rowId": 31,
       "name": "OneConciergerie",
       "address": "4 rue du Général Lanrezac 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
@@ -869,7 +883,21 @@
       "tagline": ""
     },
     {
-      "rowId": 31,
+      "rowId": 32,
+      "name": "Orosound",
+      "address": "23 boulevard des capucines, 75002 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1560250659/website/startup/Orosound-logo-carre-sans-fond.png",
+      "contacts": [],
+      "latLng": {
+        "lat": 48.8681818,
+        "lng": 2.3539028
+      },
+      "tags": [],
+      "description": "Orosound commercialise les écouteurs Tilde®, une solution anti-bruit unique pour améliorer la concentration, le bien-être et la collaboration dans les espaces de travail. Doté d’une technologie brevetée et 100% française, Tilde® a été récompensé à maintes reprises, notamment à Vivatech 2017. ",
+      "tagline": "Orosound est une entreprise française experte acoustique et en machine learning."
+    },
+    {
+      "rowId": 33,
       "name": "Pickr",
       "address": "25 t rue pierre brossolette 93110 rosny sous bois",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
@@ -897,7 +925,7 @@
       "tagline": ""
     },
     {
-      "rowId": 32,
+      "rowId": 34,
       "name": "Plantez Respirez",
       "address": "340 rue Saint Jacques 75005 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
@@ -925,7 +953,7 @@
       "tagline": ""
     },
     {
-      "rowId": 33,
+      "rowId": 35,
       "name": "Roti.express",
       "address": "55 boulevard Vincent-Auriol 75013 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
@@ -953,7 +981,7 @@
       "tagline": ""
     },
     {
-      "rowId": 34,
+      "rowId": 36,
       "name": "Serenity",
       "address": "87 rue Réaumur, 75002, Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
@@ -981,7 +1009,7 @@
       "tagline": "Avec Serenity Relaxation, luttez efficacement contre le stress et apportez un mieux-être durable"
     },
     {
-      "rowId": 35,
+      "rowId": 37,
       "name": "Supermood",
       "address": "41 Rue des Jeuneurs, 75002 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
@@ -1009,7 +1037,7 @@
       "tagline": ""
     },
     {
-      "rowId": 36,
+      "rowId": 38,
       "name": "Teamstarter",
       "address": "10 rue du Faubourg Poissonière 75010 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
@@ -1037,7 +1065,7 @@
       "tagline": ""
     },
     {
-      "rowId": 37,
+      "rowId": 39,
       "name": "Tecbak",
       "address": "13 rue Lechapelais, 75017 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556008565/website/startup/logo_tecbak.png",
@@ -1065,7 +1093,7 @@
       "tagline": ""
     },
     {
-      "rowId": 38,
+      "rowId": 40,
       "name": "TOD",
       "address": "27 rue Raffet 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
@@ -1093,7 +1121,7 @@
       "tagline": "TOD allie les aspirations professionnelles des Talents aux enjeux des Entreprises !"
     },
     {
-      "rowId": 39,
+      "rowId": 41,
       "name": "TrainMe",
       "address": "6 Rue Claude Farrère, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543441725/website/startup/trainme.png",
@@ -1121,175 +1149,7 @@
       "tagline": ""
     },
     {
-      "rowId": 40,
-      "name": "Wellnesstraining",
-      "address": "17 boulevard Saint Martin 75003, Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
-      "contacts": [
-        {
-          "rowId": 40,
-          "startup_name": "Wellnesstraining",
-          "firstname": "Michel ",
-          "lastname": "Rota",
-          "email": "michel.rota@wellnesstraining.fr",
-          "telephone": "",
-          "title": "Directeur général",
-          "linkedin": "michel-rota-76644016",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8679847,
-        "lng": 2.3601346000000376
-      },
-      "tags": [],
-      "description": "Well by Wellness training est une application qui vous permet d'établir votre scoring Santé Globale afin de vous apporter des recommandations personnalisées et vous mettre en relation avec un expert Wellness.",
-      "tagline": ""
-    },
-    {
-      "rowId": 41,
-      "name": "Windoo",
-      "address": "26 avenue des Champs Elysées, 75008, Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
-      "contacts": [
-        {
-          "rowId": 41,
-          "startup_name": "Windoo",
-          "firstname": "Arnaud",
-          "lastname": "Varnier",
-          "email": "arnaud@windoo.fr",
-          "telephone": "",
-          "title": "CEO & Co-Fondateur",
-          "linkedin": "arnaud-varnier-b85547109",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8698,
-        "lng": 2.3087600000000066
-      },
-      "tags": [],
-      "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place.",
-      "tagline": "S'épanouir au travail. "
-    },
-    {
       "rowId": 42,
-      "name": "Wingzy",
-      "address": "8 rue du Faubourg Poissonnière 75010 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
-      "contacts": [
-        {
-          "rowId": 42,
-          "startup_name": "Wingzy",
-          "firstname": "Clément ",
-          "lastname": "Dietschy",
-          "email": "clement@wingzy.io",
-          "telephone": "",
-          "title": "Cofondateur",
-          "linkedin": "clementdietschy",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.862725,
-        "lng": 2.287592000000018
-      },
-      "tags": [],
-      "description": "Wingzy c'est l'annuaire d'entreprise qui trouve nos Wings : nos talents, nos compétences, nos énergies. ",
-      "tagline": ""
-    },
-    {
-      "rowId": 43,
-      "name": "Yoopies at work",
-      "address": "17 RUE FROMENT 75011 PARIS",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558951937/website/startup/logo_yoopies_at_work.png",
-      "contacts": [
-        {
-          "rowId": 43,
-          "startup_name": "Yoopies at work",
-          "firstname": "Anne-Charlotte",
-          "lastname": "Cauhapé",
-          "email": "anne-charlotte@yoopies.com",
-          "telephone": "",
-          "title": "Sales director",
-          "linkedin": "annecharlotte-cauhape",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012842/website/people/anne_charlotte_yoopies.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8576757,
-        "lng": 2.3722776
-      },
-      "tags": [],
-      "description": "Avec plus de 3 millions de membres, Yoopies permet aux particuliers de trouver l'intervenant idéal pour des problématiques de garde d’enfants, soutien scolaire, ménage etc. Basée à Paris et présente dans 14 pays, Yoopies propose également une offre corporate dédiée aux salariés des entreprises.",
-      "tagline": "Yoopies est la première plateforme sociale de services à domicile en Europe"
-    },
-    {
-      "rowId": 44,
-      "name": "ZestMeUp",
-      "address": "71 rue de Saussure 75017 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
-      "contacts": [
-        {
-          "rowId": 44,
-          "startup_name": "ZestMeUp",
-          "firstname": "Christophe",
-          "lastname": "Bergeon",
-          "email": "christophe.bergeon@zestmeup.com",
-          "telephone": "",
-          "title": "CEO & Co-Fondateur",
-          "linkedin": "cbergeon",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8860731,
-        "lng": 2.313658900000064
-      },
-      "tags": [],
-      "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
-      "tagline": ""
-    },
-    {
-      "rowId": 45,
-      "name": "Zippy Pass Corporate",
-      "address": "130 rue de Courcelles, 75017 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556034644/website/startup/ZippyCorporate-logo.png",
-      "contacts": [
-        {
-          "rowId": 45,
-          "startup_name": "Zippy Pass Corporate",
-          "firstname": "Chloé",
-          "lastname": "Pasquet",
-          "email": "chloe.pasquet@zippypass.com",
-          "telephone": "",
-          "title": "CEO & Co-Fondateur",
-          "linkedin": "chloé-pasquet-63984b21",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012799/website/people/chloe%CC%81_zippy_pass.jpg"
-        }
-      ],
-      "latLng": {
-        "lat": 48.8811569,
-        "lng": 2.3012734
-      },
-      "tags": [],
-      "description": "ZippyPass est une solution innovante sport. Vos collaborateurs peuvent faire l'activité qu'il leur convient, où et quand ils veulent : - Disponibilité des cours en temps réel - Réservation en 1 clic Vecteur de bien-être & de cohésion sociale, le pass vient dynamiser vos équipes.",
-      "tagline": "Un pass pour vos collaborateurs, leur donnant accès aux meilleurs clubs & studios."
-    },
-    {
-      "rowId": 46,
       "name": "United Heroes",
       "address": "18 rue du Faubourg du Temple, 75011 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558012201/website/startup/united_heroes_logo.jpg",
@@ -1317,35 +1177,7 @@
       "tagline": "United Heroes est la plateforme bien-être au quotidien pour optimiser son expérience collaborateur"
     },
     {
-      "rowId": 47,
-      "name": "MovingLab",
-      "address": "LeVillageByCA Paris - 55 rue de la Boétie 75008 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1560250993/website/startup/movinglab_v1.jpg",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.8733,
-        "lng": 2.312909999999988
-      },
-      "tags": [],
-      "description": "Notre service mobilio à même de gérer des milliers de mutations par an a été retenu par le Ministère des Armées. Fort de cette expérience, nous lançons une offre pour les entreprises. Votre structure a plus de 10 personnes relocalisées par an? N’hésitez pas nous faire part de vos besoins.",
-      "tagline": "Découvrez mobilio, la solution facilitant la mobilité géographique de vos collaborateurs"
-    },
-    {
-      "rowId": 48,
-      "name": "Orosound",
-      "address": "23 boulevard des capucines, 75002 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1560250659/website/startup/Orosound-logo-carre-sans-fond.png",
-      "contacts": [],
-      "latLng": {
-        "lat": 48.8681818,
-        "lng": 2.3539028
-      },
-      "tags": [],
-      "description": "Orosound commercialise les écouteurs Tilde®, une solution anti-bruit unique pour améliorer la concentration, le bien-être et la collaboration dans les espaces de travail. Doté d’une technologie brevetée et 100% française, Tilde® a été récompensé à maintes reprises, notamment à Vivatech 2017. ",
-      "tagline": "Orosound est une entreprise française experte acoustique et en machine learning."
-    },
-    {
-      "rowId": 49,
+      "rowId": 43,
       "name": "Vital Tech",
       "address": "22 Rue Chalgrin, 75016 Paris",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1560251236/website/startup/logo_vitaltech_2.jpg",
@@ -1358,7 +1190,91 @@
       "tagline": ""
     },
     {
-      "rowId": 50,
+      "rowId": 44,
+      "name": "Wellnesstraining",
+      "address": "17 boulevard Saint Martin 75003, Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
+      "contacts": [
+        {
+          "rowId": 40,
+          "startup_name": "Wellnesstraining",
+          "firstname": "Michel ",
+          "lastname": "Rota",
+          "email": "michel.rota@wellnesstraining.fr",
+          "telephone": "",
+          "title": "Directeur général",
+          "linkedin": "michel-rota-76644016",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8679847,
+        "lng": 2.3601346000000376
+      },
+      "tags": [],
+      "description": "Well by Wellness training est une application qui vous permet d'établir votre scoring Santé Globale afin de vous apporter des recommandations personnalisées et vous mettre en relation avec un expert Wellness.",
+      "tagline": ""
+    },
+    {
+      "rowId": 45,
+      "name": "Windoo",
+      "address": "26 avenue des Champs Elysées, 75008, Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
+      "contacts": [
+        {
+          "rowId": 41,
+          "startup_name": "Windoo",
+          "firstname": "Arnaud",
+          "lastname": "Varnier",
+          "email": "arnaud@windoo.fr",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "arnaud-varnier-b85547109",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8698,
+        "lng": 2.3087600000000066
+      },
+      "tags": [],
+      "description": "Windoo accompagne les entreprises innovantes dans leur politique de bien-être au travail à travers un large choix d'activités d'équipe (sport, team-building, formations...) et une plateforme en marque blanche qui en simplifie l'accès et la mise en place.",
+      "tagline": "S'épanouir au travail. "
+    },
+    {
+      "rowId": 46,
+      "name": "Wingzy",
+      "address": "8 rue du Faubourg Poissonnière 75010 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
+      "contacts": [
+        {
+          "rowId": 42,
+          "startup_name": "Wingzy",
+          "firstname": "Clément ",
+          "lastname": "Dietschy",
+          "email": "clement@wingzy.io",
+          "telephone": "",
+          "title": "Cofondateur",
+          "linkedin": "clementdietschy",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.862725,
+        "lng": 2.287592000000018
+      },
+      "tags": [],
+      "description": "Wingzy c'est l'annuaire d'entreprise qui trouve nos Wings : nos talents, nos compétences, nos énergies. ",
+      "tagline": ""
+    },
+    {
+      "rowId": 47,
       "name": "Witivio",
       "address": "9 cours d'herbouville Lyon 69004",
       "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1560250847/website/startup/Logo_Witivio.png",
@@ -1370,6 +1286,90 @@
       "tags": [],
       "description": "Nous souhaitons révolutionner l’expérience employé en facilitant l’accès à l’information et l’interactivité sur les plateformes collaboratives. Notre solution permet également d’automatiser les tâches récurrentes pour revaloriser les équipes sur des activités à plus forte valeur ajoutée.",
       "tagline": "Witivio propose une plateforme complète de création de chatbots à destination des collaborateurs. "
+    },
+    {
+      "rowId": 48,
+      "name": "Yoopies at work",
+      "address": "17 RUE FROMENT 75011 PARIS",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558951937/website/startup/logo_yoopies_at_work.png",
+      "contacts": [
+        {
+          "rowId": 43,
+          "startup_name": "Yoopies at work",
+          "firstname": "Anne-Charlotte",
+          "lastname": "Cauhapé",
+          "email": "anne-charlotte@yoopies.com",
+          "telephone": "",
+          "title": "Sales director",
+          "linkedin": "annecharlotte-cauhape",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012842/website/people/anne_charlotte_yoopies.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8576757,
+        "lng": 2.3722776
+      },
+      "tags": [],
+      "description": "Avec plus de 3 millions de membres, Yoopies permet aux particuliers de trouver l'intervenant idéal pour des problématiques de garde d’enfants, soutien scolaire, ménage etc. Basée à Paris et présente dans 14 pays, Yoopies propose également une offre corporate dédiée aux salariés des entreprises.",
+      "tagline": "Yoopies est la première plateforme sociale de services à domicile en Europe"
+    },
+    {
+      "rowId": 49,
+      "name": "ZestMeUp",
+      "address": "71 rue de Saussure 75017 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
+      "contacts": [
+        {
+          "rowId": 44,
+          "startup_name": "ZestMeUp",
+          "firstname": "Christophe",
+          "lastname": "Bergeon",
+          "email": "christophe.bergeon@zestmeup.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "cbergeon",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8860731,
+        "lng": 2.313658900000064
+      },
+      "tags": [],
+      "description": "ZestMeUp est une solution management en temps réel, qui aide les RH et managers à mieux engager leurs collaborateurs en mesurant leur ressenti en leur permettant de s’exprimer via un outil simple, ludique et puissant.",
+      "tagline": ""
+    },
+    {
+      "rowId": 50,
+      "name": "Zippy Pass Corporate",
+      "address": "130 rue de Courcelles, 75017 Paris",
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556034644/website/startup/ZippyCorporate-logo.png",
+      "contacts": [
+        {
+          "rowId": 45,
+          "startup_name": "Zippy Pass Corporate",
+          "firstname": "Chloé",
+          "lastname": "Pasquet",
+          "email": "chloe.pasquet@zippypass.com",
+          "telephone": "",
+          "title": "CEO & Co-Fondateur",
+          "linkedin": "chloé-pasquet-63984b21",
+          "twitter": "",
+          "facebook": "",
+          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012799/website/people/chloe%CC%81_zippy_pass.jpg"
+        }
+      ],
+      "latLng": {
+        "lat": 48.8811569,
+        "lng": 2.3012734
+      },
+      "tags": [],
+      "description": "ZippyPass est une solution innovante sport. Vos collaborateurs peuvent faire l'activité qu'il leur convient, où et quand ils veulent : - Disponibilité des cours en temps réel - Réservation en 1 clic Vecteur de bien-être & de cohésion sociale, le pass vient dynamiser vos équipes.",
+      "tagline": "Un pass pour vos collaborateurs, leur donnant accès aux meilleurs clubs & studios."
     }
   ],
   "contacts": [
@@ -2575,7 +2575,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1550585982/website/people/Jean-Christophe_Beau.jpg",
       "startup": {
-        "rowId": 29,
+        "rowId": 30,
         "name": "My mental energy pro",
         "address": "9 rue grillet 69007 LYON",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1550506085/website/startup/logo-my-mental-energy-pro-png.png",
@@ -2616,7 +2616,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Jean_Benedetti.jpg",
       "startup": {
-        "rowId": 30,
+        "rowId": 31,
         "name": "OneConciergerie",
         "address": "4 rue du Général Lanrezac 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1528455747/One_HD.png",
@@ -2657,7 +2657,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1542364774/website/people/Marc_Rota.jpg",
       "startup": {
-        "rowId": 31,
+        "rowId": 33,
         "name": "Pickr",
         "address": "25 t rue pierre brossolette 93110 rosny sous bois",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542364499/website/startup/Pickr.png",
@@ -2698,7 +2698,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Lena_Soffer.jpg",
       "startup": {
-        "rowId": 32,
+        "rowId": 34,
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
@@ -2739,7 +2739,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538405804/website/people/Antoine_Durand.jpg",
       "startup": {
-        "rowId": 33,
+        "rowId": 35,
         "name": "Roti.express",
         "address": "55 boulevard Vincent-Auriol 75013 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1518172938/website/startup/big-roti-magnet_1397.png",
@@ -2780,7 +2780,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1540896861/website/people/Elodie_Livernette.jpg",
       "startup": {
-        "rowId": 34,
+        "rowId": 36,
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
@@ -2821,7 +2821,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Kevin_Bourgeois.jpg",
       "startup": {
-        "rowId": 35,
+        "rowId": 37,
         "name": "Supermood",
         "address": "41 Rue des Jeuneurs, 75002 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1535378278/supermood.png",
@@ -2862,7 +2862,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406706/website/people/S%C3%A9gol%C3%A8ne_Mouterde.png",
       "startup": {
-        "rowId": 36,
+        "rowId": 38,
         "name": "Teamstarter",
         "address": "10 rue du Faubourg Poissonière 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1538468255/website/startup/Teamstarter.png",
@@ -2903,7 +2903,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg",
       "startup": {
-        "rowId": 37,
+        "rowId": 39,
         "name": "Tecbak",
         "address": "13 rue Lechapelais, 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556008565/website/startup/logo_tecbak.png",
@@ -2944,7 +2944,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Ga%C3%ABlle_Monteiller.jpg",
       "startup": {
-        "rowId": 38,
+        "rowId": 40,
         "name": "TOD",
         "address": "27 rue Raffet 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
@@ -2985,7 +2985,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406838/website/people/Gatien_Letartre.jpg",
       "startup": {
-        "rowId": 39,
+        "rowId": 41,
         "name": "TrainMe",
         "address": "6 Rue Claude Farrère, 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543441725/website/startup/trainme.png",
@@ -3026,7 +3026,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406839/website/people/Michel_Rota.jpg",
       "startup": {
-        "rowId": 40,
+        "rowId": 44,
         "name": "Wellnesstraining",
         "address": "17 boulevard Saint Martin 75003, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543398515/website/startup/wellness-training.png",
@@ -3067,7 +3067,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406427/website/people/Arnaud_Varnier.jpg",
       "startup": {
-        "rowId": 41,
+        "rowId": 45,
         "name": "Windoo",
         "address": "26 avenue des Champs Elysées, 75008, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1519901753/Windoo.png",
@@ -3108,7 +3108,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1542387894/website/people/Cl%C3%A9ment_Dietschy.jpg",
       "startup": {
-        "rowId": 42,
+        "rowId": 46,
         "name": "Wingzy",
         "address": "8 rue du Faubourg Poissonnière 75010 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1542387649/website/startup/wingzy_2.png",
@@ -3149,7 +3149,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012842/website/people/anne_charlotte_yoopies.jpg",
       "startup": {
-        "rowId": 43,
+        "rowId": 48,
         "name": "Yoopies at work",
         "address": "17 RUE FROMENT 75011 PARIS",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558951937/website/startup/logo_yoopies_at_work.png",
@@ -3190,7 +3190,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1538406585/website/people/Christophe_Bergeon.jpg",
       "startup": {
-        "rowId": 44,
+        "rowId": 49,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
@@ -3231,7 +3231,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012799/website/people/chloe%CC%81_zippy_pass.jpg",
       "startup": {
-        "rowId": 45,
+        "rowId": 50,
         "name": "Zippy Pass Corporate",
         "address": "130 rue de Courcelles, 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556034644/website/startup/ZippyCorporate-logo.png",
@@ -3272,7 +3272,7 @@
       "facebook": "",
       "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012745/website/people/morgane_mouly_united_heroes.jpg",
       "startup": {
-        "rowId": 46,
+        "rowId": 42,
         "name": "United Heroes",
         "address": "18 rue du Faubourg du Temple, 75011 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1558012201/website/startup/united_heroes_logo.jpg",
@@ -3351,7 +3351,7 @@
         "Expériences Sensorielles"
       ],
       "startup": {
-        "rowId": 34,
+        "rowId": 36,
         "name": "Serenity",
         "address": "87 rue Réaumur, 75002, Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1530793216/Logo_Serenity_complet_2.0-01.png",
@@ -3388,7 +3388,7 @@
         "Nature"
       ],
       "startup": {
-        "rowId": 32,
+        "rowId": 34,
         "name": "Plantez Respirez",
         "address": "340 rue Saint Jacques 75005 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543397528/website/startup/plantezresipirez.png",
@@ -3534,7 +3534,7 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 44,
+        "rowId": 49,
         "name": "ZestMeUp",
         "address": "71 rue de Saussure 75017 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543416605/website/startup/zest.png",
@@ -3700,7 +3700,7 @@
         "Application Web"
       ],
       "startup": {
-        "rowId": 38,
+        "rowId": 40,
         "name": "TOD",
         "address": "27 rue Raffet 75016 Paris",
         "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1543414763/website/startup/tod.png",
