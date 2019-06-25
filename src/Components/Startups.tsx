@@ -29,9 +29,9 @@ export class Startups extends React.Component<IProps, {}> {
                 {HappyTechTypeForm('NCIVkm', "Remplir le formulaire d'adhésion startup")}
                 <Divider style={{ margin: 24 }} />
                 {/* <Hidden smDown={true}> */}
-                <div className="flexCenter">
+                {/* <div className="flexCenter">
                     <img style={{ width: '100%' }} src={cloudinaryTransform('https://res.cloudinary.com/happytech/image/upload/v1543958370/website/carte_dec.png', '')} />
-                </div>
+                </div> */}
                 <Divider style={{ margin: 24 }} />
                 {/* </Hidden> */}
                 <List style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>{startups.map(s => <StartupCard classNames="StartupCard" key={s.rowId} startup={s} />)}</List >
