@@ -80,7 +80,7 @@ console.log('ENV is', process.env.NODE_ENV);
     server.get(`/robots.txt`, async (req, res) => {
         res.send(`Sitemap: https://www.happytech.life/sitemap.txt
         User-agent: *
-        Disallow: /sitemap.txt`);
+        `);
     });
 
     server.get(`/sitemap.txt`, async (req, res) => {
