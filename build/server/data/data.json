@@ -1066,24 +1066,10 @@
     },
     {
       "rowId": 39,
-      "name": "Tecbak",
+      "name": "Foosball Society",
       "address": "13 rue Lechapelais, 75017 Paris",
-      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556008565/website/startup/logo_tecbak.png",
-      "contacts": [
-        {
-          "rowId": 37,
-          "startup_name": "Tecbak",
-          "firstname": "Jerôme",
-          "lastname": "Boye",
-          "email": "jerome.boye@tecbak.com",
-          "telephone": "",
-          "title": "CEO & Co-Fondateur",
-          "linkedin": "jérôme-boyé-23a0271a",
-          "twitter": "",
-          "facebook": "",
-          "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg"
-        }
-      ],
+      "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1563210873/website/startup/FOOSBALLSOCIETY_LOGO_generaliste_RVB.jpg",
+      "contacts": [],
       "latLng": {
         "lat": 48.885771,
         "lng": 2.3252982
@@ -2901,35 +2887,7 @@
       "linkedin": "jérôme-boyé-23a0271a",
       "twitter": "",
       "facebook": "",
-      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg",
-      "startup": {
-        "rowId": 39,
-        "name": "Tecbak",
-        "address": "13 rue Lechapelais, 75017 Paris",
-        "iconUrl": "https://res.cloudinary.com/happytech/image/upload/v1556008565/website/startup/logo_tecbak.png",
-        "contacts": [
-          {
-            "rowId": 37,
-            "startup_name": "Tecbak",
-            "firstname": "Jerôme",
-            "lastname": "Boye",
-            "email": "jerome.boye@tecbak.com",
-            "telephone": "",
-            "title": "CEO & Co-Fondateur",
-            "linkedin": "jérôme-boyé-23a0271a",
-            "twitter": "",
-            "facebook": "",
-            "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg"
-          }
-        ],
-        "latLng": {
-          "lat": 48.885771,
-          "lng": 2.3252982
-        },
-        "tags": [],
-        "description": "De nouvelles relations entre les joueurs, les entreprises et les marques. \nFaites entrer votre organisation dans la convivialité 2.0 avec un service de vente et de location d’ebabyfoot connectés à un réseau social dédié.",
-        "tagline": ""
-      }
+      "photo": "https://res.cloudinary.com/happytech/image/upload/v1558012876/website/people/jerome_boye%CC%81_tecbak.jpg"
     },
     {
       "rowId": 38,
@@ -3817,7 +3775,7 @@
       "linkedin": "tiana-bruscagnin",
       "twitter": "",
       "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1549622796/website/people/photo_tiana.jpg",
+      "picture": "https://res.cloudinary.com/happytech/image/upload/v1563209965/website/people/tiana_bruscagnin.jpg",
       "fullname": "Tiana Bruscagnin"
     },
     {
@@ -4057,20 +4015,6 @@
       "facebook": "",
       "picture": "https://res.cloudinary.com/happytech/image/upload/v1557134990/website/people/valentine.jpg",
       "fullname": "Valentine Gatard"
-    },
-    {
-      "rowId": 19,
-      "firstname": "Thibault",
-      "lastname": "Paternoster",
-      "email": "thibault@happytech.com",
-      "team": "Bénévoles",
-      "role": "International Project Manager",
-      "active": true,
-      "linkedin": "thibault-paternoster-49717625",
-      "twitter": "",
-      "facebook": "",
-      "picture": "https://res.cloudinary.com/happytech/image/upload/v1557135250/website/people/thibault.jpg",
-      "fullname": "Thibault Paternoster"
     }
   ],
   "startupSocialNetworks": [
