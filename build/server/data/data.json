@@ -5443,6 +5443,14 @@
       "website": "http://edyevent.fr/#",
       "type": "Événements",
       "logo": "https://res.cloudinary.com/happytech/image/upload/v1564077195/website/partners/LOGO_EDYEVENT.jpg"
+    },
+    {
+      "rowId": 11,
+      "name": "VanO",
+      "description": "VanO : solution de mobilité quotidienne partagée pour villes moyennes.\nVanO est l’opérateur d’un service de navettes VTC partagées, dédié à une commune moyenne (20000–75000 habitants) et ses Zones d’Activités. Les trajets sont commandés à la demande en temps réel ou à l’avance via une application mobile.\nUne large amplitude horaire, du premier au dernier train, permet d’assurer un service de qualité pour les usagers qui effectuent quotidiennement des déplacements pendulaires (trajets domicile-travail ou domicile-formation).",
+      "website": "https://vano.mobi",
+      "type": "Aide l'association",
+      "logo": "https://res.cloudinary.com/happytech/image/upload/v1565366844/website/partners/logo-VanO-fondtransparent-19053018.png"
     }
   ],
   "entreprises": [
